@@ -1,0 +1,7338 @@
+﻿[
+    {
+        "word":  "apple",
+        "phonetic":  "ˈæp(ə)l",
+        "type":  "n.",
+        "meaning":  "苹果",
+        "example":  "The apple is red and delicious.",
+        "list":  "List1"
+    },
+    {
+        "word":  "ball",
+        "phonetic":  "bɔːl",
+        "type":  "n.",
+        "meaning":  "球",
+        "example":  "The ball is round, and we can kick it.",
+        "list":  "List1"
+    },
+    {
+        "word":  "play ping-pong",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "打乒乓球",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "play football",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "踢足球",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "play the guitar",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "弹吉他",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "cat",
+        "phonetic":  "kæt",
+        "type":  "n.",
+        "meaning":  "猫",
+        "example":  "The cat says \"meow\" and has soft, furry fur.",
+        "list":  "List1"
+    },
+    {
+        "word":  "dog",
+        "phonetic":  "dɔ:ɡ",
+        "type":  "n.",
+        "meaning":  "狗",
+        "example":  "The dog barks happily and is very loyal.",
+        "list":  "List1"
+    },
+    {
+        "word":  "egg",
+        "phonetic":  "eɡ",
+        "type":  "n.",
+        "meaning":  "鸡蛋",
+        "example":  "We can cook the egg in different ways,  like frying or boiling. Chickens are hatched from eggs.",
+        "list":  "List1"
+    },
+    {
+        "word":  "fish",
+        "phonetic":  "fɪʃ",
+        "type":  "n.",
+        "meaning":  "鱼",
+        "example":  "The fish has shiny scales on its body.",
+        "list":  "List1"
+    },
+    {
+        "word":  "juicy",
+        "phonetic":  "ˈdʒu:si",
+        "type":  "adj.",
+        "meaning":  "多汁的",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "delicious",
+        "phonetic":  "dɪˈl ɪʃəs",
+        "type":  "adj.",
+        "meaning":  "美味的",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "round",
+        "phonetic":  "raʊ nd",
+        "type":  "adj.",
+        "meaning":  "圆形的",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "kick",
+        "phonetic":  "kɪk",
+        "type":  "v.",
+        "meaning":  "踢",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "furry",
+        "phonetic":  "ˈfɜ:ri",
+        "type":  "adj.",
+        "meaning":  "毛绒绒的",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "bark",
+        "phonetic":  "bɑ:rk",
+        "type":  "n.",
+        "meaning":  "狗叫声",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "loyal",
+        "phonetic":  "ˈlɔɪəl",
+        "type":  "adj.",
+        "meaning":  "忠诚的",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "break",
+        "phonetic":  "breɪk",
+        "type":  "v.",
+        "meaning":  "打破",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "cook",
+        "phonetic":  "kʊ k",
+        "type":  "v.",
+        "meaning":  "煮",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "chicken",
+        "phonetic":  "ˈtʃɪ kɪn",
+        "type":  "n.",
+        "meaning":  "鸡",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "swim",
+        "phonetic":  "swɪm",
+        "type":  "v.",
+        "meaning":  "游泳",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "water",
+        "phonetic":  "ˈwɔ:tər",
+        "type":  "n.",
+        "meaning":  "水",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "scale",
+        "phonetic":  "skeɪl",
+        "type":  "n.",
+        "meaning":  "鳞片",
+        "example":  "",
+        "list":  "List1"
+    },
+    {
+        "word":  "girl",
+        "phonetic":  "ɡɜːrl",
+        "type":  "n.",
+        "meaning":  "女孩",
+        "example":  "The girl likes to play games, but she also  studies hard.",
+        "list":  "List2"
+    },
+    {
+        "word":  "hand",
+        "phonetic":  "hænd",
+        "type":  "n.",
+        "meaning":  "手",
+        "example":  "Washing your hands with soap and water is important for good hygiene. Put your hands up or you\u0027re a dead man.",
+        "list":  "List2"
+    },
+    {
+        "word":  "insect",
+        "phonetic":  "ˈɪnsekt",
+        "type":  "n.",
+        "meaning":  "昆虫",
+        "example":  "Ants are the superheroes of the insect world.",
+        "list":  "List2"
+    },
+    {
+        "word":  "jump",
+        "phonetic":  "dʒʌmp",
+        "type":  "v.",
+        "meaning":  "跳跃",
+        "example":  "I like to jump. And I jump very high.",
+        "list":  "List2"
+    },
+    {
+        "word":  "kite",
+        "phonetic":  "kaɪt",
+        "type":  "n.",
+        "meaning":  "风筝",
+        "example":  "When it\u0027s windy, I fly a kite.",
+        "list":  "List2"
+    },
+    {
+        "word":  "leg",
+        "phonetic":  "leɡ",
+        "type":  "n.",
+        "meaning":  "腿；大腿",
+        "example":  "There’s a spider crawling up your leg.",
+        "list":  "List2"
+    },
+    {
+        "word":  "student",
+        "phonetic":  "\u0027stu:d(ə)nt",
+        "type":  "n.",
+        "meaning":  "学生",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "boy",
+        "phonetic":  "bɔɪ",
+        "type":  "n.",
+        "meaning":  "男孩",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "study",
+        "phonetic":  "ˈstʌdi",
+        "type":  "v.",
+        "meaning":  "学习",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "finger",
+        "phonetic":  "ˈfɪŋɡə(r)",
+        "type":  "n.",
+        "meaning":  "手指",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "palm",
+        "phonetic":  "pɑ:m",
+        "type":  "n.",
+        "meaning":  "手掌",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "nail",
+        "phonetic":  "neɪl",
+        "type":  "n.",
+        "meaning":  "手指甲",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "gesture",
+        "phonetic":  "ˈdʒestʃər",
+        "type":  "n.",
+        "meaning":  "手势",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "put your hands up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "举起手来",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "wave",
+        "phonetic":  "weɪv",
+        "type":  "v.",
+        "meaning":  "挥手",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "ant",
+        "phonetic":  "ænt",
+        "type":  "n.",
+        "meaning":  "蚂蚁",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "bee",
+        "phonetic":  "bi:",
+        "type":  "n.",
+        "meaning":  "蜜蜂",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "walk",
+        "phonetic":  "wɔ:k",
+        "type":  "v.",
+        "meaning":  "/n. 行走",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "climb",
+        "phonetic":  "klaɪm",
+        "type":  "v.",
+        "meaning":  "攀爬",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "run",
+        "phonetic":  "rʌn",
+        "type":  "v.",
+        "meaning":  "跑步",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "high jump",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "跳高",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "jump rope",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "跳绳",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "windy",
+        "phonetic":  "ˈwɪndi",
+        "type":  "adj.",
+        "meaning":  "多风的",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "fly a kite",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "放风筝",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "foot",
+        "phonetic":  "fʊt",
+        "type":  "n.",
+        "meaning":  "脚",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "ankle",
+        "phonetic":  "\u0027æŋk(ə)l",
+        "type":  "n.",
+        "meaning":  "脚踝",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "knee",
+        "phonetic":  "ni:",
+        "type":  "n.",
+        "meaning":  "膝盖",
+        "example":  "",
+        "list":  "List2"
+    },
+    {
+        "word":  "monkey",
+        "phonetic":  "ˈmʌŋki",
+        "type":  "n.",
+        "meaning":  "猴子",
+        "example":  "The monkey is hopping on the trees.",
+        "list":  "List3"
+    },
+    {
+        "word":  "name",
+        "phonetic":  "neɪm",
+        "type":  "n.",
+        "meaning":  "名字",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "orange",
+        "phonetic":  "ˈɔrɪndʒ",
+        "type":  "n.",
+        "meaning":  "橙；橙色；adj. 橙色的",
+        "example":  "This orange is orange.",
+        "list":  "List3"
+    },
+    {
+        "word":  "pig",
+        "phonetic":  "pɪɡ",
+        "type":  "n.",
+        "meaning":  "猪",
+        "example":  "Look! A big and fat pig.",
+        "list":  "List3"
+    },
+    {
+        "word":  "quiet",
+        "phonetic":  "ˈkwaɪət",
+        "type":  "n.",
+        "meaning":  "安静；adj.  安静的；文静的",
+        "example":  "Be quiet, I have something to say.",
+        "list":  "List3"
+    },
+    {
+        "word":  "river",
+        "phonetic":  "ˈrɪvər",
+        "type":  "n.",
+        "meaning":  "河流",
+        "example":  "The river is 300 metres in length.",
+        "list":  "List3"
+    },
+    {
+        "word":  "the Monkey King",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "美猴王",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "spell",
+        "phonetic":  "spel",
+        "type":  "v.",
+        "meaning":  "拼写",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "given name",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "名",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "family name",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "家族姓",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "dig",
+        "phonetic":  "d ɪɡ",
+        "type":  "v.",
+        "meaning":  "挖",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "big",
+        "phonetic":  "b ɪɡ",
+        "type":  "adj.",
+        "meaning":  "大的",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "fat",
+        "phonetic":  "fæt",
+        "type":  "adj.",
+        "meaning":  "肥胖的",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "be quiet",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "保持安静",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "metre",
+        "phonetic":  "\u0027mi:tər",
+        "type":  "n.",
+        "meaning":  "米",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "keep quiet",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "保持安静",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "go swimming",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "游泳",
+        "example":  "",
+        "list":  "List3"
+    },
+    {
+        "word":  "sing",
+        "phonetic":  "slŋ",
+        "type":  "v.",
+        "meaning":  "唱歌",
+        "example":  "The little bird sings a beautiful  melody in the garden.",
+        "list":  "List4"
+    },
+    {
+        "word":  "teacher",
+        "phonetic":  "丨ti:tʃər",
+        "type":  "n.",
+        "meaning":  "老师",
+        "example":  "Teachers\u0027 Day is a special day for all the teachers.",
+        "list":  "List4"
+    },
+    {
+        "word":  "umbrella",
+        "phonetic":  "ʌm ˈbrelə",
+        "type":  "n.",
+        "meaning":  "雨伞",
+        "example":  "This heat wave is coming out strong, you should put up your umbrella for the shade.",
+        "list":  "List4"
+    },
+    {
+        "word":  "vacation",
+        "phonetic":  "veɪˈkeɪʃ(ə)n",
+        "type":  "n.",
+        "meaning":  "假期",
+        "example":  "The summer vacation will start tomorrow.",
+        "list":  "List4"
+    },
+    {
+        "word":  "winter",
+        "phonetic":  "ˈwɪntər",
+        "type":  "n.",
+        "meaning":  "冬天",
+        "example":  "All the kids love winter holiday.",
+        "list":  "List4"
+    },
+    {
+        "word":  "box",
+        "phonetic":  "bɑ:ks",
+        "type":  "n.",
+        "meaning":  "箱子",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "yellow",
+        "phonetic":  "ˈjeloʊ",
+        "type":  "adj.",
+        "meaning":  "黄色的；n. 黄色",
+        "example":  "Yellow is my favourite colour.",
+        "list":  "List4"
+    },
+    {
+        "word":  "zoo",
+        "phonetic":  "zu:",
+        "type":  "n.",
+        "meaning":  "动物园",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "song",
+        "phonetic":  "sɔ:ŋ",
+        "type":  "n.",
+        "meaning":  "歌曲",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "singer",
+        "phonetic":  "ˈsɪŋə(r)",
+        "type":  "n.",
+        "meaning":  "歌手",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "melody",
+        "phonetic":  "\u0027melədi",
+        "type":  "n.",
+        "meaning":  "旋律",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "head teacher",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "校长",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "weather",
+        "phonetic":  "\u0027weðər",
+        "type":  "n.",
+        "meaning":  "天气",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "rainy",
+        "phonetic":  "ˈreɪni",
+        "type":  "adj.",
+        "meaning":  "多雨的",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "sunny",
+        "phonetic":  "ˈsʌni",
+        "type":  "adj.",
+        "meaning":  "晴朗的",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "wet",
+        "phonetic":  "wet",
+        "type":  "adj.",
+        "meaning":  "湿的",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "shade",
+        "phonetic":  "ʃeɪd",
+        "type":  "n.",
+        "meaning":  "阴凉处",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "summer vacation",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "暑假",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "take a vacation",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "休假",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "holiday",
+        "phonetic":  "ˈhɒlədeɪ",
+        "type":  "n.",
+        "meaning":  "假日",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "spring",
+        "phonetic":  "sprɪŋ",
+        "type":  "n.",
+        "meaning":  "春天",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "summer",
+        "phonetic":  "ˈsʌmə(r)",
+        "type":  "n.",
+        "meaning":  "夏天",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "autumn",
+        "phonetic":  "ˈɔ:təm",
+        "type":  "n.",
+        "meaning":  "秋天",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "enter",
+        "phonetic":  "\u0027entər",
+        "type":  "v.",
+        "meaning":  "进入",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "a box of",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一盒",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "pink",
+        "phonetic":  "pɪŋ k",
+        "type":  "adj.",
+        "meaning":  "粉色的",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "purple",
+        "phonetic":  "\u0027pɜ:rp(ə)l",
+        "type":  "adj.",
+        "meaning":  "紫色的",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "favourite",
+        "phonetic":  "ˈfeɪvərɪt",
+        "type":  "adj.",
+        "meaning":  "特别喜爱的",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "colour",
+        "phonetic":  "ˈkʌlə(r)",
+        "type":  "n.",
+        "meaning":  "色彩",
+        "example":  "",
+        "list":  "List4"
+    },
+    {
+        "word":  "panda",
+        "phonetic":  "ˈpændə",
+        "type":  "n.",
+        "meaning":  "熊猫",
+        "example":  "Pandas can climb trees.",
+        "list":  "List5"
+    },
+    {
+        "word":  "bag",
+        "phonetic":  "bæɡ",
+        "type":  "n.",
+        "meaning":  "袋子；包",
+        "example":  "I like my new school bag.",
+        "list":  "List5"
+    },
+    {
+        "word":  "candle",
+        "phonetic":  "ˈkænd(ə)l",
+        "type":  "n.",
+        "meaning":  "蜡烛",
+        "example":  "She lights a candle.",
+        "list":  "List5"
+    },
+    {
+        "word":  "hat",
+        "phonetic":  "hæt",
+        "type":  "n.",
+        "meaning":  "（常指带檐的）帽子",
+        "example":  "Please take off  your hat when you are in the house.",
+        "list":  "List5"
+    },
+    {
+        "word":  "cap",
+        "phonetic":  "kæp",
+        "type":  "n.",
+        "meaning":  "（无檐的或仅在前面有檐的）帽子",
+        "example":  "There are many ways to wear a cap.",
+        "list":  "List5"
+    },
+    {
+        "word":  "happy",
+        "phonetic":  "ˈhæpi",
+        "type":  "adj.",
+        "meaning":  "快乐的；开心的",
+        "example":  "Happy birthday.",
+        "list":  "List5"
+    },
+    {
+        "word":  "sad",
+        "phonetic":  "sæd",
+        "type":  "adj.",
+        "meaning":  "难过的",
+        "example":  "Don\u0027t be sad, everything will be fine.",
+        "list":  "List5"
+    },
+    {
+        "word":  "angry",
+        "phonetic":  "ˈæŋɡri",
+        "type":  "adj.",
+        "meaning":  "生气的；愤怒的",
+        "example":  "When you are angry, take a deep breath and you\u0027ll feel better.",
+        "list":  "List5"
+    },
+    {
+        "word":  "bamboo",
+        "phonetic":  "ˌ bæm ˈ bu:",
+        "type":  "n.",
+        "meaning":  "竹子",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "plastic bag",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "塑料袋",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "school bag",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "书包",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "cake",
+        "phonetic":  "keɪk",
+        "type":  "n.",
+        "meaning":  "蛋糕",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "wish",
+        "phonetic":  "wɪʃ",
+        "type":  "n.",
+        "meaning":  "愿望",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "blow out",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "熄灭",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "light",
+        "phonetic":  "laɪt",
+        "type":  "v.",
+        "meaning":  "点燃",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "that",
+        "phonetic":  "ðæt",
+        "type":  "det.",
+        "meaning":  "那",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "wear",
+        "phonetic":  "wer",
+        "type":  "v.",
+        "meaning":  "穿",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "take off",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "脱下",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "Little Red Cap",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "小红帽",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "be angry with",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "生",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "take a deep breath",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "深呼吸",
+        "example":  "",
+        "list":  "List5"
+    },
+    {
+        "word":  "bed",
+        "phonetic":  "bed",
+        "type":  "n.",
+        "meaning":  "床",
+        "example":  "I need to make my bed before leaving for school in the morning.",
+        "list":  "List6"
+    },
+    {
+        "word":  "red",
+        "phonetic":  "red",
+        "type":  "adj.",
+        "meaning":  "红色的；n.  红",
+        "example":  "The color of the apple is red.",
+        "list":  "List6"
+    },
+    {
+        "word":  "desk",
+        "phonetic":  "desk",
+        "type":  "n.",
+        "meaning":  "书桌",
+        "example":  "My book and pencil are on the desk.",
+        "list":  "List6"
+    },
+    {
+        "word":  "pet",
+        "phonetic":  "pet",
+        "type":  "n.",
+        "meaning":  "宠物",
+        "example":  "Let his sister get a pet!",
+        "list":  "List6"
+    },
+    {
+        "word":  "hen",
+        "phonetic":  "hen",
+        "type":  "n.",
+        "meaning":  "母鸡",
+        "example":  "Look at the fat hens.",
+        "list":  "List6"
+    },
+    {
+        "word":  "problem",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一个先有鸡还是先有蛋的问题",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "be up with the chickens",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "起床很早",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "friend",
+        "phonetic":  "frend",
+        "type":  "n.",
+        "meaning":  "朋友",
+        "example":  "My best friend is Sophia.",
+        "list":  "List6"
+    },
+    {
+        "word":  "send",
+        "phonetic":  "send",
+        "type":  "v.",
+        "meaning":  "发送；邮寄",
+        "example":  "I\u0027ll send an email to my e-friend.",
+        "list":  "List6"
+    },
+    {
+        "word":  "letter",
+        "phonetic":  "ˈletər",
+        "type":  "n.",
+        "meaning":  "信；字母",
+        "example":  "Write a love letter to your spouse, kids, or best friend.",
+        "list":  "List6"
+    },
+    {
+        "word":  "on the bed",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在床上",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "go to bed",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "上床睡觉",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "make the bed",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "铺床",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "bedroom",
+        "phonetic":  "\u0027bedru:m",
+        "type":  "n.",
+        "meaning":  "卧室",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "classroom",
+        "phonetic":  "\u0027klæsru:m",
+        "type":  "n.",
+        "meaning":  "教室",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "bathroom",
+        "phonetic":  "ˈbæθ ru:m",
+        "type":  "n.",
+        "meaning":  "浴室",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "washroom",
+        "phonetic":  "ˈwɑ:ʃru:m",
+        "type":  "n.",
+        "meaning":  "洗手间",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "blue",
+        "phonetic":  "blu:",
+        "type":  "adj.",
+        "meaning":  "蓝色的",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "on the desk",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在书桌上",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "in the desk",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在书桌抽屉里",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "blackboard",
+        "phonetic":  "ˈblækbɔ:rd",
+        "type":  "n.",
+        "meaning":  "黑板",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "s desk",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "教桌",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "let",
+        "phonetic":  "let",
+        "type":  "v.",
+        "meaning":  "允许",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "get",
+        "phonetic":  "get",
+        "type":  "v.",
+        "meaning":  "获得",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "rooster",
+        "phonetic":  "\u0027ru:stər",
+        "type":  "n.",
+        "meaning":  "公鸡",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "chick",
+        "phonetic":  "tʃɪk",
+        "type":  "n.",
+        "meaning":  "小鸡",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "e-mail",
+        "phonetic":  "ˈi:meɪl",
+        "type":  "n.",
+        "meaning":  "电子邮件",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "e-card",
+        "phonetic":  "ˈi:kɑ:rd",
+        "type":  "n.",
+        "meaning":  "电子贺卡",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "by letter",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "用书信的方式",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "send a letter",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "寄信",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "love letter",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "情书",
+        "example":  "",
+        "list":  "List6"
+    },
+    {
+        "word":  "ship",
+        "phonetic":  "ʃɪp",
+        "type":  "n.",
+        "meaning":  "（大）船；轮船",
+        "example":  "We go on a boat trip and see a big ship on the water. live   v. /lɪv/ live   v. /lɪv/",
+        "list":  "List7"
+    },
+    {
+        "word":  "win",
+        "phonetic":  "wɪn",
+        "type":  "v.",
+        "meaning":  "赢得",
+        "example":  "She is hoping to win the first prize.",
+        "list":  "List7"
+    },
+    {
+        "word":  "pick",
+        "phonetic":  "pɪk",
+        "type":  "v.",
+        "meaning":  "采摘",
+        "example":  "Will you pickup all your toys?",
+        "list":  "List7"
+    },
+    {
+        "word":  "sit",
+        "phonetic":  "sɪt",
+        "type":  "v.",
+        "meaning":  "坐",
+        "example":  "Please sit down.",
+        "list":  "List7"
+    },
+    {
+        "word":  "tin",
+        "phonetic":  "tɪn",
+        "type":  "n.",
+        "meaning":  "罐子",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "him",
+        "phonetic":  "hɪm",
+        "type":  "pron.",
+        "meaning":  "（宾格）他",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "yacht",
+        "phonetic":  "jɑ:t",
+        "type":  "n.",
+        "meaning":  "游艇",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "boat",
+        "phonetic":  "bəut",
+        "type":  "n.",
+        "meaning":  "（小",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "canoe",
+        "phonetic":  "kəˈnu:",
+        "type":  "n.",
+        "meaning":  "独木舟",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "ferry",
+        "phonetic":  "ˈferi",
+        "type":  "n.",
+        "meaning":  "渡船",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "trip",
+        "phonetic":  "trɪp",
+        "type":  "n.",
+        "meaning":  "短途旅行",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "life",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "过着",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "winner",
+        "phonetic":  "ˈwɪnə(r)",
+        "type":  "n.",
+        "meaning":  "获胜的人",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "loser",
+        "phonetic":  "ˈlu:zər",
+        "type":  "n.",
+        "meaning":  "输家",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "pick sth up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "拿起",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "sit down",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "坐下",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "think",
+        "phonetic":  "θɪŋk",
+        "type":  "v.",
+        "meaning":  "认为",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "drink",
+        "phonetic":  "drɪŋ k",
+        "type":  "v.",
+        "meaning":  "喝",
+        "example":  "",
+        "list":  "List7"
+    },
+    {
+        "word":  "frog",
+        "phonetic":  "frɒɡ",
+        "type":  "n.",
+        "meaning":  "青蛙",
+        "example":  "A prince turns into a frog in this cartoon fairy tale.",
+        "list":  "List8"
+    },
+    {
+        "word":  "sock",
+        "phonetic":  "sɒk",
+        "type":  "n.",
+        "meaning":  "短袜",
+        "example":  "There is a hole in my sock.",
+        "list":  "List8"
+    },
+    {
+        "word":  "shop",
+        "phonetic":  "ʃɒp",
+        "type":  "n.",
+        "meaning":  "商店；v. 购物",
+        "example":  "My mother is shopping for clothes.",
+        "list":  "List8"
+    },
+    {
+        "word":  "clock",
+        "phonetic":  "klɒk",
+        "type":  "n.",
+        "meaning":  "钟",
+        "example":  "I set my alarm clock for 4:30.",
+        "list":  "List8"
+    },
+    {
+        "word":  "doll",
+        "phonetic":  "dɒl",
+        "type":  "n.",
+        "meaning":  "玩具娃娃",
+        "example":  "Mary has a pretty doll.",
+        "list":  "List8"
+    },
+    {
+        "word":  "stop",
+        "phonetic":  "stɒp",
+        "type":  "v.",
+        "meaning":  "(使）停下；停下；n. 车站",
+        "example":  "The bookshop is beside the bus stop. It\u0027s already midnight; please stop making noise.",
+        "list":  "List8"
+    },
+    {
+        "word":  "body",
+        "phonetic":  "ˈbɒdi",
+        "type":  "n.",
+        "meaning":  "身体",
+        "example":  "Jack\u0027s body is strong.",
+        "list":  "List8"
+    },
+    {
+        "word":  "coffee",
+        "phonetic":  "ˈkɒfi",
+        "type":  "n.",
+        "meaning":  "咖啡",
+        "example":  "I don\u0027t drink coffee.",
+        "list":  "List8"
+    },
+    {
+        "word":  "pond",
+        "phonetic":  "pɑ:nd",
+        "type":  "n.",
+        "meaning":  "池塘",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "prince",
+        "phonetic":  "prɪns",
+        "type":  "n.",
+        "meaning":  "王子",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "cartoon",
+        "phonetic":  "kɑ:ˈtu:n",
+        "type":  "n.",
+        "meaning":  "漫画",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "stocking",
+        "phonetic":  "ˈstɒkɪŋ",
+        "type":  "n.",
+        "meaning":  "长筒袜",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "Christmas stocking",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "圣诞袜",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "bookshop",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "书店",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "flower shop",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "花店",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "fruit shop",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "水果店",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "store",
+        "phonetic":  "stɔ:r",
+        "type":  "n.",
+        "meaning":  "商店",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "go shopping",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "去购物",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "rock",
+        "phonetic":  "rɑ:k",
+        "type":  "n.",
+        "meaning":  "石头",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "knock",
+        "phonetic":  "nɑ:k",
+        "type":  "v.",
+        "meaning":  "敲打",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "alarm clock",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "闹钟",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "red light",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "红灯",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "green light",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "绿灯",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "bus stop",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "公交站台",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "stop doing sth",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "停止做某事",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "drink coffee",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "喝咖啡",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "coffee shop",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "咖啡店",
+        "example":  "",
+        "list":  "List8"
+    },
+    {
+        "word":  "sun",
+        "phonetic":  "sʌn",
+        "type":  "n.",
+        "meaning":  "太阳",
+        "example":  "We sit in the sun. We talk about everything under the sun.",
+        "list":  "List9"
+    },
+    {
+        "word":  "lunch",
+        "phonetic":  "lʌntʃ",
+        "type":  "n.",
+        "meaning":  "午餐",
+        "example":  "Do you have lunch at school?",
+        "list":  "List9"
+    },
+    {
+        "word":  "fun",
+        "phonetic":  "fʌn",
+        "type":  "n.",
+        "meaning":  "乐趣",
+        "example":  "We have so much fun in Mr. Liu\u0027s class.",
+        "list":  "List9"
+    },
+    {
+        "word":  "subway",
+        "phonetic":  "ˈsʌbweɪ",
+        "type":  "n.",
+        "meaning":  "地铁",
+        "example":  "Do you go to school by bus or by subway?",
+        "list":  "List9"
+    },
+    {
+        "word":  "cut",
+        "phonetic":  "kʌt",
+        "type":  "v.",
+        "meaning":  "切；割",
+        "example":  "We should be careful not to cut ourselves when using scissors.",
+        "list":  "List9"
+    },
+    {
+        "word":  "drum",
+        "phonetic":  "drʌm",
+        "type":  "n.",
+        "meaning":  "鼓",
+        "example":  "People beat drums and gongs to celebrate the arrival of the following year.",
+        "list":  "List9"
+    },
+    {
+        "word":  "duck",
+        "phonetic":  "dʌk",
+        "type":  "n.",
+        "meaning":  "鸭子；鸭肉",
+        "example":  "Ducks quack, dogs bark, birds sing, and human speak.",
+        "list":  "List9"
+    },
+    {
+        "word":  "plum",
+        "phonetic":  "plʌm",
+        "type":  "n.",
+        "meaning":  "李子",
+        "example":  "Is it a grape or  a plum?",
+        "list":  "List9"
+    },
+    {
+        "word":  "cloud",
+        "phonetic":  "klaud",
+        "type":  "n.",
+        "meaning":  "云彩",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "in the sun",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在太阳底下",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "under the sun",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在世界上",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "meal",
+        "phonetic":  "mi:l",
+        "type":  "n.",
+        "meaning":  "一餐",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "breakfast",
+        "phonetic":  "\u0027brekfəst",
+        "type":  "n.",
+        "meaning":  "早餐",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "dinner",
+        "phonetic":  "ˈdɪnə(r)",
+        "type":  "n.",
+        "meaning":  "晚餐",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "funny",
+        "phonetic":  "ˈfΛni",
+        "type":  "adj.",
+        "meaning":  "滑稽的",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "by bus",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "乘公交车",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "by bike",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "骑自行车",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "by plane",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "坐飞机",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "by train",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "坐火车",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "on foot",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "步行",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "beat",
+        "phonetic":  "bi:t",
+        "type":  "v.",
+        "meaning":  "打",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "plum juice",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "酸梅汁",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "plum rain",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "梅雨季节",
+        "example":  "",
+        "list":  "List9"
+    },
+    {
+        "word":  "whale",
+        "phonetic":  "weɪl",
+        "type":  "n.",
+        "meaning":  "鲸鱼",
+        "example":  "A whale was found washed up on the shore.",
+        "list":  "List10"
+    },
+    {
+        "word":  "lake",
+        "phonetic":  "leɪk",
+        "type":  "n.",
+        "meaning":  "湖",
+        "example":  "We can go fishing in the lake.",
+        "list":  "List10"
+    },
+    {
+        "word":  "gate",
+        "phonetic":  "ɡeɪt",
+        "type":  "n.",
+        "meaning":  "大门",
+        "example":  "Can you jump that gate?",
+        "list":  "List10"
+    },
+    {
+        "word":  "date",
+        "phonetic":  "deɪt",
+        "type":  "n.",
+        "meaning":  "日期；约会",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "brave",
+        "phonetic":  "breɪv",
+        "type":  "adj.",
+        "meaning":  "勇敢的",
+        "example":  "You\u0027re a brave soul.",
+        "list":  "List10"
+    },
+    {
+        "word":  "sale",
+        "phonetic":  "seɪl",
+        "type":  "n.",
+        "meaning":  "出售；销售活动",
+        "example":  "The house is up for sale.",
+        "list":  "List10"
+    },
+    {
+        "word":  "snake",
+        "phonetic":  "sneɪk",
+        "type":  "n.",
+        "meaning":  "蛇",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "shore",
+        "phonetic":  "ʃ0:r",
+        "type":  "n.",
+        "meaning":  "海岸",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "wash up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "被冲上海滩",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "sea",
+        "phonetic":  "si:",
+        "type":  "n.",
+        "meaning":  "大海",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "waterfall",
+        "phonetic":  "ˈw0:tərf0:l",
+        "type":  "n.",
+        "meaning":  "瀑布",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "heat wave",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "热浪",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "cold wave",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "寒潮",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "National Day",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "国庆节",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "Chinese New Year",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "春节",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "Christmas",
+        "phonetic":  "ˈkrɪsməs",
+        "type":  "n.",
+        "meaning":  "圣诞节",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "Halloween",
+        "phonetic":  "ˌ hæləuˈi:n",
+        "type":  "n.",
+        "meaning":  "万圣节",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "on sale",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "折价销售",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "discount",
+        "phonetic":  "ˈdɪskaunt",
+        "type":  "n.",
+        "meaning":  "打折",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "for sale",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "待售",
+        "example":  "",
+        "list":  "List10"
+    },
+    {
+        "word":  "ice",
+        "phonetic":  "aɪs",
+        "type":  "n.",
+        "meaning":  "冰块",
+        "example":  "We never learned to ice skate or ski.",
+        "list":  "List11"
+    },
+    {
+        "word":  "fire",
+        "phonetic":  "ˈfaɪə(r)",
+        "type":  "n.",
+        "meaning":  "火焰",
+        "example":  "Most animals are afraid of fire.",
+        "list":  "List11"
+    },
+    {
+        "word":  "hide",
+        "phonetic":  "haɪd",
+        "type":  "v.",
+        "meaning":  "躲藏；把...藏起来",
+        "example":  "Hide behind the door!",
+        "list":  "List11"
+    },
+    {
+        "word":  "line",
+        "phonetic":  "laɪn",
+        "type":  "n.",
+        "meaning":  "线；线条",
+        "example":  "Please stand in a line.",
+        "list":  "List11"
+    },
+    {
+        "word":  "hike",
+        "phonetic":  "haɪk",
+        "type":  "v.",
+        "meaning":  "徒步远行；远足",
+        "example":  "After a long hike, they went back to their camp, built a fire and cooked dinner.",
+        "list":  "List11"
+    },
+    {
+        "word":  "merry",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "愉快的",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "pleased",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "高兴的",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "laugh",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "大笑",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "nine",
+        "phonetic":  "naɪn",
+        "type":  "num.",
+        "meaning":  "九",
+        "example":  "They have two children aged six and nine.",
+        "list":  "List11"
+    },
+    {
+        "word":  "like",
+        "phonetic":  "laɪk",
+        "type":  "v.",
+        "meaning":  "喜欢",
+        "example":  "He likes riding a bike.",
+        "list":  "List11"
+    },
+    {
+        "word":  "rain",
+        "phonetic":  "reɪn",
+        "type":  "n.",
+        "meaning":  "/v. 雨",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "snow",
+        "phonetic":  "snəu",
+        "type":  "n.",
+        "meaning":  "/v. 雪",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "frozen",
+        "phonetic":  "ˈfrəuz(ə)n",
+        "type":  "adj.",
+        "meaning":  "结冰的",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "ice-skate",
+        "phonetic":  "ˈaɪsskeɪt",
+        "type":  "n.",
+        "meaning":  "/v. 滑冰",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "skiing",
+        "phonetic":  "ˈski:ɪŋ",
+        "type":  "n.",
+        "meaning":  "滑雪",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "nice",
+        "phonetic":  "naɪs",
+        "type":  "adj.",
+        "meaning":  "美好的",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "advice",
+        "phonetic":  "ədˈvaɪs",
+        "type":  "n.",
+        "meaning":  "忠告",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "twice",
+        "phonetic":  "twaɪs",
+        "type":  "adv.",
+        "meaning":  "两次",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "on fire",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "着火",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "put out a fire",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "灭火",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "fire fighter",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "消防员",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "fire engine",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "消防车",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "hide and seek",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "捉迷藏",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "hider",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "隐藏者",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "seeker",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "找寻者",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "draw a line",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "画一条线",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "stand in a line",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "排队",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "circle",
+        "phonetic":  "ˈs3:rk(ə)l",
+        "type":  "n.",
+        "meaning":  "圆圈",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "triangle",
+        "phonetic":  "ˈtraiæŋɡ(ə)l",
+        "type":  "n.",
+        "meaning":  "三角形",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "square",
+        "phonetic":  "skweə(r)",
+        "type":  "n.",
+        "meaning":  "正方形",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "going hiking",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "远足",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "smile",
+        "phonetic":  "smaɪl",
+        "type":  "n.",
+        "meaning":  "/v. 微笑",
+        "example":  "",
+        "list":  "List11"
+    },
+    {
+        "word":  "hometown",
+        "phonetic":  "ˈhəʊmtaʊn",
+        "type":  "n.",
+        "meaning":  "家乡",
+        "example":  "Here is a letter to his friend in his hometown.",
+        "list":  "List12"
+    },
+    {
+        "word":  "those",
+        "phonetic":  "ðəʊz",
+        "type":  "pron.",
+        "meaning":  "那些",
+        "example":  "I planted those apple trees. This is a flower. That is a tree. This is a pen. That is a pencil. This is Wade. Wade, this is Dave.",
+        "list":  "List12"
+    },
+    {
+        "word":  "close",
+        "phonetic":  "kləʊz",
+        "type":  "v.",
+        "meaning":  "关闭；adj.  亲近的；接近的",
+        "example":  "She is very close to her father.",
+        "list":  "List12"
+    },
+    {
+        "word":  "nose",
+        "phonetic":  "nəʊz",
+        "type":  "n.",
+        "meaning":  "鼻子",
+        "example":  "Which animal has a long nose? I have two eyes. And a nose to smell. I have ten fingers. They do it very well! I have two ears. I have a tongue,",
+        "list":  "List12"
+    },
+    {
+        "word":  "phone",
+        "phonetic":  "fəʊn",
+        "type":  "n.",
+        "meaning":  "电话",
+        "example":  "They chatted casually on the phone.",
+        "list":  "List12"
+    },
+    {
+        "word":  "rose",
+        "phonetic":  "rəʊz",
+        "type":  "n.",
+        "meaning":  "玫瑰",
+        "example":  "She bent to pick a red rose.",
+        "list":  "List12"
+    },
+    {
+        "word":  "hope",
+        "phonetic":  "həup",
+        "type":  "n.",
+        "meaning":  "/v. 希望",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "I hope so",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "但愿如此",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "I hope not",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "我不希望如此",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "homework",
+        "phonetic":  "ˈhəumw3:k",
+        "type":  "n.",
+        "meaning":  "家庭作业",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "homeless",
+        "phonetic":  "ˈhəumləs",
+        "type":  "adj.",
+        "meaning":  "无家可归的",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "homesick",
+        "phonetic":  "ˈhəumsɪk",
+        "type":  "adj.",
+        "meaning":  "思乡的",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "these",
+        "phonetic":  "ði:z",
+        "type":  "pron.",
+        "meaning":  "这些",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "this",
+        "phonetic":  "ðɪs",
+        "type":  "pron.",
+        "meaning":  "这个",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "open",
+        "phonetic":  "ˈəupən",
+        "type":  "v.",
+        "meaning":  "打开",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "shut",
+        "phonetic":  "ʃΛt",
+        "type":  "v.",
+        "meaning":  "关闭",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "eye",
+        "phonetic":  "aɪ",
+        "type":  "n.",
+        "meaning":  "眼睛",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "close to",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "亲近",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "see",
+        "phonetic":  "si:",
+        "type":  "v.",
+        "meaning":  "看见",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "smell",
+        "phonetic":  "smel",
+        "type":  "v.",
+        "meaning":  "闻见",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "touch",
+        "phonetic":  "tΛtʃ",
+        "type":  "v.",
+        "meaning":  "触摸",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "ear",
+        "phonetic":  "ɪə (r)",
+        "type":  "n.",
+        "meaning":  "耳朵",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "hear",
+        "phonetic":  "hɪə (r)",
+        "type":  "v.",
+        "meaning":  "听到",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "tongue",
+        "phonetic":  "tΛŋ",
+        "type":  "n.",
+        "meaning":  "舌头",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "mouth",
+        "phonetic":  "mauθ",
+        "type":  "n.",
+        "meaning":  "嘴巴",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "taste",
+        "phonetic":  "teɪst",
+        "type":  "v.",
+        "meaning":  "尝到",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "eat",
+        "phonetic":  "i:t",
+        "type":  "v.",
+        "meaning":  "吃到",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "alone",
+        "phonetic":  "əˈləun",
+        "type":  "adj.",
+        "meaning":  "/adv. 单独的",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "lone",
+        "phonetic":  "ləun",
+        "type":  "adj.",
+        "meaning":  "独自的",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "lonely",
+        "phonetic":  "ˈləunli",
+        "type":  "adj.",
+        "meaning":  "孤独的",
+        "example":  "",
+        "list":  "List12"
+    },
+    {
+        "word":  "rude",
+        "phonetic":  "ruːd",
+        "type":  "adj.",
+        "meaning":  "粗鲁的",
+        "example":  "Jack, don\u0027t be rude to your mother.",
+        "list":  "List13"
+    },
+    {
+        "word":  "mule",
+        "phonetic":  "mju :l",
+        "type":  "n.",
+        "meaning":  "骡子",
+        "example":  "They travel on foot and by mule.",
+        "list":  "List13"
+    },
+    {
+        "word":  "June",
+        "phonetic":  "dʒuːn",
+        "type":  "n.",
+        "meaning":  "六月",
+        "example":  "She turns 21 in June.",
+        "list":  "List13"
+    },
+    {
+        "word":  "cute",
+        "phonetic":  "kjuːt",
+        "type":  "adj.",
+        "meaning":  "可爱的",
+        "example":  "They\u0027re so cute and lovely.",
+        "list":  "List13"
+    },
+    {
+        "word":  "cube",
+        "phonetic":  "kjuːb",
+        "type":  "n.",
+        "meaning":  "立方体",
+        "example":  "Put an ice cube in each glass.",
+        "list":  "List13"
+    },
+    {
+        "word":  "tube",
+        "phonetic":  "tjuːb",
+        "type":  "n.",
+        "meaning":  "管；管子",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "rule",
+        "phonetic":  "ruːl",
+        "type":  "n.",
+        "meaning":  "规章；规则",
+        "example":  "We must play the game by rule.",
+        "list":  "List13"
+    },
+    {
+        "word":  "mute",
+        "phonetic":  "mjuːt",
+        "type":  "adj.",
+        "meaning":  "无声的",
+        "example":  "The boy was born a deaf-mute.",
+        "list":  "List13"
+    },
+    {
+        "word":  "polite",
+        "phonetic":  "pəˈlaɪt",
+        "type":  "adj.",
+        "meaning":  "有礼貌的",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "table manners",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "餐桌礼仪",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "donkey",
+        "phonetic":  "ˈdɒŋki",
+        "type":  "n.",
+        "meaning":  "驴",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "horse",
+        "phonetic":  "hɔ:s",
+        "type":  "n.",
+        "meaning":  "马",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "January",
+        "phonetic":  "ˈdʒænjuəri",
+        "type":  "n.",
+        "meaning":  "一月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "February",
+        "phonetic":  "ˈfebruəri",
+        "type":  "n.",
+        "meaning":  "二月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "March",
+        "phonetic":  "mɑ:tʃ",
+        "type":  "n.",
+        "meaning":  "三月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "April",
+        "phonetic":  "ˈeɪprəl",
+        "type":  "n.",
+        "meaning":  "四月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "May",
+        "phonetic":  "meɪ",
+        "type":  "n.",
+        "meaning":  "五月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "July",
+        "phonetic":  "dʒʊˈlaɪ",
+        "type":  "n.",
+        "meaning":  "七月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "August",
+        "phonetic":  "ˈɔ:ɡəst",
+        "type":  "n.",
+        "meaning":  "八月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "September",
+        "phonetic":  "sepˈtembə(r)",
+        "type":  "n.",
+        "meaning":  "九月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "October",
+        "phonetic":  "ɒkˈtəʊbə(r)",
+        "type":  "n.",
+        "meaning":  "十月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "November",
+        "phonetic":  "nəʊˈvembə(r)",
+        "type":  "n.",
+        "meaning":  "十一月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "December",
+        "phonetic":  "dɪˈsembə(r)",
+        "type":  "n.",
+        "meaning":  "十二月",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "s cube",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "魔方",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "cube sugar",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "方糖",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "by rule",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "按照规则",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "sign language",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "手语",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "deaf-mute",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "聋哑人",
+        "example":  "",
+        "list":  "List13"
+    },
+    {
+        "word":  "yesterday",
+        "phonetic":  "ˈjestədeɪ",
+        "type":  "n.",
+        "meaning":  "昨天",
+        "example":  "It was nice and warm yesterday.",
+        "list":  "List14"
+    },
+    {
+        "word":  "day",
+        "phonetic":  "deɪ",
+        "type":  "n.",
+        "meaning":  "一天",
+        "example":  "Thursday is market day.",
+        "list":  "List14"
+    },
+    {
+        "word":  "crayon",
+        "phonetic":  "ˈkreɪə n",
+        "type":  "n.",
+        "meaning":  "蜡笔",
+        "example":  "He picks up a crayon.",
+        "list":  "List14"
+    },
+    {
+        "word":  "tail",
+        "phonetic":  "teɪ l",
+        "type":  "n.",
+        "meaning":  "尾巴",
+        "example":  "The pink pig has a curly tail.",
+        "list":  "List14"
+    },
+    {
+        "word":  "air",
+        "phonetic":  "eθ (r)",
+        "type":  "n.",
+        "meaning":  "空气",
+        "example":  "I felt a current of cool air.",
+        "list":  "List14"
+    },
+    {
+        "word":  "wait",
+        "phonetic":  "weɪt",
+        "type":  "v.",
+        "meaning":  "等待",
+        "example":  "It\u0027s the yellow light, please wait!",
+        "list":  "List14"
+    },
+    {
+        "word":  "stair",
+        "phonetic":  "steθ (r)",
+        "type":  "n.",
+        "meaning":  "楼梯",
+        "example":  "We stepped down the stair.",
+        "list":  "List14"
+    },
+    {
+        "word":  "chair",
+        "phonetic":  "tʃeθ(r)",
+        "type":  "n.",
+        "meaning":  "椅子",
+        "example":  "What a nice chair!",
+        "list":  "List14"
+    },
+    {
+        "word":  "today",
+        "phonetic":  "təˈdeɪ",
+        "type":  "n.",
+        "meaning":  "今天",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "the day before yesterday",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "前天",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "tomorrow",
+        "phonetic":  "təˈmɑ:roʊ",
+        "type":  "n.",
+        "meaning":  "明天",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "morning",
+        "phonetic":  "ˈmɔ:rnɪŋ",
+        "type":  "n.",
+        "meaning":  "早上",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "afternoon",
+        "phonetic":  "ˌɑ:ftəˈ nu:n",
+        "type":  "n.",
+        "meaning":  "下午",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "evening",
+        "phonetic":  "ˈi:vnɪŋ",
+        "type":  "n.",
+        "meaning":  "晚上",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "night",
+        "phonetic":  "naɪt",
+        "type":  "n.",
+        "meaning":  "夜晚",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "in crayon",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "用蜡笔",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "green",
+        "phonetic":  "ɡri:n",
+        "type":  "n.",
+        "meaning":  "/adj. 绿色",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "brown",
+        "phonetic":  "braʊ n",
+        "type":  "n.",
+        "meaning":  "/adj. 棕色",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "black",
+        "phonetic":  "blæk",
+        "type":  "n.",
+        "meaning":  "/adj. 黑色",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "neck",
+        "phonetic":  "nek",
+        "type":  "n.",
+        "meaning":  "脖子",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "long",
+        "phonetic":  "lɒŋ",
+        "type":  "adj.",
+        "meaning":  "长的",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "short",
+        "phonetic":  "ʃɔ:t",
+        "type":  "adj.",
+        "meaning":  "短的",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "airplane",
+        "phonetic":  "ˈeəpleɪn",
+        "type":  "n.",
+        "meaning":  "飞机",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "airport",
+        "phonetic":  "ˈeəpɔ:t",
+        "type":  "n.",
+        "meaning":  "飞机场",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "air condition",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "空调",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "please wait",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "请等待",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "wait for",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "等",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "stairs",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一段楼梯",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "upstairs",
+        "phonetic":  "ˌʌpˈsteəz",
+        "type":  "adv.",
+        "meaning":  "在楼上",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "hair",
+        "phonetic":  "heə(r)",
+        "type":  "n.",
+        "meaning":  "头发",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "pair",
+        "phonetic":  "peə(r)",
+        "type":  "n.",
+        "meaning":  "成双",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "seat",
+        "phonetic":  "si:t",
+        "type":  "n.",
+        "meaning":  "座位",
+        "example":  "",
+        "list":  "List14"
+    },
+    {
+        "word":  "tea",
+        "phonetic":  "ti :",
+        "type":  "n.",
+        "meaning":  "茶",
+        "example":  "Most British people drink tea every day but they prefer black tea.",
+        "list":  "List15"
+    },
+    {
+        "word":  "beach",
+        "phonetic":  "bi :tʃ",
+        "type":  "n.",
+        "meaning":  "沙滩",
+        "example":  "It\u0027s two miles to the beach.",
+        "list":  "List15"
+    },
+    {
+        "word":  "sleep",
+        "phonetic":  "sli :p",
+        "type":  "v./n.",
+        "meaning":  "睡觉",
+        "example":  "Go to sleep—it\u0027s late.",
+        "list":  "List15"
+    },
+    {
+        "word":  "leave",
+        "phonetic":  "li :v",
+        "type":  "v.",
+        "meaning":  "离开",
+        "example":  "He left the book here for the child to read.",
+        "list":  "List15"
+    },
+    {
+        "word":  "east",
+        "phonetic":  "i :st",
+        "type":  "n.",
+        "meaning":  "东方；adv. 向东",
+        "example":  "The sun rises in the east. Walk east for three minutes.",
+        "list":  "List15"
+    },
+    {
+        "word":  "healthy",
+        "phonetic":  "ˈhelθi",
+        "type":  "adj.",
+        "meaning":  "健康的",
+        "example":  "Candy isn\u0027t a healthy food.",
+        "list":  "List15"
+    },
+    {
+        "word":  "teeth",
+        "phonetic":  "ti :θ",
+        "type":  "n.",
+        "meaning":  "牙齿",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "feet",
+        "phonetic":  "fi :t",
+        "type":  "n.",
+        "meaning":  "脚；足",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "make tea",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "沏茶",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "peach",
+        "phonetic":  "piːtʃ",
+        "type":  "n.",
+        "meaning":  "桃子",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "each",
+        "phonetic":  "iːtʃ",
+        "type":  "adj.",
+        "meaning":  "每个的",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "teach",
+        "phonetic":  "tiːtʃ",
+        "type":  "v.",
+        "meaning":  "教",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "a cup of tea",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一杯茶",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "go to sleep",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "去睡觉",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "sleep tight",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "睡个好觉",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "leave for",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "出发去某处",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "leave sb sth",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "把某物留给某人",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "north",
+        "phonetic":  "nɔːθ",
+        "type":  "n.",
+        "meaning":  "北方",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "south",
+        "phonetic":  "saʊθ",
+        "type":  "n.",
+        "meaning":  "南方",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "west",
+        "phonetic":  "west",
+        "type":  "n.",
+        "meaning":  "西方",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "healthy lifestyle",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "健康生活",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "healthy food",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "健康食物",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "keep healthy",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "保持健康",
+        "example":  "",
+        "list":  "List15"
+    },
+    {
+        "word":  "bread",
+        "phonetic":  "bred",
+        "type":  "n.",
+        "meaning":  "面包",
+        "example":  "Would you like some steamed bread?",
+        "list":  "List16"
+    },
+    {
+        "word":  "sweater",
+        "phonetic":  "ˈswetə(r)",
+        "type":  "n.",
+        "meaning":  "毛衣",
+        "example":  "In autumn, people wear sweaters.",
+        "list":  "List16"
+    },
+    {
+        "word":  "head",
+        "phonetic":  "hed",
+        "type":  "n.",
+        "meaning":  "头部",
+        "example":  "Her head nods in agreement.",
+        "list":  "List16"
+    },
+    {
+        "word":  "peanut",
+        "phonetic":  "ˈpi :nΛt",
+        "type":  "n.",
+        "meaning":  "花生",
+        "example":  "Mice like peanuts.",
+        "list":  "List16"
+    },
+    {
+        "word":  "dead",
+        "phonetic":  "ded",
+        "type":  "adj.",
+        "meaning":  "死的；n.  死者",
+        "example":  "He felt half dead with tiredness.",
+        "list":  "List16"
+    },
+    {
+        "word":  "ready",
+        "phonetic":  "ˈredi",
+        "type":  "adj.",
+        "meaning":  "准备好",
+        "example":  "The plane is ready for take-off.",
+        "list":  "List16"
+    },
+    {
+        "word":  "team",
+        "phonetic":  "ti :m",
+        "type":  "n.",
+        "meaning":  "团队",
+        "example":  "I am good at team work.",
+        "list":  "List16"
+    },
+    {
+        "word":  "weak",
+        "phonetic":  "wi :k",
+        "type":  "adj.",
+        "meaning":  "虚弱的",
+        "example":  "The team\u0027s weak points are in defence.",
+        "list":  "List16"
+    },
+    {
+        "word":  "sandwich",
+        "phonetic":  "ˈsænwɪtʃ",
+        "type":  "n.",
+        "meaning":  "三明治",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "doughnut",
+        "phonetic":  "ˈdəʊnʌt",
+        "type":  "n.",
+        "meaning":  "甜甜圈",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "steamed bread",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "馒头",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "nod",
+        "phonetic":  "nɒd",
+        "type":  "v.",
+        "meaning":  "点头",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "s head",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "摇头",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "stomachache",
+        "phonetic":  "ˈstʌməkeɪk",
+        "type":  "n.",
+        "meaning":  "胃疼",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "toothache",
+        "phonetic":  "ˈtu:θeɪk",
+        "type":  "n.",
+        "meaning":  "牙疼",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "peanut butter",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "花生酱",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "life cycle",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "生命周期",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "born",
+        "phonetic":  "bɔ:n",
+        "type":  "v.",
+        "meaning":  "出生",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "grow up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "长大",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "get old",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "变老",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "ready for",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "准备好",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "on the team",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "是队员之一",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "team work",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "团队合作",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "weak point",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "弱点",
+        "example":  "",
+        "list":  "List16"
+    },
+    {
+        "word":  "high",
+        "phonetic":  "haɪ",
+        "type":  "adj.",
+        "meaning":  "高的",
+        "example":  "The tower stands 30 metres high.",
+        "list":  "List17"
+    },
+    {
+        "word":  "right",
+        "phonetic":  "raɪt",
+        "type":  "adj.",
+        "meaning":  "正确的；n.  右边",
+        "example":  "You\u0027re absolutely right. I\u0027ll tidy up right now. There is a house on my right.",
+        "list":  "List17"
+    },
+    {
+        "word":  "Miss",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "是指未婚女子",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "lady",
+        "phonetic":  "ˈleɪdi",
+        "type":  "n.",
+        "meaning":  "女士",
+        "example":  "I think you owe me an apology, young lady!",
+        "list":  "List17"
+    },
+    {
+        "word":  "try",
+        "phonetic":  "traɪ",
+        "type":  "v.",
+        "meaning":  "尝试",
+        "example":  "Try on clothing and shoes to make sure they fit.",
+        "list":  "List17"
+    },
+    {
+        "word":  "easy",
+        "phonetic":  "ˈi :zi",
+        "type":  "adj.",
+        "meaning":  "容易的",
+        "example":  "I am an easy-going person.",
+        "list":  "List17"
+    },
+    {
+        "word":  "hungry",
+        "phonetic":  "ˈhΛ ŋɡri",
+        "type":  "adj.",
+        "meaning":  "饥饿的",
+        "example":  "I’m so hungry, I think I can finish this dish within few seconds.",
+        "list":  "List17"
+    },
+    {
+        "word":  "tidy",
+        "phonetic":  "ˈtaɪdi",
+        "type":  "adj.",
+        "meaning":  "整洁的;  干净的；v.  使整洁；整理",
+        "example":  "Please tidy up these books.",
+        "list":  "List17"
+    },
+    {
+        "word":  "turn the lights off",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "关灯",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "heavy",
+        "phonetic":  "ˈhevi",
+        "type":  "adj.",
+        "meaning":  "重的",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "turn the lights on",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "开灯",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "light color",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "浅色",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "dark color",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "深色",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "bright",
+        "phonetic":  "braɪt",
+        "type":  "adj.",
+        "meaning":  "明亮的",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "tall",
+        "phonetic":  "tɔ:l",
+        "type":  "adj.",
+        "meaning":  "高的",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "low",
+        "phonetic":  "ləʊ",
+        "type":  "adj.",
+        "meaning":  "低的",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "wrong",
+        "phonetic":  "r ɒŋ",
+        "type":  "adj.",
+        "meaning":  "错误的",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "try to do sth",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "尝试做某事",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "try sth on",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "试穿",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "easy-going",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "随和的",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "tidy sth up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "整理",
+        "example":  "",
+        "list":  "List17"
+    },
+    {
+        "word":  "usually",
+        "phonetic":  "ˈju :3uəli;  ˈju :3ə li",
+        "type":  "adv.",
+        "meaning":  "通常；经常",
+        "example":  "What do you usually do in the evening ?",
+        "list":  "List18"
+    },
+    {
+        "word":  "baby",
+        "phonetic":  "ˈbeɪ bi",
+        "type":  "n.",
+        "meaning":  "婴儿；宝贝",
+        "example":  "She had a baby last year.",
+        "list":  "List18"
+    },
+    {
+        "word":  "dirty",
+        "phonetic":  "ˈd3 :ti",
+        "type":  "adj.",
+        "meaning":  "脏的",
+        "example":  "I\u0027m tired of cleaning your dirty laundry.",
+        "list":  "List18"
+    },
+    {
+        "word":  "cloudy",
+        "phonetic":  "ˈklaʊdi",
+        "type":  "adj.",
+        "meaning":  "多云的",
+        "example":  "It\u0027s either cloudy or  rainy.",
+        "list":  "List18"
+    },
+    {
+        "word":  "naughty",
+        "phonetic":  "ˈ nɔ :ti",
+        "type":  "adj.",
+        "meaning":  "调皮的",
+        "example":  "naughty reply.",
+        "list":  "List18"
+    },
+    {
+        "word":  "honey",
+        "phonetic":  "ˈhΛ ni",
+        "type":  "n.",
+        "meaning":  "蜂蜜；亲爱的",
+        "example":  "Honey is made by bees.",
+        "list":  "List18"
+    },
+    {
+        "word":  "badly",
+        "phonetic":  "ˈbædli",
+        "type":  "adv.",
+        "meaning":  "严重地",
+        "example":  "They wanted to win so badly.",
+        "list":  "List18"
+    },
+    {
+        "word":  "safety",
+        "phonetic":  "ˈseɪfti",
+        "type":  "n.",
+        "meaning":  "安全；平安",
+        "example":  "One should never risk his health or personal safety.",
+        "list":  "List18"
+    },
+    {
+        "word":  "always",
+        "phonetic":  "ˈ0:lweɪz",
+        "type":  "adv.",
+        "meaning":  "总是",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "normally",
+        "phonetic":  "ˈn0:məli",
+        "type":  "adv.",
+        "meaning":  "通常",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "generally",
+        "phonetic":  "ˈd3en(ə)rəli",
+        "type":  "adv.",
+        "meaning":  "笼统地",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "often",
+        "phonetic":  "ˈŊf(ə)n",
+        "type":  "adv.",
+        "meaning":  "常常",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "sometimes",
+        "phonetic":  "ˈsΛmtaɪmz",
+        "type":  "adv.",
+        "meaning":  "有时",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "occasionally",
+        "phonetic":  "əˈkeɪ3nəli",
+        "type":  "adv.",
+        "meaning":  "偶尔",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "seldom",
+        "phonetic":  "ˈseldəm",
+        "type":  "adv.",
+        "meaning":  "不常",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "hardly ever",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "几乎不",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "never",
+        "phonetic":  "ˈnevə(r)",
+        "type":  "adv.",
+        "meaning":  "决不",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "baby boy",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "小男孩",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "baby girl",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "小女孩",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "wind",
+        "phonetic":  "wɪnd",
+        "type":  "n.",
+        "meaning":  "风",
+        "example":  "",
+        "list":  "List18"
+    },
+    {
+        "word":  "wood",
+        "phonetic":  "wʊd",
+        "type":  "n.",
+        "meaning":  "木料；木头",
+        "example":  "Their dishes were made of wood. be made of， Paper is made from wood.",
+        "list":  "List19"
+    },
+    {
+        "word":  "guide",
+        "phonetic":  "ɡaɪd",
+        "type":  "v.",
+        "meaning":  "带领；n.  指南；导游",
+        "example":  "I wanna buy a guide book of Beijing. He should have let his instinct guide him.",
+        "list":  "List19"
+    },
+    {
+        "word":  "noodles",
+        "phonetic":  "ˈ nu :d(ə)lz",
+        "type":  "n.",
+        "meaning":  "面条",
+        "example":  "We often have noodles for breakfast.",
+        "list":  "List19"
+    },
+    {
+        "word":  "boot",
+        "phonetic":  "bu :t",
+        "type":  "n.",
+        "meaning":  "靴子",
+        "example":  "It is a green boot.",
+        "list":  "List19"
+    },
+    {
+        "word":  "fruit",
+        "phonetic":  "fru :t",
+        "type":  "n.",
+        "meaning":  "水果； 果实",
+        "example":  "They eat mainly fruit and nuts.",
+        "list":  "List19"
+    },
+    {
+        "word":  "pool",
+        "phonetic":  "pu :l",
+        "type":  "n.",
+        "meaning":  "游泳池；池塘",
+        "example":  "She trained five times a week at her local swimming pool.",
+        "list":  "List19"
+    },
+    {
+        "word":  "guess",
+        "phonetic":  "ɡes",
+        "type":  "v./n.",
+        "meaning":  "猜测",
+        "example":  "Guess who I met at the grocery store.",
+        "list":  "List19"
+    },
+    {
+        "word":  "glue",
+        "phonetic":  "ɡlu :",
+        "type":  "n.",
+        "meaning":  "胶水",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "be made of",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "由",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "be made from",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "由",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "paper",
+        "phonetic":  "ˈpeɪpə(r)",
+        "type":  "n.",
+        "meaning":  "纸张",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "house",
+        "phonetic":  "haus",
+        "type":  "n.",
+        "meaning":  "房子",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "brick",
+        "phonetic":  "brɪk",
+        "type":  "n.",
+        "meaning":  "砖块",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "wine",
+        "phonetic":  "waɪn",
+        "type":  "n.",
+        "meaning":  "红酒",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "grape",
+        "phonetic":  "ɡreɪp",
+        "type":  "n.",
+        "meaning":  "葡萄",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "bowl",
+        "phonetic":  "bəul",
+        "type":  "n.",
+        "meaning":  "碗",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "glass",
+        "phonetic":  "ɡlɑ:s",
+        "type":  "n.",
+        "meaning":  "玻璃",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "sand",
+        "phonetic":  "sænd",
+        "type":  "n.",
+        "meaning":  "沙子",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "tour guide",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "导游",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "guide book",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "指南",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "rice",
+        "phonetic":  "raɪs",
+        "type":  "n.",
+        "meaning":  "米饭",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "rice-noodles",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "米线",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "slippers",
+        "phonetic":  "ˈslɪpə(r)z",
+        "type":  "n.",
+        "meaning":  "拖鞋",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "sandals",
+        "phonetic":  "ˈsænd(ə)lz",
+        "type":  "n.",
+        "meaning":  "凉鞋",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "sneakers",
+        "phonetic":  "ˈsni:kə(r)z",
+        "type":  "n.",
+        "meaning":  "运动鞋",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "high heels",
+        "phonetic":  "haɪhi:lz",
+        "type":  "n.",
+        "meaning":  "高跟鞋",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "swimming pool",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "游泳池",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "guess what",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "猜猜看",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "guess who",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "猜猜是谁",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "scissors",
+        "phonetic":  "ˈsɪzəz",
+        "type":  "n.",
+        "meaning":  "剪刀",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "pencil",
+        "phonetic":  "ˈpens(ə)l",
+        "type":  "n.",
+        "meaning":  "铅笔",
+        "example":  "",
+        "list":  "List19"
+    },
+    {
+        "word":  "kangaroo",
+        "phonetic":  "kæŋɡəˈru :",
+        "type":  "n.",
+        "meaning":  "袋鼠",
+        "example":  "a special bag for her baby. Kangaroos eat grass and leaves. They drink water. You can also see kangaroos in zoos in China.",
+        "list":  "List20"
+    },
+    {
+        "word":  "cool",
+        "phonetic":  "ku :l",
+        "type":  "adj.",
+        "meaning":  "凉的；酷的；v. 使冷却",
+        "example":  "We dived into the river to cool off.",
+        "list":  "List20"
+    },
+    {
+        "word":  "also",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "用于肯定句",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "either",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "用于否定句或疑问句",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "too",
+        "phonetic":  "tu :",
+        "type":  "adv.",
+        "meaning":  "也；太",
+        "example":  "Can I come too?",
+        "list":  "List20"
+    },
+    {
+        "word":  "notebook",
+        "phonetic":  "ˈnəʊtbʊ k",
+        "type":  "n.",
+        "meaning":  "笔记本；笔记本电脑",
+        "example":  "Please write down the correct answer on your notebook.",
+        "list":  "List20"
+    },
+    {
+        "word":  "wool",
+        "phonetic":  "wʊ l",
+        "type":  "n.",
+        "meaning":  "羊毛",
+        "example":  "This scarf is 100% wool.",
+        "list":  "List20"
+    },
+    {
+        "word":  "moon",
+        "phonetic":  "mu :n",
+        "type":  "n.",
+        "meaning":  "月亮",
+        "example":  "Wish you a happy Moon Festival!",
+        "list":  "List20"
+    },
+    {
+        "word":  "hood",
+        "phonetic":  "hʊd",
+        "type":  "n.",
+        "meaning":  "风帽；兜帽",
+        "example":  "Robin Hood is a mythical hero.",
+        "list":  "List20"
+    },
+    {
+        "word":  "Australia",
+        "phonetic":  "ɔ:ˈstreɪliə",
+        "type":  "n.",
+        "meaning":  "澳大利亚",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "back leg",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "后腿",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "goodbye",
+        "phonetic":  "ɡʊdˈ baɪ",
+        "type":  "int.",
+        "meaning":  "再见",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "the mother kangaroo",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "袋鼠妈妈",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "bye",
+        "phonetic":  "baɪ",
+        "type":  "int.",
+        "meaning":  "再见",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "see you soon",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "再见",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "take care",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "保重",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "cold",
+        "phonetic":  "koʊ ld",
+        "type":  "adj.",
+        "meaning":  "冷的",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "note",
+        "phonetic":  "noʊt",
+        "type":  "n.",
+        "meaning":  "便条",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "storybook",
+        "phonetic":  "ˈstɔ:ribʊk",
+        "type":  "n.",
+        "meaning":  "故事书",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "bookstore",
+        "phonetic":  "ˈbʊkstɔ:(r)",
+        "type":  "n.",
+        "meaning":  "书店",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "star",
+        "phonetic":  "stɑ:r",
+        "type":  "n.",
+        "meaning":  "星",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "Robin Hood",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "罗宾汉",
+        "example":  "",
+        "list":  "List20"
+    },
+    {
+        "word":  "farmer",
+        "phonetic":  "ˈfɑ :mə(r)",
+        "type":  "n.",
+        "meaning":  "农民",
+        "example":  "There once was a poor farmer who had four sons.",
+        "list":  "List21"
+    },
+    {
+        "word":  "scarf",
+        "phonetic":  "skɑ :rf",
+        "type":  "n.",
+        "meaning":  "围巾",
+        "example":  "She tied her scarf over her head.",
+        "list":  "List21"
+    },
+    {
+        "word":  "art",
+        "phonetic":  "ɑ :rt",
+        "type":  "n.",
+        "meaning":  "美术",
+        "example":  "She\u0027s studying art history.",
+        "list":  "List21"
+    },
+    {
+        "word":  "carrot",
+        "phonetic":  "ˈkærθt",
+        "type":  "n.",
+        "meaning":  "胡萝卜",
+        "example":  "Every time I got good grades, Mom would give me some treats, and when I did something wrong, Mom would punish me. I think that’s carrot and stick.",
+        "list":  "List21"
+    },
+    {
+        "word":  "parrot",
+        "phonetic":  "ˈpærθt",
+        "type":  "n.",
+        "meaning":  "鹦鹉",
+        "example":  "can imitate human speech.",
+        "list":  "List21"
+    },
+    {
+        "word":  "far",
+        "phonetic":  "fɑ :r",
+        "type":  "adj.",
+        "meaning":  "/adv.  远的（地）",
+        "example":  "The village is far away from the city.",
+        "list":  "List21"
+    },
+    {
+        "word":  "party",
+        "phonetic":  "ˈ pɑ :rti",
+        "type":  "n.",
+        "meaning":  "派对",
+        "example":  "The party is on Friday evening.",
+        "list":  "List21"
+    },
+    {
+        "word":  "garden",
+        "phonetic":  "ˈɡɑ :rdn",
+        "type":  "n.",
+        "meaning":  "花园；公园",
+        "example":  "I like to read a book in the garden on a sunny day.",
+        "list":  "List21"
+    },
+    {
+        "word":  "farm",
+        "phonetic":  "fɑ:rm",
+        "type":  "n.",
+        "meaning":  "农场",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "farming",
+        "phonetic":  "ˈfɑ:rmɪŋ",
+        "type":  "n.",
+        "meaning":  "农业",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "subject",
+        "phonetic":  "ˈsΛbd3ekt",
+        "type":  "n.",
+        "meaning":  "科目",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "school curriculum",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "学校课程",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "art class",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "美术课",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "math class",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "数学课",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "history class",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "历史课",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "part",
+        "phonetic":  "pɑ:rt",
+        "type":  "n.",
+        "meaning":  "部分",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "smart",
+        "phonetic":  "smɑ:rt",
+        "type":  "adj.",
+        "meaning":  "聪明的",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "start",
+        "phonetic":  "stɑ:rt",
+        "type":  "v.",
+        "meaning":  "开始",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "pirate",
+        "phonetic":  "ˈpaɪrət",
+        "type":  "n.",
+        "meaning":  "海盗",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "far from",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "远离",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "in the garden",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在花园里",
+        "example":  "",
+        "list":  "List21"
+    },
+    {
+        "word":  "T-shirt",
+        "phonetic":  "ˈti : ʃ3 :rt",
+        "type":  "n.",
+        "meaning":  "T 恤衫 ，短袖圆领汗衫",
+        "example":  "How much is the T-shirt?",
+        "list":  "List22"
+    },
+    {
+        "word":  "hurt",
+        "phonetic":  "h3 :t",
+        "type":  "v.",
+        "meaning":  "伤害；弄痛；使伤心",
+        "example":  "Be careful not to get hurt while playing sports.",
+        "list":  "List22"
+    },
+    {
+        "word":  "hamburger",
+        "phonetic":  "ˈhæmb3 :rɡər",
+        "type":  "n.",
+        "meaning":  "汉堡包",
+        "example":  "I\u0027d like to order a hamburger and an orange juice.",
+        "list":  "List22"
+    },
+    {
+        "word":  "nurse",
+        "phonetic":  "n3 :rs",
+        "type":  "n.",
+        "meaning":  "护士",
+        "example":  "She had spent 29 years as a nurse.",
+        "list":  "List22"
+    },
+    {
+        "word":  "skirt",
+        "phonetic":  "sk3 :rt",
+        "type":  "n.",
+        "meaning":  "半身裙",
+        "example":  "I need a top to go with this skirt.",
+        "list":  "List22"
+    },
+    {
+        "word":  "turkey",
+        "phonetic":  "ˈt3 :rki",
+        "type":  "n.",
+        "meaning":  "火鸡；土耳其（Turkey）",
+        "example":  "Will you stuff the turkey and shove it in the oven for me?",
+        "list":  "List22"
+    },
+    {
+        "word":  "bird",
+        "phonetic":  "b3 :rd",
+        "type":  "n.",
+        "meaning":  "鸟类；小鸟",
+        "example":  "She dances like a bird, so graceful and light.",
+        "list":  "List22"
+    },
+    {
+        "word":  "sir",
+        "phonetic":  "s3 :r",
+        "type":  "n.",
+        "meaning":  "先生；  长官",
+        "example":  "Good morning, sir. Can I help you?",
+        "list":  "List22"
+    },
+    {
+        "word":  "a pair of boots",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一双靴子",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "a sweater",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一件毛衣",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "a hat",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一顶帽子",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "get hurt",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "受伤",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "fries",
+        "phonetic":  "fraɪz",
+        "type":  "n.",
+        "meaning":  "薯条",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "s feelings",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "伤害到某人的感情",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "pizza",
+        "phonetic":  "ˈpi:tsə",
+        "type":  "n.",
+        "meaning":  "披萨",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "hot dog",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "热狗",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "profession",
+        "phonetic":  "prəˈfeʃ(ə)n",
+        "type":  "n.",
+        "meaning":  "职业",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "Thanksgiving Day",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "感恩节",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "early bird",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "早起的人",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "like a bird",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "轻快地",
+        "example":  "",
+        "list":  "List22"
+    },
+    {
+        "word":  "shorts",
+        "phonetic":  "ʃɔ :rts",
+        "type":  "n.",
+        "meaning":  "短裤",
+        "example":  "He wears a pair of shorts.",
+        "list":  "List23"
+    },
+    {
+        "word":  "board",
+        "phonetic":  "bɔ :rd",
+        "type":  "n.",
+        "meaning":  "木板； 布告牌；v. 上（船；火车；飞机）",
+        "example":  "Let\u0027s get on board quickly!",
+        "list":  "List23"
+    },
+    {
+        "word":  "sport",
+        "phonetic":  "spɔ :rt",
+        "type":  "n.",
+        "meaning":  "体育运动",
+        "example":  "How often does your school hold a sports meet?",
+        "list":  "List23"
+    },
+    {
+        "word":  "borrow",
+        "phonetic":  "ˈbɔ :roʊ",
+        "type":  "v.",
+        "meaning":  "（向别人）借用",
+        "example":  "May I borrow your newspaper?",
+        "list":  "List23"
+    },
+    {
+        "word":  "forest",
+        "phonetic":  "ˈfɔ :rɪst",
+        "type":  "n.",
+        "meaning":  "森林",
+        "example":  "One tree does not make a forest.",
+        "list":  "List23"
+    },
+    {
+        "word":  "foreign",
+        "phonetic":  "ˈfɔ :rən",
+        "type":  "adj.",
+        "meaning":  "外国的",
+        "example":  "Learning a foreign language can broaden your horizons.",
+        "list":  "List23"
+    },
+    {
+        "word":  "fork",
+        "phonetic":  "fɔ :rk",
+        "type":  "n.",
+        "meaning":  "餐叉",
+        "example":  "Do you know how to use forks and knives?",
+        "list":  "List23"
+    },
+    {
+        "word":  "trousers",
+        "phonetic":  "ˈtraʊzərz",
+        "type":  "n.",
+        "meaning":  "长裤",
+        "example":  "",
+        "list":  "List23"
+    },
+    {
+        "word":  "pants",
+        "phonetic":  "pænts",
+        "type":  "n.",
+        "meaning":  "裤子",
+        "example":  "",
+        "list":  "List23"
+    },
+    {
+        "word":  "on board",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "上船",
+        "example":  "",
+        "list":  "List23"
+    },
+    {
+        "word":  "for",
+        "phonetic":  "fɔ:r;fər",
+        "type":  "prep.",
+        "meaning":  "为了",
+        "example":  "",
+        "list":  "List23"
+    },
+    {
+        "word":  "go for",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "积极寻找某物",
+        "example":  "",
+        "list":  "List23"
+    },
+    {
+        "word":  "call for",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "要求",
+        "example":  "",
+        "list":  "List23"
+    },
+    {
+        "word":  "lend",
+        "phonetic":  "lend",
+        "type":  "v.",
+        "meaning":  "借给",
+        "example":  "",
+        "list":  "List23"
+    },
+    {
+        "word":  "knife",
+        "phonetic":  "naɪf",
+        "type":  "n.",
+        "meaning":  "刀",
+        "example":  "",
+        "list":  "List23"
+    },
+    {
+        "word":  "doctor",
+        "phonetic":  "ˈdɑ :ktə r",
+        "type":  "n.",
+        "meaning":  "医生",
+        "example":  "Ruth, I\u0027ve got this terrible cold and I have to see a doctor.",
+        "list":  "List24"
+    },
+    {
+        "word":  "camera",
+        "phonetic":  "ˈkæm(ə)rə",
+        "type":  "n.",
+        "meaning":  "相机",
+        "example":  "Are you prepared to tell your story on camera?",
+        "list":  "List24"
+    },
+    {
+        "word":  "eraser",
+        "phonetic":  "ɪˈreɪsər",
+        "type":  "n.",
+        "meaning":  "橡皮擦",
+        "example":  "On the teacher\u0027s desk there\u0027s an eraser.",
+        "list":  "List24"
+    },
+    {
+        "word":  "computer",
+        "phonetic":  "kəmˈ pju :tər",
+        "type":  "n.",
+        "meaning":  "电脑",
+        "example":  "My son spends hours playing computer games every day.",
+        "list":  "List24"
+    },
+    {
+        "word":  "fever",
+        "phonetic":  "ˈfi :vər",
+        "type":  "n.",
+        "meaning":  "发烧",
+        "example":  "Your forehead is burning. Have you got a fever?",
+        "list":  "List24"
+    },
+    {
+        "word":  "answer",
+        "phonetic":  "ˈænsθr",
+        "type":  "v./n.",
+        "meaning":  "回答",
+        "example":  "This could be the answer to all our problems.",
+        "list":  "List24"
+    },
+    {
+        "word":  "forward",
+        "phonetic":  "ˈfo :rwθrd",
+        "type":  "adv.",
+        "meaning":  "向前",
+        "example":  "He takes two steps forward.",
+        "list":  "List24"
+    },
+    {
+        "word":  "dancer",
+        "phonetic":  "ˈdænsə r",
+        "type":  "n.",
+        "meaning":  "舞者",
+        "example":  "Who is your favorite dancer?",
+        "list":  "List24"
+    },
+    {
+        "word":  "hospital",
+        "phonetic":  "ˈhɑ:spɪt(ə)l",
+        "type":  "n.",
+        "meaning":  "医院",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "go to hospital",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "住院",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "go to a doctor",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "看病",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "rubber",
+        "phonetic":  "ˈrʌbər",
+        "type":  "n.",
+        "meaning":  "橡皮擦",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "ruler",
+        "phonetic":  "ˈru:lər",
+        "type":  "n.",
+        "meaning":  "尺子",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "have a fever",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "发烧",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "high fever",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "高烧",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "question",
+        "phonetic":  "ˈkwestʃən",
+        "type":  "n.",
+        "meaning":  "问题",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "reply",
+        "phonetic":  "rɪˈplaɪ",
+        "type":  "v.",
+        "meaning":  "回答",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "backward",
+        "phonetic":  "ˈbækwərd",
+        "type":  "adv.",
+        "meaning":  "向后",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "northward",
+        "phonetic":  "ˈnɔ:rθwərd",
+        "type":  "adv.",
+        "meaning":  "向北",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "southward",
+        "phonetic":  "ˈsaʊθwərd",
+        "type":  "adv.",
+        "meaning":  "向南",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "eastward",
+        "phonetic":  "ˈi:stwərd",
+        "type":  "adv.",
+        "meaning":  "向东",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "westward",
+        "phonetic":  "ˈwestwərd",
+        "type":  "adv.",
+        "meaning":  "向西",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "worker",
+        "phonetic":  "ˈwɜ:rkər",
+        "type":  "n.",
+        "meaning":  "工人",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "writer",
+        "phonetic":  "ˈraɪtər",
+        "type":  "n.",
+        "meaning":  "作者",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "waiter",
+        "phonetic":  "ˈweɪtər",
+        "type":  "n.",
+        "meaning":  "服务员",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "painter",
+        "phonetic":  "ˈpeɪntər",
+        "type":  "n.",
+        "meaning":  "画家",
+        "example":  "",
+        "list":  "List24"
+    },
+    {
+        "word":  "small",
+        "phonetic":  "smɔ :l",
+        "type":  "adj.",
+        "meaning":  "小的； 少的",
+        "example":  "That dress is too small for you. He made a little mistake. I need a small bag for traveling.",
+        "list":  "List25"
+    },
+    {
+        "word":  "call",
+        "phonetic":  "kɔ :l",
+        "type":  "n.",
+        "meaning":  "喊叫；打电话；v.  喊叫；  把...叫作；（给... ）打电话",
+        "example":  "When you need help you can call  police at 110.",
+        "list":  "List25"
+    },
+    {
+        "word":  "wall",
+        "phonetic":  "wɔ :l",
+        "type":  "n.",
+        "meaning":  "墙",
+        "example":  "I went to the Great Wall with some Chinese friends.",
+        "list":  "List25"
+    },
+    {
+        "word":  "fall",
+        "phonetic":  "fɔ :l",
+        "type":  "v.",
+        "meaning":  "落下；n.  秋天",
+        "example":  "I usually fall asleep within minutes of getting into bed.",
+        "list":  "List25"
+    },
+    {
+        "word":  "hall",
+        "phonetic":  "hɔ :l",
+        "type":  "n.",
+        "meaning":  "大厅；会堂；礼堂",
+        "example":  "Let\u0027s meet at the dining hall for lunch.",
+        "list":  "List25"
+    },
+    {
+        "word":  "mall",
+        "phonetic":  "mɔ :l",
+        "type":  "n.",
+        "meaning":  "购物中心",
+        "example":  "There‘s a good sports shop in the shopping mall.",
+        "list":  "List25"
+    },
+    {
+        "word":  "little",
+        "phonetic":  "ˈlɪt(ə)l",
+        "type":  "adj.",
+        "meaning":  "小的",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "wrong number",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "打错了",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "the Great Wall",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "长城",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "fall off",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "跌落",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "fall down",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "摔倒",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "talk",
+        "phonetic":  "tɔ:k",
+        "type":  "v.",
+        "meaning":  "说话",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "about sth",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "和某人讨论某事",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "in the hall",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在大厅里",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "dining hall",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "餐厅",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "shopping mall",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "购物中心",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "go for a walk",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "散步",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "walk to school",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "走路去上学",
+        "example":  "",
+        "list":  "List25"
+    },
+    {
+        "word":  "plate",
+        "phonetic":  "pleɪt",
+        "type":  "n.",
+        "meaning":  "盘子",
+        "example":  "I ordered a plate of spaghetti at the restaurant.",
+        "list":  "List26"
+    },
+    {
+        "word":  "flag",
+        "phonetic":  "flæɡ",
+        "type":  "n.",
+        "meaning":  "旗子",
+        "example":  "The national flag was raised at the opening ceremony of the Olympic Games （",
+        "list":  "List26"
+    },
+    {
+        "word":  "plant",
+        "phonetic":  "plænt",
+        "type":  "v.",
+        "meaning":  "种植；n.  植物；工厂",
+        "example":  "Plant these shrubs（",
+        "list":  "List26"
+    },
+    {
+        "word":  "please",
+        "phonetic":  "pli :z",
+        "type":  "int.",
+        "meaning":  "(表示感叹词) 请；好吗",
+        "example":  "Please, sir, can I open a window?",
+        "list":  "List26"
+    },
+    {
+        "word":  "glove",
+        "phonetic":  "ɡlΛv",
+        "type":  "n.",
+        "meaning":  "手套",
+        "example":  "He put on his baseball glove and headed to the field.",
+        "list":  "List26"
+    },
+    {
+        "word":  "floor",
+        "phonetic":  "flɔ :r",
+        "type":  "n.",
+        "meaning":  "地板；楼层",
+        "example":  "On the first floor, there is a living room, a dining room, a kitchen, and a laundry.",
+        "list":  "List26"
+    },
+    {
+        "word":  "place",
+        "phonetic":  "pleɪs",
+        "type":  "n.",
+        "meaning":  "地方；v.  放置",
+        "example":  "The wedding will take place in a beautiful garden. Place the book on the shelf.",
+        "list":  "List26"
+    },
+    {
+        "word":  "a plate of",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一盘",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "national flag",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "国旗",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "white flag",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "白旗",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "red flag",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "红旗",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "queue up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "排好队",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "clean up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "打扫干净",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "the ground floor",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "第一层",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "all",
+        "phonetic":  "ɔː l",
+        "type":  "det.",
+        "meaning":  "（表示限定词",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "all right",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "安全的",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "s all right",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "回答对方道谢或者道歉",
+        "example":  "",
+        "list":  "List26"
+    },
+    {
+        "word":  "present",
+        "phonetic":  "ˈprez(ə)nt",
+        "type":  "n.",
+        "meaning":  "礼物；现在",
+        "example":  "At present, I am studying for my exams.",
+        "list":  "List27"
+    },
+    {
+        "word":  "grass",
+        "phonetic":  "ɡræs",
+        "type":  "n.",
+        "meaning":  "草",
+        "example":  "You\u0027re not supposed to walk on the grass.",
+        "list":  "List27"
+    },
+    {
+        "word":  "draw",
+        "phonetic":  "drɔ :",
+        "type":  "v.",
+        "meaning":  "画；拉；拖",
+        "example":  "The children love to draw and colour.",
+        "list":  "List27"
+    },
+    {
+        "word":  "cry",
+        "phonetic":  "kraɪ",
+        "type":  "v.",
+        "meaning":  "哭；喊叫",
+        "example":  "If you can not cry for help or run away, give the criminal your money to save your own life.",
+        "list":  "List27"
+    },
+    {
+        "word":  "shout",
+        "phonetic":  "ʃaʊt",
+        "type":  "v.",
+        "meaning":  "喊叫",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "breath",
+        "phonetic":  "breθ",
+        "type":  "n.",
+        "meaning":  "呼吸，气息",
+        "example":  "The beauty of the scenery will take your breath away.",
+        "list":  "List27"
+    },
+    {
+        "word":  "fridge",
+        "phonetic":  "frɪd3",
+        "type":  "n.",
+        "meaning":  "冰箱",
+        "example":  "There\u0027s nothing much in the fridge.",
+        "list":  "List27"
+    },
+    {
+        "word":  "protect",
+        "phonetic":  "prθˈtekt",
+        "type":  "v.",
+        "meaning":  "保护",
+        "example":  "A helmet will help protect you from a head injury.",
+        "list":  "List27"
+    },
+    {
+        "word":  "at present",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "目前",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "for the present",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "暂且",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "keep off the grass",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "请勿践踏草地",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "on the grass",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在草地上",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "cry for help",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "求助",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "breathe",
+        "phonetic":  "bri:ð",
+        "type":  "v.",
+        "meaning":  "呼吸",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "breathe in",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "吸气",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "breathe out",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "呼气",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "s breath away",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "使某人大吃一惊",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "protect from",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "免受",
+        "example":  "",
+        "list":  "List27"
+    },
+    {
+        "word":  "chopsticks",
+        "phonetic":  "ˈtʃɑ :pstɪ ks",
+        "type":  "n.",
+        "meaning":  "筷子",
+        "example":  "Could you please pass me a pair of chopsticks?",
+        "list":  "List28"
+    },
+    {
+        "word":  "sweep",
+        "phonetic":  "swi :p",
+        "type":  "v.",
+        "meaning":  "打扫",
+        "example":  "Chinese people would sweep out their houses before the Spring Festival.",
+        "list":  "List28"
+    },
+    {
+        "word":  "swing",
+        "phonetic":  "swɪ ŋ",
+        "type":  "v.",
+        "meaning":  "摇摆；摆动",
+        "example":  "His arms swung as he walked.",
+        "list":  "List28"
+    },
+    {
+        "word":  "sticker",
+        "phonetic":  "ˈstɪkə r",
+        "type":  "n.",
+        "meaning":  "粘贴标签；贴纸",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "spoon",
+        "phonetic":  "spu :n",
+        "type":  "n.",
+        "meaning":  "勺子",
+        "example":  "She used a tea spoon to stir her tea.",
+        "list":  "List28"
+    },
+    {
+        "word":  "spend",
+        "phonetic":  "spend",
+        "type":  "v.",
+        "meaning":  "花费；度过",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "swimsuit",
+        "phonetic":  "ˈswɪmsu :t",
+        "type":  "n.",
+        "meaning":  "游泳衣（女式）",
+        "example":  "The swimsuit costs more than five hundred dollars.",
+        "list":  "List28"
+    },
+    {
+        "word":  "use",
+        "phonetic":  "ju:z",
+        "type":  "v.",
+        "meaning":  "使用",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "pass",
+        "phonetic":  "pæs",
+        "type":  "v.",
+        "meaning":  "通过",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "stir",
+        "phonetic":  "stɜ:r",
+        "type":  "v.",
+        "meaning":  "搅拌",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "clean-up day",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "大扫除日",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "sweep the floor",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "扫地",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "empty the trash",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "倒垃圾",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "clean the window",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "擦窗子",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "cost",
+        "phonetic":  "kɔ:st",
+        "type":  "v.",
+        "meaning":  "花费",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "pay",
+        "phonetic":  "peɪ",
+        "type":  "v.",
+        "meaning":  "花费",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "take",
+        "phonetic":  "teɪk",
+        "type":  "v.",
+        "meaning":  "花费",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "swimming goggles",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "泳镜",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "swim ring",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "游泳圈",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "swimming cap",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "泳帽",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "doing sth",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "开始做某事",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "start with sth",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "以",
+        "example":  "",
+        "list":  "List28"
+    },
+    {
+        "word":  "playground",
+        "phonetic":  "ˈpleɪɡraʊnd",
+        "type":  "n.",
+        "meaning":  "操场",
+        "example":  "In summer, many kids will go to the playground in that park.",
+        "list":  "List29"
+    },
+    {
+        "word":  "parent",
+        "phonetic":  "ˈperənt",
+        "type":  "n.",
+        "meaning":  "父母",
+        "example":  "Parents are the most important people in a child\u0027s world.",
+        "list":  "List29"
+    },
+    {
+        "word":  "strong",
+        "phonetic":  "strɔ : ŋ",
+        "type":  "adj.",
+        "meaning":  "强壮的；坚固的；强烈的",
+        "example":  "He\u0027s strong enough to lift a car!",
+        "list":  "List29"
+    },
+    {
+        "word":  "young",
+        "phonetic":  "jΛ ŋ",
+        "type":  "adj.",
+        "meaning":  "幼小的；年轻的",
+        "example":  "This is a book for young and old.",
+        "list":  "List29"
+    },
+    {
+        "word":  "bank",
+        "phonetic":  "bæŋk",
+        "type":  "n.",
+        "meaning":  "银行",
+        "example":  "I must go to the bank and get some money.",
+        "list":  "List29"
+    },
+    {
+        "word":  "eggplant",
+        "phonetic":  "ˈeɡplænt",
+        "type":  "n.",
+        "meaning":  "茄子",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "underground",
+        "phonetic":  "ˌʌndərˈɡraʊnd",
+        "type":  "n.",
+        "meaning":  "地下",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "background",
+        "phonetic":  "ˈbækɡraʊnd",
+        "type":  "n.",
+        "meaning":  "背景",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "slide",
+        "phonetic":  "slaɪd",
+        "type":  "n.",
+        "meaning":  "滑梯",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "my parent",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "我的父亲或母亲",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "my parents",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "我的父母",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "single parent",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "单亲家庭",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "family",
+        "phonetic":  "ˈfæməli",
+        "type":  "n.",
+        "meaning":  "家庭",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "grandparent",
+        "phonetic":  "ˈɡrænperənt",
+        "type":  "n.",
+        "meaning":  "祖父母",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "grandfather",
+        "phonetic":  "ˈɡrænfɑ:ðər",
+        "type":  "n.",
+        "meaning":  "爷爷",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "grandmother",
+        "phonetic":  "ˈɡrænmʌðər",
+        "type":  "n.",
+        "meaning":  "奶奶",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "father",
+        "phonetic":  "ˈfɑ:ðər",
+        "type":  "n.",
+        "meaning":  "父亲",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "mother",
+        "phonetic":  "ˈmʌðər",
+        "type":  "n.",
+        "meaning":  "母亲",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "around",
+        "phonetic":  "əˈraʊnd",
+        "type":  "adv.",
+        "meaning":  "/prep.(表示介词",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "how long",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "多长时间",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "the young",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "年轻人",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "the old",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "老年人",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "banker",
+        "phonetic":  "ˈbæŋkər",
+        "type":  "n.",
+        "meaning":  "银行家",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "bank account",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "银行账户",
+        "example":  "",
+        "list":  "List29"
+    },
+    {
+        "word":  "throw",
+        "phonetic":  "θroʊ",
+        "type":  "v.",
+        "meaning":  "投；掷；扔",
+        "example":  "I need to throw away these old magazines.",
+        "list":  "List30"
+    },
+    {
+        "word":  "feather",
+        "phonetic":  "ˈfeðə r",
+        "type":  "n.",
+        "meaning":  "羽毛；v.  长羽毛",
+        "example":  "The chick will soon feather out.",
+        "list":  "List30"
+    },
+    {
+        "word":  "rather",
+        "phonetic":  "ˈræðə r",
+        "type":  "adv.",
+        "meaning":  "相当；宁愿",
+        "example":  "I would rather stay at home and read rather than go to the party.",
+        "list":  "List30"
+    },
+    {
+        "word":  "gather",
+        "phonetic":  "ˈɡæðə r",
+        "type":  "v.",
+        "meaning":  "聚集",
+        "example":  "Can you all gather round ? I\u0027ve got something to tell you.",
+        "list":  "List30"
+    },
+    {
+        "word":  "leather",
+        "phonetic":  "ˈleðə r",
+        "type":  "n.",
+        "meaning":  "皮革",
+        "example":  "For men a black leather shoe is all you need to wear.",
+        "list":  "List30"
+    },
+    {
+        "word":  "then",
+        "phonetic":  "ðen",
+        "type":  "adv.",
+        "meaning":  "当时",
+        "example":  "Now and then, I like to take a day off and just relax. I haven\u0027t seen her since then.",
+        "list":  "List30"
+    },
+    {
+        "word":  "lightly",
+        "phonetic":  "ˈlaɪtli",
+        "type":  "adv.",
+        "meaning":  "轻轻地",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "stone",
+        "phonetic":  "stoʊ n",
+        "type":  "n.",
+        "meaning":  "石头",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "would rather",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "宁愿",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "would rather do",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "宁愿做",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "rather than",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "而不是",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "gather around",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "聚在一起",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "gather information",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "收集信息",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "gather from",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "从",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "whether or not",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "是否",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "leather shoe",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "皮鞋",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "leather jacket",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "皮夹克",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "leather bag",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "皮包",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "though",
+        "phonetic":  "ðoʊ",
+        "type":  "conj.",
+        "meaning":  "虽然",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "thought",
+        "phonetic":  "θɔ:t",
+        "type":  "n.",
+        "meaning":  "想法",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "through",
+        "phonetic":  "θru:",
+        "type":  "prep.",
+        "meaning":  "穿过",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "first",
+        "phonetic":  "fɜ:rst",
+        "type":  "adv.",
+        "meaning":  "第一",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "next",
+        "phonetic":  "nekst",
+        "type":  "adv.",
+        "meaning":  "随后",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "finally",
+        "phonetic":  "ˈfaɪnəli",
+        "type":  "adv.",
+        "meaning":  "终于",
+        "example":  "",
+        "list":  "List30"
+    },
+    {
+        "word":  "rubbish",
+        "phonetic":  "ˈrΛbɪʃ",
+        "type":  "n.",
+        "meaning":  "垃圾；废物",
+        "example":  "The streets were littered with rubbish.",
+        "list":  "List31"
+    },
+    {
+        "word":  "fashion",
+        "phonetic":  "ˈfæʃ(ə)n",
+        "type":  "n.",
+        "meaning":  "时装；流行式样",
+        "example":  "She\u0027s going to watch a fashion show tomorrow evening.",
+        "list":  "List31"
+    },
+    {
+        "word":  "fresh",
+        "phonetic":  "freʃ",
+        "type":  "adj.",
+        "meaning":  "新鲜的；不同的；新颖的",
+        "example":  "It is said that the world would run out of fresh water in 2050.",
+        "list":  "List31"
+    },
+    {
+        "word":  "dish",
+        "phonetic":  "dɪʃ",
+        "type":  "n.",
+        "meaning":  "碟；盘；菜肴",
+        "example":  "The kids offered to do the dishes.",
+        "list":  "List31"
+    },
+    {
+        "word":  "shelf",
+        "phonetic":  "ʃelf",
+        "type":  "n.",
+        "meaning":  "架子",
+        "example":  "I need to buy a new book shelf to organize my growing collection of books.",
+        "list":  "List31"
+    },
+    {
+        "word":  "shave",
+        "phonetic":  "ʃeɪv",
+        "type":  "v.",
+        "meaning":  "剃；刮去；n.  剃须",
+        "example":  "Charles decided to shave off his beard.",
+        "list":  "List31"
+    },
+    {
+        "word":  "share",
+        "phonetic":  "ʃer",
+        "type":  "v.",
+        "meaning":  "分享",
+        "example":  "I love to cook and share with friends.",
+        "list":  "List31"
+    },
+    {
+        "word":  "shy",
+        "phonetic":  "ʃaɪ",
+        "type":  "adj.",
+        "meaning":  "害羞的",
+        "example":  "She was quiet and shy.",
+        "list":  "List31"
+    },
+    {
+        "word":  "recyclable waste",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "可回收物",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "food waste",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "厨余垃圾",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "hazardous waste",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "有害垃圾",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "recycle",
+        "phonetic":  "ˌri:ˈsaɪk(ə)l",
+        "type":  "v.",
+        "meaning":  "回收利用",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "reuse",
+        "phonetic":  "ˌri:ˈju:z",
+        "type":  "v.",
+        "meaning":  "再次使用",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "rubbish bag",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "垃圾袋",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "rubbish bin",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "垃圾桶",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "fashion show",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "时装表演",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "runway",
+        "phonetic":  "ˈrΛnweɪ",
+        "type":  "n.",
+        "meaning":  "T台",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "model",
+        "phonetic":  "ˈmɑ:d(ə)l",
+        "type":  "n.",
+        "meaning":  "模特",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "a dish of",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一盘",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "the dishes",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "全部餐具",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "wash the dishes",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "洗碗",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "furniture",
+        "phonetic":  "ˈf3:rnɪtʃər",
+        "type":  "n.",
+        "meaning":  "家具",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "bookshelf",
+        "phonetic":  "ˈbukʃelf",
+        "type":  "n.",
+        "meaning":  "书架",
+        "example":  "",
+        "list":  "List31"
+    },
+    {
+        "word":  "who",
+        "phonetic":  "hu :",
+        "type":  "pron.",
+        "meaning":  "谁",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "what",
+        "phonetic":  "wΛt",
+        "type":  "pron.",
+        "meaning":  "什么；怎么样",
+        "example":  "A: I\u0027m in Class 1.",
+        "list":  "List32"
+    },
+    {
+        "word":  "when",
+        "phonetic":  "wen",
+        "type":  "pron.",
+        "meaning":  "什么时候，何时；当...的时候",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "whose",
+        "phonetic":  "hu :z",
+        "type":  "pron.",
+        "meaning":  "谁的",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "which",
+        "phonetic":  "wɪtʃ",
+        "type":  "pron.",
+        "meaning":  "哪一个",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "why",
+        "phonetic":  "waɪ",
+        "type":  "pron.",
+        "meaning":  "为什么",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "where",
+        "phonetic":  "wer",
+        "type":  "pron.",
+        "meaning":  "在哪里；哪里",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "wheel",
+        "phonetic":  "wi :l",
+        "type":  "n.",
+        "meaning":  "轮子；车轮",
+        "example":  "The wheel turned slowly.",
+        "list":  "List32"
+    },
+    {
+        "word":  "anywhere",
+        "phonetic":  "ˈeniwer",
+        "type":  "adv.",
+        "meaning":  "在任何地方",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "everywhere",
+        "phonetic":  "ˈevriwer",
+        "type":  "adv.",
+        "meaning":  "到处",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "because",
+        "phonetic":  "bɪˈkəz;bɪˈko:z",
+        "type":  "conj.",
+        "meaning":  "因为",
+        "example":  "",
+        "list":  "List32"
+    },
+    {
+        "word":  "cheese",
+        "phonetic":  "tʃi :z",
+        "type":  "n.",
+        "meaning":  "奶酪",
+        "example":  "Everybody, look at here and say cheese.",
+        "list":  "List33"
+    },
+    {
+        "word":  "chip",
+        "phonetic":  "tʃɪp",
+        "type":  "n.",
+        "meaning":  "薯条",
+        "example":  "All main courses are served with chips or baked potato.",
+        "list":  "List33"
+    },
+    {
+        "word":  "rich",
+        "phonetic":  "rɪtʃ",
+        "type":  "adj.",
+        "meaning":  "富有的；有钱的",
+        "example":  "The rich man donated a large sum of money to the charity.",
+        "list":  "List33"
+    },
+    {
+        "word":  "catch",
+        "phonetic":  "kætʃ",
+        "type":  "v.",
+        "meaning":  "接住；抓住；赶上",
+        "example":  "I need to run faster to catch up with my friend.",
+        "list":  "List33"
+    },
+    {
+        "word":  "watch",
+        "phonetic":  "wɑ :tʃ",
+        "type":  "v.",
+        "meaning":  "看；观看；n. 手表",
+        "example":  "They watch all the live matches.",
+        "list":  "List33"
+    },
+    {
+        "word":  "match",
+        "phonetic":  "mætʃ",
+        "type":  "n.",
+        "meaning":  "比赛，竞赛；火柴；v.  使相配，成对",
+        "example":  "Jo and Ian are a perfect match for each other.",
+        "list":  "List33"
+    },
+    {
+        "word":  "fetch",
+        "phonetic":  "fetʃ",
+        "type":  "v.",
+        "meaning":  "取来",
+        "example":  "Could you fetch me my bag?",
+        "list":  "List33"
+    },
+    {
+        "word":  "kitchen",
+        "phonetic":  "ˈkɪtʃɪn",
+        "type":  "n.",
+        "meaning":  "厨房",
+        "example":  "I can smell something burning  in the  kitchen.",
+        "list":  "List33"
+    },
+    {
+        "word":  "cheese burger",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "奶酪汉堡",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "cheese cake",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "奶酪蛋糕",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "cheese sandwich",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "奶酪三明治",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "say cheese",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "说茄子",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "catch a bus",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "赶公交车",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "catch a cold",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "感冒",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "catch up with sb",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "追上",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "catch you later",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一会见",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "perfect match",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "完美搭配",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "living room",
+        "phonetic":  "ˈlɪvɪŋru:m",
+        "type":  "n.",
+        "meaning":  "客厅",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "balcony",
+        "phonetic":  "ˈbælkəni",
+        "type":  "n.",
+        "meaning":  "阳台",
+        "example":  "",
+        "list":  "List33"
+    },
+    {
+        "word":  "photo",
+        "phonetic":  "ˈfoʊtoʊ",
+        "type":  "n.",
+        "meaning":  "照片",
+        "example":  "I want to take a photo of this beautiful scenery.",
+        "list":  "List34"
+    },
+    {
+        "word":  "dolphin",
+        "phonetic":  "ˈdɑ :lfɪ n",
+        "type":  "n.",
+        "meaning":  "海豚",
+        "example":  "A dolphin leaps out of the water.",
+        "list":  "List34"
+    },
+    {
+        "word":  "elephant",
+        "phonetic":  "ˈelɪfə nt",
+        "type":  "n.",
+        "meaning":  "大象",
+        "example":  "The elephant is the largest living land animal.",
+        "list":  "List34"
+    },
+    {
+        "word":  "physical",
+        "phonetic":  "ˈfɪzɪk(ə)l",
+        "type":  "adj.",
+        "meaning":  "身体的；肉体的",
+        "example":  "After two yearsı physical training, he was stronger and healthier.",
+        "list":  "List34"
+    },
+    {
+        "word":  "physics",
+        "phonetic":  "ˈfɪzɪks",
+        "type":  "n.",
+        "meaning":  "物理学",
+        "example":  "Physics is my favorite subject.",
+        "list":  "List34"
+    },
+    {
+        "word":  "microphone",
+        "phonetic":  "ˈmaɪkrəfoʊ n",
+        "type":  "n.",
+        "meaning":  "麦克风",
+        "example":  "My hand shook so much that | could hardly hold the microphone.",
+        "list":  "List34"
+    },
+    {
+        "word":  "family photo",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "全家福",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "wedding photo",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "结婚照",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "ID photo",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "证件照",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "souvenir picture",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "旅游纪念照",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "beak",
+        "phonetic":  "bi:k",
+        "type":  "n.",
+        "meaning":  "鸟嘴",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "flippers",
+        "phonetic":  "ˈflɪpərz",
+        "type":  "n.",
+        "meaning":  "鳍状肢",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "trunk",
+        "phonetic":  "trΛŋ k",
+        "type":  "n.",
+        "meaning":  "象鼻",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "tusk",
+        "phonetic":  "tΛsk",
+        "type":  "n.",
+        "meaning":  "象牙",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "physicist",
+        "phonetic":  "ˈfɪzɪsɪst",
+        "type":  "n.",
+        "meaning":  "物理学家",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "physician",
+        "phonetic":  "fɪˈzɪʃ(ə)n",
+        "type":  "n.",
+        "meaning":  "医生",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "microcosm",
+        "phonetic":  "ˈmaɪkroukɑ:zəm",
+        "type":  "n.",
+        "meaning":  "小宇宙",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "microscope",
+        "phonetic":  "ˈmaɪkrəskoup",
+        "type":  "n.",
+        "meaning":  "显微镜",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "microwave",
+        "phonetic":  "ˈmaɪkrəweɪv",
+        "type":  "n.",
+        "meaning":  "微波炉",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "telephone",
+        "phonetic":  "ˈtelɪfoun",
+        "type":  "n.",
+        "meaning":  "电话",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "earphone",
+        "phonetic":  "ˈɪrˌfoun",
+        "type":  "n.",
+        "meaning":  "耳机",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "smartphone",
+        "phonetic":  "ˈsmɑ:rtfoun",
+        "type":  "n.",
+        "meaning":  "智能手机",
+        "example":  "",
+        "list":  "List34"
+    },
+    {
+        "word":  "ticket",
+        "phonetic":  "ˈtɪkɪt",
+        "type":  "n.",
+        "meaning":  "票；入场券",
+        "example":  "I need to go to the ticket office to buy a train ticket.",
+        "list":  "List35"
+    },
+    {
+        "word":  "pocket",
+        "phonetic":  "ˈ pɑ :kɪt",
+        "type":  "n.",
+        "meaning":  "口袋",
+        "example":  "Where did I put the keys? Oh, yes—in my pocket!",
+        "list":  "List35"
+    },
+    {
+        "word":  "stick",
+        "phonetic":  "stɪ k",
+        "type":  "n.",
+        "meaning":  "枝条；木棍；v.  粘贴",
+        "example":  "She gets around with the help of a stick.",
+        "list":  "List35"
+    },
+    {
+        "word":  "check",
+        "phonetic":  "tʃek",
+        "type":  "v.",
+        "meaning":  "检查；给...打勾",
+        "example":  "I need to check out of the hotel before noon.",
+        "list":  "List35"
+    },
+    {
+        "word":  "quick",
+        "phonetic":  "kwɪ k",
+        "type":  "adj.",
+        "meaning":  "快的；迅速的",
+        "example":  "I took a quick look at the map. I took a quick look at the map. The kids were quick to learn.",
+        "list":  "List35"
+    },
+    {
+        "word":  "truck",
+        "phonetic":  "trΛ k",
+        "type":  "n.",
+        "meaning":  "卡车",
+        "example":  "Sacks were being loaded onto the truck.",
+        "list":  "List35"
+    },
+    {
+        "word":  "ticket office",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "售票处",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "ticket price",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "票价",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "return ticket",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "返程票",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "platform",
+        "phonetic":  "ˈplætfɔ:rm",
+        "type":  "n.",
+        "meaning":  "平台",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "return ticket to",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "到",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "s pocket",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在口袋里",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "pocket money",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "零花钱",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "pocket dictionary",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "袖珍字典",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "stick A on B",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "把",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "checklist",
+        "phonetic":  "ˈtʃeklɪst",
+        "type":  "n.",
+        "meaning":  "清单",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "fast",
+        "phonetic":  "fæst",
+        "type":  "adj.",
+        "meaning":  "/adv. 快的",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "hurry up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "快点",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "come on",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "快点",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "quickly",
+        "phonetic":  "ˈkwɪkli",
+        "type":  "adv.",
+        "meaning":  "快速地",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "load",
+        "phonetic":  "loʊd",
+        "type":  "v.",
+        "meaning":  "负载",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "unload",
+        "phonetic":  "ˌʌnˈloʊd",
+        "type":  "v.",
+        "meaning":  "卸载",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "lock",
+        "phonetic":  "lɑ:k",
+        "type":  "n.",
+        "meaning":  "/v. 锁",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "lock up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "把",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "lock in",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "锁定",
+        "example":  "",
+        "list":  "List35"
+    },
+    {
+        "word":  "window",
+        "phonetic":  "ˈwɪndoʊ",
+        "type":  "n.",
+        "meaning":  "窗户",
+        "example":  "On sunny days, you can enjoy the sunshine through the window.",
+        "list":  "List36"
+    },
+    {
+        "word":  "road",
+        "phonetic":  "roʊd",
+        "type":  "n.",
+        "meaning":  "道路",
+        "example":  "It would be better to transport the goods by rail rather than by road.",
+        "list":  "List36"
+    },
+    {
+        "word":  "grow",
+        "phonetic":  "ɡroʊ",
+        "type":  "v.",
+        "meaning":  "长大，成长",
+        "example":  "Life is a journey, we are born, we grow, we live, we work, we grow old and we die.",
+        "list":  "List36"
+    },
+    {
+        "word":  "know",
+        "phonetic":  "noʊ",
+        "type":  "v.",
+        "meaning":  "知道；认识到",
+        "example":  "Do you know Peter? He\u0027s hilarious.",
+        "list":  "List36"
+    },
+    {
+        "word":  "goat",
+        "phonetic":  "ɡoʊt",
+        "type":  "n.",
+        "meaning":  "山羊；羊肉",
+        "example":  "The most common meats are goat, chicken, beef and pork.",
+        "list":  "List36"
+    },
+    {
+        "word":  "coach",
+        "phonetic":  "koʊtʃ",
+        "type":  "n.",
+        "meaning":  "教练；v. 指导",
+        "example":  "Our facility provides intensive coaching, training facilities and nutritional advice.",
+        "list":  "List36"
+    },
+    {
+        "word":  "coat",
+        "phonetic":  "koʊt",
+        "type":  "n.",
+        "meaning":  "大衣",
+        "example":  "She came in and took her coat off.",
+        "list":  "List36"
+    },
+    {
+        "word":  "allow",
+        "phonetic":  "əˈlaʊ",
+        "type":  "v.",
+        "meaning":  "允许",
+        "example":  "Allow me to introduce myself.",
+        "list":  "List36"
+    },
+    {
+        "word":  "close the window",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "关上窗户",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "open the window",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "打开窗户",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "through the window",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "透过窗户",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "ride a horse",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "骑马",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "all roads lead to Rome",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "条条大路通罗马",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "street",
+        "phonetic":  "stri:t",
+        "type":  "n.",
+        "meaning":  "街道",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "Wall Street",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "华尔街",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "an Avenue",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "长安街",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "grew",
+        "phonetic":  "ɡru:",
+        "type":  "v.",
+        "meaning":  "grow的过去式",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "growth",
+        "phonetic":  "ɡrouθ",
+        "type":  "n.",
+        "meaning":  "成长",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "grow together",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "一起成长",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "grow old",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "变老",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "t know",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "不知道",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "t you know",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "难道你不知道",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "get to know",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "认识了解",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "coaching",
+        "phonetic":  "ˈkoutʃɪŋ",
+        "type":  "n.",
+        "meaning":  "辅导",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "player",
+        "phonetic":  "ˈpleɪə r",
+        "type":  "n.",
+        "meaning":  "运动员",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "put on",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "穿上",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "take it off",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "脱下",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "not allow",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "不允许",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "allow for",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "考虑",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "allow me",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "请允许我",
+        "example":  "",
+        "list":  "List36"
+    },
+    {
+        "word":  "thousand",
+        "phonetic":  "ˈθauz(θ)nd",
+        "type":  "num.",
+        "meaning":  "千位数",
+        "example":  "It cost somewhere around two thousand dollars.",
+        "list":  "List37"
+    },
+    {
+        "word":  "bow",
+        "phonetic":  "bou; bau",
+        "type":  "v./n.",
+        "meaning":  "鞠躬；n.  蝴蝶结；弓",
+        "example":  "After the concert, the band members came out to take a bow.",
+        "list":  "List37"
+    },
+    {
+        "word":  "noun",
+        "phonetic":  "naʊ n",
+        "type":  "n.",
+        "meaning":  "名词",
+        "example":  "In French, the adjective must agree with the noun in number and gender.",
+        "list":  "List37"
+    },
+    {
+        "word":  "pound",
+        "phonetic":  "paʊ nd",
+        "type":  "n.",
+        "meaning":  "磅；英镑",
+        "example":  "I didn\u0027t put that pound under your pillow.",
+        "list":  "List37"
+    },
+    {
+        "word":  "blouse",
+        "phonetic":  "blaʊs",
+        "type":  "n.",
+        "meaning":  "（女式）短式上衣",
+        "example":  "I think I want to get this red blouse.",
+        "list":  "List37"
+    },
+    {
+        "word":  "cow",
+        "phonetic":  "kaʊ",
+        "type":  "n.",
+        "meaning":  "母牛",
+        "example":  "The cow says \"moo-moo.\"",
+        "list":  "List37"
+    },
+    {
+        "word":  "power",
+        "phonetic":  "ˈpaʊər",
+        "type":  "n.",
+        "meaning":  "权力；能源",
+        "example":  "Real power belongs to the few.",
+        "list":  "List37"
+    },
+    {
+        "word":  "sound",
+        "phonetic":  "saʊ nd",
+        "type":  "n.",
+        "meaning":  "声音；v. 听起来",
+        "example":  "Liza was so frightened she couldn\u0027t make a sound.",
+        "list":  "List37"
+    },
+    {
+        "word":  "hundred",
+        "phonetic":  "ˈhΛndrəd",
+        "type":  "n.",
+        "meaning":  "一百",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "billion",
+        "phonetic":  "ˈbɪljən",
+        "type":  "num.",
+        "meaning":  "十亿",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "million",
+        "phonetic":  "ˈmɪljən",
+        "type":  "num.",
+        "meaning":  "一百万",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "bow tie",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "领结",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "take a bow",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "鞠躬",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "bow and arrow",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "弓与箭",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "powerful",
+        "phonetic":  "ˈpauərf(ə)l",
+        "type":  "adj.",
+        "meaning":  "强大的",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "powerless",
+        "phonetic":  "ˈpauərləs",
+        "type":  "adj.",
+        "meaning":  "无力的",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "electric power",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "电能",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "wind power",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "风能",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "make a sound",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "发出声音",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "sound like",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "听起来像",
+        "example":  "",
+        "list":  "List37"
+    },
+    {
+        "word":  "point",
+        "phonetic":  "pɔɪ nt",
+        "type":  "v.",
+        "meaning":  "指；指向；n.  观点",
+        "example":  "He pointed at the map to show me the location.",
+        "list":  "List38"
+    },
+    {
+        "word":  "toilet",
+        "phonetic":  "ˈtɔɪlət",
+        "type":  "n.",
+        "meaning":  "厕所；卫生间",
+        "example":  "Do you need the toilet ?",
+        "list":  "List38"
+    },
+    {
+        "word":  "enjoy",
+        "phonetic":  "ɪnˈd3ɔɪ",
+        "type":  "v.",
+        "meaning":  "享受；欣赏；喜欢",
+        "example":  "The purpose of living is to pursue happiness and  enjoy  oneself.",
+        "list":  "List38"
+    },
+    {
+        "word":  "oil",
+        "phonetic":  "ɔɪ l",
+        "type":  "n.",
+        "meaning":  "燃油；润滑油；食用油",
+        "example":  "That is an oil painting of a landscape in spring.",
+        "list":  "List38"
+    },
+    {
+        "word":  "employ",
+        "phonetic":  "ɪmˈplɔɪ",
+        "type":  "v.",
+        "meaning":  "雇佣",
+        "example":  "He is an employee of Fuji Bank.",
+        "list":  "List38"
+    },
+    {
+        "word":  "join",
+        "phonetic":  "d3ɔɪ n",
+        "type":  "v.",
+        "meaning":  "成为...的一员；参加",
+        "example":  "Everyone is welcome to join in the conversation.",
+        "list":  "List38"
+    },
+    {
+        "word":  "joy",
+        "phonetic":  "d3ɔɪ",
+        "type":  "n.",
+        "meaning":  "欢乐；喜悦",
+        "example":  "The chorus was singing The Ode to Joy.",
+        "list":  "List38"
+    },
+    {
+        "word":  "point to",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "指向",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "point at",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "指向",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "love",
+        "phonetic":  "lʌv",
+        "type":  "v.",
+        "meaning":  "/n. 喜爱",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "enjoy doing sth",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "喜欢做某事",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "enjoy oneself",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "尽情享受",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "ladies",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "女厕所",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "the gents",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "男厕所",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "renewable resource",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "可再生资源",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "coal",
+        "phonetic":  "koʊ l",
+        "type":  "n.",
+        "meaning":  "煤",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "natural gas",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "天然气",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "solar power",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "太阳能",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "employee",
+        "phonetic":  "ɪmˈplɔɪi:",
+        "type":  "n.",
+        "meaning":  "雇员",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "employer",
+        "phonetic":  "ɪmˈplɔɪə r",
+        "type":  "n.",
+        "meaning":  "雇主",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "full time",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "全职",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "part time",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "兼职",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "join in",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "参与",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "with joy",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "高兴地",
+        "example":  "",
+        "list":  "List38"
+    },
+    {
+        "word":  "before",
+        "phonetic":  "bɪˈfɔ :r",
+        "type":  "prep.",
+        "meaning":  "(表示介词) 在...之前；在...前面；以前",
+        "example":  "Everything is just like before, nothing has changed.",
+        "list":  "List39"
+    },
+    {
+        "word":  "course",
+        "phonetic":  "kɔ :rs",
+        "type":  "n.",
+        "meaning":  "课程；菜品",
+        "example":  "The main course was roast duck.",
+        "list":  "List39"
+    },
+    {
+        "word":  "door",
+        "phonetic":  "dɔ :r",
+        "type":  "n.",
+        "meaning":  "门",
+        "example":  "He made a living of sorts selling encyclopedias door-to-door.",
+        "list":  "List39"
+    },
+    {
+        "word":  "sour",
+        "phonetic":  "ˈsaʊər",
+        "type":  "adj.",
+        "meaning":  "酸的",
+        "example":  "Lemon is a kind of sour fruit.",
+        "list":  "List39"
+    },
+    {
+        "word":  "pour",
+        "phonetic":  "pɔ :r",
+        "type":  "v.",
+        "meaning":  "倾倒；倒",
+        "example":  "Now pour the tea into the cups.",
+        "list":  "List39"
+    },
+    {
+        "word":  "more",
+        "phonetic":  "mɔ :r",
+        "type":  "det.",
+        "meaning":  "(表示限定词)（数、量等）更多的，",
+        "example":  "More and more people are using the Internet.",
+        "list":  "List39"
+    },
+    {
+        "word":  "doormat",
+        "phonetic":  "ˈdɔ :rmæt",
+        "type":  "n.",
+        "meaning":  "门垫",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "chore",
+        "phonetic":  "tʃɔ :r",
+        "type":  "n.",
+        "meaning":  "家庭杂活；杂事；苦差事",
+        "example":  "When children finish a chore, they will not only take pride in a job well done but also have confidence in their ability to do things well.",
+        "list":  "List39"
+    },
+    {
+        "word":  "in front of",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "在",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "compulsory course",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "必修课程",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "optional course",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "选修课程",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "main course",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "主菜",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "door to door",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "挨家挨户",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "open the door",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "开门",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "close the door",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "关门",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "sweet",
+        "phonetic":  "swi:t",
+        "type":  "adj.",
+        "meaning":  "甜的",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "bitter",
+        "phonetic":  "ˈbɪtər",
+        "type":  "adj.",
+        "meaning":  "苦的",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "spicy",
+        "phonetic":  "ˈspaɪsi",
+        "type":  "adj.",
+        "meaning":  "辣的",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "pour A into B",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "把",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "pouring rain",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "倾盆大雨",
+        "example":  "",
+        "list":  "List39"
+    },
+    {
+        "word":  "appear",
+        "phonetic":  "əˈpɪr",
+        "type":  "v.",
+        "meaning":  "出现，呈现",
+        "example":  "Your name will appear at the front of the book.",
+        "list":  "List40"
+    },
+    {
+        "word":  "cheer",
+        "phonetic":  "tʃɪr",
+        "type":  "n.",
+        "meaning":  "欢呼声，喝彩声；v.  欢呼；喝彩",
+        "example":  "Cheer up, you still have time to try it again.",
+        "list":  "List40"
+    },
+    {
+        "word":  "year",
+        "phonetic":  "jɪ r",
+        "type":  "n.",
+        "meaning":  "年",
+        "example":  "The park is open all year round.",
+        "list":  "List40"
+    },
+    {
+        "word":  "tear",
+        "phonetic":  "ter",
+        "type":  "v.",
+        "meaning":  "撕碎；/tɪ r/ n. 眼泪",
+        "example":  "These now are the walls we must tear down.",
+        "list":  "List40"
+    },
+    {
+        "word":  "volunteer",
+        "phonetic":  "ˌvɑ :lənˈtɪr",
+        "type":  "n.",
+        "meaning":  "志愿者；v.  自愿做",
+        "example":  "Volunteer work gives her life (a sense of) purpose.",
+        "list":  "List40"
+    },
+    {
+        "word":  "earn",
+        "phonetic":  "3 :rn",
+        "type":  "v.",
+        "meaning":  "赚钱",
+        "example":  "After losing his job, he had to find a new way to earn a living.",
+        "list":  "List40"
+    },
+    {
+        "word":  "dear",
+        "phonetic":  "dɪ r",
+        "type":  "adj.",
+        "meaning":  "珍视的；亲爱的；昂贵的；",
+        "example":  "Would you like a drink, dear?",
+        "list":  "List40"
+    },
+    {
+        "word":  "disappear",
+        "phonetic":  "ˌdɪsəˈpɪr",
+        "type":  "v.",
+        "meaning":  "消失",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "cheer for",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "为",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "month",
+        "phonetic":  "mΛnθ",
+        "type":  "n.",
+        "meaning":  "月",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "season",
+        "phonetic":  "ˈsi:z(ə)n",
+        "type":  "n.",
+        "meaning":  "季节",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "with tears",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "含泪",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "tear up",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "撕碎",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "tear down",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "拆毁",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "teardrop",
+        "phonetic":  "ˈtɪədrŊp",
+        "type":  "n.",
+        "meaning":  "泪水",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "volunteer to do sth",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "自愿做某事",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "work as a volunteer",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "做志愿者",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "near",
+        "phonetic":  "nɪr",
+        "type":  "prep.",
+        "meaning":  "在",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "volunteer service",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "志愿者服务",
+        "example":  "",
+        "list":  "List40"
+    },
+    {
+        "word":  "earn a living",
+        "phonetic":  "",
+        "type":  "",
+        "meaning":  "谋生",
+        "example":  "",
+        "list":  "List40"
+    }
+]
