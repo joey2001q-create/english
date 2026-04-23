@@ -1,38 +1,14 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import { useState, useRef, useEffect } from 'react';
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import { useState, useRef, useEffect } from 'react';
 import { knowledgeBase } from '../../data/knowledgeBase';
 import { sendAIMessage, createAIErrorMessage } from '../../services/aiService';
 
 const grammarParseExample = knowledgeBase.functions.grammar.modes.parse.examples[0];
 const grammarModes = [
-  { key: 'parse', icon: '🌳', title: '句子拆解', desc: '输入/拍照句子，AI画语法树，展示主句/从句/修饰成分', tag: '理解结构' },
+  { key: 'parse', icon: '🌳', title: '长难句拆解+分析', desc: '输入/拍照句子，AI画语法树，展示主句/从句/修饰成分', tag: '理解结构' },
   { key: 'context', icon: '🎬', title: '语境记忆', desc: '哈利波特/流浪地球...兴趣驱动，让例句刻进DNA', tag: '趣味学习' },
-  { key: 'practice', icon: '✏️', title: '强化训练', desc: '单项选择/语法填空，即学即练，AI即时批改', tag: '实战演练' },
 ];
 const grammarThemes = knowledgeBase.functions.grammar.modes.context.themes;
-const grammarPracticeTypes = [
-  { key: 'choice', icon: '🔘', title: '单项选择', desc: '5-10道精选题目' },
-  { key: 'fill', icon: '📝', title: '语法填空', desc: '短文挖空练习' },
-  { key: 'error', icon: '❌', title: '改错练习', desc: '找出语法错误' },
-];
 const grammarInstruction = knowledgeBase.functions.grammar.modes.parse.instruction;
-const mockQuestions = [
-  {
-    id: 1,
-    type: 'choice',
-    question: 'He ______ (be) to Beijing twice.',
-    options: ['A. has been', 'B. had been', 'C. was', 'D. is'],
-    answer: 'A',
-    analysis: '现在完成时表示过去发生的动作对现在造成的影响，twice表示次数，用has been。',
-  },
-  {
-    id: 2,
-    type: 'choice',
-    question: 'The book ______ I bought yesterday is very interesting.',
-    options: ['A. that', 'B. what', 'C. who', 'D. whom'],
-    answer: 'A',
-    analysis: '定语从句修饰先行词book，关系代词在从句中作宾语，可用that或which。',
-  },
-];
 
 function matchGrammarKnowledge(userMessage) {
   const msg = userMessage.toLowerCase();
@@ -231,9 +207,10 @@ export default function GrammarLearning() {
   const [mode, setMode] = useState('cards');
   const [history, setHistory] = useState([]);
   const [inputValue, setInputValue] = useState('');
-  const [expandedAnswer, setExpandedAnswer] = useState(null);
-  const [selectedOption, setSelectedOption] = useState({});
   const [isThinking, setIsThinking] = useState(false);
+  const [parseInput, setParseInput] = useState('');
+  const [parseResult, setParseResult] = useState(null);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
   const chatRef = useRef(null);
 
   useEffect(() => {
@@ -245,16 +222,115 @@ export default function GrammarLearning() {
   const handleSelectMode = (m) => {
     setMode(m);
     setHistory([]);
-    setExpandedAnswer(null);
-    setSelectedOption({});
+    setParseInput('');
+    setParseResult(null);
   };
 
   const handleBack = () => {
     setMode('cards');
     setHistory([]);
-    setExpandedAnswer(null);
-    setSelectedOption({});
+    setParseInput('');
+    setParseResult(null);
   };
+
+  const handleAnalyze = async () => {
+    const text = parseInput.trim();
+    if (!text) return;
+
+    setIsAnalyzing(true);
+
+    try {
+      const conversationHistory = [{ role: 'user', content: `请对以下英语句子进行完整的语法成分拆解分析：
+
+"${text}"
+
+请严格按照以下JSON格式返回结果（不要加任何其他文字说明，只返回纯JSON）：
+{
+  "subject": {
+    "text": "主语部分原文",
+    "detail": "主语的详细语法说明"
+  },
+  "predicate": {
+    "text": "谓语部分原文",
+    "detail": "谓语的详细语法说明"
+  },
+  "object": {
+    "text": "宾语部分原文",
+    "detail": "宾语的详细语法说明"
+  },
+  "attribute": {
+    "text": "定语部分原文（如没有则填空字符串）",
+    "detail": "定语的详细语法说明"
+  },
+  "adverbial": {
+    "text": "状语部分原文（如没有则填空字符串）",
+    "detail": "状语的详细语法说明"
+  },
+  "complement": {
+    "text": "补语部分原文（如没有则填空字符串）",
+    "detail": "补语的详细语法说明"
+  },
+  "clauses": [
+    {
+      "type": "从句类型（如：定语从句、状语从句、宾语从句等）",
+      "text": "从句原文",
+      "detail": "从句的详细语法说明"
+    }
+  ],
+  "phrases": [
+    {
+      "type": "短语类型（如：介词短语、动名词短语、不定式短语等）",
+      "text": "短语原文",
+      "detail": "短语的详细语法说明"
+    }
+  ],
+  "summary": "整体句型结构的一句话总结"
+}` }];
+
+      const grammarSystemPrompt = `你是一个专业的英语语法分析师。你的任务是分析用户输入的英语句子，并按语法成分进行拆解。
+请严格返回JSON格式，不要包含任何额外的说明文字或markdown代码块标记。
+每个字段都要认真分析填写，如果没有该成分，text和detail填空字符串，clauses和phrases填空数组。`;
+
+      const response = await sendAIMessage(conversationHistory, {
+        systemPrompt: grammarSystemPrompt
+      });
+
+      let parsedData;
+      try {
+        let jsonStr = response.content.trim();
+        if (jsonStr.startsWith('```')) {
+          jsonStr = jsonStr.replace(/^```(?:json)?\s*/, '').replace(/\s*```$/, '');
+        }
+        parsedData = JSON.parse(jsonStr);
+      } catch (e) {
+        console.warn('[GrammarLearning] JSON解析失败，尝试提取:', e.message);
+        parsedData = parseAnalysisFallback(response.content);
+      }
+
+      setParseResult({
+        original: text,
+        data: parsedData,
+        raw: response.content
+      });
+    } catch (error) {
+      console.warn('[GrammarLearning] 分析失败:', error.message);
+      setParseResult({
+        original: text,
+        data: null,
+        raw: `分析失败，请稍后重试。错误信息：${error.message}`
+      });
+    } finally {
+      setIsAnalyzing(false);
+    }
+  };
+
+  const handleClearParse = () => {
+    setParseInput('');
+    setParseResult(null);
+  };
+
+  const parseCharCount = parseInput.length;
+  const isOverLimit = parseCharCount > 300;
 
   const handleSelectTheme = (key) => {
     const theme = grammarThemes.find((t) => t.key === key);
@@ -262,22 +338,6 @@ export default function GrammarLearning() {
       { role: 'system', content: `选择【${theme?.name}】主题` },
       { role: 'ai', content: `好的！我们用【${theme?.name}】来学习语法~\n\n请告诉我你想学习哪个语法点？例如：\n- "用哈利波特讲讲现在完成时"\n- "以流浪地球为背景解释虚拟语气"\n\n或者直接说你想攻克哪个语法难题！` },
     ]);
-  };
-
-  const handleSelectPractice = (key) => {
-    const practice = grammarPracticeTypes.find((p) => p.key === key);
-    setHistory([
-      { role: 'system', content: `开始【${practice?.title}】练习` },
-      { role: 'ai', content: `开始${practice?.title}练习！\n\n请告诉我你想练习什么语法点，或者直接说"随机出一道"让AI自动选择~` },
-    ]);
-  };
-
-  const handleOptionSelect = (questionId, option) => {
-    setSelectedOption((prev) => ({ ...prev, [questionId]: option }));
-  };
-
-  const handleToggleAnswer = (questionId) => {
-    setExpandedAnswer((prev) => (prev === questionId ? null : questionId));
   };
 
   const handleSend = async () => {
@@ -343,22 +403,22 @@ export default function GrammarLearning() {
         <div className="page-header-icon">🔍</div>
         <div className="page-header-info">
           <h2>语法学习</h2>
-          <p>句子拆解 · 语境记忆 · 强化训练</p>
+          <p>长难句拆解 · 语境记忆</p>
         </div>
       </div>
 
       {mode === 'cards' && (
-        <div className="grammar-cards-grid">
+        <div className="listen-cards-grid">
           {grammarModes.map((card) => (
             <div
               key={card.key}
-              className="grammar-card"
+              className="listen-card"
               onClick={() => handleSelectMode(card.key)}
             >
-              <div className="grammar-card-icon">{card.icon}</div>
+              <div className="listen-card-icon">{card.icon}</div>
               <h3>{card.title}</h3>
               <p>{card.desc}</p>
-              <div className="grammar-card-tag">{card.tag}</div>
+              <div className="listen-card-tag">{card.tag}</div>
             </div>
           ))}
         </div>
@@ -371,141 +431,327 @@ export default function GrammarLearning() {
               <i className="fas fa-arrow-left"></i> 返回
             </button>
             <span id="grammar-func-title">
-              {mode === 'parse' ? '句子拆解' : mode === 'context' ? '语境记忆' : '强化训练'}
+              {mode === 'parse' ? '长难句拆解+分析' : '语境记忆'}
             </span>
           </div>
 
           {mode === 'parse' && (
-            <div className="grammar-sub-panel">
-              <div className="grammar-instruction">
-                <p>💡 <strong>AI指令示例：</strong></p>
-                <ul>
-                  <li>"请拆解这个句子的成分，展示主句和从句"</li>
-                  <li>"解释为什么这里用非谓语动词而不是谓语动词"</li>
-                  <li>"画出这个复杂句的语法树结构"</li>
-                </ul>
+            <div className="grammar-parse-page">
+              <div className="grammar-parse-header">
+                <button className="back-btn" onClick={handleBack}>← 返回</button>
+                <h2>🌳 长难句拆解+分析</h2>
               </div>
-              <div className="grammar-demo">
-                <div className="demo-title">示例：宾语从句拆解</div>
-                <div className="demo-original">{grammarParseExample.input}</div>
-                <div className="demo-tree">
-                  <div className="tree-node main">I</div>
-                  <div className="tree-node main">believe</div>
-                  <div className="tree-node sub">[that he will come tomorrow]</div>
-                  <div className="tree-note">↳ {grammarParseExample.note}</div>
+
+              <div className="grammar-parse-input-section">
+                <div className="parse-input-card">
+                  <div className="parse-input-top">
+                    <div className="parse-input-label">
+                      <i className="fas fa-pen-fancy"></i>
+                      <span>输入英语长难句</span>
+                    </div>
+                    <span className={`char-counter ${isOverLimit ? 'over' : ''}`}>
+                      {parseCharCount}<span className="char-limit">/300</span>
+                    </span>
+                  </div>
+                  <textarea
+                    className="parse-textarea"
+                    placeholder="粘贴或输入一个英语长难句，AI将为你逐层拆解语法结构..."
+                    value={parseInput}
+                    onChange={(e) => setParseInput(e.target.value)}
+                    rows={4}
+                  />
+                  <div className="parse-action-row">
+                    <button className="parse-btn-clear" onClick={handleClearParse}>
+                      <i className="fas fa-eraser"></i> 清空
+                    </button>
+                    <button
+                      className="parse-btn-go"
+                      onClick={handleAnalyze}
+                      disabled={isAnalyzing || !parseInput.trim() || isOverLimit}
+                    >
+                      {isAnalyzing ? (
+                        <><span className="btn-spinner"></span> 正在拆解...</>
+                      ) : (
+                        <><i className="fas fa-microscope"></i> 开始拆解</>
+                      )}
+                    </button>
+                  </div>
                 </div>
               </div>
+
+              {isAnalyzing && !parseResult && (
+                <div className="parse-loading-card">
+                  <div className="parse-loading-animation">
+                    <div className="dot-pulse">
+                      <span></span><span></span><span></span>
+                    </div>
+                    <p>AI正在逐词拆解语法结构...</p>
+                  </div>
+                </div>
+              )}
+
+              {parseResult && parseResult.data && (
+                <div className="parse-result-wrapper">
+                  <div className="parse-sentence-bar">
+                    <i className="fas fa-quote-left"></i>
+                    <span className="parse-sentence-text">{parseResult.original}</span>
+                  </div>
+
+                  {parseResult.data.summary && (
+                    <div className="parse-summary">
+                      <i className="fas fa-lightbulb"></i>
+                      <span>{parseResult.data.summary}</span>
+                    </div>
+                  )}
+
+                  <div className="parse-section-title">
+                    <span className="section-dot core"></span>
+                    核心成分 · 主谓宾
+                  </div>
+                  <div className="parse-core-grid">
+                    {renderComponentCard('主语', 'fa-user', parseResult.data.subject, '#4CAF50', '#E8F5E9')}
+                    {renderComponentCard('谓语', 'fa-bolt', parseResult.data.predicate, '#2196F3', '#E3F2FD')}
+                    {renderComponentCard('宾语', 'fa-bullseye', parseResult.data.object, '#FF9800', '#FFF3E0')}
+                  </div>
+
+                  <div className="parse-section-title">
+                    <span className="section-dot modifier"></span>
+                    修饰成分 · 定状补
+                  </div>
+                  <div className="parse-modifier-grid">
+                    {renderComponentCard('定语', 'fa-tag', parseResult.data.attribute, '#9C27B0', '#F3E5F5')}
+                    {renderComponentCard('状语', 'fa-clock', parseResult.data.adverbial, '#00BCD4', '#E0F7FA')}
+                    {renderComponentCard('补语', 'fa-plus-circle', parseResult.data.complement, '#E91E63', '#FCE4EC')}
+                  </div>
+
+                  {parseResult.data.clauses && parseResult.data.clauses.length > 0 && (
+                    <>
+                      <div className="parse-section-title">
+                        <span className="section-dot clause"></span>
+                        从句结构
+                      </div>
+                      <div className="parse-clauses-list">
+                        {parseResult.data.clauses.map((c, i) => (
+                          <div key={i} className="parse-clause-card">
+                            <div className="clause-header">
+                              <span className="clause-badge">{c.type || '从句'}</span>
+                            </div>
+                            <div className="clause-text">{c.text}</div>
+                            <div className="clause-detail">{c.detail}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  )}
+
+                  {parseResult.data.phrases && parseResult.data.phrases.length > 0 && (
+                    <>
+                      <div className="parse-section-title">
+                        <span className="section-dot phrase"></span>
+                        短语结构
+                      </div>
+                      <div className="parse-phrases-list">
+                        {parseResult.data.phrases.map((p, i) => (
+                          <div key={i} className="parse-phrase-card">
+                            <span className="phrase-badge">{p.type || '短语'}</span>
+                            <span className="phrase-text">{p.text}</span>
+                            <span className="phrase-detail">{p.detail}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                </div>
+              )}
+
+              {parseResult && !parseResult.data && (
+                <div className="parse-result-wrapper">
+                  <div className="parse-fallback-content">
+                    <div dangerouslySetInnerHTML={{ __html: renderAnalysis(parseResult.raw) }} />
+                  </div>
+                </div>
+              )}
+
+              {!parseResult && !isAnalyzing && (
+                <div className="grammar-parse-tip">
+                  <div className="tip-illustration">
+                    <div className="tip-step">
+                      <span className="step-num">1</span>
+                      <span>输入长难句</span>
+                    </div>
+                    <i className="fas fa-arrow-right tip-arrow"></i>
+                    <div className="tip-step">
+                      <span className="step-num">2</span>
+                      <span>AI智能拆解</span>
+                    </div>
+                    <i className="fas fa-arrow-right tip-arrow"></i>
+                    <div className="tip-step">
+                      <span className="step-num">3</span>
+                      <span>彩色标注结果</span>
+                    </div>
+                  </div>
+                  <div className="tip-examples">
+                    <p className="tip-label">试试这些例句：</p>
+                    <div className="tip-example-tags">
+                      <button className="tip-example-tag" onClick={() => setParseInput("The boy who lost his wallet yesterday found it this morning.")}>
+                        The boy who lost his wallet yesterday found it this morning.
+                      </button>
+                      <button className="tip-example-tag" onClick={() => setParseInput("Although it was raining heavily, she decided to go out for a walk because she needed some fresh air.")}>
+                        Although it was raining heavily, she decided to go out for a walk...
+                      </button>
+                      <button className="tip-example-tag" onClick={() => setParseInput("What surprised me most was that he had finished the difficult task which had been assigned by the teacher before the deadline.")}>
+                        What surprised me most was that he had finished...
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
           {mode === 'context' && (
-            <div className="grammar-sub-panel">
-              <div className="grammar-instruction">
-                <p>💡 <strong>AI指令示例：</strong></p>
-                <ul>
-                  <li>"我分不清现在完成时和过去完成时，用哈利波特写3个例句"</li>
-                  <li>"以流浪地球为背景，解释if虚拟语气的用法"</li>
-                  <li>"用王者荣耀英雄写5个定语从句的例子"</li>
-                </ul>
+            <div className="grammar-context-page">
+              <div className="grammar-context-header">
+                <button className="back-btn" onClick={handleBack}>← 返回</button>
+                <h2>🎬 语境记忆学习</h2>
               </div>
-              <div className="grammar-themes">
-                {grammarThemes.map((t) => (
-                  <div
-                    key={t.key}
-                    className="theme-item"
-                    onClick={() => handleSelectTheme(t.key)}
-                  >
-                    {t.icon} {t.name}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
 
-          {mode === 'practice' && (
-            <div className="grammar-sub-panel">
-              <div className="grammar-instruction">
-                <p>💡 <strong>AI指令示例：</strong></p>
-                <ul>
-                  <li>"给我5道现在完成时的单项选择题"</li>
-                  <li>"出一篇高中语法填空，关于定语从句"</li>
-                  <li>"批改这段文字的语法错误"</li>
-                </ul>
-              </div>
-              <div className="practice-types">
-                {grammarPracticeTypes.map((p) => (
-                  <div
-                    key={p.key}
-                    className="practice-type"
-                    onClick={() => handleSelectPractice(p.key)}
-                  >
-                    <div className="practice-icon">{p.icon}</div>
-                    <h4>{p.title}</h4>
-                    <p>{p.desc}</p>
+              <div className="context-themes-section">
+                <div className="context-section-title">
+                  <i className="fas fa-layer-group"></i>
+                  选择学习主题
+                </div>
+                <div className="context-themes-grid">
+                  <div className="context-theme-card" onClick={() => handleSelectTheme('harrypotter')}>
+                    <span className="theme-icon">⚡</span>
+                    <span className="theme-name">哈利波特</span>
+                    <span className="theme-desc">魔法世界的语法奥秘</span>
                   </div>
-                ))}
+                  <div className="context-theme-card" onClick={() => handleSelectTheme('wandering')}>
+                    <span className="theme-icon">🌍</span>
+                    <span className="theme-name">流浪地球</span>
+                    <span className="theme-desc">科幻大片学语法</span>
+                  </div>
+                  <div className="context-theme-card" onClick={() => handleSelectTheme('game')}>
+                    <span className="theme-icon">🎮</span>
+                    <span className="theme-name">游戏动漫</span>
+                    <span className="theme-desc">王者荣耀/原神/鬼灭</span>
+                  </div>
+                  <div className="context-theme-card" onClick={() => handleSelectTheme('celebrity')}>
+                    <span className="theme-icon">⭐</span>
+                    <span className="theme-name">明星娱乐</span>
+                    <span className="theme-desc">热搜新闻学英语</span>
+                  </div>
+                  <div className="context-theme-card custom" onClick={() => handleSelectTheme('custom')}>
+                    <span className="theme-icon">✨</span>
+                    <span className="theme-name">自定义</span>
+                    <span className="theme-desc">告诉我你想学什么</span>
+                  </div>
+                </div>
               </div>
-              <div className="mock-questions">
-                <div className="questions-title">📝 示例题目</div>
-                {mockQuestions.map((q) => (
-                  <div key={q.id} className="question-card">
-                    <div className="question-text">{q.question}</div>
-                    <div className="question-options">
-                      {q.options.map((opt) => (
-                        <button
-                          key={opt}
-                          className={`option-btn ${selectedOption[q.id] === opt ? 'selected' : ''} ${selectedOption[q.id] && opt[0] === q.answer ? 'correct' : ''} ${selectedOption[q.id] === opt && opt[0] !== q.answer ? 'wrong' : ''}`}
-                          onClick={() => handleOptionSelect(q.id, opt)}
-                        >
-                          {opt}
-                        </button>
-                      ))}
-                    </div>
-                    <button
-                      className="toggle-answer-btn"
-                      onClick={() => handleToggleAnswer(q.id)}
-                    >
-                      {expandedAnswer === q.id ? '收起解析 ▲' : '查看解析 ▼'}
-                    </button>
-                    {expandedAnswer === q.id && (
-                      <div className="answer-panel">
-                        <div className="answer-correct">正确答案：{q.answer}</div>
-                        <div className="answer-analysis">{q.analysis}</div>
+
+              <div className="context-chat-section">
+                <div className="context-chat-header">
+                  <i className="fas fa-comments"></i>
+                  <span>AI对话学习</span>
+                </div>
+                <div className="context-chat-box">
+                  <div className="chat-msgs" ref={chatRef}>
+                    {history.length === 0 && (
+                      <div className="chat-empty-state">
+                        <div className="empty-illustration">
+                          <i className="fas fa-comment-dots"></i>
+                        </div>
+                        <p>选择一个主题开始学习，或者直接问我语法问题</p>
+                        <div className="quick-questions">
+                          <button onClick={() => { setInputValue('用哈利波特讲讲现在完成时'); }}>
+                            "用哈利波特讲讲现在完成时"
+                          </button>
+                          <button onClick={() => { setInputValue('以流浪地球为背景解释if虚拟语气'); }}>
+                            "以流浪地球解释虚拟语气"
+                          </button>
+                          <button onClick={() => { setInputValue('用王者荣耀写5个定语从句'); }}>
+                            "用王者荣耀写定语从句"
+                          </button>
+                        </div>
+                      </div>
+                    )}
+                    {history.map(renderMsg)}
+                    {isThinking && (
+                      <div className="msg ai typing show">
+                        AI正在思考中<span></span><span></span><span></span>
                       </div>
                     )}
                   </div>
-                ))}
+                  <div className="input-row">
+                    <textarea
+                      placeholder="输入你想问的语法问题..."
+                      rows={1}
+                      value={inputValue}
+                      onChange={(e) => setInputValue(e.target.value)}
+                      onKeyDown={handleKeyDown}
+                    />
+                    <button className="btn-photo" title="拍照">📷</button>
+                    <button className="btn-send" onClick={handleSend} disabled={isThinking}>
+                      <i className="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           )}
-
-          <div className="chat-box">
-            <div className="chat-msgs" ref={chatRef}>
-              {history.map(renderMsg)}
-              {isThinking && (
-                <div className="msg ai typing show">
-                  AI正在思考中<span></span><span></span><span></span>
-                </div>
-              )}
-            </div>
-            <div className="input-row">
-              <textarea
-                placeholder="输入句子或语法问题，AI帮你深度学习"
-                rows={1}
-                value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-                onKeyDown={handleKeyDown}
-              />
-              <button className="btn-photo" title="拍照">📷</button>
-              <button className="btn-send" onClick={handleSend} disabled={isThinking}>
-                <i className="fas fa-paper-plane"></i>
-              </button>
-            </div>
-          </div>
         </div>
       )}
     </div>
   );
+}
+
+function renderComponentCard(label, icon, data, color, bgColor) {
+  if (!data || !data.text) return null;
+  return (
+    <div className="parse-component-card" style={{ borderColor: color }}>
+      <div className="component-card-header" style={{ background: bgColor }}>
+        <span className="component-icon" style={{ color }}><i className={`fas ${icon}`}></i></span>
+        <span className="component-label" style={{ color }}>{label}</span>
+      </div>
+      <div className="component-card-body">
+        <div className="component-text" style={{ color }}>{data.text}</div>
+        {data.detail && <div className="component-detail">{data.detail}</div>}
+      </div>
+    </div>
+  );
+}
+
+function parseAnalysisFallback(text) {
+  const result = {
+    subject: { text: '', detail: '' },
+    predicate: { text: '', detail: '' },
+    object: { text: '', detail: '' },
+    attribute: { text: '', detail: '' },
+    adverbial: { text: '', detail: '' },
+    complement: { text: '', detail: '' },
+    clauses: [],
+    phrases: [],
+    summary: ''
+  };
+
+  const patterns = {
+    subject: /主语[：:]\s*([^,\n，。；;]+)/,
+    predicate: /谓语[：:]\s*([^,\n，。；;]+)/,
+    object: /宾语[：:]\s*([^,\n，。；;]+)/,
+    attribute: /定语[：:]\s*([^,\n，。；;]*)/,
+    adverbial: /状语[：:]\s*([^,\n，。；;]*)/,
+    complement: /补语[：:]\s*([^,\n，。；;]*)/
+  };
+
+  Object.keys(patterns).forEach(key => {
+    const match = text.match(patterns[key]);
+    if (match) {
+      result[key] = { text: match[1].trim(), detail: match[1].trim() };
+    }
+  });
+
+  return result;
 }
 
 function renderMarkdown(text) {
@@ -523,5 +769,38 @@ function renderMarkdown(text) {
     .replace(/^---$/gm, '<hr>')
     .replace(/\n\n/g, '</p><p>')
     .replace(/\n/g, '<br>');
+}
+
+function renderAnalysis(text) {
+  if (!text) return '';
+
+  const categoryColors = {
+    '主语': '#4CAF50',
+    '谓语': '#2196F3',
+    '宾语': '#FF9800',
+    '定语': '#9C27B0',
+    '状语': '#00BCD4',
+    '补语': '#E91E63',
+    '从句': '#795548',
+    '短语': '#607D8B'
+  };
+
+  let html = text
+    .replace(/```([\s\S]*?)```/g, '<pre class="code-block">$1</pre>')
+    .replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n\n/g, '</p><p>')
+    .replace(/\n/g, '<br>');
+
+  Object.keys(categoryColors).forEach(category => {
+    const color = categoryColors[category];
+    const regex = new RegExp(`【${category}】([^\\n【】]*)`, 'g');
+    html = html.replace(regex, `<div class="analysis-item" style="border-left: 4px solid ${color};">
+      <span class="analysis-tag" style="background: ${color};">${category}</span>
+      <span class="analysis-text">$1</span>
+    </div>`);
+  });
+
+  return `<p>${html}</p>`;
 }
 

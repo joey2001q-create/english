@@ -19,7 +19,7 @@ export async function sendAIMessage(messages, options = {}) {
     }))
   ];
 
-  const requestUrl = `${PROXY_PATH}/v2/chat/completions`;
+  const requestUrl = `${PROXY_PATH}/chat/completions`;
 
   console.log('========================================');
   console.log('[AI Service] 请求信息:');

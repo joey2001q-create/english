@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import useWordStore from '../../store/useWordStore';
 import { sendAIMessage } from '../../services/aiService';
 
@@ -80,15 +80,16 @@ function buildSystemPrompt(examType, card) {
 【当前话题】${card.title} - ${card.desc}
 
 【考试规则】
-1. 你必须全程用英语与学生对话
-2. 每次只问一个问题，等学生回答后再追问
-3. 问题要由浅入深，从简单到稍难
-4. 对话要自然流畅，像真实的口语考试一样
-5. 如果学生回答太短或太简单，要追问细节，鼓励他们多说话
-6. 如果学生语法有误，不要直接指出错误，而是用正确的表达自然地复述一遍
-7. 适时给予鼓励，如 "Good!", "That's interesting!", "Well done!" 等
-8. 控制每轮回复在2-3句话以内，不要说太多
-9. 不要输出Markdown格式，直接用纯文本对话`;
+1. 每次对话开头先用一句中文简要说明话题和引导，然后用英语开始对话
+2. 后续对话中主要使用英语，适时用中文鼓励或提示
+3. 每次只问一个问题，等学生回答后再追问
+4. 问题要由浅入深，从简单到稍难
+5. 对话要自然流畅，像真实的口语考试一样
+6. 如果学生回答太短或太简单，要追问细节，鼓励他们多说话
+7. 如果学生语法有误，不要直接指出错误，而是用正确的表达自然地复述一遍
+8. 适时给予鼓励，如 "Good!", "That's interesting!", "Well done!" 等
+9. 控制每轮回复在2-3句话以内，不要说太多
+10. 不要输出Markdown格式，直接用纯文本对话`;
   }
 
   return `你是一位专业的高考英语口语考官，正在对学生进行口语考试模拟。
@@ -107,7 +108,7 @@ function buildSystemPrompt(examType, card) {
 9. 不要输出Markdown格式，直接用纯文本对话`;
 }
 
-export default function ScenarioSim() {
+export default function ScenarioSim({ onBack }) {
   const { setMode } = useWordStore();
   
   const [examType, setExamType] = useState('zhongkao');
@@ -121,8 +122,69 @@ export default function ScenarioSim() {
   const [showHistory, setShowHistory] = useState(false);
   const [historyList, setHistoryList] = useState([]);
   const [isTyping, setIsTyping] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(false);
   
   const chatRef = useRef(null);
+  const recognitionRef = useRef(null);
+
+  useEffect(() => {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (SpeechRecognition) {
+      setSpeechSupported(true);
+      const recognition = new SpeechRecognition();
+      recognition.continuous = true;
+      recognition.interimResults = true;
+      recognition.lang = 'en-US';
+
+      recognition.onresult = (event) => {
+        let finalTranscript = '';
+        let interimTranscript = '';
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          const transcript = event.results[i][0].transcript;
+          if (event.results[i].isFinal) {
+            finalTranscript += transcript;
+          } else {
+            interimTranscript += transcript;
+          }
+        }
+        if (finalTranscript) {
+          setInputValue(prev => {
+            const existing = prev.trim();
+            return existing ? existing + ' ' + finalTranscript : finalTranscript;
+          });
+        }
+      };
+
+      recognition.onerror = (event) => {
+        console.warn('[ScenarioSim] 语音识别错误:', event.error);
+        if (event.error !== 'no-speech') {
+          setIsRecording(false);
+        }
+      };
+
+      recognition.onend = () => {
+        setIsRecording(false);
+      };
+
+      recognitionRef.current = recognition;
+    }
+  }, []);
+
+  const toggleRecording = useCallback(() => {
+    if (!recognitionRef.current) return;
+    if (isRecording) {
+      recognitionRef.current.stop();
+      setIsRecording(false);
+    } else {
+      try {
+        recognitionRef.current.start();
+        setIsRecording(true);
+      } catch (e) {
+        console.warn('[ScenarioSim] 启动语音识别失败:', e);
+      }
+    }
+  }, [isRecording]);
 
   useEffect(() => {
     const saved = localStorage.getItem('oral_history');
@@ -154,9 +216,7 @@ export default function ScenarioSim() {
 
     try {
       const systemPrompt = buildSystemPrompt(examType, card);
-      const openingHint = examType === 'zhongkao'
-        ? `请用英语开始对话，话题是"${card.title}"，先用简短的问候开场，然后提出第一个问题。`
-        : `请开始对话，话题是"${card.title}"（${card.desc}），先用中文简要引导，然后用英语提出第一个问题。`;
+      const openingHint = `请开始对话，话题是"${card.title}"（${card.desc}），先用一句中文简要引导，然后用英语提出第一个问题。`;
 
       const response = await sendAIMessage(
         [{ role: 'user', content: openingHint }],
@@ -166,7 +226,7 @@ export default function ScenarioSim() {
     } catch (error) {
       console.warn('[ScenarioSim] AI开场白生成失败，降级到本地:', error.message);
       const greeting = examType === 'zhongkao'
-        ? `Hello! I'm your oral English examiner. Today we'll talk about "${card.title}". ${SCENARIO_PROMPTS[card.key] || "Let's start our conversation. Can you tell me something about this topic?"}`
+        ? `你好！今天我们来练习"${card.title}"这个话题。${SCENARIO_PROMPTS[card.key] || "Let's start our conversation. Can you tell me something about this topic?"}`
         : `你好！我是你的口语考官。今天我们来练习"${card.title}"这个话题。${card.desc}。请开始你的表述吧。`;
       setMessages([{ role: 'ai', content: greeting }]);
     } finally {
@@ -271,13 +331,15 @@ export default function ScenarioSim() {
       setCanEnd(false);
     } else if (view === 'summary') {
       setView('list');
+    } else {
+      onBack();
     }
   };
 
   const renderListView = () => (
     <div className="scenario-page">
       <div className="scenario-header">
-        <button className="back-btn" onClick={() => setMode('cards')}>← 返回</button>
+        <button className="back-btn" onClick={onBack}>← 返回</button>
         <h2>🎭 情景模拟</h2>
         <button className="history-btn" onClick={() => setShowHistory(!showHistory)}>📋 历史</button>
       </div>
@@ -398,17 +460,38 @@ export default function ScenarioSim() {
         {canEnd && (
           <button className="end-btn" onClick={handleEndChat}>结束对话</button>
         )}
-        <div className="input-row">
+        {isRecording && (
+          <div className="voice-status">
+            <div className="voice-wave">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <span className="voice-text">正在聆听，请说英语...</span>
+            <button className="voice-stop-btn" onClick={toggleRecording}>停止</button>
+          </div>
+        )}
+        <div className="chat-input-row">
           <input
             type="text"
             placeholder={examType === 'zhongkao' ? "Type your answer..." : "输入你的回答..."}
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+            onKeyDown={(e) => e.key === 'Enter' && !isTyping && handleSend()}
+            disabled={isRecording}
           />
-          <button className="send-btn" onClick={handleSend}>发送</button>
+          {speechSupported && (
+            <button
+              className={`mic-btn ${isRecording ? 'recording' : ''}`}
+              onClick={toggleRecording}
+              title={isRecording ? '停止录音' : '语音输入'}
+            >
+              <i className={`fas fa-microphone${isRecording ? '-slash' : ''}`}></i>
+            </button>
+          )}
+          <button className="send-btn" onClick={handleSend} disabled={isTyping || isRecording}>
+            <i className="fas fa-paper-plane"></i>
+          </button>
         </div>
-        {!canEnd && <p className="tip">至少回答11次才能结束对话</p>}
+        {!canEnd && <p className="tip">至少回答11次才能结束对话{speechSupported ? ' · 点击🎤可语音输入' : ''}</p>}
       </div>
     </div>
   );

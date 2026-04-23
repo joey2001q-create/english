@@ -2,9 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import ScenarioSim from './ScenarioSim';
 
 const modeCards = [
-  { key: 'pron', icon: '🔊', title: '发音纠错', desc: '音标级纠错，逐音节标注发音问题，对比教学 tongue position', tag: '音标教学' },
   { key: 'scenario', icon: '🎭', title: '情景模拟', desc: '中考高考口语情景，1v1对话练习', tag: '备考冲刺' },
-  { key: 'exam', icon: '📋', title: '考试模拟舱', desc: '中高考口语人机对话全真模拟，朗读短文+情景问答', tag: '备考冲刺' },
 ];
 
 const scenarios = [
@@ -53,7 +51,7 @@ const handleSelectMode = (m) => {
   };
 
   if (mode === 'scenario') {
-    return <ScenarioSim />;
+    return <ScenarioSim onBack={() => setMode('cards')} />;
   }
 
   const handleBack = () => {
@@ -146,7 +144,7 @@ const handleSelectMode = (m) => {
         <div className="page-header-icon">🎙️</div>
         <div className="page-header-info">
           <h2>🎙️ 口语对话</h2>
-          <p>发音纠错 · 情境模拟 · 考试全真模拟</p>
+          <p>情景模拟 · 1v1对话练习</p>
         </div>
       </div>
 

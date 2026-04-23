@@ -7,9 +7,9 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/xf': {
-        target: 'https://ark.cn-beijing.volces.com/api/coding',
+        target: 'https://maas-coding-api.cn-huabei-1.xf-yun.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api\/xf/, '/v3'),
+        rewrite: (path) => path.replace(/^\/api\/xf/, '/v2'),
       },
     },
   },

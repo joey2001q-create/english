@@ -1,8 +1,9 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import useWordStore from '../../store/useWordStore';
 import useStudyStore from '../../store/useStudyStore';
 import { getVocabularyBook, loadVocabularyData } from '../../data/vocabulary1000';
 import { splitSyllables, splitPhonemes } from '../../utils/wordSplit';
+import { sendAIMessage } from '../../services/aiService';
 
 const STAGES = [
   { key: 'learn', label: '学' },
@@ -46,10 +47,241 @@ export default function WordStudyPage({ showSettings: initialShowSettings = true
   const [phonicsTab, setPhonicsTab] = useState('syllable');
   const [isFavorited, setIsFavorited] = useState(false);
   const [isMastered, setIsMastered] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
+  const [readSpeechText, setReadSpeechText] = useState('');
+  const [speechSupported, setSpeechSupported] = useState(false);
+  const [practiceOptions, setPracticeOptions] = useState([]);
+  const [practiceSelected, setPracticeSelected] = useState(null);
+  const [practiceCorrect, setPracticeCorrect] = useState(null);
+  const [spellParts, setSpellParts] = useState([]);
+  const [spellSelectedParts, setSpellSelectedParts] = useState([]);
+  const [spellDone, setSpellDone] = useState(false);
+  const [dictateInput, setDictateInput] = useState('');
+  const [dictateDone, setDictateDone] = useState(false);
+  const [dictateCorrect, setDictateCorrect] = useState(false);
+  const [exampleCn, setExampleCn] = useState('');
+  const [exampleCnLoading, setExampleCnLoading] = useState(false);
+  const exampleCnCache = useRef({});
+  const voicesLoadedRef = useRef(false);
+
+  useEffect(() => {
+    const loadVoices = () => {
+      const voices = speechSynthesis.getVoices();
+      if (voices.length > 0) voicesLoadedRef.current = true;
+    };
+    loadVoices();
+    speechSynthesis.addEventListener('voiceschanged', loadVoices);
+    return () => speechSynthesis.removeEventListener('voiceschanged', loadVoices);
+  }, []);
 
   const sessionStartedRef = useRef(false);
+  const readRecognitionRef = useRef(null);
+
+  useEffect(() => {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (SpeechRecognition) {
+      setSpeechSupported(true);
+      const recognition = new SpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = true;
+      recognition.lang = 'en-US';
+
+      recognition.onresult = (event) => {
+        let finalText = '';
+        let interimText = '';
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          if (event.results[i].isFinal) {
+            finalText += event.results[i][0].transcript;
+          } else {
+            interimText += event.results[i][0].transcript;
+          }
+        }
+        setReadSpeechText(finalText || interimText);
+      };
+
+      recognition.onerror = () => {
+        setIsRecording(false);
+      };
+
+      recognition.onend = () => {
+        setIsRecording(false);
+      };
+
+      readRecognitionRef.current = recognition;
+    }
+  }, []);
+
+  const toggleReadRecording = useCallback(() => {
+    if (!readRecognitionRef.current) return;
+    if (isRecording) {
+      readRecognitionRef.current.stop();
+      setIsRecording(false);
+    } else {
+      setReadSpeechText('');
+      try {
+        readRecognitionRef.current.start();
+        setIsRecording(true);
+      } catch (e) {
+        console.warn('[WordStudyPage] 启动语音识别失败:', e);
+      }
+    }
+  }, [isRecording]);
+
+  const playWordAudio = useCallback((text, accent = 'us') => {
+    if (!text) return;
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.8;
+    const voices = speechSynthesis.getVoices();
+    if (accent === 'uk') {
+      const ukVoice = voices.find(v => v.lang === 'en-GB') || voices.find(v => v.lang.startsWith('en-GB'));
+      if (ukVoice) utterance.voice = ukVoice;
+      utterance.lang = 'en-GB';
+    } else {
+      const usVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en-US'));
+      if (usVoice) utterance.voice = usVoice;
+    }
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
+  }, []);
+
+  const playSentenceAudio = useCallback((text) => {
+    if (!text) return;
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.75;
+    const voices = speechSynthesis.getVoices();
+    const usVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en-US'));
+    if (usVoice) utterance.voice = usVoice;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
+  }, []);
 
   const currentWord = sessionWords[currentWordIndex] || null;
+
+  const generatePracticeOptions = useCallback((word) => {
+    if (!word) return [];
+    const allMeanings = sessionWords
+      .map(w => w.meaning)
+      .filter(m => m && m !== word.meaning);
+    const shuffled = [...allMeanings].sort(() => Math.random() - 0.5);
+    const distractors = shuffled.slice(0, 3);
+    const options = [...distractors, word.meaning].sort(() => Math.random() - 0.5);
+    return options;
+  }, [sessionWords]);
+
+  const handlePracticeSelect = useCallback((option) => {
+    if (practiceSelected !== null) return;
+    setPracticeSelected(option);
+    setPracticeCorrect(option === currentWord?.meaning);
+  }, [practiceSelected, currentWord]);
+
+  const splitWordIntoParts = useCallback((word) => {
+    if (!word || word.length < 3) return [word];
+    const w = word.toLowerCase();
+    const suffixes = ['tion', 'sion', 'ment', 'ness', 'able', 'ible', 'ful', 'less', 'ous', 'ive', 'ing', 'ied', 'ies', 'ed', 'er', 'ly', 'es', 'ty', 'al', 'en', 'ic'];
+    const prefixes = ['un', 're', 'pre', 'dis', 'mis', 'over', 'out', 'im', 'in', 'ir', 'il'];
+    for (const suf of suffixes) {
+      if (w.endsWith(suf) && w.length > suf.length + 1) {
+        const root = word.slice(0, word.length - suf.length);
+        if (root.length >= 2) return [root, suf];
+      }
+    }
+    for (const pre of prefixes) {
+      if (w.startsWith(pre) && w.length > pre.length + 1) {
+        const rest = word.slice(pre.length);
+        if (rest.length >= 2) return [pre, rest];
+      }
+    }
+    const syllables = splitSyllables(word);
+    if (syllables.length > 1) return syllables;
+    return [word];
+  }, []);
+
+  const handleSpellPartSelect = useCallback((part) => {
+    if (spellDone) return;
+    if (spellSelectedParts.length >= spellParts.length) return;
+    setSpellSelectedParts(prev => [...prev, part]);
+  }, [spellDone, spellSelectedParts.length, spellParts.length]);
+
+  useEffect(() => {
+    if (currentStage === 'practice' && currentWord) {
+      setPracticeOptions(generatePracticeOptions(currentWord));
+      setPracticeSelected(null);
+      setPracticeCorrect(null);
+    }
+  }, [currentStage, currentWordIndex, currentWord, generatePracticeOptions]);
+
+  useEffect(() => {
+    if (currentStage === 'spell' && currentWord) {
+      const parts = splitWordIntoParts(currentWord.word);
+      setSpellParts(parts);
+      setSpellSelectedParts([]);
+      setSpellDone(false);
+    }
+  }, [currentStage, currentWordIndex, currentWord, splitWordIntoParts]);
+
+  useEffect(() => {
+    if (
+      currentStage === 'spell' &&
+      currentWord &&
+      spellSelectedParts.length === spellParts.length &&
+      !spellDone
+    ) {
+      const assembled = spellSelectedParts.join('');
+      if (assembled === currentWord.word) {
+        setSpellDone(true);
+      }
+    }
+  }, [currentStage, currentWord, spellSelectedParts, spellParts, spellDone]);
+
+  useEffect(() => {
+    if (currentStage === 'dictate' && currentWord) {
+      setDictateInput('');
+      setDictateDone(false);
+      setDictateCorrect(false);
+    }
+  }, [currentStage, currentWordIndex, currentWord]);
+
+  useEffect(() => {
+    if (!currentWord || !currentWord.example) {
+      setExampleCn('');
+      return;
+    }
+    const cacheKey = `exampleCn_${currentWord.word}`;
+    if (currentWord.exampleCn) {
+      setExampleCn(currentWord.exampleCn);
+      exampleCnCache.current[cacheKey] = currentWord.exampleCn;
+      try { localStorage.setItem(cacheKey, currentWord.exampleCn); } catch(e) {}
+      return;
+    }
+    if (exampleCnCache.current[cacheKey]) {
+      setExampleCn(exampleCnCache.current[cacheKey]);
+      return;
+    }
+    try {
+      const stored = localStorage.getItem(cacheKey);
+      if (stored) {
+        setExampleCn(stored);
+        exampleCnCache.current[cacheKey] = stored;
+        return;
+      }
+    } catch(e) {}
+    const fallback = generateExampleTranslation(currentWord);
+    setExampleCn(fallback);
+    setExampleCnLoading(true);
+    sendAIMessage(
+      [{ role: 'user', content: `请将以下英语句子翻译为中文，只输出翻译结果，不要解释：\n${currentWord.example}` }],
+      { temperature: 0.3, maxTokens: 200, systemPrompt: '你是一个英译中翻译器，只输出中文翻译，不要添加任何解释或标点符号以外的内容。' }
+    ).then(result => {
+      const text = result?.content?.trim() || '';
+      if (text) {
+        setExampleCn(text);
+        exampleCnCache.current[cacheKey] = text;
+        try { localStorage.setItem(cacheKey, text); } catch(e) {}
+      }
+    }).catch(() => {}).finally(() => setExampleCnLoading(false));
+  }, [currentWord]);
 
   useEffect(() => {
     loadVocabularyData().then(() => setDataLoaded(true));
@@ -183,6 +415,71 @@ export default function WordStudyPage({ showSettings: initialShowSettings = true
       consonant_cluster: '#EC4899',
     };
     return colors[type] || '#6B7280';
+  };
+
+  const generateExampleTranslation = (wordObj) => {
+    if (!wordObj || !wordObj.example) return wordObj?.meaning || '...';
+    const example = wordObj.example;
+    const word = wordObj.word;
+    const meaning = wordObj.meaning;
+    const translations = {
+      'The apple is red and delicious.': '这个苹果又红又好吃。',
+      'The ball is round.': '球是圆的。',
+      'The cat says meow.': '猫会喵喵叫。',
+      'The dog barks happily.': '狗开心地叫着。',
+      'We can cook the egg.': '我们可以煮鸡蛋。',
+      'The fish swims.': '鱼在游泳。',
+      'The girl likes to play.': '这个女孩喜欢玩。',
+      'Wash your hands.': '洗洗你的手。',
+      'Ants are insects.': '蚂蚁是昆虫。',
+      'I like to jump.': '我喜欢跳跃。',
+      'I fly a kite.': '我放风筝。',
+      'My legs are strong.': '我的腿很有力。',
+      'The monkey is hopping.': '猴子在跳来跳去。',
+      'My name is Tom.': '我的名字叫汤姆。',
+      'This orange is orange.': '这个橙子是橙色的。',
+      'Look! A big pig.': '看！一头大猪。',
+      'Be quiet, please.': '请安静。',
+      'The river is long.': '这条河很长。',
+      'The bird sings.': '鸟儿在唱歌。',
+      'She is a teacher.': '她是一名老师。',
+      'Put up your umbrella.': '撑开你的雨伞。',
+      'Summer vacation is coming.': '暑假就要来了。',
+      'Winter is cold.': '冬天很冷。',
+      'Yellow is my favourite colour.': '黄色是我最喜欢的颜色。',
+      "Let's go to the zoo.": '我们去动物园吧。',
+      'Pandas can climb trees.': '熊猫会爬树。',
+      'I like my new school bag.': '我喜欢我的新书包。',
+      'She lights a candle.': '她点燃了一根蜡烛。',
+      'Happy birthday!': '生日快乐！',
+      "Don't be sad.": '别难过。',
+    };
+    if (translations[example]) return translations[example];
+    const lower = example.toLowerCase();
+    const w = word.toLowerCase();
+    const m = meaning;
+    if (lower.startsWith('the ') && lower.includes(w)) {
+      return `这个${m}${lower.endsWith('.') ? example.slice(0, -1).replace(new RegExp(w, 'gi'), '').replace(/^the\s*/i, '').trim() : ''}。`;
+    }
+    if (lower.startsWith('i ') && lower.includes(w)) {
+      return `我${m}。`;
+    }
+    if (lower.startsWith('she ') && lower.includes(w)) {
+      return `她${m}。`;
+    }
+    if (lower.startsWith('he ') && lower.includes(w)) {
+      return `他${m}。`;
+    }
+    if (lower.startsWith('we ') && lower.includes(w)) {
+      return `我们${m}。`;
+    }
+    if (lower.startsWith('they ') && lower.includes(w)) {
+      return `他们${m}。`;
+    }
+    if (lower.startsWith('it ') && lower.includes(w)) {
+      return `它${m}。`;
+    }
+    return example.replace(new RegExp(word, 'gi'), meaning);
   };
 
   const generateExample = (word, type, meaning) => {
@@ -497,73 +794,235 @@ export default function WordStudyPage({ showSettings: initialShowSettings = true
       <div className="learning-content">
         <div className="word-display">
           <div className="word-main">
-            {currentWord ? renderSyllables(currentWord.word) : '...'}
+            {currentStage === 'spell' ? (
+              <span className={`spell-assembled ${spellDone ? 'done' : ''}`}>
+                {spellSelectedParts.length > 0 ? spellSelectedParts.join('') : <span style={{ color: 'var(--gray-300)' }}>____</span>}
+              </span>
+            ) : currentStage === 'dictate' ? (
+              <div className="dictate-input-wrapper">
+                {dictateDone ? (
+                  <div className={`dictate-answer ${dictateCorrect ? 'correct' : 'wrong'}`}>
+                    {dictateInput}
+                  </div>
+                ) : (
+                  <input
+                    className="dictate-input"
+                    type="text"
+                    placeholder="请输入单词..."
+                    value={dictateInput}
+                    maxLength={currentWord?.word.length || 20}
+                    onChange={(e) => {
+                      const val = e.target.value.replace(/[^a-zA-Z]/g, '').toLowerCase();
+                      setDictateInput(val);
+                      if (val.length === currentWord?.word.length) {
+                        const correct = val.toLowerCase() === currentWord?.word.toLowerCase();
+                        setDictateCorrect(correct);
+                        setDictateDone(true);
+                      }
+                    }}
+                    autoFocus
+                  />
+                )}
+              </div>
+            ) : currentWord ? renderSyllables(currentWord.word) : '...'}
           </div>
           <div className="word-phonetic">
             <span className="phonetic-item">
               英 [{currentWord?.phonetic || '...'}] 
-              <button className="speak-btn">🔊</button>
+              <button className="speak-btn" onClick={() => playWordAudio(currentWord?.word, 'uk')}>🔊</button>
             </span>
             <span className="phonetic-divider">|</span>
             <span className="phonetic-item">
               美 [{currentWord?.phonetic || '...'}] 
-              <button className="speak-btn">🔊</button>
+              <button className="speak-btn" onClick={() => playWordAudio(currentWord?.word, 'us')}>🔊</button>
             </span>
           </div>
         </div>
 
-        <div className="meaning-card">
-          <span className="word-type">{currentWord?.type || '...'}</span>
-          <span className="word-meaning">{currentWord?.meaning || '...'}</span>
-        </div>
-
-        <div className="phonics-card">
-          <div className="phonics-tabs">
-            <button 
-              className={`phonics-tab ${phonicsTab === 'syllable' ? 'active' : ''}`}
-              onClick={() => setPhonicsTab('syllable')}
-            >
-              音节拆分
-            </button>
-            <button 
-              className={`phonics-tab ${phonicsTab === 'natural' ? 'active' : ''}`}
-              onClick={() => setPhonicsTab('natural')}
-            >
-              自然拼读
-            </button>
+        {currentStage !== 'practice' && (
+          <div className="meaning-card">
+            <span className="word-type">{currentWord?.type || '...'}</span>
+            <span className="word-meaning">{currentWord?.meaning || '...'}</span>
           </div>
-          <div className="phonics-content">
-            {phonicsTab === 'syllable' ? (
-              currentPhonemes().map((p, idx) => (
-                <span key={idx} className="phoneme-item">/{p}/</span>
-              ))
-            ) : (
-              <div className="natural-phonics-grid">
-                {naturalPhonics().map((item, idx) => (
-                  <div key={idx} className="natural-phonics-item" style={{ borderColor: item.color }}>
-                    <div className="phonics-grapheme" style={{ color: item.color }}>
-                      {item.grapheme}
-                    </div>
-                    <div className="phonics-phoneme">
-                      {item.phoneme}
-                    </div>
-                    <div className="phonics-tip">
-                      {item.tip}
-                    </div>
-                  </div>
-                ))}
+        )}
+
+        {currentStage === 'dictate' && (
+          <div className="dictate-area">
+            {dictateDone && dictateCorrect && (
+              <div className="dictate-feedback correct">
+                <span>🎉</span>
+                <span>默写正确！</span>
+              </div>
+            )}
+            {dictateDone && !dictateCorrect && (
+              <div className="dictate-feedback wrong">
+                <span>😢</span>
+                <span>正确拼写：</span>
+                <span className="dictate-correct-word">{currentWord?.word}</span>
+              </div>
+            )}
+            {!dictateDone && (
+              <div className="dictate-hint">
+                请在横线上填写单词（共 {currentWord?.word.length} 个字母）
               </div>
             )}
           </div>
-        </div>
+        )}
 
-        <div className="example-card">
-          <div className="example-en">
-            {renderExample()}
-            <button className="speak-btn">🔊</button>
+        {currentStage === 'practice' && (
+          <div className="practice-area">
+            <div className="practice-hint">请选择这个单词的正确含义</div>
+            <div className="practice-options">
+              {practiceOptions.map((option, idx) => {
+                let optionClass = 'practice-option';
+                if (practiceSelected !== null) {
+                  if (option === currentWord?.meaning) {
+                    optionClass += ' correct';
+                  } else if (option === practiceSelected) {
+                    optionClass += ' wrong';
+                  }
+                }
+                return (
+                  <button
+                    key={idx}
+                    className={optionClass}
+                    onClick={() => handlePracticeSelect(option)}
+                    disabled={practiceSelected !== null}
+                  >
+                    <span className="practice-option-label">{String.fromCharCode(65 + idx)}</span>
+                    <span className="practice-option-text">{option}</span>
+                  </button>
+                );
+              })}
+            </div>
+            {practiceSelected !== null && (
+              <div className={`practice-feedback ${practiceCorrect ? 'correct' : 'wrong'}`}>
+                {practiceCorrect ? '🎉 回答正确！' : '😊 再接再厉！'}
+              </div>
+            )}
           </div>
-          <div className="example-cn">{currentWord?.meaning || '...'}</div>
-        </div>
+        )}
+
+        {currentStage === 'spell' && (
+          <div className="spell-area">
+            {spellDone && (
+              <div className="spell-result-card correct">
+                <div className="spell-result-icon">🎉</div>
+                <div className="spell-result-text">拼写正确！</div>
+              </div>
+            )}
+            {!spellDone && spellSelectedParts.length === spellParts.length && (
+              <div className="spell-result-card wrong">
+                <div className="spell-result-icon">😢</div>
+                <div className="spell-result-text">再试一次吧！</div>
+              </div>
+            )}
+            {!spellDone && (
+              <div className="spell-hint">请按顺序点击单词的各个部分</div>
+            )}
+            <div className="spell-parts-row">
+              {spellParts.map((part, idx) => {
+                const usedInPosition = spellSelectedParts.indexOf(part);
+                const isUsed = usedInPosition !== -1 && usedInPosition < spellSelectedParts.length;
+                return (
+                  <button
+                    key={idx}
+                    className={`spell-part-btn ${isUsed ? 'used' : ''}`}
+                    onClick={() => handleSpellPartSelect(part)}
+                    disabled={isUsed || spellDone}
+                  >
+                    {part}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {currentStage === 'read' ? (
+          <div className="read-practice-area">
+            <div className="read-hint">先听发音，再点击麦克风跟读</div>
+            <button
+              className={`read-mic-btn ${isRecording ? 'recording' : ''}`}
+              onClick={toggleReadRecording}
+              disabled={!speechSupported}
+            >
+              <i className={`fas fa-microphone${isRecording ? '-slash' : ''}`}></i>
+            </button>
+            <div className="read-mic-label">
+              {isRecording ? '录音中，点击停止' : '点击录音'}
+            </div>
+            {isRecording && (
+              <div className="read-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            )}
+            {readSpeechText && !isRecording && (
+              <div className="read-result">
+                <div className="read-result-label">你说的：</div>
+                <div className="read-result-text">{readSpeechText}</div>
+                {currentWord && (
+                  <div className={`read-match ${readSpeechText.toLowerCase().trim() === currentWord.word.toLowerCase() ? 'correct' : 'wrong'}`}>
+                    {readSpeechText.toLowerCase().trim() === currentWord.word.toLowerCase() ? '✓ 发音正确！' : `✗ 正确发音：${currentWord.word}`}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        ) : currentStage === 'learn' ? (
+          <>
+            <div className="phonics-card">
+              <div className="phonics-tabs">
+                <button
+                  className={`phonics-tab ${phonicsTab === 'syllable' ? 'active' : ''}`}
+                  onClick={() => setPhonicsTab('syllable')}
+                >
+                  音节拆分
+                </button>
+                <button
+                  className={`phonics-tab ${phonicsTab === 'natural' ? 'active' : ''}`}
+                  onClick={() => setPhonicsTab('natural')}
+                >
+                  自然拼读
+                </button>
+              </div>
+              <div className="phonics-content">
+                {phonicsTab === 'syllable' ? (
+                  currentPhonemes().map((p, idx) => (
+                    <span key={idx} className="phoneme-item">/{p}/</span>
+                  ))
+                ) : (
+                  <div className="natural-phonics-grid">
+                    {naturalPhonics().map((item, idx) => (
+                      <div key={idx} className="natural-phonics-item" style={{ borderColor: item.color }}>
+                        <div className="phonics-grapheme" style={{ color: item.color }}>
+                          {item.grapheme}
+                        </div>
+                        <div className="phonics-phoneme">
+                          {item.phoneme}
+                        </div>
+                        <div className="phonics-tip">
+                          {item.tip}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <div className="example-card">
+              <div className="example-en">
+                {renderExample()}
+                <button className="speak-btn" onClick={() => {
+                  const text = currentWord?.example || (currentWord ? generateExample(currentWord.word, currentWord.type, currentWord.meaning) : '');
+                  playSentenceAudio(text);
+                }}>🔊</button>
+              </div>
+              <div className="example-cn">{exampleCnLoading ? '翻译中...' : (exampleCn || currentWord?.meaning || '...')}</div>
+            </div>
+          </>
+        ) : null}
       </div>
 
       <div className="learning-footer">
