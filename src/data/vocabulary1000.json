@@ -1,0 +1,5052 @@
+[
+    {
+        "word": "apple",
+        "phonetic": "ˈæp(ə)l",
+        "type": "n.",
+        "meaning": "苹果",
+        "example": "I like to eat a juicy apple for a snack.",
+        "list": "List1",
+        "syllable": "ap-ple",
+        "exampleCn": "我喜欢的零食是美味多汁的苹果。"
+    },
+    {
+        "word": "ball",
+        "phonetic": "bɔːl",
+        "type": "n.",
+        "meaning": "球",
+        "example": "Let's play ball together in the park.",
+        "list": "List1",
+        "syllable": "ball",
+        "exampleCn": "我们一起去公园里玩球吧。"
+    },
+    {
+        "word": "cat",
+        "phonetic": "kæt",
+        "type": "n.",
+        "meaning": "猫",
+        "example": "My friend has a cute cat as a pet.",
+        "list": "List1",
+        "syllable": "cat",
+        "exampleCn": "我朋友的宠物是一只可爱的猫咪。"
+    },
+    {
+        "word": "dog",
+        "phonetic": "dɔ:ɡ",
+        "type": "n.",
+        "meaning": "狗",
+        "example": "I have a friendly dog as mypet.",
+        "list": "List1",
+        "syllable": "dog",
+        "exampleCn": "我的宠物狗对人十分友好。"
+    },
+    {
+        "word": "egg",
+        "phonetic": "eɡ",
+        "type": "n.",
+        "meaning": "鸡蛋",
+        "example": "Be careful not to break the egg when you crack it open.",
+        "list": "List1",
+        "syllable": "egg",
+        "exampleCn": "当你敲开鸡蛋时，小心别把它打碎了。"
+    },
+    {
+        "word": "fish",
+        "phonetic": "fɪʃ",
+        "type": "n.",
+        "meaning": "鱼",
+        "example": "The fish swims gracefully in the water.",
+        "list": "List1",
+        "syllable": "fish",
+        "exampleCn": "鱼在水中优雅地游动。"
+    },
+    {
+        "word": "juicy",
+        "phonetic": "ˈdʒu:si",
+        "type": "n.",
+        "meaning": "多汁的",
+        "example": "The orange is juicy and sweet.",
+        "list": "List1",
+        "syllable": "juic-y",
+        "exampleCn": "这个橙子多汁又甜。"
+    },
+    {
+        "word": "delicious",
+        "phonetic": "dɪˈl ɪʃəs",
+        "type": "n.",
+        "meaning": "美味的",
+        "example": "The cake is delicious.",
+        "list": "List1",
+        "syllable": "de-li-cious",
+        "exampleCn": "这块蛋糕很美味。"
+    },
+    {
+        "word": "round",
+        "phonetic": "raʊ nd",
+        "type": "n.",
+        "meaning": "圆形的",
+        "example": "The ball is round.",
+        "list": "List1",
+        "syllable": "round",
+        "exampleCn": "球是圆的。"
+    },
+    {
+        "word": "furry",
+        "phonetic": "ˈfɜ:ri",
+        "type": "n.",
+        "meaning": "毛绒绒的",
+        "example": "The cat is soft and furry.",
+        "list": "List1",
+        "syllable": "fur-ry",
+        "exampleCn": "这只猫又软又毛茸茸。"
+    },
+    {
+        "word": "bark",
+        "phonetic": "bɑ:rk",
+        "type": "n.",
+        "meaning": "狗叫声",
+        "example": "The dog barks at strangers.",
+        "list": "List1",
+        "syllable": "bark",
+        "exampleCn": "狗对着陌生人叫。"
+    },
+    {
+        "word": "break",
+        "phonetic": "breɪk",
+        "type": "n.",
+        "meaning": "打破",
+        "example": "Don't break the glass.",
+        "list": "List1",
+        "syllable": "break",
+        "exampleCn": "别打破玻璃杯。"
+    },
+    {
+        "word": "chicken",
+        "phonetic": "ˈtʃɪ kɪn",
+        "type": "n.",
+        "meaning": "鸡",
+        "example": "I like to eat chicken.",
+        "list": "List1",
+        "syllable": "chick-en",
+        "exampleCn": "我喜欢吃鸡肉。"
+    },
+    {
+        "word": "swim",
+        "phonetic": "swɪm",
+        "type": "n.",
+        "meaning": "游泳",
+        "example": "I can swim very well.",
+        "list": "List1",
+        "syllable": "swim",
+        "exampleCn": "我游泳游得很好。"
+    },
+    {
+        "word": "girl",
+        "phonetic": "ɡɜːrl",
+        "type": "n.",
+        "meaning": "女孩",
+        "example": "We can divide the students into two groups: one group is boys, the other is",
+        "list": "List1",
+        "syllable": "girl",
+        "exampleCn": "我们可以把学生分成两组，男生为一组  ，女生为一组。"
+    },
+    {
+        "word": "hand",
+        "phonetic": "hænd",
+        "type": "n.",
+        "meaning": "手",
+        "example": "She waved her hand to say hello to her friend.",
+        "list": "List1",
+        "syllable": "hand",
+        "exampleCn": "她挥手对她朋友问好。"
+    },
+    {
+        "word": "insect",
+        "phonetic": "ˈɪnsekt",
+        "type": "n.",
+        "meaning": "昆虫",
+        "example": "I saw a tiny insect crawling on a leaf.",
+        "list": "List1",
+        "syllable": "in-sect",
+        "exampleCn": "我看到一只小昆虫在叶子上爬行。"
+    },
+    {
+        "word": "jump",
+        "phonetic": "dʒʌmp",
+        "type": "v.",
+        "meaning": "跳跃",
+        "example": "The rabbit can jump high.",
+        "list": "List1",
+        "syllable": "jump",
+        "exampleCn": "兔子能跳得很高。"
+    },
+    {
+        "word": "kite",
+        "phonetic": "kaɪt",
+        "type": "n.",
+        "meaning": "风筝",
+        "example": "A father and his son go to a kite-flying festival.",
+        "list": "List1",
+        "syllable": "kite",
+        "exampleCn": "父子俩一起参加了风筝节。"
+    },
+    {
+        "word": "leg",
+        "phonetic": "leɡ",
+        "type": "n.",
+        "meaning": "腿；大腿",
+        "example": "I run fast with my legs during a  race.",
+        "list": "List1",
+        "syllable": "leg",
+        "exampleCn": "在比赛中我用腿跑得很快。"
+    },
+    {
+        "word": "student",
+        "phonetic": "'stu:d(ə)nt",
+        "type": "n.",
+        "meaning": "学生",
+        "example": "She is a good student.",
+        "list": "List1",
+        "syllable": "stu-dent",
+        "exampleCn": "她是个好学生。"
+    },
+    {
+        "word": "study",
+        "phonetic": "ˈstʌdi",
+        "type": "n.",
+        "meaning": "学习",
+        "example": "I study English every day.",
+        "list": "List1",
+        "syllable": "stud-y",
+        "exampleCn": "我每天学习英语。"
+    },
+    {
+        "word": "finger",
+        "phonetic": "ˈfɪŋɡə(r)",
+        "type": "n.",
+        "meaning": "手指",
+        "example": "I have five fingers on each hand.",
+        "list": "List1",
+        "syllable": "fin-ger",
+        "exampleCn": "我每只手有五个手指。"
+    },
+    {
+        "word": "nail",
+        "phonetic": "neɪl",
+        "type": "n.",
+        "meaning": "手指甲",
+        "example": "She painted her nails red.",
+        "list": "List1",
+        "syllable": "nail",
+        "exampleCn": "她把指甲涂成了红色。"
+    },
+    {
+        "word": "gesture",
+        "phonetic": "ˈdʒestʃər",
+        "type": "n.",
+        "meaning": "手势",
+        "example": "He made a gesture with his hand.",
+        "list": "List1",
+        "syllable": "ges-ture",
+        "exampleCn": "他用手做了一个手势。"
+    },
+    {
+        "word": "wave",
+        "phonetic": "weɪv",
+        "type": "n.",
+        "meaning": "挥手",
+        "example": "Wave goodbye.",
+        "list": "List1",
+        "syllable": "wave",
+        "exampleCn": "挥手告别。"
+    },
+    {
+        "word": "ant",
+        "phonetic": "ænt",
+        "type": "n.",
+        "meaning": "蚂蚁",
+        "example": "The ant is carrying food.",
+        "list": "List1",
+        "syllable": "ant",
+        "exampleCn": "蚂蚁正在搬运食物。"
+    },
+    {
+        "word": "bee",
+        "phonetic": "bi:",
+        "type": "n.",
+        "meaning": "蜜蜂",
+        "example": "The bee is collecting honey.",
+        "list": "List1",
+        "syllable": "bee",
+        "exampleCn": "蜜蜂正在采蜜。"
+    },
+    {
+        "word": "windy",
+        "phonetic": "ˈwɪndi",
+        "type": "n.",
+        "meaning": "多风的",
+        "example": "It's windy today.",
+        "list": "List1",
+        "syllable": "win-dy",
+        "exampleCn": "今天风很大。"
+    },
+    {
+        "word": "foot",
+        "phonetic": "fʊt",
+        "type": "n.",
+        "meaning": "脚",
+        "example": "I hurt my foot.",
+        "list": "List1",
+        "syllable": "foot",
+        "exampleCn": "我弄伤了脚。"
+    },
+    {
+        "word": "ankle",
+        "phonetic": "'æŋk(ə)l",
+        "type": "n.",
+        "meaning": "脚踝",
+        "example": "She twisted her ankle.",
+        "list": "List1",
+        "syllable": "an-kle",
+        "exampleCn": "她扭伤了脚踝。"
+    },
+    {
+        "word": "monkey",
+        "phonetic": "ˈmʌŋki",
+        "type": "n.",
+        "meaning": "猴子",
+        "example": "The Monkey King is not just any normal monkey.",
+        "list": "List1",
+        "syllable": "mon-key",
+        "exampleCn": "美猴王可不是任何一只普通的猴子。"
+    },
+    {
+        "word": "name",
+        "phonetic": "neɪm",
+        "type": "n.",
+        "meaning": "名字",
+        "example": "What's your name?",
+        "list": "List1",
+        "syllable": "name",
+        "exampleCn": "你叫什么名字？"
+    },
+    {
+        "word": "orange",
+        "phonetic": "ˈɔrɪndʒ",
+        "type": "n.",
+        "meaning": "橙；橙色；adj. 橙色的",
+        "example": "How many oranges do you want?",
+        "list": "List1",
+        "syllable": "or-ange",
+        "exampleCn": "你要多少橙子 ？"
+    },
+    {
+        "word": "pig",
+        "phonetic": "pɪɡ",
+        "type": "n.",
+        "meaning": "猪",
+        "example": "This little pig is digging a big hole.",
+        "list": "List1",
+        "syllable": "pig",
+        "exampleCn": "这只小猪在挖一个大洞。"
+    },
+    {
+        "word": "quiet",
+        "phonetic": "ˈkwaɪət",
+        "type": "n.",
+        "meaning": "安静；adj.  安静的；文静的",
+        "example": "She is very quiet.",
+        "list": "List1",
+        "syllable": "qui-et",
+        "exampleCn": "她很文静。"
+    },
+    {
+        "word": "river",
+        "phonetic": "ˈrɪvər",
+        "type": "n.",
+        "meaning": "河流",
+        "example": "Let's go  swimming in the river.",
+        "list": "List1",
+        "syllable": "riv-er",
+        "exampleCn": "我们去河里游泳吧。"
+    },
+    {
+        "word": "spell",
+        "phonetic": "spel",
+        "type": "n.",
+        "meaning": "拼写",
+        "example": "Can you spell your name?",
+        "list": "List1",
+        "syllable": "spell",
+        "exampleCn": "你会拼写你的名字吗？"
+    },
+    {
+        "word": "dig",
+        "phonetic": "d ɪɡ",
+        "type": "n.",
+        "meaning": "挖",
+        "example": "Dig a hole.",
+        "list": "List1",
+        "syllable": "dig",
+        "exampleCn": "挖个洞。"
+    },
+    {
+        "word": "sing",
+        "phonetic": "slŋ",
+        "type": "v.",
+        "meaning": "唱歌",
+        "example": "This singer is singing an English song.",
+        "list": "List1",
+        "syllable": "sing",
+        "exampleCn": "这个歌手正在唱一首英语歌。"
+    },
+    {
+        "word": "teacher",
+        "phonetic": "丨ti:tʃər",
+        "type": "n.",
+        "meaning": "老师",
+        "example": "The head teacher and teachers care about students",
+        "list": "List1",
+        "syllable": "teach-er",
+        "exampleCn": "丨 studies. 校长和老师们都很关心学生们的学习。"
+    },
+    {
+        "word": "umbrella",
+        "phonetic": "ʌm ˈbrelə",
+        "type": "n.",
+        "meaning": "雨伞",
+        "example": "I think it's about to  rain ; you can take an umbrella.",
+        "list": "List1",
+        "syllable": "um-brel-la",
+        "exampleCn": "我认为马上要下雨了，你应该带上雨伞。"
+    },
+    {
+        "word": "vacation",
+        "phonetic": "veɪˈkeɪʃ(ə)n",
+        "type": "n.",
+        "meaning": "假期",
+        "example": "I'll take a vacation next week.",
+        "list": "List1",
+        "syllable": "va-ca-tion",
+        "exampleCn": "下周我要休假。"
+    },
+    {
+        "word": "winter",
+        "phonetic": "ˈwɪntər",
+        "type": "n.",
+        "meaning": "冬天",
+        "example": "In winter, the bear is going to enter the cave and prepare to sleep.",
+        "list": "List1",
+        "syllable": "win-ter",
+        "exampleCn": "在冬天，熊要进入洞穴里开始冬眠了。"
+    },
+    {
+        "word": "box",
+        "phonetic": "bɑ:ks",
+        "type": "n.",
+        "meaning": "箱子",
+        "example": "This fox eats a box of chocolates.",
+        "list": "List1",
+        "syllable": "box",
+        "exampleCn": "这只狐狸吃了一整盒巧克力。"
+    },
+    {
+        "word": "yellow",
+        "phonetic": "ˈjeloʊ",
+        "type": "adj.",
+        "meaning": "黄色的；n. 黄色",
+        "example": "Follow me! If you want to eat a yellow  banana.",
+        "list": "List1",
+        "syllable": "yel-low",
+        "exampleCn": "跟着我！如果你想吃到黄色的香蕉。"
+    },
+    {
+        "word": "zoo",
+        "phonetic": "zu:",
+        "type": "n.",
+        "meaning": "动物园",
+        "example": "We're  going to the zoo next week.",
+        "list": "List1",
+        "syllable": "zoo",
+        "exampleCn": "我们下星期要去动物园。"
+    },
+    {
+        "word": "song",
+        "phonetic": "sɔ:ŋ",
+        "type": "n.",
+        "meaning": "歌曲",
+        "example": "Sing a song.",
+        "list": "List1",
+        "syllable": "song",
+        "exampleCn": "唱首歌。"
+    },
+    {
+        "word": "singer",
+        "phonetic": "ˈsɪŋə(r)",
+        "type": "n.",
+        "meaning": "歌手",
+        "example": "She is a famous singer.",
+        "list": "List1",
+        "syllable": "sing-er",
+        "exampleCn": "她是一位著名的歌手。"
+    },
+    {
+        "word": "shade",
+        "phonetic": "ʃeɪd",
+        "type": "n.",
+        "meaning": "阴凉处",
+        "example": "Sit in the shade.",
+        "list": "List1",
+        "syllable": "shade",
+        "exampleCn": "坐在阴凉处。"
+    },
+    {
+        "word": "holiday",
+        "phonetic": "ˈhɒlədeɪ",
+        "type": "n.",
+        "meaning": "假日",
+        "example": "Happy holiday!",
+        "list": "List2",
+        "syllable": "hol-i-day",
+        "exampleCn": "节日快乐！"
+    },
+    {
+        "word": "summer",
+        "phonetic": "ˈsʌmə(r)",
+        "type": "n.",
+        "meaning": "夏天",
+        "example": "Summer is hot.",
+        "list": "List2",
+        "syllable": "sum-mer",
+        "exampleCn": "夏天很热。"
+    },
+    {
+        "word": "purple",
+        "phonetic": "'pɜ:rp(ə)l",
+        "type": "n.",
+        "meaning": "紫色的",
+        "example": "The grapes are purple.",
+        "list": "List2",
+        "syllable": "pur-ple",
+        "exampleCn": "葡萄是紫色的。"
+    },
+    {
+        "word": "favourite",
+        "phonetic": "ˈfeɪvərɪt",
+        "type": "n.",
+        "meaning": "特别喜爱的",
+        "example": "This is my favourite book.",
+        "list": "List2",
+        "syllable": "fav-our-ite",
+        "exampleCn": "这是我最喜欢的书。"
+    },
+    {
+        "word": "panda",
+        "phonetic": "ˈpændə",
+        "type": "n.",
+        "meaning": "熊猫",
+        "example": "A panda is eating bamboo!",
+        "list": "List2",
+        "syllable": "pan-da",
+        "exampleCn": "一只大熊猫正在吃竹子！"
+    },
+    {
+        "word": "bag",
+        "phonetic": "bæɡ",
+        "type": "n.",
+        "meaning": "袋子；包",
+        "example": "Carry your bag.",
+        "list": "List2",
+        "syllable": "bag",
+        "exampleCn": "背起你的包。"
+    },
+    {
+        "word": "candle",
+        "phonetic": "ˈkænd(ə)l",
+        "type": "n.",
+        "meaning": "蜡烛",
+        "example": "I blew out the candle.",
+        "list": "List2",
+        "syllable": "can-dle",
+        "exampleCn": "我吹灭了蜡烛。"
+    },
+    {
+        "word": "hat",
+        "phonetic": "hæt",
+        "type": "n.",
+        "meaning": "（常指带檐的）帽子",
+        "example": "That fat cat wears a hat.",
+        "list": "List2",
+        "syllable": "hat",
+        "exampleCn": "那只肥猫戴着一顶帽子。"
+    },
+    {
+        "word": "cap",
+        "phonetic": "kæp",
+        "type": "n.",
+        "meaning": "（无檐的或仅在前面有檐的）帽子",
+        "example": "\"Good day, Little Red Cap,\" said he. “",
+        "list": "List2",
+        "syllable": "cap",
+        "exampleCn": "你好，小红帽。”他说。"
+    },
+    {
+        "word": "happy",
+        "phonetic": "ˈhæpi",
+        "type": "adj.",
+        "meaning": "快乐的；开心的",
+        "example": "I'm really happy today.",
+        "list": "List2",
+        "syllable": "hap-py",
+        "exampleCn": "我今天真的很高兴。"
+    },
+    {
+        "word": "sad",
+        "phonetic": "sæd",
+        "type": "adj.",
+        "meaning": "难过的",
+        "example": "I'm still very sad about what happened.",
+        "list": "List2",
+        "syllable": "sad",
+        "exampleCn": "我对所发生的事情仍感到十分难过。"
+    },
+    {
+        "word": "angry",
+        "phonetic": "ˈæŋɡri",
+        "type": "adj.",
+        "meaning": "生气的；愤怒的",
+        "example": "My mother is a little angry with me.",
+        "list": "List2",
+        "syllable": "an-gry",
+        "exampleCn": "我妈妈有点生我的气。"
+    },
+    {
+        "word": "bamboo",
+        "phonetic": "ˌ bæm ˈ bu:",
+        "type": "n.",
+        "meaning": "竹子",
+        "example": "Pandas eat bamboo.",
+        "list": "List2",
+        "syllable": "bam-boo",
+        "exampleCn": "熊猫吃竹子。"
+    },
+    {
+        "word": "wish",
+        "phonetic": "wɪʃ",
+        "type": "n.",
+        "meaning": "愿望",
+        "example": "I wish you happy.",
+        "list": "List2",
+        "syllable": "wish",
+        "exampleCn": "祝你快乐。"
+    },
+    {
+        "word": "light",
+        "phonetic": "laɪt",
+        "type": "n.",
+        "meaning": "点燃",
+        "example": "Turn on the light.",
+        "list": "List2",
+        "syllable": "light",
+        "exampleCn": "开灯。"
+    },
+    {
+        "word": "fat",
+        "phonetic": "fæt",
+        "type": "n.",
+        "meaning": "肥胖的",
+        "example": "The cat is fat.",
+        "list": "List2",
+        "syllable": "fat",
+        "exampleCn": "这只猫很胖。"
+    },
+    {
+        "word": "that",
+        "phonetic": "ðæt",
+        "type": "n.",
+        "meaning": "那",
+        "example": "I want that book.",
+        "list": "List2",
+        "syllable": "that",
+        "exampleCn": "我想要那本书。"
+    },
+    {
+        "word": "bed",
+        "phonetic": "bed",
+        "type": "n.",
+        "meaning": "床",
+        "example": "My cat is on the bed. It's cute.",
+        "list": "List2",
+        "syllable": "bed",
+        "exampleCn": "我的猫在床上。它很可爱。"
+    },
+    {
+        "word": "red",
+        "phonetic": "red",
+        "type": "adj.",
+        "meaning": "红色的；n.  红",
+        "example": "The light changed from red to green.",
+        "list": "List2",
+        "syllable": "red",
+        "exampleCn": "交通灯已由红变绿。"
+    },
+    {
+        "word": "desk",
+        "phonetic": "desk",
+        "type": "n.",
+        "meaning": "书桌",
+        "example": "The ruler is in the desk.",
+        "list": "List2",
+        "syllable": "desk",
+        "exampleCn": "尺子在抽屉里。"
+    },
+    {
+        "word": "pet",
+        "phonetic": "pet",
+        "type": "n.",
+        "meaning": "宠物",
+        "example": "Peter has a cute dog as a pet.",
+        "list": "List2",
+        "syllable": "pet",
+        "exampleCn": "彼德的宠物是一只可爱的狗狗。"
+    },
+    {
+        "word": "hen",
+        "phonetic": "hen",
+        "type": "n.",
+        "meaning": "母鸡",
+        "example": "The hen has five chicks.",
+        "list": "List2",
+        "syllable": "hen",
+        "exampleCn": "这只母鸡有五只小鸡。"
+    },
+    {
+        "word": "friend",
+        "phonetic": "frend",
+        "type": "n.",
+        "meaning": "朋友",
+        "example": "She is a friend ofmine.",
+        "list": "List2",
+        "syllable": "fri-end",
+        "exampleCn": "她是我的一位朋友。"
+    },
+    {
+        "word": "send",
+        "phonetic": "send",
+        "type": "v.",
+        "meaning": "发送；邮寄",
+        "example": "I am sending Grandma an e-card.",
+        "list": "List2",
+        "syllable": "send",
+        "exampleCn": "我正在给奶奶发电子贺卡。"
+    },
+    {
+        "word": "letter",
+        "phonetic": "ˈletər",
+        "type": "n.",
+        "meaning": "信；字母",
+        "example": "The letter “s” looks like a snake.",
+        "list": "List2",
+        "syllable": "let-ter",
+        "exampleCn": "字母s看起来像条蛇。"
+    },
+    {
+        "word": "bedroom",
+        "phonetic": "'bedru:m",
+        "type": "n.",
+        "meaning": "卧室",
+        "example": "Clean your bedroom.",
+        "list": "List2",
+        "syllable": "bed-room",
+        "exampleCn": "打扫你的卧室。"
+    },
+    {
+        "word": "classroom",
+        "phonetic": "'klæsru:m",
+        "type": "n.",
+        "meaning": "教室",
+        "example": "Go to the classroom.",
+        "list": "List2",
+        "syllable": "class-room",
+        "exampleCn": "去教室。"
+    },
+    {
+        "word": "bathroom",
+        "phonetic": "ˈbæθ ru:m",
+        "type": "n.",
+        "meaning": "浴室",
+        "example": "I need the bathroom.",
+        "list": "List2",
+        "syllable": "bath-room",
+        "exampleCn": "我需要上厕所。"
+    },
+    {
+        "word": "washroom",
+        "phonetic": "ˈwɑ:ʃru:m",
+        "type": "n.",
+        "meaning": "洗手间",
+        "example": "Where is the washroom?",
+        "list": "List2",
+        "syllable": "wash-room",
+        "exampleCn": "洗手间在哪里？"
+    },
+    {
+        "word": "blue",
+        "phonetic": "blu:",
+        "type": "n.",
+        "meaning": "蓝色的",
+        "example": "The sky is blue.",
+        "list": "List2",
+        "syllable": "blue",
+        "exampleCn": "天空是蓝色的。"
+    },
+    {
+        "word": "blackboard",
+        "phonetic": "ˈblækbɔ:rd",
+        "type": "n.",
+        "meaning": "黑板",
+        "example": "Look at the blackboard.",
+        "list": "List2",
+        "syllable": "black-board",
+        "exampleCn": "看黑板。"
+    },
+    {
+        "word": "let",
+        "phonetic": "let",
+        "type": "n.",
+        "meaning": "允许",
+        "example": "Let me help.",
+        "list": "List2",
+        "syllable": "let",
+        "exampleCn": "让我帮忙。"
+    },
+    {
+        "word": "chick",
+        "phonetic": "tʃɪk",
+        "type": "n.",
+        "meaning": "小鸡",
+        "example": "The chick is cute.",
+        "list": "List2",
+        "syllable": "chick",
+        "exampleCn": "小鸡很可爱。"
+    },
+    {
+        "word": "e-card",
+        "phonetic": "ˈi:kɑ:rd",
+        "type": "n.",
+        "meaning": "电子贺卡",
+        "example": "Send an e-card.",
+        "list": "List2",
+        "syllable": "e-card",
+        "exampleCn": "发送电子贺卡。"
+    },
+    {
+        "word": "ship",
+        "phonetic": "ʃɪp",
+        "type": "n.",
+        "meaning": "（大）船；轮船",
+        "example": "Can you go by ship or train?",
+        "list": "List2",
+        "syllable": "ship",
+        "exampleCn": "你可以坐船或火车吗？"
+    },
+    {
+        "word": "win",
+        "phonetic": "wɪn",
+        "type": "v.",
+        "meaning": "赢得",
+        "example": "She played well and became the winner of the game.",
+        "list": "List2",
+        "syllable": "win",
+        "exampleCn": "她表现出色，成为了比赛中的赢家。"
+    },
+    {
+        "word": "pick",
+        "phonetic": "pɪk",
+        "type": "v.",
+        "meaning": "采摘",
+        "example": "You can pick some apples from the garden.",
+        "list": "List2",
+        "syllable": "pick",
+        "exampleCn": "你可以从花园里摘些苹果。"
+    },
+    {
+        "word": "sit",
+        "phonetic": "sɪt",
+        "type": "v.",
+        "meaning": "坐",
+        "example": "You can sit in the sitting room.",
+        "list": "List2",
+        "syllable": "sit",
+        "exampleCn": "你可以坐在客厅里。"
+    },
+    {
+        "word": "pink",
+        "phonetic": "pɪŋk",
+        "type": "n.",
+        "meaning": "粉色的",
+        "example": "I like to drink the peach juice because it's pink.",
+        "list": "List2",
+        "syllable": "pink",
+        "exampleCn": "我喜欢喝桃子汁因为它是粉红色的。"
+    },
+    {
+        "word": "tin",
+        "phonetic": "tɪn",
+        "type": "n.",
+        "meaning": "罐子",
+        "example": "There is nothing in the tin.",
+        "list": "List2",
+        "syllable": "tin",
+        "exampleCn": "罐里什么都没有。"
+    },
+    {
+        "word": "him",
+        "phonetic": "hɪm",
+        "type": "pron.",
+        "meaning": "（宾格）他",
+        "example": "Tell him we're leaving.",
+        "list": "List2",
+        "syllable": "him",
+        "exampleCn": "告诉他我们要走了。"
+    },
+    {
+        "word": "trip",
+        "phonetic": "trɪp",
+        "type": "n.",
+        "meaning": "短途旅行",
+        "example": "Have a good trip!",
+        "list": "List2",
+        "syllable": "trip",
+        "exampleCn": "旅途愉快！"
+    },
+    {
+        "word": "winner",
+        "phonetic": "ˈwɪnə(r)",
+        "type": "n.",
+        "meaning": "获胜的人",
+        "example": "Who is the winner?",
+        "list": "List2",
+        "syllable": "win-ner",
+        "exampleCn": "谁是获胜者？"
+    },
+    {
+        "word": "think",
+        "phonetic": "θɪŋk",
+        "type": "n.",
+        "meaning": "认为",
+        "example": "I think so.",
+        "list": "List2",
+        "syllable": "think",
+        "exampleCn": "我是这么认为的。"
+    },
+    {
+        "word": "frog",
+        "phonetic": "frɒɡ",
+        "type": "n.",
+        "meaning": "青蛙",
+        "example": "Green frog jumps in the pond.",
+        "list": "List2",
+        "syllable": "frog",
+        "exampleCn": "青蛙在池塘里跳来跳去。"
+    },
+    {
+        "word": "sock",
+        "phonetic": "sɒk",
+        "type": "n.",
+        "meaning": "短袜",
+        "example": "My friend wants to wear green socks.",
+        "list": "List2",
+        "syllable": "sock",
+        "exampleCn": "我的朋友想穿绿色的袜子。"
+    },
+    {
+        "word": "shop",
+        "phonetic": "ʃɒp",
+        "type": "n.",
+        "meaning": "商店；v. 购物",
+        "example": "We can go to the pet shop first.",
+        "list": "List2",
+        "syllable": "shop",
+        "exampleCn": "我们可以先去宠物店。"
+    },
+    {
+        "word": "store",
+        "phonetic": "stɔː(r)",
+        "type": "n.",
+        "meaning": "商店",
+        "example": "I work at a store.",
+        "list": "List2",
+        "syllable": "store",
+        "exampleCn": "我在商店工作。"
+    },
+    {
+        "word": "clock",
+        "phonetic": "klɒk",
+        "type": "n.",
+        "meaning": "钟",
+        "example": "His watch is a little faster than my clock.",
+        "list": "List2",
+        "syllable": "clock",
+        "exampleCn": "他的手表比我的钟快了一点。"
+    },
+    {
+        "word": "doll",
+        "phonetic": "dɒl",
+        "type": "n.",
+        "meaning": "玩具娃娃",
+        "example": "Hold the doll.",
+        "list": "List2",
+        "syllable": "doll",
+        "exampleCn": "抱着玩具娃娃。"
+    },
+    {
+        "word": "stop",
+        "phonetic": "stɒp",
+        "type": "v.",
+        "meaning": "(使）停下；停下；n. 车站",
+        "example": "It's a stop sign.",
+        "list": "List3",
+        "syllable": "stop",
+        "exampleCn": "这是停止标志。"
+    },
+    {
+        "word": "body",
+        "phonetic": "ˈbɒdi",
+        "type": "n.",
+        "meaning": "身体",
+        "example": "His body was black and blue.",
+        "list": "List3",
+        "syllable": "bod-y",
+        "exampleCn": "他的身上青一块紫一块。"
+    },
+    {
+        "word": "coffee",
+        "phonetic": "ˈkɒfi",
+        "type": "n.",
+        "meaning": "咖啡",
+        "example": "In the morning, they can have breakfast in the coffee shop.",
+        "list": "List3",
+        "syllable": "cof-fee",
+        "exampleCn": "早上他们可以在咖啡店吃早餐。"
+    },
+    {
+        "word": "pond",
+        "phonetic": "pɑ:nd",
+        "type": "n.",
+        "meaning": "池塘",
+        "example": "There are fish in the pond.",
+        "list": "List3",
+        "syllable": "pond",
+        "exampleCn": "池塘里有鱼。"
+    },
+    {
+        "word": "prince",
+        "phonetic": "prɪns",
+        "type": "n.",
+        "meaning": "王子",
+        "example": "The prince is handsome.",
+        "list": "List3",
+        "syllable": "prince",
+        "exampleCn": "王子很英俊。"
+    },
+    {
+        "word": "cartoon",
+        "phonetic": "kɑ:ˈtu:n",
+        "type": "n.",
+        "meaning": "漫画",
+        "example": "I like watching cartoons.",
+        "list": "List3",
+        "syllable": "car-toon",
+        "exampleCn": "我喜欢看动画片。"
+    },
+    {
+        "word": "stocking",
+        "phonetic": "ˈstɒkɪŋ",
+        "type": "n.",
+        "meaning": "长筒袜",
+        "example": "She wore stockings.",
+        "list": "List3",
+        "syllable": "stock-ing",
+        "exampleCn": "她穿着长筒袜。"
+    },
+    {
+        "word": "rock",
+        "phonetic": "rɑ:k",
+        "type": "n.",
+        "meaning": "石头",
+        "example": "The rock is heavy.",
+        "list": "List3",
+        "syllable": "rock",
+        "exampleCn": "石头很重。"
+    },
+    {
+        "word": "sun",
+        "phonetic": "sʌn",
+        "type": "n.",
+        "meaning": "太阳",
+        "example": "The sun is shining.",
+        "list": "List3",
+        "syllable": "sun",
+        "exampleCn": "阳光明媚。"
+    },
+    {
+        "word": "lunch",
+        "phonetic": "lʌntʃ",
+        "type": "n.",
+        "meaning": "午餐",
+        "example": "I'm ready for lunch.",
+        "list": "List3",
+        "syllable": "lunch",
+        "exampleCn": "我准备好吃午餐了。"
+    },
+    {
+        "word": "fun",
+        "phonetic": "fʌn",
+        "type": "n.",
+        "meaning": "乐趣",
+        "example": "Have fun!",
+        "list": "List3",
+        "syllable": "fun",
+        "exampleCn": "玩得开心点！"
+    },
+    {
+        "word": "subway",
+        "phonetic": "ˈsʌbweɪ",
+        "type": "n.",
+        "meaning": "地铁",
+        "example": "Where is the nearest subway station?",
+        "list": "List3",
+        "syllable": "sub-way",
+        "exampleCn": "最近的地铁站在那里？"
+    },
+    {
+        "word": "cut",
+        "phonetic": "kʌt",
+        "type": "v.",
+        "meaning": "切；割",
+        "example": "Johnson cut himself shaving.",
+        "list": "List3",
+        "syllable": "cut",
+        "exampleCn": "约翰逊刮胡子时割伤了自己。"
+    },
+    {
+        "word": "drum",
+        "phonetic": "drʌm",
+        "type": "n.",
+        "meaning": "鼓",
+        "example": "Can you play the piano or drum?",
+        "list": "List3",
+        "syllable": "drum",
+        "exampleCn": "你会弹钢琴还是敲鼓？"
+    },
+    {
+        "word": "duck",
+        "phonetic": "dʌk",
+        "type": "n.",
+        "meaning": "鸭子；鸭肉",
+        "example": "Have you tried Peking Duck?",
+        "list": "List3",
+        "syllable": "duck",
+        "exampleCn": "你吃过北京烤鸭吗？"
+    },
+    {
+        "word": "plum",
+        "phonetic": "plʌm",
+        "type": "n.",
+        "meaning": "李子",
+        "example": "Could I have some fruit sugar for my plum juice?",
+        "list": "List3",
+        "syllable": "plum",
+        "exampleCn": "可以给我的梅子汁要加点果糖吗？"
+    },
+    {
+        "word": "cloud",
+        "phonetic": "klaud",
+        "type": "n.",
+        "meaning": "云彩",
+        "example": "Look at the cloud.",
+        "list": "List3",
+        "syllable": "cloud",
+        "exampleCn": "看那朵云。"
+    },
+    {
+        "word": "meal",
+        "phonetic": "mi:l",
+        "type": "n.",
+        "meaning": "一餐",
+        "example": "Have a good meal.",
+        "list": "List3",
+        "syllable": "meal",
+        "exampleCn": "用餐愉快。"
+    },
+    {
+        "word": "breakfast",
+        "phonetic": "'brekfəst",
+        "type": "n.",
+        "meaning": "早餐",
+        "example": "Eat breakfast.",
+        "list": "List3",
+        "syllable": "break-fast",
+        "exampleCn": "吃早餐。"
+    },
+    {
+        "word": "funny",
+        "phonetic": "ˈfΛni",
+        "type": "n.",
+        "meaning": "滑稽的",
+        "example": "He is funny.",
+        "list": "List3",
+        "syllable": "fun-ny",
+        "exampleCn": "他很风趣。"
+    },
+    {
+        "word": "beat",
+        "phonetic": "bi:t",
+        "type": "n.",
+        "meaning": "打",
+        "example": "Beat the eggs.",
+        "list": "List3",
+        "syllable": "beat",
+        "exampleCn": "打鸡蛋。"
+    },
+    {
+        "word": "whale",
+        "phonetic": "weɪl",
+        "type": "n.",
+        "meaning": "鲸鱼",
+        "example": "The blue whale is the world's largest living animal.",
+        "list": "List3",
+        "syllable": "whale",
+        "exampleCn": "蓝鲸是现存最大的动物。"
+    },
+    {
+        "word": "lake",
+        "phonetic": "leɪk",
+        "type": "n.",
+        "meaning": "湖",
+        "example": "There are many trees beside the lake.",
+        "list": "List3",
+        "syllable": "lake",
+        "exampleCn": "湖边有许多树。"
+    },
+    {
+        "word": "gate",
+        "phonetic": "ɡeɪt",
+        "type": "n.",
+        "meaning": "大门",
+        "example": "Let's meet at the school gate.",
+        "list": "List3",
+        "syllable": "gate",
+        "exampleCn": "让我们在学校门口碰面。"
+    },
+    {
+        "word": "date",
+        "phonetic": "deɪt",
+        "type": "n.",
+        "meaning": "日期；约会",
+        "example": "A: What's the date? B: It's October 1st.",
+        "list": "List3",
+        "syllable": "date",
+        "exampleCn": ""
+    },
+    {
+        "word": "brave",
+        "phonetic": "breɪv",
+        "type": "adj.",
+        "meaning": "勇敢的",
+        "example": "It was brave of you to do so.",
+        "list": "List3",
+        "syllable": "brave",
+        "exampleCn": "你这么做真勇敢。"
+    },
+    {
+        "word": "sale",
+        "phonetic": "seɪl",
+        "type": "n.",
+        "meaning": "出售；销售活动",
+        "example": "This coat is on sale.",
+        "list": "List3",
+        "syllable": "sa-le",
+        "exampleCn": "这件外套正在特价销售。"
+    },
+    {
+        "word": "snake",
+        "phonetic": "sneɪk",
+        "type": "n.",
+        "meaning": "蛇",
+        "example": "The snake looks like an S.",
+        "list": "List3",
+        "syllable": "snake",
+        "exampleCn": "这条蛇看上去像S。"
+    },
+    {
+        "word": "sea",
+        "phonetic": "si:",
+        "type": "n.",
+        "meaning": "大海",
+        "example": "The sea is blue.",
+        "list": "List3",
+        "syllable": "sea",
+        "exampleCn": "大海是蓝色的。"
+    },
+    {
+        "word": "waterfall",
+        "phonetic": "ˈw0:tərf0:l",
+        "type": "n.",
+        "meaning": "瀑布",
+        "example": "Visit the waterfall.",
+        "list": "List3",
+        "syllable": "wa-ter-fall",
+        "exampleCn": "参观瀑布。"
+    },
+    {
+        "word": "christmas",
+        "phonetic": "ˈkrɪsməs",
+        "type": "n.",
+        "meaning": "圣诞节",
+        "example": "Merry Christmas!",
+        "list": "List3",
+        "syllable": "christ-mas",
+        "exampleCn": "圣诞快乐！"
+    },
+    {
+        "word": "tuesday",
+        "phonetic": "ˈtju:zdeɪ",
+        "type": "n.",
+        "meaning": "星期二",
+        "example": "Today is Tuesday.",
+        "list": "List3",
+        "syllable": "tues-day",
+        "exampleCn": "今天是星期二。"
+    },
+    {
+        "word": "wednesday",
+        "phonetic": "ˈwɛnzdeɪ",
+        "type": "n.",
+        "meaning": "星期三",
+        "example": "Wednesday is midweek.",
+        "list": "List3",
+        "syllable": "wednes-day",
+        "exampleCn": "星期三是周中。"
+    },
+    {
+        "word": "friday",
+        "phonetic": "ˈfraɪdeɪ",
+        "type": "n.",
+        "meaning": "星期五",
+        "example": "Friday is almost weekend.",
+        "list": "List3",
+        "syllable": "fri-day",
+        "exampleCn": "星期五快到周末了。"
+    },
+    {
+        "word": "saturday",
+        "phonetic": "ˈsætərdeɪ",
+        "type": "n.",
+        "meaning": "星期六",
+        "example": "Saturday is fun.",
+        "list": "List3",
+        "syllable": "sat-ur-day",
+        "exampleCn": "星期六很有趣。"
+    },
+    {
+        "word": "sunday",
+        "phonetic": "ˈsΛndeɪ",
+        "type": "n.",
+        "meaning": "星期日",
+        "example": "Sunday is a rest day.",
+        "list": "List3",
+        "syllable": "sun-day",
+        "exampleCn": "星期日是休息日。"
+    },
+    {
+        "word": "discount",
+        "phonetic": "ˈdɪskaunt",
+        "type": "n.",
+        "meaning": "打折",
+        "example": "Get a discount.",
+        "list": "List3",
+        "syllable": "dis-count",
+        "exampleCn": "获得折扣。"
+    },
+    {
+        "word": "ice",
+        "phonetic": "aɪs",
+        "type": "n.",
+        "meaning": "冰块",
+        "example": "Extra ice in my drink, please.",
+        "list": "List3",
+        "syllable": "ice",
+        "exampleCn": "我的饮料多加冰，谢谢。"
+    },
+    {
+        "word": "fire",
+        "phonetic": "ˈfaɪə(r)",
+        "type": "n.",
+        "meaning": "火焰",
+        "example": "He threw the letter into the fire.",
+        "list": "List3",
+        "syllable": "fi-re",
+        "exampleCn": "他把信扔进了炉火。"
+    },
+    {
+        "word": "hide",
+        "phonetic": "haɪd",
+        "type": "v.",
+        "meaning": "躲藏；把...藏起来",
+        "example": "Jack, let's play hide and seek.",
+        "list": "List3",
+        "syllable": "hide",
+        "exampleCn": "杰克，我们来玩捉迷藏吧。"
+    },
+    {
+        "word": "line",
+        "phonetic": "laɪn",
+        "type": "n.",
+        "meaning": "线；线条",
+        "example": "He draws a straight line.",
+        "list": "List3",
+        "syllable": "line",
+        "exampleCn": "他画了一条直线。"
+    },
+    {
+        "word": "hike",
+        "phonetic": "haɪk",
+        "type": "v.",
+        "meaning": "徒步远行；远足",
+        "example": "I like going hiking on the weekend.",
+        "list": "List3",
+        "syllable": "hi-ke",
+        "exampleCn": "我喜欢周末去远足。"
+    },
+    {
+        "word": "smile",
+        "phonetic": "smaɪl",
+        "type": "n.",
+        "meaning": "/v. 微笑",
+        "example": "She smiled at me.",
+        "list": "List3",
+        "syllable": "smi-le",
+        "exampleCn": "她冲我微笑。"
+    },
+    {
+        "word": "nine",
+        "phonetic": "naɪn",
+        "type": "num.",
+        "meaning": "九",
+        "example": "It's exactly nine o'clock.",
+        "list": "List3",
+        "syllable": "nine",
+        "exampleCn": "现在是九点整。"
+    },
+    {
+        "word": "like",
+        "phonetic": "laɪk",
+        "type": "v.",
+        "meaning": "喜欢",
+        "example": "What would the boy like to do?",
+        "list": "List3",
+        "syllable": "li-ke",
+        "exampleCn": "这个男孩想做什么？"
+    },
+    {
+        "word": "rain",
+        "phonetic": "reɪn",
+        "type": "n.",
+        "meaning": "/v. 雨",
+        "example": "It's going to rain.",
+        "list": "List3",
+        "syllable": "rain",
+        "exampleCn": "要下雨了。"
+    },
+    {
+        "word": "snow",
+        "phonetic": "snəu",
+        "type": "n.",
+        "meaning": "/v. 雪",
+        "example": "It's snowing.",
+        "list": "List3",
+        "syllable": "snow",
+        "exampleCn": "下雪了。"
+    },
+    {
+        "word": "frozen",
+        "phonetic": "ˈfrəuz(ə)n",
+        "type": "n.",
+        "meaning": "结冰的",
+        "example": "The lake is frozen.",
+        "list": "List3",
+        "syllable": "fro-zen",
+        "exampleCn": "湖结冰了。"
+    },
+    {
+        "word": "nice",
+        "phonetic": "naɪs",
+        "type": "n.",
+        "meaning": "美好的",
+        "example": "Nice to meet you.",
+        "list": "List3",
+        "syllable": "nice",
+        "exampleCn": "很高兴认识你。"
+    },
+    {
+        "word": "advice",
+        "phonetic": "ədˈvaɪs",
+        "type": "n.",
+        "meaning": "忠告",
+        "example": "Give me some advice.",
+        "list": "List3",
+        "syllable": "ad-vice",
+        "exampleCn": "给我一些建议。"
+    },
+    {
+        "word": "circle",
+        "phonetic": "ˈs3:rk(ə)l",
+        "type": "n.",
+        "meaning": "圆圈",
+        "example": "Draw a circle.",
+        "list": "List4",
+        "syllable": "cir-cle",
+        "exampleCn": "画一个圆。"
+    },
+    {
+        "word": "triangle",
+        "phonetic": "ˈtraiæŋɡ(ə)l",
+        "type": "n.",
+        "meaning": "三角形",
+        "example": "A triangle has three sides.",
+        "list": "List4",
+        "syllable": "tri-an-gle",
+        "exampleCn": "三角形有三条边。"
+    },
+    {
+        "word": "hope",
+        "phonetic": "həʊp",
+        "type": "n.",
+        "meaning": "/v. 希望",
+        "example": "I hope everything goes well!",
+        "list": "List4",
+        "syllable": "hope",
+        "exampleCn": "我希望一切顺利。"
+    },
+    {
+        "word": "hometown",
+        "phonetic": "ˈhəʊmtaʊn",
+        "type": "n.",
+        "meaning": "家乡",
+        "example": "Shao Guohua never left his hometown.",
+        "list": "List4",
+        "syllable": "home-town",
+        "exampleCn": "邵国华从未离开过家乡。"
+    },
+    {
+        "word": "those",
+        "phonetic": "ðəʊz",
+        "type": "pron.",
+        "meaning": "那些",
+        "example": "Those are my balls.",
+        "list": "List4",
+        "syllable": "tho-se",
+        "exampleCn": "那些是我的球。"
+    },
+    {
+        "word": "close",
+        "phonetic": "kləʊz",
+        "type": "v.",
+        "meaning": "关闭；adj.  亲近的；接近的",
+        "example": "Please close the window.",
+        "list": "List4",
+        "syllable": "clo-se",
+        "exampleCn": "请关上窗户。"
+    },
+    {
+        "word": "nose",
+        "phonetic": "nəʊz",
+        "type": "n.",
+        "meaning": "鼻子",
+        "example": "His nose is thin and sharp.",
+        "list": "List4",
+        "syllable": "no-se",
+        "exampleCn": "他的鼻子又细又尖。"
+    },
+    {
+        "word": "phone",
+        "phonetic": "fəʊn",
+        "type": "n.",
+        "meaning": "电话",
+        "example": "The phone  rang   and Rose answered it.",
+        "list": "List4",
+        "syllable": "phone",
+        "exampleCn": "电话响起来了，罗斯接了。"
+    },
+    {
+        "word": "rose",
+        "phonetic": "rəʊz",
+        "type": "n.",
+        "meaning": "玫瑰",
+        "example": "He sent her a single red rose.",
+        "list": "List4",
+        "syllable": "ro-se",
+        "exampleCn": "他送给她一支红玫瑰。"
+    },
+    {
+        "word": "alone",
+        "phonetic": "ə ˈləʊn",
+        "type": "adj.",
+        "meaning": "/adv. 单独的",
+        "example": "Exercising alone can be boring.",
+        "list": "List4",
+        "syllable": "a-lone",
+        "exampleCn": "独自一个人锻炼可能会很无聊。"
+    },
+    {
+        "word": "homework",
+        "phonetic": "ˈhəumw3:k",
+        "type": "n.",
+        "meaning": "家庭作业",
+        "example": "Do your homework.",
+        "list": "List4",
+        "syllable": "home-work",
+        "exampleCn": "做作业。"
+    },
+    {
+        "word": "open",
+        "phonetic": "ˈəupən",
+        "type": "n.",
+        "meaning": "打开",
+        "example": "Open the door.",
+        "list": "List4",
+        "syllable": "o-pen",
+        "exampleCn": "开门。"
+    },
+    {
+        "word": "see",
+        "phonetic": "si:",
+        "type": "n.",
+        "meaning": "看见",
+        "example": "I can see you.",
+        "list": "List4",
+        "syllable": "see",
+        "exampleCn": "我能看见你。"
+    },
+    {
+        "word": "smell",
+        "phonetic": "smel",
+        "type": "n.",
+        "meaning": "闻见",
+        "example": "It smells good.",
+        "list": "List4",
+        "syllable": "smell",
+        "exampleCn": "闻起来很香。"
+    },
+    {
+        "word": "ear",
+        "phonetic": "ɪə (r)",
+        "type": "n.",
+        "meaning": "耳朵",
+        "example": "I have two ears.",
+        "list": "List4",
+        "syllable": "ear",
+        "exampleCn": "我有两只耳朵。"
+    },
+    {
+        "word": "hear",
+        "phonetic": "hɪə (r)",
+        "type": "n.",
+        "meaning": "听到",
+        "example": "Can you hear me?",
+        "list": "List4",
+        "syllable": "hear",
+        "exampleCn": "你能听到我吗？"
+    },
+    {
+        "word": "tongue",
+        "phonetic": "tΛŋ",
+        "type": "n.",
+        "meaning": "舌头",
+        "example": "Stick out your tongue.",
+        "list": "List4",
+        "syllable": "tongue",
+        "exampleCn": "伸出舌头。"
+    },
+    {
+        "word": "eat",
+        "phonetic": "i:t",
+        "type": "n.",
+        "meaning": "吃到",
+        "example": "Let's eat.",
+        "list": "List4",
+        "syllable": "eat",
+        "exampleCn": "我们吃吧。"
+    },
+    {
+        "word": "lone",
+        "phonetic": "ləun",
+        "type": "n.",
+        "meaning": "独自的",
+        "example": "A lone wolf.",
+        "list": "List4",
+        "syllable": "lone",
+        "exampleCn": "一只孤独的狼。"
+    },
+    {
+        "word": "lonely",
+        "phonetic": "ˈləunli",
+        "type": "n.",
+        "meaning": "孤独的",
+        "example": "I feel lonely.",
+        "list": "List4",
+        "syllable": "lone-ly",
+        "exampleCn": "我感到孤独。"
+    },
+    {
+        "word": "rude",
+        "phonetic": "ruːd",
+        "type": "adj.",
+        "meaning": "粗鲁的",
+        "example": "It's rude to speak when you're eating.",
+        "list": "List4",
+        "syllable": "rude",
+        "exampleCn": "吃饭的时候说话不礼貌。"
+    },
+    {
+        "word": "mule",
+        "phonetic": "mju :l",
+        "type": "n.",
+        "meaning": "骡子",
+        "example": "A mule is the child of a donkey and a horse.",
+        "list": "List4",
+        "syllable": "mu-le",
+        "exampleCn": "骡子是驴和马的后代。"
+    },
+    {
+        "word": "june",
+        "phonetic": "dʒuːn",
+        "type": "n.",
+        "meaning": "六月",
+        "example": "I like to eat watermelons in June.",
+        "list": "List4",
+        "syllable": "ju-ne",
+        "exampleCn": "我喜欢在六月份吃西瓜。"
+    },
+    {
+        "word": "cute",
+        "phonetic": "kjuːt",
+        "type": "adj.",
+        "meaning": "可爱的",
+        "example": "Dogs are very cute animals.",
+        "list": "List4",
+        "syllable": "cute",
+        "exampleCn": "小狗是非常可爱的动物。"
+    },
+    {
+        "word": "cube",
+        "phonetic": "kjuːb",
+        "type": "n.",
+        "meaning": "立方体",
+        "example": "How manyfaces does a cube have?",
+        "list": "List4",
+        "syllable": "cube",
+        "exampleCn": "立方体有几个面 ？"
+    },
+    {
+        "word": "tube",
+        "phonetic": "tjuːb",
+        "type": "n.",
+        "meaning": "管；管子",
+        "example": "I go out today and buy a tube of toothpaste.",
+        "list": "List4",
+        "syllable": "tube",
+        "exampleCn": "我今天出去买了一管牙膏。"
+    },
+    {
+        "word": "rule",
+        "phonetic": "ruːl",
+        "type": "n.",
+        "meaning": "规章；规则",
+        "example": "There are many school rules.",
+        "list": "List4",
+        "syllable": "ru-le",
+        "exampleCn": "有很多学校规则。"
+    },
+    {
+        "word": "mute",
+        "phonetic": "mjuːt",
+        "type": "adj.",
+        "meaning": "无声的",
+        "example": "Now it's mute.",
+        "list": "List4",
+        "syllable": "mute",
+        "exampleCn": "现在它无声无息。"
+    },
+    {
+        "word": "polite",
+        "phonetic": "pəˈlaɪt",
+        "type": "n.",
+        "meaning": "有礼貌的",
+        "example": "Be polite.",
+        "list": "List4",
+        "syllable": "po-lite",
+        "exampleCn": "要有礼貌。"
+    },
+    {
+        "word": "donkey",
+        "phonetic": "ˈdɒŋki",
+        "type": "n.",
+        "meaning": "驴",
+        "example": "The donkey is stubborn.",
+        "list": "List4",
+        "syllable": "don-key",
+        "exampleCn": "驴很固执。"
+    },
+    {
+        "word": "horse",
+        "phonetic": "hɔ:s",
+        "type": "n.",
+        "meaning": "马",
+        "example": "Ride a horse.",
+        "list": "List4",
+        "syllable": "horse",
+        "exampleCn": "骑马。"
+    },
+    {
+        "word": "january",
+        "phonetic": "ˈdʒænjuəri",
+        "type": "n.",
+        "meaning": "一月",
+        "example": "January is the first month.",
+        "list": "List4",
+        "syllable": "jan-u-ar-y",
+        "exampleCn": "一月是第一个月。"
+    },
+    {
+        "word": "april",
+        "phonetic": "ˈeɪprəl",
+        "type": "n.",
+        "meaning": "四月",
+        "example": "April has rain.",
+        "list": "List4",
+        "syllable": "ap-ril",
+        "exampleCn": "四月有雨。"
+    },
+    {
+        "word": "august",
+        "phonetic": "ˈɔ:ɡəst",
+        "type": "n.",
+        "meaning": "八月",
+        "example": "August is hot.",
+        "list": "List4",
+        "syllable": "au-gust",
+        "exampleCn": "八月很热。"
+    },
+    {
+        "word": "september",
+        "phonetic": "sepˈtembə(r)",
+        "type": "n.",
+        "meaning": "九月",
+        "example": "September is autumn.",
+        "list": "List4",
+        "syllable": "sep-tem-ber",
+        "exampleCn": "九月是秋天。"
+    },
+    {
+        "word": "november",
+        "phonetic": "nəʊˈvembə(r)",
+        "type": "n.",
+        "meaning": "十一月",
+        "example": "November is cold.",
+        "list": "List4",
+        "syllable": "no-vem-ber",
+        "exampleCn": "十一月很冷。"
+    },
+    {
+        "word": "yesterday",
+        "phonetic": "ˈjestədeɪ",
+        "type": "n.",
+        "meaning": "昨天",
+        "example": "Where were you yesterday morning?",
+        "list": "List4",
+        "syllable": "yes-ter-day",
+        "exampleCn": "你昨天上午在哪儿 ？"
+    },
+    {
+        "word": "day",
+        "phonetic": "deɪ",
+        "type": "n.",
+        "meaning": "一天",
+        "example": "A: What day is today?",
+        "list": "List4",
+        "syllable": "day",
+        "exampleCn": "今天星期几？B:It’s Friday.今天星期五。"
+    },
+    {
+        "word": "crayon",
+        "phonetic": "ˈkreɪə n",
+        "type": "n.",
+        "meaning": "蜡笔",
+        "example": "I drew a picture of my family with my crayon in art class.",
+        "list": "List4",
+        "syllable": "cray-on",
+        "exampleCn": "在美术课上，我用蜡笔画了一幅全家福。"
+    },
+    {
+        "word": "tail",
+        "phonetic": "teɪ l",
+        "type": "n.",
+        "meaning": "尾巴",
+        "example": "Look at the rabbit, it has a short tail.",
+        "list": "List4",
+        "syllable": "ta-il",
+        "exampleCn": "看那只兔子 ，它的尾巴很短。"
+    },
+    {
+        "word": "air",
+        "phonetic": "eθ (r)",
+        "type": "n.",
+        "meaning": "空气",
+        "example": "This classroom needs some fresh air, please open the window and door.",
+        "list": "List4",
+        "syllable": "air",
+        "exampleCn": "请打开门窗，这间教室需要新鲜空气。"
+    },
+    {
+        "word": "wait",
+        "phonetic": "weɪt",
+        "type": "v.",
+        "meaning": "等待",
+        "example": "You don't need to wait for me.",
+        "list": "List4",
+        "syllable": "wa-it",
+        "exampleCn": "你不用等我。"
+    },
+    {
+        "word": "stair",
+        "phonetic": "steθ (r)",
+        "type": "n.",
+        "meaning": "楼梯",
+        "example": "Nancy begins to climb the stairs.",
+        "list": "List4",
+        "syllable": "sta-ir",
+        "exampleCn": "南希开始爬楼梯。"
+    },
+    {
+        "word": "chair",
+        "phonetic": "tʃeθ(r)",
+        "type": "n.",
+        "meaning": "椅子",
+        "example": "She jumped down off the chair.",
+        "list": "List4",
+        "syllable": "cha-ir",
+        "exampleCn": "她跳下椅子。"
+    },
+    {
+        "word": "tomorrow",
+        "phonetic": "təˈmɑ:roʊ",
+        "type": "n.",
+        "meaning": "明天",
+        "example": "See you tomorrow.",
+        "list": "List4",
+        "syllable": "to-mor-row",
+        "exampleCn": "明天见。"
+    },
+    {
+        "word": "morning",
+        "phonetic": "ˈmɔ:rnɪŋ",
+        "type": "n.",
+        "meaning": "早上",
+        "example": "Good morning!",
+        "list": "List4",
+        "syllable": "mor-ning",
+        "exampleCn": "早上好！"
+    },
+    {
+        "word": "afternoon",
+        "phonetic": "ˌɑ:ftəˈ nu:n",
+        "type": "n.",
+        "meaning": "下午",
+        "example": "Good afternoon!",
+        "list": "List4",
+        "syllable": "af-ter-noon",
+        "exampleCn": "下午好！"
+    },
+    {
+        "word": "night",
+        "phonetic": "naɪt",
+        "type": "n.",
+        "meaning": "夜晚",
+        "example": "Good night!",
+        "list": "List4",
+        "syllable": "night",
+        "exampleCn": "晚安！"
+    },
+    {
+        "word": "green",
+        "phonetic": "ɡri:n",
+        "type": "n.",
+        "meaning": "/adj. 绿色",
+        "example": "The grass is green.",
+        "list": "List4",
+        "syllable": "green",
+        "exampleCn": "草是绿色的。"
+    },
+    {
+        "word": "brown",
+        "phonetic": "braʊ n",
+        "type": "n.",
+        "meaning": "/adj. 棕色",
+        "example": "Brown hair.",
+        "list": "List4",
+        "syllable": "brown",
+        "exampleCn": "棕色的头发。"
+    },
+    {
+        "word": "neck",
+        "phonetic": "nek",
+        "type": "n.",
+        "meaning": "脖子",
+        "example": "My neck hurts.",
+        "list": "List5",
+        "syllable": "neck",
+        "exampleCn": "我的脖子疼。"
+    },
+    {
+        "word": "airplane",
+        "phonetic": "ˈeəpleɪn",
+        "type": "n.",
+        "meaning": "飞机",
+        "example": "Take an airplane.",
+        "list": "List5",
+        "syllable": "air-plane",
+        "exampleCn": "坐飞机。"
+    },
+    {
+        "word": "upstairs",
+        "phonetic": "ˌʌpˈsteəz",
+        "type": "n.",
+        "meaning": "在楼上",
+        "example": "Go upstairs.",
+        "list": "List5",
+        "syllable": "up-stairs",
+        "exampleCn": "上楼。"
+    },
+    {
+        "word": "hair",
+        "phonetic": "heə(r)",
+        "type": "n.",
+        "meaning": "头发",
+        "example": "Cut my hair.",
+        "list": "List5",
+        "syllable": "hair",
+        "exampleCn": "剪头发。"
+    },
+    {
+        "word": "tea",
+        "phonetic": "ti :",
+        "type": "n.",
+        "meaning": "茶",
+        "example": "Would you like tea or coffee?",
+        "list": "List5",
+        "syllable": "tea",
+        "exampleCn": "你喝茶还是喝咖啡？"
+    },
+    {
+        "word": "beach",
+        "phonetic": "bi :tʃ",
+        "type": "n.",
+        "meaning": "沙滩",
+        "example": "Tom and Lily build a sand castle on the beach.",
+        "list": "List5",
+        "syllable": "be-ach",
+        "exampleCn": "汤姆和莉莉在沙滩上堆沙堡。"
+    },
+    {
+        "word": "sleep",
+        "phonetic": "sli :p",
+        "type": "v.",
+        "meaning": "睡觉",
+        "example": "Good night, sleep tight!",
+        "list": "List5",
+        "syllable": "sle-ep",
+        "exampleCn": "晚安，睡个好觉 ！"
+    },
+    {
+        "word": "leave",
+        "phonetic": "li :v",
+        "type": "v.",
+        "meaning": "离开",
+        "example": "What's the hurry? The train doesn't leave for an hour.",
+        "list": "List5",
+        "syllable": "leave",
+        "exampleCn": "慌什么？火车还有一个小时才开呢。"
+    },
+    {
+        "word": "east",
+        "phonetic": "i :st",
+        "type": "n.",
+        "meaning": "东方；adv. 向东",
+        "example": "The sun rises in the east.",
+        "list": "List5",
+        "syllable": "e-ast",
+        "exampleCn": "太阳从东方升起。"
+    },
+    {
+        "word": "healthy",
+        "phonetic": "ˈhelθi",
+        "type": "adj.",
+        "meaning": "健康的",
+        "example": "Candy isn't a healthy food.",
+        "list": "List5",
+        "syllable": "health-y",
+        "exampleCn": "糖果不是健康的食物。"
+    },
+    {
+        "word": "teeth",
+        "phonetic": "ti :θ",
+        "type": "n.",
+        "meaning": "牙齿",
+        "example": "We have to brush our teeth every day.",
+        "list": "List5",
+        "syllable": "te-eth",
+        "exampleCn": "我们每天都得刷牙。"
+    },
+    {
+        "word": "feet",
+        "phonetic": "fi :t",
+        "type": "n.",
+        "meaning": "脚；足",
+        "example": "My feet hurt.",
+        "list": "List5",
+        "syllable": "fe-et",
+        "exampleCn": "我脚痛。 英语复数知识点 ： 在英语里，有许多名词变成复数的规则，让我们一起揭开其中的奥秘吧！ 首先，让我们来看看普通的名词。当我们想表达不止一个东西时，只需要在名词后面加上一个\"s\"，就变成复数啦！ 比如，\"cat\"（猫）变成了\"cats\"（ 一堆猫），\"dog\"（狗）变成了\"dogs\"（ 一些狗）。 不过，还有一些名词可不那么乖巧哦！"
+    },
+    {
+        "word": "north",
+        "phonetic": "nɔːθ",
+        "type": "n.",
+        "meaning": "北方",
+        "example": "Go north.",
+        "list": "List5",
+        "syllable": "north",
+        "exampleCn": "向北走。"
+    },
+    {
+        "word": "bread",
+        "phonetic": "bred",
+        "type": "n.",
+        "meaning": "面包",
+        "example": "A glass of milk and a piece of bread, please.",
+        "list": "List5",
+        "syllable": "bre-ad",
+        "exampleCn": "请来一杯牛奶和一片面包。"
+    },
+    {
+        "word": "sweater",
+        "phonetic": "ˈswetə(r)",
+        "type": "n.",
+        "meaning": "毛衣",
+        "example": "He pull on his sweater.",
+        "list": "List5",
+        "syllable": "sweat-er",
+        "exampleCn": "他套上了毛衣。"
+    },
+    {
+        "word": "head",
+        "phonetic": "hed",
+        "type": "n.",
+        "meaning": "头部",
+        "example": "He shakes his head regretfully.",
+        "list": "List5",
+        "syllable": "he-ad",
+        "exampleCn": "他遗憾地摇了摇头。"
+    },
+    {
+        "word": "peanut",
+        "phonetic": "ˈpi :nΛt",
+        "type": "n.",
+        "meaning": "花生",
+        "example": "I had two peanut butter and jelly sandwiches.",
+        "list": "List5",
+        "syllable": "pea-nut",
+        "exampleCn": "我吃了两个花生酱果酱三明治。"
+    },
+    {
+        "word": "dead",
+        "phonetic": "ded",
+        "type": "adj.",
+        "meaning": "死的；n.  死者",
+        "example": "Urgh! There's a dead fly in my coffee!",
+        "list": "List5",
+        "syllable": "de-ad",
+        "exampleCn": "呸 ！我的咖啡里有只死苍蝇 ！"
+    },
+    {
+        "word": "ready",
+        "phonetic": "ˈredi",
+        "type": "adj.",
+        "meaning": "准备好",
+        "example": "Everybody ready? It's showtime!",
+        "list": "List5",
+        "syllable": "read-y",
+        "exampleCn": "大家都准备好了吗？开演 ！"
+    },
+    {
+        "word": "team",
+        "phonetic": "ti :m",
+        "type": "n.",
+        "meaning": "团队",
+        "example": "She is the best player on her team.",
+        "list": "List5",
+        "syllable": "te-am",
+        "exampleCn": "她是队里的最佳选手。"
+    },
+    {
+        "word": "weak",
+        "phonetic": "wi :k",
+        "type": "adj.",
+        "meaning": "虚弱的",
+        "example": "She is still weak after her illness.",
+        "list": "List5",
+        "syllable": "we-ak",
+        "exampleCn": "她病后仍然虚弱。"
+    },
+    {
+        "word": "sandwich",
+        "phonetic": "ˈsænwɪtʃ",
+        "type": "n.",
+        "meaning": "三明治",
+        "example": "Make a sandwich.",
+        "list": "List5",
+        "syllable": "sand-wich",
+        "exampleCn": "做一个三明治。"
+    },
+    {
+        "word": "headache",
+        "phonetic": "ˈhedeɪk",
+        "type": "n.",
+        "meaning": "头痛",
+        "example": "I have a headache.",
+        "list": "List5",
+        "syllable": "head-ache",
+        "exampleCn": "我头疼。"
+    },
+    {
+        "word": "stomachache",
+        "phonetic": "ˈstʌməkeɪk",
+        "type": "n.",
+        "meaning": "胃疼",
+        "example": "I have a stomachache.",
+        "list": "List5",
+        "syllable": "stom-ach-ache",
+        "exampleCn": "我肚子疼。"
+    },
+    {
+        "word": "toothache",
+        "phonetic": "ˈtu:θeɪk",
+        "type": "n.",
+        "meaning": "牙疼",
+        "example": "I have a toothache.",
+        "list": "List5",
+        "syllable": "tooth-ache",
+        "exampleCn": "我牙疼。"
+    },
+    {
+        "word": "born",
+        "phonetic": "bɔ:n",
+        "type": "n.",
+        "meaning": "出生",
+        "example": "I was born in 2000.",
+        "list": "List5",
+        "syllable": "born",
+        "exampleCn": "我出生于2000年。"
+    },
+    {
+        "word": "high",
+        "phonetic": "haɪ",
+        "type": "adj.",
+        "meaning": "高的",
+        "example": "There is a high mountain in the nature park.",
+        "list": "List5",
+        "syllable": "high",
+        "exampleCn": "自然公园里有一座高山。"
+    },
+    {
+        "word": "right",
+        "phonetic": "raɪt",
+        "type": "adj.",
+        "meaning": "正确的；n.  右边",
+        "example": "All right, class! Turn to page 20.",
+        "list": "List5",
+        "syllable": "right",
+        "exampleCn": "好啦，同学们，翻到第20页。"
+    },
+    {
+        "word": "lady",
+        "phonetic": "ˈleɪdi",
+        "type": "n.",
+        "meaning": "女士",
+        "example": "She's a very sweet old lady.",
+        "list": "List5",
+        "syllable": "la-dy",
+        "exampleCn": "她是一位非常亲切的老太太。"
+    },
+    {
+        "word": "try",
+        "phonetic": "traɪ",
+        "type": "v.",
+        "meaning": "尝试",
+        "example": "Try not to get your shoes wet.",
+        "list": "List5",
+        "syllable": "try",
+        "exampleCn": "尽量别弄湿了鞋子。"
+    },
+    {
+        "word": "easy",
+        "phonetic": "ˈi :zi",
+        "type": "adj.",
+        "meaning": "容易的",
+        "example": "It 's not easy to quit smoking.",
+        "list": "List5",
+        "syllable": "ea-sy",
+        "exampleCn": "戒烟不容易。"
+    },
+    {
+        "word": "hungry",
+        "phonetic": "ˈhΛ ŋɡri",
+        "type": "adj.",
+        "meaning": "饥饿的",
+        "example": "Come on now. You know you must be hungry.",
+        "list": "List5",
+        "syllable": "hun-gry",
+        "exampleCn": "好了。你看你一定是饿了。"
+    },
+    {
+        "word": "tidy",
+        "phonetic": "ˈtaɪdi",
+        "type": "adj.",
+        "meaning": "整洁的;  干净的；v.  使整洁；整理",
+        "example": "Our classroom is clean and tidy.",
+        "list": "List5",
+        "syllable": "ti-dy",
+        "exampleCn": "我们的教室干净整洁。"
+    },
+    {
+        "word": "bright",
+        "phonetic": "braɪt",
+        "type": "n.",
+        "meaning": "明亮的",
+        "example": "The light is bright.",
+        "list": "List5",
+        "syllable": "bright",
+        "exampleCn": "灯光很亮。"
+    },
+    {
+        "word": "wrong",
+        "phonetic": "r ɒŋ",
+        "type": "n.",
+        "meaning": "错误的",
+        "example": "That's wrong.",
+        "list": "List5",
+        "syllable": "wrong",
+        "exampleCn": "那是错的。"
+    },
+    {
+        "word": "miss",
+        "phonetic": "mɪs",
+        "type": "n.",
+        "meaning": "是指未婚女子",
+        "example": "I miss you.",
+        "list": "List5",
+        "syllable": "miss",
+        "exampleCn": "我想你。"
+    },
+    {
+        "word": "usually",
+        "phonetic": "ˈju :3uəli;  ˈju :3ə li",
+        "type": "adv.",
+        "meaning": "通常；经常",
+        "example": "She usually wears long skirts.",
+        "list": "List5",
+        "syllable": "u-su-al-ly",
+        "exampleCn": "她通常穿长裙。"
+    },
+    {
+        "word": "baby",
+        "phonetic": "ˈbeɪ bi",
+        "type": "n.",
+        "meaning": "婴儿；宝贝",
+        "example": "The baby is three months old.",
+        "list": "List5",
+        "syllable": "ba-by",
+        "exampleCn": "这婴儿三个月大了。"
+    },
+    {
+        "word": "dirty",
+        "phonetic": "ˈd3 :ti",
+        "type": "adj.",
+        "meaning": "脏的",
+        "example": "Try not to get your shoes dirty.",
+        "list": "List5",
+        "syllable": "dir-ty",
+        "exampleCn": "尽量别把鞋子搞脏。"
+    },
+    {
+        "word": "cloudy",
+        "phonetic": "ˈklaʊdi",
+        "type": "adj.",
+        "meaning": "多云的",
+        "example": "I don't want to go out today, because it's cloudy and wet.",
+        "list": "List5",
+        "syllable": "cloud-y",
+        "exampleCn": "今天我不想出门，因为天阴沉沉的又潮湿。"
+    },
+    {
+        "word": "naughty",
+        "phonetic": "ˈ nɔ :ti",
+        "type": "adj.",
+        "meaning": "调皮的",
+        "example": "Whenever  Daniel's  little  sister was asked to  do something, she always had a",
+        "list": "List5",
+        "syllable": "naugh-ty",
+        "exampleCn": "每次让丹尼尔的小妹妹做点事情，她总是有调皮的回应。"
+    },
+    {
+        "word": "honey",
+        "phonetic": "ˈhΛ ni",
+        "type": "n.",
+        "meaning": "蜂蜜；亲爱的",
+        "example": "Have you seen my keys, honey?",
+        "list": "List5",
+        "syllable": "hon-ey",
+        "exampleCn": "你见到我的钥匙了吗，宝贝？"
+    },
+    {
+        "word": "badly",
+        "phonetic": "ˈbædli",
+        "type": "adv.",
+        "meaning": "严重地",
+        "example": "Everything has gone badly wrong!",
+        "list": "List5",
+        "syllable": "bad-ly",
+        "exampleCn": "一切都糟透了。"
+    },
+    {
+        "word": "safety",
+        "phonetic": "ˈseɪfti",
+        "type": "n.",
+        "meaning": "安全；平安",
+        "example": "Food safety is very important.",
+        "list": "List5",
+        "syllable": "sa-fe-ty",
+        "exampleCn": "食品安全是非常重要的。"
+    },
+    {
+        "word": "always",
+        "phonetic": "ˈ0:lweɪz",
+        "type": "n.",
+        "meaning": "总是",
+        "example": "I always wake up early.",
+        "list": "List5",
+        "syllable": "al-ways",
+        "exampleCn": "我总是早起。"
+    },
+    {
+        "word": "normally",
+        "phonetic": "ˈn0:məli",
+        "type": "n.",
+        "meaning": "通常",
+        "example": "Normally I wake at 7.",
+        "list": "List5",
+        "syllable": "nor-mal-ly",
+        "exampleCn": "通常我7点醒来。"
+    },
+    {
+        "word": "generally",
+        "phonetic": "ˈd3en(ə)rəli",
+        "type": "n.",
+        "meaning": "笼统地",
+        "example": "Generally speaking.",
+        "list": "List5",
+        "syllable": "gen-er-al-ly",
+        "exampleCn": "一般来说。"
+    },
+    {
+        "word": "sometimes",
+        "phonetic": "ˈsΛmtaɪmz",
+        "type": "n.",
+        "meaning": "有时",
+        "example": "Sometimes I walk.",
+        "list": "List5",
+        "syllable": "some-times",
+        "exampleCn": "有时我走路。"
+    },
+    {
+        "word": "never",
+        "phonetic": "ˈnevə(r)",
+        "type": "n.",
+        "meaning": "决不",
+        "example": "I never lie.",
+        "list": "List5",
+        "syllable": "nev-er",
+        "exampleCn": "我从不撒谎。"
+    },
+    {
+        "word": "sunny",
+        "phonetic": "ˈsΛni",
+        "type": "n.",
+        "meaning": "晴朗的",
+        "example": "It's sunny today.",
+        "list": "List5",
+        "syllable": "sun-ny",
+        "exampleCn": "今天天气晴朗。"
+    },
+    {
+        "word": "rainy",
+        "phonetic": "ˈreɪni",
+        "type": "n.",
+        "meaning": "多雨的",
+        "example": "It's rainy today.",
+        "list": "List6",
+        "syllable": "rain-y",
+        "exampleCn": "今天下雨。"
+    },
+    {
+        "word": "wood",
+        "phonetic": "wʊd",
+        "type": "n.",
+        "meaning": "木料；木头",
+        "example": "All the furniture was made of wood.",
+        "list": "List6",
+        "syllable": "wo-od",
+        "exampleCn": "这里所有的家具都是用木料制作的。"
+    },
+    {
+        "word": "guide",
+        "phonetic": "ɡaɪd",
+        "type": "v.",
+        "meaning": "带领；n.  指南；导游",
+        "example": "Please follow the tour guide.",
+        "list": "List6",
+        "syllable": "gu-i-de",
+        "exampleCn": "请跟着导游。"
+    },
+    {
+        "word": "noodles",
+        "phonetic": "ˈ nu :d(ə)lz",
+        "type": "n.",
+        "meaning": "面条",
+        "example": "Would you prefer rice or noodles?",
+        "list": "List6",
+        "syllable": "no-od-les",
+        "exampleCn": "你喜欢吃米饭还是面条？"
+    },
+    {
+        "word": "boot",
+        "phonetic": "bu :t",
+        "type": "n.",
+        "meaning": "靴子",
+        "example": "My foot won't go into this boot.",
+        "list": "List6",
+        "syllable": "bo-ot",
+        "exampleCn": "我的脚穿不进这只靴子。"
+    },
+    {
+        "word": "fruit",
+        "phonetic": "fru :t",
+        "type": "n.",
+        "meaning": "水果； 果实",
+        "example": "You will love our ice cream and fresh fruit juice.",
+        "list": "List6",
+        "syllable": "fru-it",
+        "exampleCn": "你会喜欢我们的冰淇淋和鲜榨果汁的。"
+    },
+    {
+        "word": "pool",
+        "phonetic": "pu :l",
+        "type": "n.",
+        "meaning": "游泳池；池塘",
+        "example": "Does the hotel have a pool?",
+        "list": "List6",
+        "syllable": "po-ol",
+        "exampleCn": "这家旅馆有没有游泳池 ？"
+    },
+    {
+        "word": "guess",
+        "phonetic": "ɡes",
+        "type": "v.",
+        "meaning": "猜测",
+        "example": "Guess what I didfor the whole of the first week.",
+        "list": "List6",
+        "syllable": "gu-ess",
+        "exampleCn": "猜猜整个第一周我都做了些什么。"
+    },
+    {
+        "word": "glue",
+        "phonetic": "ɡlu :",
+        "type": "n.",
+        "meaning": "胶水",
+        "example": "Do you use glue and markers in art class?",
+        "list": "List6",
+        "syllable": "glu-e",
+        "exampleCn": "你在美术课使用胶棒和马克笔吗 ？"
+    },
+    {
+        "word": "paper",
+        "phonetic": "ˈpeɪpə(r)",
+        "type": "n.",
+        "meaning": "纸张",
+        "example": "Write on paper.",
+        "list": "List6",
+        "syllable": "pa-per",
+        "exampleCn": "在纸上写。"
+    },
+    {
+        "word": "house",
+        "phonetic": "haus",
+        "type": "n.",
+        "meaning": "房子",
+        "example": "This is my house.",
+        "list": "List6",
+        "syllable": "house",
+        "exampleCn": "这是我的房子。"
+    },
+    {
+        "word": "glass",
+        "phonetic": "ɡlɑ:s",
+        "type": "n.",
+        "meaning": "玻璃",
+        "example": "A glass of water.",
+        "list": "List6",
+        "syllable": "glass",
+        "exampleCn": "一杯水。"
+    },
+    {
+        "word": "leather",
+        "phonetic": "ˈleðə(r)",
+        "type": "n.",
+        "meaning": "皮革",
+        "example": "Leather shoes.",
+        "list": "List6",
+        "syllable": "leath-er",
+        "exampleCn": "皮鞋。"
+    },
+    {
+        "word": "sandals",
+        "phonetic": "ˈsænd(ə)lz",
+        "type": "n.",
+        "meaning": "凉鞋",
+        "example": "Wear sandals in summer.",
+        "list": "List6",
+        "syllable": "san-dals",
+        "exampleCn": "夏天穿凉鞋。"
+    },
+    {
+        "word": "sneakers",
+        "phonetic": "ˈsni:kə(r)z",
+        "type": "n.",
+        "meaning": "运动鞋",
+        "example": "Wear sneakers for sports.",
+        "list": "List6",
+        "syllable": "sneak-ers",
+        "exampleCn": "运动穿运动鞋。"
+    },
+    {
+        "word": "scissors",
+        "phonetic": "ˈsɪzəz",
+        "type": "n.",
+        "meaning": "剪刀",
+        "example": "Use scissors to cut.",
+        "list": "List6",
+        "syllable": "scis-sors",
+        "exampleCn": "用剪刀剪。"
+    },
+    {
+        "word": "kangaroo",
+        "phonetic": "kæŋɡəˈru :",
+        "type": "n.",
+        "meaning": "袋鼠",
+        "example": "Kangaroos live in Australia.",
+        "list": "List6",
+        "syllable": "kan-ga-ro-o",
+        "exampleCn": "袋鼠生活在澳大利亚 ，他们用后腿跳跃。袋鼠妈妈有一个特别的袋子装它的小宝宝。袋鼠吃草和叶子 ，喝水。你也可以在中国的动物园里见到袋鼠。"
+    },
+    {
+        "word": "goodbye",
+        "phonetic": "ɡʊdˈbaɪ",
+        "type": "int.",
+        "meaning": "再见",
+        "example": "Goodbye! It was great to meet you.",
+        "list": "List6",
+        "syllable": "go-od-by-e",
+        "exampleCn": "再见！认识你很高兴。"
+    },
+    {
+        "word": "cool",
+        "phonetic": "ku :l",
+        "type": "adj.",
+        "meaning": "凉的；酷的；v. 使冷却",
+        "example": "See how you feel and try to keep cool.",
+        "list": "List6",
+        "syllable": "co-ol",
+        "exampleCn": "你需要更加关注自己的感受，尽量保持冷静。"
+    },
+    {
+        "word": "too",
+        "phonetic": "tu :",
+        "type": "adv.",
+        "meaning": "也；太",
+        "example": "She works herself too hard.",
+        "list": "List6",
+        "syllable": "too",
+        "exampleCn": "她工作起来太不辞劳苦了"
+    },
+    {
+        "word": "notebook",
+        "phonetic": "ˈnəʊtbʊ k",
+        "type": "n.",
+        "meaning": "笔记本；笔记本电脑",
+        "example": "Could you lend me your notebook?",
+        "list": "List6",
+        "syllable": "no-te-bo-ok",
+        "exampleCn": "你能把你的笔记借给我吗 ？"
+    },
+    {
+        "word": "wool",
+        "phonetic": "wʊ l",
+        "type": "n.",
+        "meaning": "羊毛",
+        "example": "This wool comes from goats, not sheep.",
+        "list": "List6",
+        "syllable": "wo-ol",
+        "exampleCn": "这种羊毛是山羊毛 ，不是绵羊毛。"
+    },
+    {
+        "word": "moon",
+        "phonetic": "mu :n",
+        "type": "n.",
+        "meaning": "月亮",
+        "example": "Look! The moon is especially full tonight.",
+        "list": "List6",
+        "syllable": "mo-on",
+        "exampleCn": "看！今晚的月亮特别的圆。"
+    },
+    {
+        "word": "hood",
+        "phonetic": "hʊd",
+        "type": "n.",
+        "meaning": "风帽；兜帽",
+        "example": "She's not wearing the red hood.",
+        "list": "List6",
+        "syllable": "ho-od",
+        "exampleCn": "她没戴着她的红色兜帽。"
+    },
+    {
+        "word": "bye",
+        "phonetic": "baɪ",
+        "type": "n.",
+        "meaning": "再见",
+        "example": "Bye!",
+        "list": "List6",
+        "syllable": "bye",
+        "exampleCn": "再见！"
+    },
+    {
+        "word": "also",
+        "phonetic": "ˈɔ:lsəʊ",
+        "type": "n.",
+        "meaning": "用于肯定句",
+        "example": "I also want one.",
+        "list": "List6",
+        "syllable": "al-so",
+        "exampleCn": "我也想要一个。"
+    },
+    {
+        "word": "either",
+        "phonetic": "ˈi:ðər",
+        "type": "n.",
+        "meaning": "用于否定句或疑问句",
+        "example": "I don't either.",
+        "list": "List6",
+        "syllable": "ei-ther",
+        "exampleCn": "我也不。"
+    },
+    {
+        "word": "storybook",
+        "phonetic": "ˈstɔ:ribʊk",
+        "type": "n.",
+        "meaning": "故事书",
+        "example": "Read a storybook.",
+        "list": "List6",
+        "syllable": "sto-ry-book",
+        "exampleCn": "读故事书。"
+    },
+    {
+        "word": "farmer",
+        "phonetic": "ˈfɑ :mə(r)",
+        "type": "n.",
+        "meaning": "农民",
+        "example": "My grandfather is a farmer.",
+        "list": "List6",
+        "syllable": "far-mer",
+        "exampleCn": "我的祖父是一个农民。"
+    },
+    {
+        "word": "scarf",
+        "phonetic": "skɑ :rf",
+        "type": "n.",
+        "meaning": "围巾",
+        "example": "She wears a new scarf.",
+        "list": "List6",
+        "syllable": "scarf",
+        "exampleCn": "她围着一条新围巾。"
+    },
+    {
+        "word": "art",
+        "phonetic": "ɑ :rt",
+        "type": "n.",
+        "meaning": "美术",
+        "example": "My favorite subject is art.",
+        "list": "List6",
+        "syllable": "art",
+        "exampleCn": "我最喜欢的科目是美术。"
+    },
+    {
+        "word": "carrot",
+        "phonetic": "ˈkærθt",
+        "type": "n.",
+        "meaning": "胡萝卜",
+        "example": "The carrot is his favorite vegetable.",
+        "list": "List6",
+        "syllable": "car-rot",
+        "exampleCn": "胡萝卜是他最喜欢的蔬菜。"
+    },
+    {
+        "word": "parrot",
+        "phonetic": "ˈpærθt",
+        "type": "n.",
+        "meaning": "鹦鹉",
+        "example": "There was once a man in South America who had a parrot, a pet bird that can imitate human speech.",
+        "list": "List6",
+        "syllable": "par-rot",
+        "exampleCn": "从前 ，南美洲有个人养了一只鹦鹉 ，一种能模仿人类说话的宠物鸟。"
+    },
+    {
+        "word": "far",
+        "phonetic": "fɑ :r",
+        "type": "adj.",
+        "meaning": "/adv.  远的（地）",
+        "example": "The restaurant is not far from here.",
+        "list": "List6",
+        "syllable": "far",
+        "exampleCn": "饭店离这儿不远。"
+    },
+    {
+        "word": "party",
+        "phonetic": "ˈ pɑ :rti",
+        "type": "n.",
+        "meaning": "派对",
+        "example": "Don’t forget to come to my birthday party on Sunday.",
+        "list": "List6",
+        "syllable": "par-ty",
+        "exampleCn": "别忘了周日来参加我的生日聚会。"
+    },
+    {
+        "word": "garden",
+        "phonetic": "ˈɡɑ :rdn",
+        "type": "n.",
+        "meaning": "花园；公园",
+        "example": "There's a garden at the front of the house.",
+        "list": "List6",
+        "syllable": "gar-den",
+        "exampleCn": "房子的前面有一座花园。"
+    },
+    {
+        "word": "farming",
+        "phonetic": "ˈfɑ:rmɪŋ",
+        "type": "n.",
+        "meaning": "农业",
+        "example": "Farming is hard work.",
+        "list": "List6",
+        "syllable": "farm-ing",
+        "exampleCn": "务农是辛苦的工作。"
+    },
+    {
+        "word": "part",
+        "phonetic": "pɑ:rt",
+        "type": "n.",
+        "meaning": "部分",
+        "example": "This is part of it.",
+        "list": "List6",
+        "syllable": "part",
+        "exampleCn": "这是它的一部分。"
+    },
+    {
+        "word": "smart",
+        "phonetic": "smɑ:rt",
+        "type": "n.",
+        "meaning": "聪明的",
+        "example": "He is smart.",
+        "list": "List6",
+        "syllable": "smart",
+        "exampleCn": "他很聪明。"
+    },
+    {
+        "word": "t-shirt",
+        "phonetic": "ˈti : ʃ3 :rt",
+        "type": "n.",
+        "meaning": "T 恤衫 ，短袖圆领汗衫",
+        "example": "I have a yellow T-shirt.",
+        "list": "List6",
+        "syllable": "t-shirt",
+        "exampleCn": "我有一件黄色的T恤衫。"
+    },
+    {
+        "word": "hurt",
+        "phonetic": "h3 :t",
+        "type": "v.",
+        "meaning": "伤害；弄痛；使伤心",
+        "example": "What you said hurt my feelings.",
+        "list": "List6",
+        "syllable": "hurt",
+        "exampleCn": "你的话伤害了我的感情。"
+    },
+    {
+        "word": "hamburger",
+        "phonetic": "ˈhæmb3 :rɡər",
+        "type": "n.",
+        "meaning": "汉堡包",
+        "example": "Amy is eating a hamburger.",
+        "list": "List6",
+        "syllable": "ham-bur-ger",
+        "exampleCn": "艾米在吃汉堡包。"
+    },
+    {
+        "word": "nurse",
+        "phonetic": "n3 :rs",
+        "type": "n.",
+        "meaning": "护士",
+        "example": "My mother is a nurse.",
+        "list": "List6",
+        "syllable": "nur-se",
+        "exampleCn": "我妈妈是一名护士。"
+    },
+    {
+        "word": "skirt",
+        "phonetic": "sk3 :rt",
+        "type": "n.",
+        "meaning": "半身裙",
+        "example": "How many skirts do you have?",
+        "list": "List6",
+        "syllable": "skirt",
+        "exampleCn": "你有多少条裙子"
+    },
+    {
+        "word": "turkey",
+        "phonetic": "ˈt3 :rki",
+        "type": "n.",
+        "meaning": "火鸡；土耳其（Turkey）",
+        "example": "It’s a tradition in America to eat turkey on Thanksgiving Day.",
+        "list": "List6",
+        "syllable": "tur-ke-y",
+        "exampleCn": "感恩节时吃火鸡是美国的传统。"
+    },
+    {
+        "word": "bird",
+        "phonetic": "b3 :rd",
+        "type": "n.",
+        "meaning": "鸟类；小鸟",
+        "example": "He hardly stays up late, and he is an early bird.",
+        "list": "List6",
+        "syllable": "bird",
+        "exampleCn": "他很少熬夜，而且是个早起的人。"
+    },
+    {
+        "word": "sir",
+        "phonetic": "s3 :r",
+        "type": "n.",
+        "meaning": "先生；  长官",
+        "example": "Yes, sir.",
+        "list": "List6",
+        "syllable": "sir",
+        "exampleCn": "好的 ，先生。"
+    },
+    {
+        "word": "pizza",
+        "phonetic": "ˈpi:tsə",
+        "type": "n.",
+        "meaning": "披萨",
+        "example": "I love pizza.",
+        "list": "List6",
+        "syllable": "piz-za",
+        "exampleCn": "我喜欢披萨。"
+    },
+    {
+        "word": "profession",
+        "phonetic": "prəˈfeʃ(ə)n",
+        "type": "n.",
+        "meaning": "职业",
+        "example": "Choose a profession.",
+        "list": "List6",
+        "syllable": "pro-fes-sion",
+        "exampleCn": "选择职业。"
+    },
+    {
+        "word": "shorts",
+        "phonetic": "ʃɔ :rts",
+        "type": "n.",
+        "meaning": "短裤",
+        "example": "He was wearing a T-shirt and shorts.",
+        "list": "List6",
+        "syllable": "shorts",
+        "exampleCn": "他穿着T恤衫和短裤。"
+    },
+    {
+        "word": "board",
+        "phonetic": "bɔ :rd",
+        "type": "n.",
+        "meaning": "木板； 布告牌；v. 上（船；火车；飞机）",
+        "example": "Please look at the notice board every day.",
+        "list": "List7",
+        "syllable": "bo-ard",
+        "exampleCn": "请每天注意看布告栏。"
+    },
+    {
+        "word": "sport",
+        "phonetic": "spɔ :rt",
+        "type": "n.",
+        "meaning": "体育运动",
+        "example": "What's your favourite sport?",
+        "list": "List7",
+        "syllable": "sport",
+        "exampleCn": "你最喜欢哪一项体育运动 ？"
+    },
+    {
+        "word": "for",
+        "phonetic": "fɔ :r; fə r",
+        "type": "prep.",
+        "meaning": "为了",
+        "example": "It sounds a great idea. Go for it!",
+        "list": "List7",
+        "syllable": "for",
+        "exampleCn": "这听起来是个极好的主意。努力去实现吧！"
+    },
+    {
+        "word": "borrow",
+        "phonetic": "ˈbɔ :roʊ",
+        "type": "v.",
+        "meaning": "（向别人）借用",
+        "example": "Can I borrow a pen from you?",
+        "list": "List7",
+        "syllable": "bor-row",
+        "exampleCn": "我可以借用你的钢笔吗 ？"
+    },
+    {
+        "word": "forest",
+        "phonetic": "ˈfɔ :rɪst",
+        "type": "n.",
+        "meaning": "森林",
+        "example": "We went for a hike in the forest park and enjoyed the beautiful scenery.",
+        "list": "List7",
+        "syllable": "fo-rest",
+        "exampleCn": "我们去森林公园远足 ，欣赏了美丽的风景。"
+    },
+    {
+        "word": "foreign",
+        "phonetic": "ˈfɔ :rən",
+        "type": "adj.",
+        "meaning": "外国的",
+        "example": "She was on her first foreign holiday without her parents.",
+        "list": "List7",
+        "syllable": "fo-re-ign",
+        "exampleCn": "她第一次在没有父母陪伴的情况下自己去国外度假。"
+    },
+    {
+        "word": "fork",
+        "phonetic": "fɔ :rk",
+        "type": "n.",
+        "meaning": "餐叉",
+        "example": "You have to cut it up and eat it with a fork.",
+        "list": "List7",
+        "syllable": "fork",
+        "exampleCn": "你必须把它切成小块，然后用叉子吃。"
+    },
+    {
+        "word": "trousers",
+        "phonetic": "ˈtraʊzərz",
+        "type": "n.",
+        "meaning": "长裤",
+        "example": "Wear trousers.",
+        "list": "List7",
+        "syllable": "trous-ers",
+        "exampleCn": "穿裤子。"
+    },
+    {
+        "word": "knife",
+        "phonetic": "naɪf",
+        "type": "n.",
+        "meaning": "刀",
+        "example": "Use a knife to cut.",
+        "list": "List7",
+        "syllable": "knife",
+        "exampleCn": "用刀切。"
+    },
+    {
+        "word": "doctor",
+        "phonetic": "ˈdɑ :ktə r",
+        "type": "n.",
+        "meaning": "医生",
+        "example": "Her father is a doctor.",
+        "list": "List7",
+        "syllable": "doc-tor",
+        "exampleCn": "她的爸爸是一名医生。"
+    },
+    {
+        "word": "camera",
+        "phonetic": "ˈkæm(ə)rə",
+        "type": "n.",
+        "meaning": "相机",
+        "example": "She puts a new film in her camera.",
+        "list": "List7",
+        "syllable": "ca-me-ra",
+        "exampleCn": "她在相机里装上新胶卷。"
+    },
+    {
+        "word": "eraser",
+        "phonetic": "ɪˈreɪsər",
+        "type": "n.",
+        "meaning": "橡皮擦",
+        "example": "I have two erasers.",
+        "list": "List7",
+        "syllable": "e-ra-ser",
+        "exampleCn": "我有两块橡皮擦。"
+    },
+    {
+        "word": "computer",
+        "phonetic": "kəmˈ pju :tər",
+        "type": "n.",
+        "meaning": "电脑",
+        "example": "I played games on the computer and searched for information on the Internet.",
+        "list": "List7",
+        "syllable": "com-pu-ter",
+        "exampleCn": "我在电脑上玩游戏，在互联网上搜索信息"
+    },
+    {
+        "word": "fever",
+        "phonetic": "ˈfi :vər",
+        "type": "n.",
+        "meaning": "发烧",
+        "example": "He has a high fever.",
+        "list": "List7",
+        "syllable": "fe-ver",
+        "exampleCn": "他发高烧。"
+    },
+    {
+        "word": "answer",
+        "phonetic": "ˈænsθr",
+        "type": "v.",
+        "meaning": "回答",
+        "example": "Please answer my questions.",
+        "list": "List7",
+        "syllable": "an-swer",
+        "exampleCn": "请回答我的问题。"
+    },
+    {
+        "word": "reply",
+        "phonetic": "rɪˈplaɪ",
+        "type": "n.",
+        "meaning": "回答",
+        "example": "Reply to me.",
+        "list": "List7",
+        "syllable": "re-ply",
+        "exampleCn": "回复我。"
+    },
+    {
+        "word": "forward",
+        "phonetic": "ˈfo :rwθrd",
+        "type": "adv.",
+        "meaning": "向前",
+        "example": "She walks forward.",
+        "list": "List7",
+        "syllable": "for-ward",
+        "exampleCn": "她朝前走。"
+    },
+    {
+        "word": "dancer",
+        "phonetic": "ˈdænsə r",
+        "type": "n.",
+        "meaning": "舞者",
+        "example": "I'm a great dancer.",
+        "list": "List7",
+        "syllable": "dan-cer",
+        "exampleCn": "我是个很棒的舞者。"
+    },
+    {
+        "word": "hospital",
+        "phonetic": "ˈhɑ:spɪt(ə)l",
+        "type": "n.",
+        "meaning": "医院",
+        "example": "Go to the hospital.",
+        "list": "List7",
+        "syllable": "hos-pi-tal",
+        "exampleCn": "去医院。"
+    },
+    {
+        "word": "rubber",
+        "phonetic": "ˈrʌbər",
+        "type": "n.",
+        "meaning": "橡皮擦",
+        "example": "Use a rubber to erase.",
+        "list": "List7",
+        "syllable": "rub-ber",
+        "exampleCn": "用橡皮擦。"
+    },
+    {
+        "word": "pencil",
+        "phonetic": "ˈpens(ə)l",
+        "type": "n.",
+        "meaning": "铅笔",
+        "example": "Write with a pencil.",
+        "list": "List7",
+        "syllable": "pen-cil",
+        "exampleCn": "用铅笔写。"
+    },
+    {
+        "word": "ruler",
+        "phonetic": "ˈru:lər",
+        "type": "n.",
+        "meaning": "尺子",
+        "example": "Use a ruler.",
+        "list": "List7",
+        "syllable": "rul-er",
+        "exampleCn": "用尺子。"
+    },
+    {
+        "word": "backward",
+        "phonetic": "ˈbækwərd",
+        "type": "n.",
+        "meaning": "向后",
+        "example": "Walk backward.",
+        "list": "List7",
+        "syllable": "back-ward",
+        "exampleCn": "向后走。"
+    },
+    {
+        "word": "westward",
+        "phonetic": "ˈwestwərd",
+        "type": "n.",
+        "meaning": "向西",
+        "example": "Go westward.",
+        "list": "List7",
+        "syllable": "west-ward",
+        "exampleCn": "向西走。"
+    },
+    {
+        "word": "worker",
+        "phonetic": "ˈwɜ:rkər",
+        "type": "n.",
+        "meaning": "工人",
+        "example": "He is a worker.",
+        "list": "List7",
+        "syllable": "work-er",
+        "exampleCn": "他是个工人。"
+    },
+    {
+        "word": "writer",
+        "phonetic": "ˈraɪtər",
+        "type": "n.",
+        "meaning": "作者",
+        "example": "She is a writer.",
+        "list": "List7",
+        "syllable": "writ-er",
+        "exampleCn": "她是个作家。"
+    },
+    {
+        "word": "waiter",
+        "phonetic": "ˈweɪtər",
+        "type": "n.",
+        "meaning": "服务员",
+        "example": "Call the waiter.",
+        "list": "List7",
+        "syllable": "wait-er",
+        "exampleCn": "叫服务员。"
+    },
+    {
+        "word": "small",
+        "phonetic": "smɔ :l",
+        "type": "adj.",
+        "meaning": "小的； 少的",
+        "example": "The fruit is small and round.",
+        "list": "List7",
+        "syllable": "small",
+        "exampleCn": "这种水果小而圆。"
+    },
+    {
+        "word": "call",
+        "phonetic": "kɔ :l",
+        "type": "n.",
+        "meaning": "喊叫；打电话；v.  喊叫；  把...叫作；（给... ）打电话",
+        "example": "When you need help you can call  police at 110.",
+        "list": "List7",
+        "syllable": "call",
+        "exampleCn": "需要帮助时，可拨打 110 报警。"
+    },
+    {
+        "word": "wall",
+        "phonetic": "wɔ :l",
+        "type": "n.",
+        "meaning": "墙",
+        "example": "It is fixed on the wall.",
+        "list": "List7",
+        "syllable": "wall",
+        "exampleCn": "它是固定在墙上的。"
+    },
+    {
+        "word": "fall",
+        "phonetic": "fɔ :l",
+        "type": "v.",
+        "meaning": "落下；n.  秋天",
+        "example": "I'm not going to fall, am I?",
+        "list": "List7",
+        "syllable": "fall",
+        "exampleCn": "我不会摔跤吧，对吗？"
+    },
+    {
+        "word": "talk",
+        "phonetic": "tɔ :k",
+        "type": "n.",
+        "meaning": "说话",
+        "example": "Let's sit down and have a talk.",
+        "list": "List7",
+        "syllable": "talk",
+        "exampleCn": "让我们坐下来好好谈谈。"
+    },
+    {
+        "word": "hall",
+        "phonetic": "hɔ :l",
+        "type": "n.",
+        "meaning": "大厅；会堂；礼堂",
+        "example": "Smoking is not allowed in the hall.",
+        "list": "List7",
+        "syllable": "hall",
+        "exampleCn": "大厅内不准吸烟。"
+    },
+    {
+        "word": "mall",
+        "phonetic": "mɔ :l",
+        "type": "n.",
+        "meaning": "购物中心",
+        "example": "Let's go to the mall.",
+        "list": "List7",
+        "syllable": "mall",
+        "exampleCn": "我们去商场吧。"
+    },
+    {
+        "word": "walk",
+        "phonetic": "wɔ :k",
+        "type": "v.",
+        "meaning": "/n. 行走",
+        "example": "Let's go for a walk.",
+        "list": "List7",
+        "syllable": "walk",
+        "exampleCn": "咱们去散散步吧。"
+    },
+    {
+        "word": "big",
+        "phonetic": "bɪɡ",
+        "type": "n.",
+        "meaning": "大的",
+        "example": "It's big.",
+        "list": "List7",
+        "syllable": "big",
+        "exampleCn": "它很大。"
+    },
+    {
+        "word": "tall",
+        "phonetic": "tɔ:l",
+        "type": "n.",
+        "meaning": "高的",
+        "example": "He is tall.",
+        "list": "List7",
+        "syllable": "tall",
+        "exampleCn": "他很高。"
+    },
+    {
+        "word": "plate",
+        "phonetic": "pleɪt",
+        "type": "n.",
+        "meaning": "盘子",
+        "example": "Please clean your plate.",
+        "list": "List7",
+        "syllable": "plate",
+        "exampleCn": "请把盘子洗干净。"
+    },
+    {
+        "word": "flag",
+        "phonetic": "flæɡ",
+        "type": "n.",
+        "meaning": "旗子",
+        "example": "He had to show the white flag at the end of the debate.",
+        "list": "List7",
+        "syllable": "flag",
+        "exampleCn": "辩论到最后他只好认输。"
+    },
+    {
+        "word": "plant",
+        "phonetic": "plænt",
+        "type": "v.",
+        "meaning": "种植；n.  植物；工厂",
+        "example": "All plants need light and water.",
+        "list": "List7",
+        "syllable": "plant",
+        "exampleCn": "一切植物都需要阳光和水。"
+    },
+    {
+        "word": "please",
+        "phonetic": "pli :z",
+        "type": "int.",
+        "meaning": "(表示感叹词) 请；好吗",
+        "example": "Can I have your attention please?",
+        "list": "List7",
+        "syllable": "ple-a-se",
+        "exampleCn": "请注意听我讲话好吗 ？"
+    },
+    {
+        "word": "glove",
+        "phonetic": "ɡlΛv",
+        "type": "n.",
+        "meaning": "手套",
+        "example": "She bent down to pick up her glove.",
+        "list": "List7",
+        "syllable": "glove",
+        "exampleCn": "她俯身去捡手套。"
+    },
+    {
+        "word": "floor",
+        "phonetic": "flɔ :r",
+        "type": "n.",
+        "meaning": "地板；楼层",
+        "example": "I found a toy car on the floor of my son's room.",
+        "list": "List7",
+        "syllable": "flo-or",
+        "exampleCn": "我在儿子房间的地板上找到了一辆玩具车。"
+    },
+    {
+        "word": "place",
+        "phonetic": "pleɪs",
+        "type": "n.",
+        "meaning": "地方；v.  放置",
+        "example": "This would be a good place for a picnic.",
+        "list": "List7",
+        "syllable": "pla-ce",
+        "exampleCn": "这可是个野餐的好地方。"
+    },
+    {
+        "word": "all",
+        "phonetic": "ɔ :l",
+        "type": "det.",
+        "meaning": "（表示限定词",
+        "example": "All horses are animals, but not all animals are horses.",
+        "list": "List7",
+        "syllable": "all",
+        "exampleCn": "所有的马都是动物，但并不是所有的动物都是马。"
+    },
+    {
+        "word": "present",
+        "phonetic": "ˈprez(ə)nt",
+        "type": "n.",
+        "meaning": "礼物；现在",
+        "example": "Did you get your mother a present?",
+        "list": "List7",
+        "syllable": "pre-sent",
+        "exampleCn": "给你母亲买礼物了吗 ？"
+    },
+    {
+        "word": "grass",
+        "phonetic": "ɡræs",
+        "type": "n.",
+        "meaning": "草",
+        "example": "The green grass in the park looks so refreshing.",
+        "list": "List7",
+        "syllable": "grass",
+        "exampleCn": "公园里的绿草看起来非常清新。"
+    },
+    {
+        "word": "draw",
+        "phonetic": "drɔ :",
+        "type": "v.",
+        "meaning": "画；拉；拖",
+        "example": "Lily draws a picture of her pet.",
+        "list": "List7",
+        "syllable": "draw",
+        "exampleCn": "莉莉为她的宠物画了一张画。"
+    },
+    {
+        "word": "cry",
+        "phonetic": "kraɪ",
+        "type": "v.",
+        "meaning": "哭；喊叫",
+        "example": "It's all right. Don't cry.",
+        "list": "List7",
+        "syllable": "cry",
+        "exampleCn": "不要紧，别哭了。"
+    },
+    {
+        "word": "shout",
+        "phonetic": "ʃaʊt",
+        "type": "v.",
+        "meaning": "喊叫",
+        "example": "Look, you needn't shout.",
+        "list": "List7",
+        "syllable": "sho-ut",
+        "exampleCn": "喂，你不必喊。 cry指的是因害怕、不愉快、哀求等而大声哭喊或喊叫。 shout多指因激动、生气、高兴，为引起注意而大声喊叫。 cry侧重情感性表达，而shout更多是动作性地传达声音。"
+    },
+    {
+        "word": "breath",
+        "phonetic": "breθ",
+        "type": "n.",
+        "meaning": "呼吸，气息",
+        "example": "Take a deep breath and see how long you can stay underwater.",
+        "list": "List8",
+        "syllable": "bre-ath",
+        "exampleCn": "深吸一口气，看你能在水里待多久。"
+    },
+    {
+        "word": "fridge",
+        "phonetic": "frɪd3",
+        "type": "n.",
+        "meaning": "冰箱",
+        "example": "Put the meat in the fridge so it doesn't go bad.",
+        "list": "List8",
+        "syllable": "frid-ge",
+        "exampleCn": "把肉放进冰箱里 ，免得坏了。"
+    },
+    {
+        "word": "grape",
+        "phonetic": "greɪ p",
+        "type": "n.",
+        "meaning": "葡萄",
+        "example": "Wine is made from grapes.",
+        "list": "List8",
+        "syllable": "grape",
+        "exampleCn": "葡萄酒是用葡萄做的。"
+    },
+    {
+        "word": "protect",
+        "phonetic": "prθˈtekt",
+        "type": "v.",
+        "meaning": "保护",
+        "example": "She'll fight like a tiger to protect her children.",
+        "list": "List8",
+        "syllable": "pro-tect",
+        "exampleCn": "她为了保护孩子，可以凶得像只老虎。"
+    },
+    {
+        "word": "chopsticks",
+        "phonetic": "ˈtʃɑ :pstɪ ks",
+        "type": "n.",
+        "meaning": "筷子",
+        "example": "The Chinese eat with chopsticks.",
+        "list": "List8",
+        "syllable": "chop-sticks",
+        "exampleCn": "中国人用筷子吃饭。"
+    },
+    {
+        "word": "sweep",
+        "phonetic": "swi :p",
+        "type": "v.",
+        "meaning": "打扫",
+        "example": "I need to sweep the floor before guests arrive.",
+        "list": "List8",
+        "syllable": "swe-ep",
+        "exampleCn": "客人到来之前我需要扫地。"
+    },
+    {
+        "word": "swing",
+        "phonetic": "swɪ ŋ",
+        "type": "v.",
+        "meaning": "摇摆；摆动",
+        "example": "Kids are playing on the swings.",
+        "list": "List8",
+        "syllable": "swing",
+        "exampleCn": "孩子们在荡秋千。"
+    },
+    {
+        "word": "sticker",
+        "phonetic": "ˈstɪkə r",
+        "type": "n.",
+        "meaning": "粘贴标签；贴纸",
+        "example": "Here is a sticker for you.",
+        "list": "List8",
+        "syllable": "stic-ker",
+        "exampleCn": "奖励你一个贴纸。"
+    },
+    {
+        "word": "spoon",
+        "phonetic": "spu :n",
+        "type": "n.",
+        "meaning": "勺子",
+        "example": "She feeds the baby with a spoon.",
+        "list": "List8",
+        "syllable": "spo-on",
+        "exampleCn": "她用汤匙喂婴儿。"
+    },
+    {
+        "word": "spend",
+        "phonetic": "spend",
+        "type": "v.",
+        "meaning": "花费；度过",
+        "example": "Tom spentfive hours on this math problem.",
+        "list": "List8",
+        "syllable": "spend",
+        "exampleCn": "汤姆花了五小时解数学题。"
+    },
+    {
+        "word": "cost",
+        "phonetic": "kɔːst",
+        "type": "n.",
+        "meaning": "花费",
+        "example": "The new computer cost me a fortune.",
+        "list": "List8",
+        "syllable": "cost",
+        "exampleCn": "这台新电脑花费了我一大笔钱。"
+    },
+    {
+        "word": "swimsuit",
+        "phonetic": "ˈswɪmsu :t",
+        "type": "n.",
+        "meaning": "游泳衣（女式）",
+        "example": "I can teach you swimming and send you a swimsuit.",
+        "list": "List8",
+        "syllable": "swim-su-it",
+        "exampleCn": "我可以教你游泳，还可以送你一件泳衣。"
+    },
+    {
+        "word": "start",
+        "phonetic": "stɑ :rt",
+        "type": "v.",
+        "meaning": "开始",
+        "example": "When do you usually start doing your homework?",
+        "list": "List8",
+        "syllable": "start",
+        "exampleCn": "你通常什么时候开始做作业？"
+    },
+    {
+        "word": "use",
+        "phonetic": "ju:z",
+        "type": "n.",
+        "meaning": "使用",
+        "example": "Use this pen.",
+        "list": "List8",
+        "syllable": "use",
+        "exampleCn": "用这支笔。"
+    },
+    {
+        "word": "pass",
+        "phonetic": "pæs",
+        "type": "n.",
+        "meaning": "通过",
+        "example": "Pass the salt.",
+        "list": "List8",
+        "syllable": "pass",
+        "exampleCn": "递盐。"
+    },
+    {
+        "word": "stir",
+        "phonetic": "stɜ:r",
+        "type": "n.",
+        "meaning": "搅拌",
+        "example": "Stir the soup.",
+        "list": "List8",
+        "syllable": "stir",
+        "exampleCn": "搅拌汤。"
+    },
+    {
+        "word": "playground",
+        "phonetic": "ˈpleɪɡraʊnd",
+        "type": "n.",
+        "meaning": "操场",
+        "example": "The girls were skipping in the playground.",
+        "list": "List8",
+        "syllable": "pla-yg-ro-und",
+        "exampleCn": "姑娘们在操场上跳绳。"
+    },
+    {
+        "word": "parent",
+        "phonetic": "ˈperənt",
+        "type": "n.",
+        "meaning": "父母",
+        "example": "She is a single parent, raising her two children on her own.",
+        "list": "List8",
+        "syllable": "pa-rent",
+        "exampleCn": "她是一个单亲妈妈，独自抚养着两个孩子。"
+    },
+    {
+        "word": "strong",
+        "phonetic": "strɔ : ŋ",
+        "type": "adj.",
+        "meaning": "强壮的；坚固的；强烈的",
+        "example": "I'm not strong enough to carry him.",
+        "list": "List8",
+        "syllable": "strong",
+        "exampleCn": "我不够强壮 ，抱不动他。"
+    },
+    {
+        "word": "around",
+        "phonetic": "əˈraʊnd",
+        "type": "adv.",
+        "meaning": "/prep.(表示介词",
+        "example": "Around the house there are many fruit trees and many flowers.",
+        "list": "List8",
+        "syllable": "a-ro-und",
+        "exampleCn": "房子周围有许多果树和花朵。"
+    },
+    {
+        "word": "young",
+        "phonetic": "jΛ ŋ",
+        "type": "adj.",
+        "meaning": "幼小的；年轻的",
+        "example": "They look young.",
+        "list": "List8",
+        "syllable": "y-o-ung",
+        "exampleCn": "他们看起来很年轻。"
+    },
+    {
+        "word": "bank",
+        "phonetic": "bæŋk",
+        "type": "n.",
+        "meaning": "银行",
+        "example": "I don't have a bank account.",
+        "list": "List8",
+        "syllable": "bank",
+        "exampleCn": "我没有银行账户。"
+    },
+    {
+        "word": "eggplant",
+        "phonetic": "ˈeɡplænt",
+        "type": "n.",
+        "meaning": "茄子",
+        "example": "Eggplant is a kind of vegetable.",
+        "list": "List8",
+        "syllable": "eg-gplant",
+        "exampleCn": "茄子是一种蔬菜。"
+    },
+    {
+        "word": "underground",
+        "phonetic": "ˌʌndərˈɡraʊnd",
+        "type": "n.",
+        "meaning": "地下",
+        "example": "Take the underground.",
+        "list": "List8",
+        "syllable": "un-der-ground",
+        "exampleCn": "坐地铁。"
+    },
+    {
+        "word": "slide",
+        "phonetic": "slaɪd",
+        "type": "n.",
+        "meaning": "滑梯",
+        "example": "Slide down.",
+        "list": "List8",
+        "syllable": "slide",
+        "exampleCn": "滑下来。"
+    },
+    {
+        "word": "family",
+        "phonetic": "ˈfæməli",
+        "type": "n.",
+        "meaning": "家庭",
+        "example": "I love my family.",
+        "list": "List8",
+        "syllable": "fam-i-ly",
+        "exampleCn": "我爱我的家人。"
+    },
+    {
+        "word": "grandparent",
+        "phonetic": "ˈɡrænperənt",
+        "type": "n.",
+        "meaning": "祖父母",
+        "example": "Visit your grandparents.",
+        "list": "List8",
+        "syllable": "grand-par-ent",
+        "exampleCn": "看望你的祖父母。"
+    },
+    {
+        "word": "grandmother",
+        "phonetic": "ˈɡrænmʌðər",
+        "type": "n.",
+        "meaning": "奶奶",
+        "example": "My grandmother cooks well.",
+        "list": "List8",
+        "syllable": "grand-moth-er",
+        "exampleCn": "我奶奶做饭很好吃。"
+    },
+    {
+        "word": "mother",
+        "phonetic": "ˈmʌðər",
+        "type": "n.",
+        "meaning": "母亲",
+        "example": "I love my mother.",
+        "list": "List8",
+        "syllable": "moth-er",
+        "exampleCn": "我爱我的妈妈。"
+    },
+    {
+        "word": "banker",
+        "phonetic": "ˈbæŋkər",
+        "type": "n.",
+        "meaning": "银行家",
+        "example": "He is a banker.",
+        "list": "List8",
+        "syllable": "bank-er",
+        "exampleCn": "他是个银行家。"
+    },
+    {
+        "word": "throw",
+        "phonetic": "θroʊ",
+        "type": "v.",
+        "meaning": "投；掷；扔",
+        "example": "Playing throw and catch can improve hand-eye coordination.",
+        "list": "List8",
+        "syllable": "throw",
+        "exampleCn": "玩投掷和接球可以提高手眼协调能力。"
+    },
+    {
+        "word": "feather",
+        "phonetic": "ˈfeðə r",
+        "type": "n.",
+        "meaning": "羽毛；v.  长羽毛",
+        "example": "The feather floated lightly in the air.",
+        "list": "List8",
+        "syllable": "fe-at-her",
+        "exampleCn": "羽毛轻盈地飘在空中。"
+    },
+    {
+        "word": "rather",
+        "phonetic": "ˈræðə r",
+        "type": "adv.",
+        "meaning": "相当；宁愿",
+        "example": "I would rather go for a walk than watch TV.",
+        "list": "List8",
+        "syllable": "rat-her",
+        "exampleCn": "我宁愿去散步也不愿看电视。"
+    },
+    {
+        "word": "gather",
+        "phonetic": "ˈɡæðə r",
+        "type": "v.",
+        "meaning": "聚集",
+        "example": "We plan to gather together this weekend.",
+        "list": "List8",
+        "syllable": "gat-her",
+        "exampleCn": "我们计划这周末聚一聚。"
+    },
+    {
+        "word": "whether",
+        "phonetic": "ˈweðə r",
+        "type": "conj.",
+        "meaning": "是否",
+        "example": "I haven't decided whether or not I will attend the meeting.",
+        "list": "List8",
+        "syllable": "whet-her",
+        "exampleCn": "我还没有决定是否参加会议。"
+    },
+    {
+        "word": "though",
+        "phonetic": "ðoʊ",
+        "type": "conj.",
+        "meaning": "虽然",
+        "example": "I like him, though he makes me angry sometimes.",
+        "list": "List8",
+        "syllable": "tho-ugh",
+        "exampleCn": "我喜欢他，尽管他有时惹我生气。"
+    },
+    {
+        "word": "then",
+        "phonetic": "ðen",
+        "type": "adv.",
+        "meaning": "当时",
+        "example": "Now and then, I like to take a day off and just relax.",
+        "list": "List8",
+        "syllable": "then",
+        "exampleCn": "偶尔，我喜欢休息一天，放松一下。"
+    },
+    {
+        "word": "stone",
+        "phonetic": "stoʊ n",
+        "type": "n.",
+        "meaning": "石头",
+        "example": "The stone is heavy.",
+        "list": "List8",
+        "syllable": "stone",
+        "exampleCn": "石头很重。"
+    },
+    {
+        "word": "heavy",
+        "phonetic": "ˈhevi",
+        "type": "n.",
+        "meaning": "重的",
+        "example": "It's heavy.",
+        "list": "List8",
+        "syllable": "heav-y",
+        "exampleCn": "它很重。"
+    },
+    {
+        "word": "through",
+        "phonetic": "θru:",
+        "type": "n.",
+        "meaning": "穿过",
+        "example": "Go through the door.",
+        "list": "List8",
+        "syllable": "through",
+        "exampleCn": "穿过门。"
+    },
+    {
+        "word": "first",
+        "phonetic": "fɜ:rst",
+        "type": "n.",
+        "meaning": "第一",
+        "example": "First, wash your hands.",
+        "list": "List8",
+        "syllable": "first",
+        "exampleCn": "首先，洗手。"
+    },
+    {
+        "word": "next",
+        "phonetic": "nekst",
+        "type": "n.",
+        "meaning": "随后",
+        "example": "What's next?",
+        "list": "List8",
+        "syllable": "next",
+        "exampleCn": "接下来是什么？"
+    },
+    {
+        "word": "finally",
+        "phonetic": "ˈfaɪnəli",
+        "type": "n.",
+        "meaning": "终于",
+        "example": "Finally, we arrived.",
+        "list": "List8",
+        "syllable": "fi-nal-ly",
+        "exampleCn": "最后，我们到了。"
+    },
+    {
+        "word": "rubbish",
+        "phonetic": "ˈrΛbɪʃ",
+        "type": "n.",
+        "meaning": "垃圾；废物",
+        "example": "Please remember to empty the rubbish bin regularly.",
+        "list": "List8",
+        "syllable": "rub-bish",
+        "exampleCn": "请记得定期清空垃圾箱。"
+    },
+    {
+        "word": "fashion",
+        "phonetic": "ˈfæʃ(ə)n",
+        "type": "n.",
+        "meaning": "时装；流行式样",
+        "example": "Are these jackets in fashion?",
+        "list": "List8",
+        "syllable": "fas-hi-on",
+        "exampleCn": "这些夹克都是流行款式吗 ？"
+    },
+    {
+        "word": "fresh",
+        "phonetic": "freʃ",
+        "type": "adj.",
+        "meaning": "新鲜的；不同的；新颖的",
+        "example": "Every day is a fresh start.",
+        "list": "List8",
+        "syllable": "fresh",
+        "exampleCn": "每一天都是一个新的开始。"
+    },
+    {
+        "word": "dish",
+        "phonetic": "dɪʃ",
+        "type": "n.",
+        "meaning": "碟；盘；菜肴",
+        "example": "Could you please bring me a dish of ice cream?",
+        "list": "List8",
+        "syllable": "dish",
+        "exampleCn": "你能给我拿一碗冰淇淋吗？"
+    },
+    {
+        "word": "shelf",
+        "phonetic": "ʃelf",
+        "type": "n.",
+        "meaning": "架子",
+        "example": "I need to buy a new book shelf to organize my growing collection of books.",
+        "list": "List8",
+        "syllable": "shelf",
+        "exampleCn": "我需要买一个新的书架来整理我越来越多的书籍。"
+    },
+    {
+        "word": "shave",
+        "phonetic": "ʃeɪv",
+        "type": "v.",
+        "meaning": "剃；刮去；n.  剃须",
+        "example": "He never seemed to need a shave.",
+        "list": "List8",
+        "syllable": "shave",
+        "exampleCn": "他似乎从不需要刮脸。"
+    },
+    {
+        "word": "share",
+        "phonetic": "ʃer",
+        "type": "v.",
+        "meaning": "分享",
+        "example": "They share the housework equally.",
+        "list": "List8",
+        "syllable": "sha-re",
+        "exampleCn": "他们平均分担家务。"
+    },
+    {
+        "word": "shy",
+        "phonetic": "ʃaɪ",
+        "type": "adj.",
+        "meaning": "害羞的",
+        "example": "She was too shy to ask for help.",
+        "list": "List9",
+        "syllable": "shy",
+        "exampleCn": "她太腼腆，不愿向人求助。"
+    },
+    {
+        "word": "recycle",
+        "phonetic": "ˌri:ˈsaɪk(ə)l",
+        "type": "n.",
+        "meaning": "回收利用",
+        "example": "Recycle paper.",
+        "list": "List9",
+        "syllable": "re-cy-cle",
+        "exampleCn": "回收纸张。"
+    },
+    {
+        "word": "runway",
+        "phonetic": "ˈrΛnweɪ",
+        "type": "n.",
+        "meaning": "T台",
+        "example": "The plane is on the runway.",
+        "list": "List9",
+        "syllable": "run-way",
+        "exampleCn": "飞机在跑道上。"
+    },
+    {
+        "word": "furniture",
+        "phonetic": "ˈf3:rnɪtʃər",
+        "type": "n.",
+        "meaning": "家具",
+        "example": "Buy new furniture.",
+        "list": "List9",
+        "syllable": "fur-ni-ture",
+        "exampleCn": "买新家具。"
+    },
+    {
+        "word": "bookshelf",
+        "phonetic": "ˈbukʃelf",
+        "type": "n.",
+        "meaning": "书架",
+        "example": "The bookshelf is full.",
+        "list": "List9",
+        "syllable": "book-shelf",
+        "exampleCn": "书架满了。"
+    },
+    {
+        "word": "who",
+        "phonetic": "hu :",
+        "type": "pron.",
+        "meaning": "谁",
+        "example": "Who are you calling?",
+        "list": "List9",
+        "syllable": "who",
+        "exampleCn": "你在给谁打电话 ？"
+    },
+    {
+        "word": "what",
+        "phonetic": "wΛt",
+        "type": "pron.",
+        "meaning": "什么；怎么样",
+        "example": "Q: What class are you in?",
+        "list": "List9",
+        "syllable": "what",
+        "exampleCn": "你在几班？"
+    },
+    {
+        "word": "when",
+        "phonetic": "wen",
+        "type": "pron.",
+        "meaning": "什么时候，何时；当...的时候",
+        "example": "When is your birthday?",
+        "list": "List9",
+        "syllable": "when",
+        "exampleCn": "你的生日是什么时间 ？"
+    },
+    {
+        "word": "whose",
+        "phonetic": "hu :z",
+        "type": "pron.",
+        "meaning": "谁的",
+        "example": "Whose book is this?",
+        "list": "List9",
+        "syllable": "who-se",
+        "exampleCn": "这是谁的书 ？"
+    },
+    {
+        "word": "which",
+        "phonetic": "wɪtʃ",
+        "type": "pron.",
+        "meaning": "哪一个",
+        "example": "Which color do you like?",
+        "list": "List9",
+        "syllable": "which",
+        "exampleCn": "你喜欢什么颜色？ 注意:  当有很多可能的选择或者不知道有多少选择时，用what ；当已经知道是两个中的一个或是几个中的一个时，用which。"
+    },
+    {
+        "word": "why",
+        "phonetic": "waɪ",
+        "type": "pron.",
+        "meaning": "为什么",
+        "example": "Why don’t you go to school?",
+        "list": "List9",
+        "syllable": "why",
+        "exampleCn": "你为什么不去上学呢 ？"
+    },
+    {
+        "word": "where",
+        "phonetic": "wer",
+        "type": "pron.",
+        "meaning": "在哪里；哪里",
+        "example": "Where do you live?",
+        "list": "List9",
+        "syllable": "whe-re",
+        "exampleCn": "你住在哪里？"
+    },
+    {
+        "word": "wheel",
+        "phonetic": "wi :l",
+        "type": "n.",
+        "meaning": "轮子；车轮",
+        "example": "The wheel is pulling to the left.",
+        "list": "List9",
+        "syllable": "whe-el",
+        "exampleCn": "方向盘正在向左打。"
+    },
+    {
+        "word": "anywhere",
+        "phonetic": "ˈeniwer",
+        "type": "n.",
+        "meaning": "在任何地方",
+        "example": "I can go anywhere.",
+        "list": "List9",
+        "syllable": "an-y-where",
+        "exampleCn": "我可以去任何地方。"
+    },
+    {
+        "word": "because",
+        "phonetic": "bɪˈkəz;bɪˈko:z",
+        "type": "n.",
+        "meaning": "因为",
+        "example": "Because I said so.",
+        "list": "List9",
+        "syllable": "be-cause",
+        "exampleCn": "因为我是这么说的。"
+    },
+    {
+        "word": "cheese",
+        "phonetic": "tʃi :z",
+        "type": "n.",
+        "meaning": "奶酪",
+        "example": "Have you got any cheese I can have with this bread?",
+        "list": "List9",
+        "syllable": "che-e-se",
+        "exampleCn": "你有没有奶酪 ，我好就着面包一起吃 ？"
+    },
+    {
+        "word": "chip",
+        "phonetic": "tʃɪp",
+        "type": "n.",
+        "meaning": "薯条",
+        "example": "I prefer eating chips rather than hamburgers.",
+        "list": "List9",
+        "syllable": "chip",
+        "exampleCn": "相比汉堡包，我更喜欢吃薯片。"
+    },
+    {
+        "word": "rich",
+        "phonetic": "rɪtʃ",
+        "type": "adj.",
+        "meaning": "富有的；有钱的",
+        "example": "He is one of the richest people in the world.",
+        "list": "List9",
+        "syllable": "rich",
+        "exampleCn": "他是世界上最富有的人之一。"
+    },
+    {
+        "word": "catch",
+        "phonetic": "kætʃ",
+        "type": "v.",
+        "meaning": "接住；抓住；赶上",
+        "example": "He caught the ball with one hand.",
+        "list": "List9",
+        "syllable": "catch",
+        "exampleCn": "他单手接住了球。"
+    },
+    {
+        "word": "watch",
+        "phonetic": "wɑ :tʃ",
+        "type": "v.",
+        "meaning": "看；观看；n. 手表",
+        "example": "Do you watch TV every evening?",
+        "list": "List9",
+        "syllable": "watch",
+        "exampleCn": "你每天晚上都看电视吗？"
+    },
+    {
+        "word": "match",
+        "phonetic": "mætʃ",
+        "type": "n.",
+        "meaning": "比赛，竞赛；火柴；v.  使相配，成对",
+        "example": "He was watching a football match.",
+        "list": "List9",
+        "syllable": "match",
+        "exampleCn": "他正在看一场足球比赛"
+    },
+    {
+        "word": "fetch",
+        "phonetic": "fetʃ",
+        "type": "v.",
+        "meaning": "取来",
+        "example": "He went to fetch some books.",
+        "list": "List9",
+        "syllable": "fetch",
+        "exampleCn": "他去取来了一些书。"
+    },
+    {
+        "word": "kitchen",
+        "phonetic": "ˈkɪtʃɪn",
+        "type": "n.",
+        "meaning": "厨房",
+        "example": "The kitchen door is at the side of the house.",
+        "list": "List9",
+        "syllable": "kit-chen",
+        "exampleCn": "厨房门开在房子的侧面。"
+    },
+    {
+        "word": "balcony",
+        "phonetic": "ˈbælkəni",
+        "type": "n.",
+        "meaning": "阳台",
+        "example": "Sit on the balcony.",
+        "list": "List9",
+        "syllable": "bal-co-ny",
+        "exampleCn": "坐在阳台上。"
+    },
+    {
+        "word": "photo",
+        "phonetic": "ˈfoʊtoʊ",
+        "type": "n.",
+        "meaning": "照片",
+        "example": "It is myfamily photo album.",
+        "list": "List9",
+        "syllable": "pho-to",
+        "exampleCn": "这是我的家庭相册。"
+    },
+    {
+        "word": "dolphin",
+        "phonetic": "ˈdɑ :lfɪ n",
+        "type": "n.",
+        "meaning": "海豚",
+        "example": "The dolphin is an intelligent animal.",
+        "list": "List9",
+        "syllable": "dol-phin",
+        "exampleCn": "海豚是聪明的动物。"
+    },
+    {
+        "word": "elephant",
+        "phonetic": "ˈelɪfə nt",
+        "type": "n.",
+        "meaning": "大象",
+        "example": "The elephant has a very long trunk.",
+        "list": "List9",
+        "syllable": "e-lep-hant",
+        "exampleCn": "大象有很长的象鼻。"
+    },
+    {
+        "word": "physical",
+        "phonetic": "ˈfɪzɪk(ə)l",
+        "type": "adj.",
+        "meaning": "身体的；肉体的",
+        "example": "Smiling really can improve your physical health.",
+        "list": "List9",
+        "syllable": "phy-si-cal",
+        "exampleCn": "微笑确实可以改善你的身体健康。"
+    },
+    {
+        "word": "physics",
+        "phonetic": "ˈfɪzɪks",
+        "type": "n.",
+        "meaning": "物理学",
+        "example": "| wasnıt too keen on physics and chemistry.",
+        "list": "List9",
+        "syllable": "phy-sics",
+        "exampleCn": "我对物理和化学并不太热衷。"
+    },
+    {
+        "word": "microphone",
+        "phonetic": "ˈmaɪkrəfoʊ n",
+        "type": "n.",
+        "meaning": "麦克风",
+        "example": "He gave a tap at the microphone before speaking.",
+        "list": "List9",
+        "syllable": "mi-cro-phone",
+        "exampleCn": "他在讲话前先轻叩了一下扩音器"
+    },
+    {
+        "word": "microwave",
+        "phonetic": "丨maɪkrəweɪv",
+        "type": "n.",
+        "meaning": "微波炉",
+        "example": "Heat it in the microwave.",
+        "list": "List9",
+        "syllable": "mi-cro-wave",
+        "exampleCn": "用微波炉加热。"
+    },
+    {
+        "word": "microcosm",
+        "phonetic": "丨maɪkroʊkɑ:zəm",
+        "type": "n.",
+        "meaning": "小宇宙",
+        "example": "A microcosm of society.",
+        "list": "List9",
+        "syllable": "mi-cro-cosm",
+        "exampleCn": "社会的缩影。"
+    },
+    {
+        "word": "microscope",
+        "phonetic": "丨maɪkrəskoʊp",
+        "type": "n.",
+        "meaning": "显微镜",
+        "example": "Look through a microscope.",
+        "list": "List9",
+        "syllable": "mi-cro-scope",
+        "exampleCn": "通过显微镜看。"
+    },
+    {
+        "word": "microsoft",
+        "phonetic": "丨maɪkrəsɔ:ft",
+        "type": "n.",
+        "meaning": "微软",
+        "example": "Microsoft makes software.",
+        "list": "List9",
+        "syllable": "mi-cro-soft",
+        "exampleCn": "微软制作软件。"
+    },
+    {
+        "word": "eye",
+        "phonetic": "aɪ",
+        "type": "n.",
+        "meaning": "眼睛",
+        "example": "I have two eyes.",
+        "list": "List9",
+        "syllable": "eye",
+        "exampleCn": "我有两只眼睛。"
+    },
+    {
+        "word": "flippers",
+        "phonetic": "ˈflɪpərz",
+        "type": "n.",
+        "meaning": "鳍状肢",
+        "example": "Wear flippers to swim.",
+        "list": "List9",
+        "syllable": "flip-pers",
+        "exampleCn": "戴脚蹼游泳。"
+    },
+    {
+        "word": "tusk",
+        "phonetic": "tΛsk",
+        "type": "n.",
+        "meaning": "象牙",
+        "example": "The elephant has tusks.",
+        "list": "List9",
+        "syllable": "tusk",
+        "exampleCn": "大象有象牙。"
+    },
+    {
+        "word": "physicist",
+        "phonetic": "ˈfɪzɪsɪst",
+        "type": "n.",
+        "meaning": "物理学家",
+        "example": "He is a physicist.",
+        "list": "List9",
+        "syllable": "phys-i-cist",
+        "exampleCn": "他是个物理学家。"
+    },
+    {
+        "word": "physician",
+        "phonetic": "fɪˈzɪʃ(ə)n",
+        "type": "n.",
+        "meaning": "医生",
+        "example": "She is a physician.",
+        "list": "List9",
+        "syllable": "phys-i-cian",
+        "exampleCn": "她是个医生。"
+    },
+    {
+        "word": "telephone",
+        "phonetic": "ˈtelɪfoun",
+        "type": "n.",
+        "meaning": "电话",
+        "example": "Answer the telephone.",
+        "list": "List9",
+        "syllable": "tel-e-phone",
+        "exampleCn": "接电话。"
+    },
+    {
+        "word": "earphone",
+        "phonetic": "ˈɪrˌfoun",
+        "type": "n.",
+        "meaning": "耳机",
+        "example": "Wear earphones.",
+        "list": "List9",
+        "syllable": "ear-phone",
+        "exampleCn": "戴耳机。"
+    },
+    {
+        "word": "smartphone",
+        "phonetic": "ˈsmɑ:rtfoun",
+        "type": "n.",
+        "meaning": "智能手机",
+        "example": "I have a smartphone.",
+        "list": "List9",
+        "syllable": "smart-phone",
+        "exampleCn": "我有一部智能手机。"
+    },
+    {
+        "word": "ticket",
+        "phonetic": "ˈtɪkɪt",
+        "type": "n.",
+        "meaning": "票；入场券",
+        "example": "I need to buy a return ticket for my trip to London.",
+        "list": "List9",
+        "syllable": "tic-ket",
+        "exampleCn": "我需要为去伦敦的旅行购买一张返程车票。"
+    },
+    {
+        "word": "pocket",
+        "phonetic": "ˈ pɑ :kɪt",
+        "type": "n.",
+        "meaning": "口袋",
+        "example": "He stuck his gloves in his pocket.",
+        "list": "List9",
+        "syllable": "poc-ket",
+        "exampleCn": "他把手套塞进了口袋里。"
+    },
+    {
+        "word": "stick",
+        "phonetic": "stɪ k",
+        "type": "n.",
+        "meaning": "枝条；木棍；v.  粘贴",
+        "example": "Can you stick this on the noticeboard?",
+        "list": "List9",
+        "syllable": "stick",
+        "exampleCn": "你能不能把这个贴到布告牌上 ？"
+    },
+    {
+        "word": "check",
+        "phonetic": "tʃek",
+        "type": "v.",
+        "meaning": "检查；给...打勾",
+        "example": "Check your work before handing it in.",
+        "list": "List9",
+        "syllable": "check",
+        "exampleCn": "交作业以前先检查一遍。"
+    },
+    {
+        "word": "quick",
+        "phonetic": "kwɪ k",
+        "type": "adj.",
+        "meaning": "快的；迅速的",
+        "example": "The kids were quick to learn.",
+        "list": "List9",
+        "syllable": "qu-ick",
+        "exampleCn": "那些孩子学东西很快。 分 一 分 ：quick 与 fast"
+    },
+    {
+        "word": "fast",
+        "phonetic": "fæst",
+        "type": "adj.",
+        "meaning": "/adv. 快的",
+        "example": "You shouldn't drive so fast.",
+        "list": "List9",
+        "syllable": "fast",
+        "exampleCn": "你不应该把车开得这么快。 fast和quick均可表示“快的” 。fast强调速度很快，quick强调发生时间短，匆忙。fast还可用作副词，quick的副词形式为quickly。"
+    },
+    {
+        "word": "truck",
+        "phonetic": "trΛ k",
+        "type": "n.",
+        "meaning": "卡车",
+        "example": "The truck driver was waiting to unload.",
+        "list": "List9",
+        "syllable": "truck",
+        "exampleCn": "卡车司机在等着卸货。"
+    },
+    {
+        "word": "lock",
+        "phonetic": "lɑ :k",
+        "type": "n.",
+        "meaning": "/v. 锁",
+        "example": "The key doesn't fit the lock.",
+        "list": "List9",
+        "syllable": "lock",
+        "exampleCn": "这把钥匙打不开这把锁。"
+    },
+    {
+        "word": "checklist",
+        "phonetic": "ˈtʃeklɪst",
+        "type": "n.",
+        "meaning": "清单",
+        "example": "Make a checklist.",
+        "list": "List10",
+        "syllable": "check-list",
+        "exampleCn": "列一个清单。"
+    },
+    {
+        "word": "quickly",
+        "phonetic": "ˈkwɪkli",
+        "type": "n.",
+        "meaning": "快速地",
+        "example": "Run quickly!",
+        "list": "List10",
+        "syllable": "quick-ly",
+        "exampleCn": "快跑！"
+    },
+    {
+        "word": "load",
+        "phonetic": "loʊd",
+        "type": "n.",
+        "meaning": "负载",
+        "example": "Load the truck.",
+        "list": "List10",
+        "syllable": "load",
+        "exampleCn": "装车。"
+    },
+    {
+        "word": "unload",
+        "phonetic": "ˌʌnˈloʊd",
+        "type": "n.",
+        "meaning": "卸载",
+        "example": "Unload the boxes.",
+        "list": "List10",
+        "syllable": "un-load",
+        "exampleCn": "卸下箱子。"
+    },
+    {
+        "word": "window",
+        "phonetic": "ˈwɪndoʊ",
+        "type": "n.",
+        "meaning": "窗户",
+        "example": "Please close the window, it's getting cold.",
+        "list": "List10",
+        "syllable": "win-dow",
+        "exampleCn": "请关上窗户，天气变冷了。"
+    },
+    {
+        "word": "road",
+        "phonetic": "roʊd",
+        "type": "n.",
+        "meaning": "道路",
+        "example": "Give me your hand while we cross the road.",
+        "list": "List10",
+        "syllable": "ro-ad",
+        "exampleCn": "过马路时请拉着我的手。"
+    },
+    {
+        "word": "grow",
+        "phonetic": "ɡroʊ",
+        "type": "v.",
+        "meaning": "长大，成长",
+        "example": "These days kids grow up so quickly.",
+        "list": "List10",
+        "syllable": "grow",
+        "exampleCn": "如今孩子们成长得真快。"
+    },
+    {
+        "word": "know",
+        "phonetic": "noʊ",
+        "type": "v.",
+        "meaning": "知道；认识到",
+        "example": "I don't know how this happened.",
+        "list": "List10",
+        "syllable": "know",
+        "exampleCn": "我不知道这事怎么发生的。"
+    },
+    {
+        "word": "goat",
+        "phonetic": "ɡoʊt",
+        "type": "n.",
+        "meaning": "山羊；羊肉",
+        "example": "I see there are some goats over the hill.",
+        "list": "List10",
+        "syllable": "go-at",
+        "exampleCn": "我看到山坡上有几只山羊。"
+    },
+    {
+        "word": "coach",
+        "phonetic": "koʊtʃ",
+        "type": "n.",
+        "meaning": "教练；v. 指导",
+        "example": "“I have faith in these guys,” the coach said.",
+        "list": "List10",
+        "syllable": "co-ach",
+        "exampleCn": "“我相信这些人，”教练说道。“这些都是好球员。”"
+    },
+    {
+        "word": "coat",
+        "phonetic": "koʊt",
+        "type": "n.",
+        "meaning": "大衣",
+        "example": "She put on her coat and went out.",
+        "list": "List10",
+        "syllable": "co-at",
+        "exampleCn": "她穿上外套，出去了。"
+    },
+    {
+        "word": "allow",
+        "phonetic": "əˈlaʊ",
+        "type": "v.",
+        "meaning": "允许",
+        "example": "Smoking is not allowed in this building.",
+        "list": "List10",
+        "syllable": "al-low",
+        "exampleCn": "在这栋楼里不允许吸烟。"
+    },
+    {
+        "word": "street",
+        "phonetic": "stri:t",
+        "type": "n.",
+        "meaning": "街道",
+        "example": "Cross the street.",
+        "list": "List10",
+        "syllable": "street",
+        "exampleCn": "过马路。"
+    },
+    {
+        "word": "grown",
+        "phonetic": "ɡroun",
+        "type": "n.",
+        "meaning": "成年的",
+        "example": "I have grown.",
+        "list": "List10",
+        "syllable": "grown",
+        "exampleCn": "我长大了。"
+    },
+    {
+        "word": "player",
+        "phonetic": "ˈpleɪə r",
+        "type": "n.",
+        "meaning": "运动员",
+        "example": "He is a good player.",
+        "list": "List10",
+        "syllable": "play-er",
+        "exampleCn": "他是个好选手。"
+    },
+    {
+        "word": "thousand",
+        "phonetic": "ˈθauz(θ)nd",
+        "type": "num.",
+        "meaning": "千位数",
+        "example": "A thousand people were there.",
+        "list": "List10",
+        "syllable": "tho-u-sand",
+        "exampleCn": "那里有一千人。"
+    },
+    {
+        "word": "bow",
+        "phonetic": "bou; bau",
+        "type": "v.",
+        "meaning": "鞠躬；n.  蝴蝶结；弓",
+        "example": "He wore a black suit and a bow tie to the wedding.",
+        "list": "List10",
+        "syllable": "bow",
+        "exampleCn": "他穿着黑色西装和蝴蝶结领带去参加婚礼。"
+    },
+    {
+        "word": "noun",
+        "phonetic": "naʊ n",
+        "type": "n.",
+        "meaning": "名词",
+        "example": "In the sentence “I spoke to the driver of the car”, “the driver of the car” is a noun phrase.",
+        "list": "List10",
+        "syllable": "no-un",
+        "exampleCn": "在句子“I spoke to the driver of the car”中，“the driver of the car”是名词短语。"
+    },
+    {
+        "word": "pound",
+        "phonetic": "paʊ nd",
+        "type": "n.",
+        "meaning": "磅；英镑",
+        "example": "They cost two dollars a pound.",
+        "list": "List10",
+        "syllable": "po-und",
+        "exampleCn": "这些东西每磅两元。"
+    },
+    {
+        "word": "blouse",
+        "phonetic": "blaʊs",
+        "type": "n.",
+        "meaning": "（女式）短式上衣",
+        "example": "This skirt matches my blouse.",
+        "list": "List10",
+        "syllable": "blo-u-se",
+        "exampleCn": "这条裙子和我的上衣挺配的。"
+    },
+    {
+        "word": "cow",
+        "phonetic": "kaʊ",
+        "type": "n.",
+        "meaning": "母牛",
+        "example": "Dad went out to milk the cows.",
+        "list": "List10",
+        "syllable": "cow",
+        "exampleCn": "爸爸出去挤牛奶。"
+    },
+    {
+        "word": "power",
+        "phonetic": "ˈpaʊər",
+        "type": "n.",
+        "meaning": "权力；能源",
+        "example": "The machine is worked by wind power.",
+        "list": "List10",
+        "syllable": "po-wer",
+        "exampleCn": "这台机器是以风力推动的。"
+    },
+    {
+        "word": "sound",
+        "phonetic": "saʊ nd",
+        "type": "n.",
+        "meaning": "声音；v. 听起来",
+        "example": "You don't sound like a foreigner talking English.",
+        "list": "List10",
+        "syllable": "so-und",
+        "exampleCn": "你听起来不像外国人在说英语。"
+    },
+    {
+        "word": "million",
+        "phonetic": "ˈmɪljən",
+        "type": "n.",
+        "meaning": "一百万",
+        "example": "One million dollars.",
+        "list": "List10",
+        "syllable": "mil-lion",
+        "exampleCn": "一百万美元。"
+    },
+    {
+        "word": "powerful",
+        "phonetic": "ˈpauərf(ə)l",
+        "type": "n.",
+        "meaning": "强大的",
+        "example": "He is powerful.",
+        "list": "List10",
+        "syllable": "pow-er-ful",
+        "exampleCn": "他很强大。"
+    },
+    {
+        "word": "point",
+        "phonetic": "pɔɪ nt",
+        "type": "v.",
+        "meaning": "指；指向；n.  观点",
+        "example": "The finger of the clock points to twelve.",
+        "list": "List10",
+        "syllable": "po-int",
+        "exampleCn": "钟的指针指向十二点。"
+    },
+    {
+        "word": "toilet",
+        "phonetic": "ˈtɔɪlət",
+        "type": "n.",
+        "meaning": "厕所；卫生间",
+        "example": "\"If you want to go to the toilet, please raise your hands.",
+        "list": "List10",
+        "syllable": "to-i-let",
+        "exampleCn": "老师说：“想要上厕所的小朋友，一定要举手告诉老师哦！”"
+    },
+    {
+        "word": "enjoy",
+        "phonetic": "ɪnˈd3ɔɪ",
+        "type": "v.",
+        "meaning": "享受；欣赏；喜欢",
+        "example": "I work hard because I  enjoy doing my job.",
+        "list": "List10",
+        "syllable": "en-joy",
+        "exampleCn": "我努力工作，因为我喜欢我的工作。"
+    },
+    {
+        "word": "oil",
+        "phonetic": "ɔɪ l",
+        "type": "n.",
+        "meaning": "燃油；润滑油；食用油",
+        "example": "It is the world's biggest producer of oil and gas.",
+        "list": "List10",
+        "syllable": "oil",
+        "exampleCn": "这是世界上最大的石油、天然气生产国。"
+    },
+    {
+        "word": "employ",
+        "phonetic": "ɪmˈplɔɪ",
+        "type": "v.",
+        "meaning": "雇佣",
+        "example": "How many people does the company employ?",
+        "list": "List10",
+        "syllable": "em-ploy",
+        "exampleCn": "这个公司雇用了多少人 ？"
+    },
+    {
+        "word": "join",
+        "phonetic": "d3ɔɪ n",
+        "type": "v.",
+        "meaning": "成为...的一员；参加",
+        "example": "- “Can I join you?” – “Yes.” –“",
+        "list": "List10",
+        "syllable": "jo-in",
+        "exampleCn": "我能加入你吗？” -“可以的。”"
+    },
+    {
+        "word": "joy",
+        "phonetic": "d3ɔɪ",
+        "type": "n.",
+        "meaning": "欢乐；喜悦",
+        "example": "He danced with joy.",
+        "list": "List10",
+        "syllable": "joy",
+        "exampleCn": "他高兴地跳舞"
+    },
+    {
+        "word": "love",
+        "phonetic": "lʌv",
+        "type": "n.",
+        "meaning": "/n. 喜爱",
+        "example": "I love you.",
+        "list": "List10",
+        "syllable": "love",
+        "exampleCn": "我爱你。"
+    },
+    {
+        "word": "water",
+        "phonetic": "ˈwɔ:tər",
+        "type": "n.",
+        "meaning": "水",
+        "example": "Drink water.",
+        "list": "List10",
+        "syllable": "wa-ter",
+        "exampleCn": "喝水。"
+    },
+    {
+        "word": "employee",
+        "phonetic": "ɪmˈplɔɪi:",
+        "type": "n.",
+        "meaning": "雇员",
+        "example": "He is an employee.",
+        "list": "List10",
+        "syllable": "em-ploy-ee",
+        "exampleCn": "他是个员工。"
+    },
+    {
+        "word": "before",
+        "phonetic": "bɪˈfɔ :r",
+        "type": "prep.",
+        "meaning": "(表示介词) 在...之前；在...前面；以前",
+        "example": "I often go running before work.",
+        "list": "List10",
+        "syllable": "be-fo-re",
+        "exampleCn": "我常常在上班前跑步。"
+    },
+    {
+        "word": "course",
+        "phonetic": "kɔ :rs",
+        "type": "n.",
+        "meaning": "课程；菜品",
+        "example": "The course lasts five weeks.",
+        "list": "List10",
+        "syllable": "co-ur-se",
+        "exampleCn": "这门课程上五周。"
+    },
+    {
+        "word": "door",
+        "phonetic": "dɔ :r",
+        "type": "n.",
+        "meaning": "门",
+        "example": "It’s cold outside; please close the door when you leave.",
+        "list": "List10",
+        "syllable": "do-or",
+        "exampleCn": "外面很冷，请您离开时记得关门。"
+    },
+    {
+        "word": "sour",
+        "phonetic": "ˈsaʊər",
+        "type": "adj.",
+        "meaning": "酸的",
+        "example": "The pineapple tastes very sour.",
+        "list": "List10",
+        "syllable": "so-ur",
+        "exampleCn": "这菠萝尝起来很酸。"
+    },
+    {
+        "word": "pour",
+        "phonetic": "pɔ :r",
+        "type": "v.",
+        "meaning": "倾倒；倒",
+        "example": "Walking three miles in the pouring rain is not my idea of fun.",
+        "list": "List10",
+        "syllable": "po-ur",
+        "exampleCn": "顶着倾盆大雨走三英里路，我可不认为是好玩的事。"
+    },
+    {
+        "word": "more",
+        "phonetic": "mɔ :r",
+        "type": "det.",
+        "meaning": "(表示限定词)（数、量等）更多的，",
+        "example": "I am more than happy to help you, but I'd appreciate being asked politely.",
+        "list": "List10",
+        "syllable": "mo-re",
+        "exampleCn": "我非常乐意帮助你 ，但我希望你礼貌地请求。"
+    },
+    {
+        "word": "doormat",
+        "phonetic": "ˈdɔ :rmæt",
+        "type": "n.",
+        "meaning": "门垫",
+        "example": "He puts his key under the doormat.",
+        "list": "List10",
+        "syllable": "do-or-mat",
+        "exampleCn": "他将钥匙藏在门前擦鞋垫下。"
+    },
+    {
+        "word": "chore",
+        "phonetic": "tʃɔ :r",
+        "type": "n.",
+        "meaning": "家庭杂活；杂事；苦差事",
+        "example": "Shopping is a real chore for me.",
+        "list": "List10",
+        "syllable": "cho-re",
+        "exampleCn": "对我来说 ，购物真是件苦差事。"
+    },
+    {
+        "word": "knock",
+        "phonetic": "nɑ:k",
+        "type": "n.",
+        "meaning": "敲打",
+        "example": "Knock on the door.",
+        "list": "List10",
+        "syllable": "knock",
+        "exampleCn": "敲门。"
+    },
+    {
+        "word": "appear",
+        "phonetic": "əˈpɪr",
+        "type": "v.",
+        "meaning": "出现，呈现",
+        "example": "A bus appeared around the corner.",
+        "list": "List10",
+        "syllable": "ap-pe-ar",
+        "exampleCn": "公交车在转角处出现。"
+    },
+    {
+        "word": "cheer",
+        "phonetic": "tʃɪr",
+        "type": "n.",
+        "meaning": "欢呼声，喝彩声；v.  欢呼；喝彩",
+        "example": "You should cheer yourself up.",
+        "list": "List10",
+        "syllable": "che-er",
+        "exampleCn": "你应该使自己振作起来。"
+    },
+    {
+        "word": "year",
+        "phonetic": "jɪ r",
+        "type": "n.",
+        "meaning": "年",
+        "example": "There are 4 seasons in a year.",
+        "list": "List10",
+        "syllable": "y-e-ar",
+        "exampleCn": "一年有四个季节。"
+    },
+    {
+        "word": "tear",
+        "phonetic": "ter",
+        "type": "v.",
+        "meaning": "撕碎；/tɪ r/ n. 眼泪",
+        "example": "The movie was so touching that many people were in tears.",
+        "list": "List10",
+        "syllable": "te-ar",
+        "exampleCn": "这部电影太感人了，很多人都流泪了。"
+    },
+    {
+        "word": "volunteer",
+        "phonetic": "ˌvɑ :lənˈtɪr",
+        "type": "n.",
+        "meaning": "志愿者；v.  自愿做",
+        "example": "Schools need volunteers to help children to read.",
+        "list": "List10",
+        "syllable": "vo-lun-te-er",
+        "exampleCn": "学校需要志愿者来帮助孩子们阅读"
+    },
+    {
+        "word": "near",
+        "phonetic": "nɪ r",
+        "type": "prep.",
+        "meaning": "在",
+        "example": "Can you drop me near the bank?",
+        "list": "List10",
+        "syllable": "ne-ar",
+        "exampleCn": "你可以让我在银行附近下车吗？"
+    },
+    {
+        "word": "earn",
+        "phonetic": "3 :rn",
+        "type": "v.",
+        "meaning": "赚钱",
+        "example": "How much (money) does she earn?",
+        "list": "List11",
+        "syllable": "e-arn",
+        "exampleCn": "她挣多少（钱）？"
+    },
+    {
+        "word": "dear",
+        "phonetic": "dɪ r",
+        "type": "adj.",
+        "meaning": "珍视的；亲爱的；昂贵的；",
+        "example": "Dear Li Ming, I am happy to have a new pen friend.",
+        "list": "List11",
+        "syllable": "de-ar",
+        "exampleCn": "亲爱的李明 ，我很开心能结交一位新笔友。"
+    },
+    {
+        "word": "cheerleader",
+        "phonetic": "ˈtʃɪə li:də(r)",
+        "type": "n.",
+        "meaning": "啦啦队员",
+        "example": "She is a cheerleader.",
+        "list": "List11",
+        "syllable": "cheer-lead-er",
+        "exampleCn": "她是个拉拉队员。"
+    },
+    {
+        "word": "season",
+        "phonetic": "ˈsi:z(ə)n",
+        "type": "n.",
+        "meaning": "季节",
+        "example": "What season is it?",
+        "list": "List11",
+        "syllable": "sea-son",
+        "exampleCn": "现在是什么季节？"
+    },
+    {
+        "word": "teardrop",
+        "phonetic": "ˈtɪədrŊp",
+        "type": "n.",
+        "meaning": "泪水",
+        "example": "A teardrop fell.",
+        "list": "List11",
+        "syllable": "tear-drop",
+        "exampleCn": "一滴眼泪落下。"
+    }
+]
