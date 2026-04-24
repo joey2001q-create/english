@@ -338,7 +338,7 @@ const vocabularyBooks = {
 export const loadVocabularyData = async () => {
   if (vocabularyData) return vocabularyData;
   try {
-    const response = await fetch('/vocabulary1000.json');
+    const response = await fetch(`${import.meta.env.BASE_URL}vocabulary1000.json`);
     if (response.ok) {
       vocabularyData = await response.json();
       return vocabularyData;
@@ -352,7 +352,7 @@ export const loadVocabularyData = async () => {
 export const loadVocabulary3500Data = async () => {
   if (vocabulary3500Data) return vocabulary3500Data;
   try {
-    const response = await fetch('/vocabulary3500.json');
+    const response = await fetch(`${import.meta.env.BASE_URL}vocabulary3500.json`);
     if (response.ok) {
       vocabulary3500Data = await response.json();
       return vocabulary3500Data;
