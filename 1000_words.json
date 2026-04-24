@@ -1,0 +1,7108 @@
+[
+  {
+    "word": "apple",
+    "phonetic": "/ˈæp(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I like to eat a juicy apple for a snack.",
+      "The apple is red and delicious."
+    ],
+    "translations": [
+      "我喜欢的零食是美味多汁的苹果。",
+      "这个苹果又红又好吃。"
+    ],
+    "syllable": "ap-ple"
+  },
+  {
+    "word": "ball",
+    "phonetic": "/ bɔːl /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Let's play ball together in the park.",
+      "The ball is round, and we can kick it."
+    ],
+    "translations": [
+      "我们一起去公园里玩球吧。",
+      "这球是圆的 ，我们可以踢它。"
+    ],
+    "syllable": "ball"
+  },
+  {
+    "word": "cat",
+    "phonetic": "/ kæt /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My friend has a cute cat as a pet.",
+      "The cat says \"meow\" and has soft, furry fur."
+    ],
+    "translations": [
+      "我朋友的宠物是一只可爱的猫咪。",
+      "这只猫发出“ 喵喵”的叫声，它的毛是毛茸茸的。"
+    ],
+    "syllable": "cat"
+  },
+  {
+    "word": "dog",
+    "phonetic": "/ dɔ:ɡ /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have a friendly dog as mypet.",
+      "The dog barks happily and is very loyal."
+    ],
+    "translations": [
+      "我的宠物狗对人十分友好。",
+      "狗开心地汪汪叫 ，它对主人非常忠诚。"
+    ],
+    "syllable": "dog"
+  },
+  {
+    "word": "egg",
+    "phonetic": "/eɡ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Be careful not to break the egg when you crack it open.",
+      "We can cook the egg in different ways,  like frying or boiling.",
+      "Chickens are hatched from eggs."
+    ],
+    "translations": [
+      "当你敲开鸡蛋时，小心别把它打碎了。",
+      "鸡蛋有很多不同的烹饪方式，比如煎或者煮。",
+      "鸡是从蛋里孵出来的。"
+    ],
+    "syllable": "egg"
+  },
+  {
+    "word": "fish",
+    "phonetic": "/ fɪʃ /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The fish swims gracefully in the water.",
+      "The fish has shiny scales on its body."
+    ],
+    "translations": [
+      "鱼在水中优雅地游动。",
+      "鱼身上有闪亮的鳞片。"
+    ],
+    "syllable": "fish"
+  },
+  {
+    "word": "juicy",
+    "phonetic": "/ˈdʒu:si/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The orange is juicy and sweet.",
+      "I love juicy peaches in summer."
+    ],
+    "translations": [
+      "这个橙子多汁又甜。",
+      "夏天我喜欢多汁的桃子。"
+    ],
+    "syllable": "juic-y"
+  },
+  {
+    "word": "delicious",
+    "phonetic": "/dɪˈl ɪʃəs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The cake is delicious.",
+      "This soup tastes delicious."
+    ],
+    "translations": [
+      "这块蛋糕很美味。",
+      "这汤尝起来很美味。"
+    ],
+    "syllable": "de-li-cious"
+  },
+  {
+    "word": "round",
+    "phonetic": "/raʊ nd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The ball is round.",
+      "The table is round."
+    ],
+    "translations": [
+      "球是圆的。",
+      "桌子是圆的。"
+    ],
+    "syllable": "round"
+  },
+  {
+    "word": "furry",
+    "phonetic": "/ˈfɜ:ri/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The cat is soft and furry.",
+      "He has a furry dog."
+    ],
+    "translations": [
+      "这只猫又软又毛茸茸。",
+      "他有一只毛茸茸的狗。"
+    ],
+    "syllable": "fur-ry"
+  },
+  {
+    "word": "bark",
+    "phonetic": "/bɑ:rk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The dog barks at strangers.",
+      "I heard a loud bark."
+    ],
+    "translations": [
+      "狗对着陌生人叫。",
+      "我听到一声响亮的狗叫。"
+    ],
+    "syllable": "bark"
+  },
+  {
+    "word": "break",
+    "phonetic": "/breɪk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Don't break the glass.",
+      "He broke his arm yesterday."
+    ],
+    "translations": [
+      "别打破玻璃杯。",
+      "他昨天摔断了手臂。"
+    ],
+    "syllable": "break"
+  },
+  {
+    "word": "chicken",
+    "phonetic": "/ˈtʃɪ kɪn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I like to eat chicken.",
+      "The chicken is cooking in the oven."
+    ],
+    "translations": [
+      "我喜欢吃鸡肉。",
+      "鸡肉正在烤箱里烤。"
+    ],
+    "syllable": "chick-en"
+  },
+  {
+    "word": "swim",
+    "phonetic": "/swɪm/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I can swim very well.",
+      "Let's go swim in the pool."
+    ],
+    "translations": [
+      "我游泳游得很好。",
+      "我们去泳池游泳吧。"
+    ],
+    "syllable": "swim"
+  },
+  {
+    "word": "girl",
+    "phonetic": "/ ɡɜːrl /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "We can divide the students into two groups: one group is boys, the other is",
+      "The girl likes to play games, but she also  studies hard."
+    ],
+    "translations": [
+      "我们可以把学生分成两组，男生为一组  ，女生为一组。",
+      "这个女孩虽然喜欢玩游戏，但是她学习也很努力。"
+    ],
+    "syllable": "girl"
+  },
+  {
+    "word": "hand",
+    "phonetic": "/ hænd /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She waved her hand to say hello to her friend.",
+      "Washing your hands with soap and water is important for good hygiene.",
+      "Put your hands up or you're a dead man."
+    ],
+    "translations": [
+      "她挥手对她朋友问好。",
+      "用肥皂和水洗手是保持良好卫生习惯的重要一步。",
+      "把手举起来，不然你就死定了。"
+    ],
+    "syllable": "hand"
+  },
+  {
+    "word": "insect",
+    "phonetic": "/ˈɪnsekt /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I saw a tiny insect crawling on a leaf.",
+      "Ants are the superheroes of the insect world."
+    ],
+    "translations": [
+      "我看到一只小昆虫在叶子上爬行。",
+      "蚂蚁是昆虫界的超级英雄。"
+    ],
+    "syllable": "in-sect"
+  },
+  {
+    "word": "jump",
+    "phonetic": "/dʒʌmp /",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "The rabbit can jump high.",
+      "I like to jump. And I jump very high."
+    ],
+    "translations": [
+      "兔子能跳得很高。",
+      "我喜欢跳高 ，而且能跳得很高。"
+    ],
+    "syllable": "jump"
+  },
+  {
+    "word": "kite",
+    "phonetic": "/ kaɪt /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A father and his son go to a kite-flying festival.",
+      "When it's windy, I fly a kite."
+    ],
+    "translations": [
+      "父子俩一起参加了风筝节。",
+      "有风的时候，我放风筝。"
+    ],
+    "syllable": "kite"
+  },
+  {
+    "word": "leg",
+    "phonetic": "/ leɡ /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I run fast with my legs during a  race.",
+      "There’s a spider crawling up your leg."
+    ],
+    "translations": [
+      "在比赛中我用腿跑得很快。",
+      "有只蜘蛛正顺着你的腿往上爬。"
+    ],
+    "syllable": "leg"
+  },
+  {
+    "word": "student",
+    "phonetic": "/'stu:d(ə)nt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is a good student.",
+      "The students are studying hard."
+    ],
+    "translations": [
+      "她是个好学生。",
+      "学生们正在努力学习。"
+    ],
+    "syllable": "stu-dent"
+  },
+  {
+    "word": "study",
+    "phonetic": "/ˈstʌdi/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I study English every day.",
+      "She studies math at school."
+    ],
+    "translations": [
+      "我每天学习英语。",
+      "她在学校学习数学。"
+    ],
+    "syllable": "stud-y"
+  },
+  {
+    "word": "finger",
+    "phonetic": "/ˈfɪŋɡə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have five fingers on each hand.",
+      "She pointed with her finger."
+    ],
+    "translations": [
+      "我每只手有五个手指。",
+      "她用手指指着。"
+    ],
+    "syllable": "fin-ger"
+  },
+  {
+    "word": "nail",
+    "phonetic": "/neɪl/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She painted her nails red.",
+      "The nail is too long."
+    ],
+    "translations": [
+      "她把指甲涂成了红色。",
+      "指甲太长了。"
+    ],
+    "syllable": "nail"
+  },
+  {
+    "word": "gesture",
+    "phonetic": "/ˈdʒestʃər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He made a gesture with his hand.",
+      "Nodding is a common gesture."
+    ],
+    "translations": [
+      "他用手做了一个手势。",
+      "点头是一种常见的手势。"
+    ],
+    "syllable": "ges-ture"
+  },
+  {
+    "word": "wave",
+    "phonetic": "/weɪv/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Wave goodbye.",
+      "The waves are big."
+    ],
+    "translations": [
+      "挥手告别。",
+      "浪很大。"
+    ],
+    "syllable": "wave"
+  },
+  {
+    "word": "ant",
+    "phonetic": "/ænt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The ant is carrying food.",
+      "Ants work together."
+    ],
+    "translations": [
+      "蚂蚁正在搬运食物。",
+      "蚂蚁一起工作。"
+    ],
+    "syllable": "ant"
+  },
+  {
+    "word": "bee",
+    "phonetic": "/bi:/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The bee is collecting honey.",
+      "Bees make honey."
+    ],
+    "translations": [
+      "蜜蜂正在采蜜。",
+      "蜜蜂酿蜜。"
+    ],
+    "syllable": "bee"
+  },
+  {
+    "word": "windy",
+    "phonetic": "/ˈwɪndi/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It's windy today.",
+      "It's too windy to fly a kite."
+    ],
+    "translations": [
+      "今天风很大。",
+      "风太大，不适合放风筝。"
+    ],
+    "syllable": "win-dy"
+  },
+  {
+    "word": "foot",
+    "phonetic": "/fʊt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I hurt my foot.",
+      "He has big feet."
+    ],
+    "translations": [
+      "我弄伤了脚。",
+      "他的脚很大。"
+    ],
+    "syllable": "foot"
+  },
+  {
+    "word": "ankle",
+    "phonetic": "/'æŋk(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She twisted her ankle.",
+      "My ankle hurts."
+    ],
+    "translations": [
+      "她扭伤了脚踝。",
+      "我的脚踝疼。"
+    ],
+    "syllable": "an-kle"
+  },
+  {
+    "word": "monkey",
+    "phonetic": "/ˈmʌŋki /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The Monkey King is not just any normal monkey.",
+      "The monkey is hopping on the trees."
+    ],
+    "translations": [
+      "美猴王可不是任何一只普通的猴子。",
+      "猴子在树上跳来跳去的。"
+    ],
+    "syllable": "mon-key"
+  },
+  {
+    "word": "name",
+    "phonetic": "/ neɪm /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "What's your name?",
+      "My name is Tom."
+    ],
+    "translations": [
+      "你叫什么名字？",
+      "我叫汤姆。"
+    ],
+    "syllable": "name"
+  },
+  {
+    "word": "orange",
+    "phonetic": "/ˈɔrɪndʒ /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "How many oranges do you want?",
+      "This orange is orange."
+    ],
+    "translations": [
+      "你要多少橙子 ？",
+      "这个橙子是橙色的。"
+    ],
+    "syllable": "or-ange"
+  },
+  {
+    "word": "pig",
+    "phonetic": "/pɪɡ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This little pig is digging a big hole.",
+      "Look! A big and fat pig."
+    ],
+    "translations": [
+      "这只小猪在挖一个大洞。",
+      "看 ！一头又大又肥的猪。"
+    ],
+    "syllable": "pig"
+  },
+  {
+    "word": "quiet",
+    "phonetic": "/ˈkwaɪət /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is very quiet.",
+      "Be quiet, I have something to say."
+    ],
+    "translations": [
+      "她很文静。",
+      "安静，我有话要说。"
+    ],
+    "syllable": "qui-et"
+  },
+  {
+    "word": "river",
+    "phonetic": "/ˈrɪvər /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Let's go  swimming in the river.",
+      "The river is 300 metres in length."
+    ],
+    "translations": [
+      "我们去河里游泳吧。",
+      "这条河长 300 米。"
+    ],
+    "syllable": "riv-er"
+  },
+  {
+    "word": "spell",
+    "phonetic": "/spel/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Can you spell your name?",
+      "How do you spell it?"
+    ],
+    "translations": [
+      "你会拼写你的名字吗？",
+      "这个怎么拼写？"
+    ],
+    "syllable": "spell"
+  },
+  {
+    "word": "dig",
+    "phonetic": "/d ɪɡ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Dig a hole.",
+      "He is digging in the garden."
+    ],
+    "translations": [
+      "挖个洞。",
+      "他正在花园里挖掘。"
+    ],
+    "syllable": "dig"
+  },
+  {
+    "word": "sing",
+    "phonetic": "/ slŋ /",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "This singer is singing an English song.",
+      "The little bird sings a beautiful  melody in the garden."
+    ],
+    "translations": [
+      "这个歌手正在唱一首英语歌。",
+      "小鸟在花园中唱着美妙的旋律。"
+    ],
+    "syllable": "sing"
+  },
+  {
+    "word": "teacher",
+    "phonetic": "/丨ti:tʃər /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The head teacher and teachers care about students",
+      "Teachers' Day is a special day for all the teachers."
+    ],
+    "translations": [
+      "丨 studies. 校长和老师们都很关心学生们的学习。",
+      "教师节对所有老师来说都是特殊的一天。"
+    ],
+    "syllable": "teach-er"
+  },
+  {
+    "word": "umbrella",
+    "phonetic": "/ ʌm ˈbrelə /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I think it's about to  rain ; you can take an umbrella.",
+      "This heat wave is coming out strong, you should put up your umbrella"
+    ],
+    "translations": [
+      "我认为马上要下雨了，你应该带上雨伞。",
+      "这波热浪来势汹汹，你应该撑起伞来遮挡一下阳光。"
+    ],
+    "syllable": "um-brel-la"
+  },
+  {
+    "word": "vacation",
+    "phonetic": "/ veɪˈkeɪʃ(ə)n /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I'll take a vacation next week.",
+      "The summer vacation will start tomorrow."
+    ],
+    "translations": [
+      "下周我要休假。",
+      "暑假将从明天开始。"
+    ],
+    "syllable": "va-ca-tion"
+  },
+  {
+    "word": "winter",
+    "phonetic": "/ˈwɪntər /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "In winter, the bear is going to enter the cave and prepare to sleep.",
+      "All the kids love winter holiday."
+    ],
+    "translations": [
+      "在冬天，熊要进入洞穴里开始冬眠了。",
+      "所有的小孩都喜欢寒假。"
+    ],
+    "syllable": "win-ter"
+  },
+  {
+    "word": "box",
+    "phonetic": "/ bɑ:ks /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This fox eats a box of chocolates."
+    ],
+    "translations": [
+      "这只狐狸吃了一整盒巧克力。"
+    ],
+    "syllable": "box"
+  },
+  {
+    "word": "yellow",
+    "phonetic": "/ˈjeloʊ /",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Follow me! If you want to eat a yellow  banana.",
+      "Yellow is my favourite colour."
+    ],
+    "translations": [
+      "跟着我！如果你想吃到黄色的香蕉。",
+      "黄色是我最喜欢的颜色。"
+    ],
+    "syllable": "yel-low"
+  },
+  {
+    "word": "zoo",
+    "phonetic": "/ zu: /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "We're  going to the zoo next week."
+    ],
+    "translations": [
+      "我们下星期要去动物园。"
+    ],
+    "syllable": "zoo"
+  },
+  {
+    "word": "song",
+    "phonetic": "/sɔ:ŋ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Sing a song.",
+      "I like this song."
+    ],
+    "translations": [
+      "唱首歌。",
+      "我喜欢这首歌。"
+    ],
+    "syllable": "song"
+  },
+  {
+    "word": "singer",
+    "phonetic": "/ˈsɪŋə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is a famous singer.",
+      "The singer performed well."
+    ],
+    "translations": [
+      "她是一位著名的歌手。",
+      "歌手表演得很好。"
+    ],
+    "syllable": "sing-er"
+  },
+  {
+    "word": "shade",
+    "phonetic": "/ʃeɪd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Sit in the shade.",
+      "The tree provides shade."
+    ],
+    "translations": [
+      "坐在阴凉处。",
+      "树提供阴凉。"
+    ],
+    "syllable": "shade"
+  },
+  {
+    "word": "holiday",
+    "phonetic": "/ˈhɒlədeɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Happy holiday!",
+      "We are on holiday."
+    ],
+    "translations": [
+      "节日快乐！",
+      "我们在度假。"
+    ],
+    "syllable": "hol-i-day"
+  },
+  {
+    "word": "summer",
+    "phonetic": "/ˈsʌmə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Summer is hot.",
+      "I love summer."
+    ],
+    "translations": [
+      "夏天很热。",
+      "我喜欢夏天。"
+    ],
+    "syllable": "sum-mer"
+  },
+  {
+    "word": "purple",
+    "phonetic": "/'pɜ:rp(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The grapes are purple.",
+      "I like purple."
+    ],
+    "translations": [
+      "葡萄是紫色的。",
+      "我喜欢紫色。"
+    ],
+    "syllable": "pur-ple"
+  },
+  {
+    "word": "favourite",
+    "phonetic": "/ˈfeɪvərɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This is my favourite book.",
+      "What's your favourite color?"
+    ],
+    "translations": [
+      "这是我最喜欢的书。",
+      "你最喜欢什么颜色？"
+    ],
+    "syllable": "fav-our-ite"
+  },
+  {
+    "word": "panda",
+    "phonetic": "/ˈpændə/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A panda is eating bamboo!",
+      "Pandas can climb trees."
+    ],
+    "translations": [
+      "一只大熊猫正在吃竹子！",
+      "大熊猫会爬树。"
+    ],
+    "syllable": "pan-da"
+  },
+  {
+    "word": "bag",
+    "phonetic": "/bæɡ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Carry your bag.",
+      "I like my new school bag."
+    ],
+    "translations": [
+      "背起你的包。",
+      "我喜欢我的新书包。"
+    ],
+    "syllable": "bag"
+  },
+  {
+    "word": "candle",
+    "phonetic": "/ˈkænd(ə)l /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I blew out the candle.",
+      "She lights a candle."
+    ],
+    "translations": [
+      "我吹灭了蜡烛。",
+      "她点了根蜡烛。"
+    ],
+    "syllable": "can-dle"
+  },
+  {
+    "word": "hat",
+    "phonetic": "/hæt /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "That fat cat wears a hat.",
+      "Please take off  your hat when you are in the house."
+    ],
+    "translations": [
+      "那只肥猫戴着一顶帽子。",
+      "在房子里请脱下你的帽子。"
+    ],
+    "syllable": "hat"
+  },
+  {
+    "word": "cap",
+    "phonetic": "/ kæp /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "\"Good day, Little Red Cap,\" said he. “",
+      "There are many ways to wear a cap."
+    ],
+    "translations": [
+      "你好，小红帽。”他说。",
+      "有很多戴帽子的方式。"
+    ],
+    "syllable": "cap"
+  },
+  {
+    "word": "happy",
+    "phonetic": "/ˈhæpi /",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "I'm really happy today.",
+      "Happy birthday."
+    ],
+    "translations": [
+      "我今天真的很高兴。",
+      "生日快乐。"
+    ],
+    "syllable": "hap-py"
+  },
+  {
+    "word": "sad",
+    "phonetic": "/ sæd /",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "I'm still very sad about what happened.",
+      "Don't be sad, everything will be fine."
+    ],
+    "translations": [
+      "我对所发生的事情仍感到十分难过。",
+      "别难过了，一切都会变好的。"
+    ],
+    "syllable": "sad"
+  },
+  {
+    "word": "angry",
+    "phonetic": "/ˈæŋɡri /",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "My mother is a little angry with me.",
+      "When you are angry, take a deep breath and you'll feel better."
+    ],
+    "translations": [
+      "我妈妈有点生我的气。",
+      "当你生气的时候，深呼吸，你会感觉好一点。"
+    ],
+    "syllable": "an-gry"
+  },
+  {
+    "word": "bamboo",
+    "phonetic": "/ˌ bæm ˈ bu:/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Pandas eat bamboo.",
+      "Bamboo grows fast."
+    ],
+    "translations": [
+      "熊猫吃竹子。",
+      "竹子长得很快。"
+    ],
+    "syllable": "bam-boo"
+  },
+  {
+    "word": "wish",
+    "phonetic": "/wɪʃ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I wish you happy.",
+      "Make a wish."
+    ],
+    "translations": [
+      "祝你快乐。",
+      "许个愿吧。"
+    ],
+    "syllable": "wish"
+  },
+  {
+    "word": "light",
+    "phonetic": "/laɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Turn on the light.",
+      "The light is too bright."
+    ],
+    "translations": [
+      "开灯。",
+      "灯光太亮了。"
+    ],
+    "syllable": "light"
+  },
+  {
+    "word": "fat",
+    "phonetic": "/fæt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The cat is fat.",
+      "Don't eat too much fat."
+    ],
+    "translations": [
+      "这只猫很胖。",
+      "不要吃太多脂肪。"
+    ],
+    "syllable": "fat"
+  },
+  {
+    "word": "that",
+    "phonetic": "/ðæt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I want that book.",
+      "That is a good idea."
+    ],
+    "translations": [
+      "我想要那本书。",
+      "那是个好主意。"
+    ],
+    "syllable": "that"
+  },
+  {
+    "word": "bed",
+    "phonetic": "/ bed /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My cat is on the bed. It's cute.",
+      "I need to make my bed before leaving for school in the morning."
+    ],
+    "translations": [
+      "我的猫在床上。它很可爱。",
+      "早上动身去上学前，我需要整理床铺。"
+    ],
+    "syllable": "bed"
+  },
+  {
+    "word": "red",
+    "phonetic": "/ red /",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "The light changed from red to green.",
+      "The color of the apple is red."
+    ],
+    "translations": [
+      "交通灯已由红变绿。",
+      "苹果是红色的。"
+    ],
+    "syllable": "red"
+  },
+  {
+    "word": "desk",
+    "phonetic": "/ desk /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The ruler is in the desk.",
+      "My book and pencil are on the desk."
+    ],
+    "translations": [
+      "尺子在抽屉里。",
+      "我的书和铅笔在桌子上。"
+    ],
+    "syllable": "desk"
+  },
+  {
+    "word": "pet",
+    "phonetic": "/ pet /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Peter has a cute dog as a pet.",
+      "Let his sister get a pet!"
+    ],
+    "translations": [
+      "彼德的宠物是一只可爱的狗狗。",
+      "让他妹妹养只宠物吧！"
+    ],
+    "syllable": "pet"
+  },
+  {
+    "word": "hen",
+    "phonetic": "/ hen /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The hen has five chicks.",
+      "Look at the fat hens.",
+      "It’s a chicken and egg situation: I stay up late because I have work, but being tired makes it harder to finish my work.",
+      "I have to be up with the chickens tomorrow."
+    ],
+    "translations": [
+      "这只母鸡有五只小鸡。",
+      "看那些肥母鸡。",
+      "这是一个“先有鸡还是先有蛋”的困境：我因为有工作熬夜，但疲劳使我更难完成工作。 2. be up with the chickens：起床很早，通常指天亮前起床",
+      "我明天得早起。"
+    ],
+    "syllable": "hen"
+  },
+  {
+    "word": "friend",
+    "phonetic": "/ frend /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is a friend ofmine.",
+      "My best friend is Sophia."
+    ],
+    "translations": [
+      "她是我的一位朋友。",
+      "我最好的朋友是索菲亚。"
+    ],
+    "syllable": "fri-end"
+  },
+  {
+    "word": "send",
+    "phonetic": "/send /",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "I am sending Grandma an e-card.",
+      "I'll send an email to my e-friend."
+    ],
+    "translations": [
+      "我正在给奶奶发电子贺卡。",
+      "我将要给我的网友发个电子邮件。"
+    ],
+    "syllable": "send"
+  },
+  {
+    "word": "letter",
+    "phonetic": "/ˈletər /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The letter “s” looks like a snake.",
+      "Write a love letter to your spouse, kids, or best friend."
+    ],
+    "translations": [
+      "字母s看起来像条蛇。",
+      "写一封含有爱意的信，给你的配偶、孩子或最好的朋友吧。"
+    ],
+    "syllable": "let-ter"
+  },
+  {
+    "word": "bedroom",
+    "phonetic": "/'bedru:m/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Clean your bedroom.",
+      "My bedroom is small."
+    ],
+    "translations": [
+      "打扫你的卧室。",
+      "我的卧室很小。"
+    ],
+    "syllable": "bed-room"
+  },
+  {
+    "word": "classroom",
+    "phonetic": "/'klæsru:m/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Go to the classroom.",
+      "The classroom is big."
+    ],
+    "translations": [
+      "去教室。",
+      "教室很大。"
+    ],
+    "syllable": "class-room"
+  },
+  {
+    "word": "bathroom",
+    "phonetic": "/ˈbæθ ru:m/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I need the bathroom.",
+      "Clean the bathroom."
+    ],
+    "translations": [
+      "我需要上厕所。",
+      "打扫浴室。"
+    ],
+    "syllable": "bath-room"
+  },
+  {
+    "word": "washroom",
+    "phonetic": "/ˈwɑ:ʃru:m/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Where is the washroom?",
+      "The washroom is clean."
+    ],
+    "translations": [
+      "洗手间在哪里？",
+      "洗手间很干净。"
+    ],
+    "syllable": "wash-room"
+  },
+  {
+    "word": "blue",
+    "phonetic": "/blu:/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The sky is blue.",
+      "I like blue."
+    ],
+    "translations": [
+      "天空是蓝色的。",
+      "我喜欢蓝色。"
+    ],
+    "syllable": "blue"
+  },
+  {
+    "word": "blackboard",
+    "phonetic": "/ˈblækbɔ:rd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Look at the blackboard.",
+      "Write on the blackboard."
+    ],
+    "translations": [
+      "看黑板。",
+      "在黑板上写。"
+    ],
+    "syllable": "black-board"
+  },
+  {
+    "word": "let",
+    "phonetic": "/let/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Let me help.",
+      "Let's go."
+    ],
+    "translations": [
+      "让我帮忙。",
+      "我们走吧。"
+    ],
+    "syllable": "let"
+  },
+  {
+    "word": "chick",
+    "phonetic": "/tʃɪk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The chick is cute.",
+      "A baby chick."
+    ],
+    "translations": [
+      "小鸡很可爱。",
+      "一只小鸡。"
+    ],
+    "syllable": "chick"
+  },
+  {
+    "word": "e-card",
+    "phonetic": "/ˈi:kɑ:rd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Send an e-card.",
+      "I received an e-card."
+    ],
+    "translations": [
+      "发送电子贺卡。",
+      "我收到了一张电子贺卡。"
+    ],
+    "syllable": "e-card"
+  },
+  {
+    "word": "ship",
+    "phonetic": "/ʃɪp/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Can you go by ship or train?",
+      "We go on a boat trip and see a big ship on the water.",
+      "He lives in Beijing.",
+      "I want to live a life filled with candies and toys."
+    ],
+    "translations": [
+      "你可以坐船或火车吗？",
+      "我们在一次乘船旅行中，看到了一艘大船。",
+      "他住在北京。",
+      "我想过一种充满了糖果和玩具的生活。"
+    ],
+    "syllable": "ship"
+  },
+  {
+    "word": "win",
+    "phonetic": "/wɪn/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "She played well and became the winner of the game.",
+      "She is hoping to win the first prize."
+    ],
+    "translations": [
+      "她表现出色，成为了比赛中的赢家。",
+      "她希望赢得一等奖。"
+    ],
+    "syllable": "win"
+  },
+  {
+    "word": "pick",
+    "phonetic": "/pɪk/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "You can pick some apples from the garden.",
+      "Will you pickup all your toys?"
+    ],
+    "translations": [
+      "你可以从花园里摘些苹果。",
+      "把你的玩具都收起来好不好？"
+    ],
+    "syllable": "pick"
+  },
+  {
+    "word": "sit",
+    "phonetic": "/sɪt/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "You can sit in the sitting room.",
+      "Please sit down."
+    ],
+    "translations": [
+      "你可以坐在客厅里。",
+      "请坐下。"
+    ],
+    "syllable": "sit"
+  },
+  {
+    "word": "pink",
+    "phonetic": "/pɪŋk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I like to drink the peach juice because it's pink.",
+      "My sister likes pink roses very much."
+    ],
+    "translations": [
+      "我喜欢喝桃子汁因为它是粉红色的。",
+      "我姐姐非常喜欢粉红色的玫瑰。"
+    ],
+    "syllable": "pink"
+  },
+  {
+    "word": "tin",
+    "phonetic": "/tɪn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "There is nothing in the tin."
+    ],
+    "translations": [
+      "罐里什么都没有。"
+    ],
+    "syllable": "tin"
+  },
+  {
+    "word": "him",
+    "phonetic": "/hɪm/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "Tell him we're leaving."
+    ],
+    "translations": [
+      "告诉他我们要走了。"
+    ],
+    "syllable": "him"
+  },
+  {
+    "word": "trip",
+    "phonetic": "/trɪp/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Have a good trip!",
+      "We went on a trip."
+    ],
+    "translations": [
+      "旅途愉快！",
+      "我们去旅行了。"
+    ],
+    "syllable": "trip"
+  },
+  {
+    "word": "winner",
+    "phonetic": "/ˈwɪnə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Who is the winner?",
+      "The winner gets a prize."
+    ],
+    "translations": [
+      "谁是获胜者？",
+      "获胜者得到奖品。"
+    ],
+    "syllable": "win-ner"
+  },
+  {
+    "word": "think",
+    "phonetic": "/θɪŋk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I think so.",
+      "Think about it."
+    ],
+    "translations": [
+      "我是这么认为的。",
+      "考虑一下。"
+    ],
+    "syllable": "think"
+  },
+  {
+    "word": "frog",
+    "phonetic": "/frɒɡ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Green frog jumps in the pond.",
+      "A prince turns into a frog in this cartoon fairy tale."
+    ],
+    "translations": [
+      "青蛙在池塘里跳来跳去。",
+      "在这部卡通童话片里，一位王子变成了一只青蛙。"
+    ],
+    "syllable": "frog"
+  },
+  {
+    "word": "sock",
+    "phonetic": "/sɒk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My friend wants to wear green socks.",
+      "There is a hole in my sock."
+    ],
+    "translations": [
+      "我的朋友想穿绿色的袜子。",
+      "我的袜子上有个洞。"
+    ],
+    "syllable": "sock"
+  },
+  {
+    "word": "shop",
+    "phonetic": "/ʃɒp/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "We can go to the pet shop first.",
+      "My mother is shopping for clothes."
+    ],
+    "translations": [
+      "我们可以先去宠物店。",
+      "我妈妈正在买衣服。"
+    ],
+    "syllable": "shop"
+  },
+  {
+    "word": "store",
+    "phonetic": "/stɔː(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I work at a store.",
+      "The store opens at 9."
+    ],
+    "translations": [
+      "我在商店工作。",
+      "商店9点开门。"
+    ],
+    "syllable": "store"
+  },
+  {
+    "word": "clock",
+    "phonetic": "/klɒk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "His watch is a little faster than my clock.",
+      "I set my alarm clock for 4:30."
+    ],
+    "translations": [
+      "他的手表比我的钟快了一点。",
+      "我把闹钟定在4:30。"
+    ],
+    "syllable": "clock"
+  },
+  {
+    "word": "doll",
+    "phonetic": "/dɒl/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Hold the doll.",
+      "Mary has a pretty doll."
+    ],
+    "translations": [
+      "抱着玩具娃娃。",
+      "玛丽有一个漂亮的娃娃。"
+    ],
+    "syllable": "doll"
+  },
+  {
+    "word": "stop",
+    "phonetic": "/stɒp/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "It's a stop sign.",
+      "The bookshop is beside the bus stop.",
+      "It's already midnight; please stop making noise."
+    ],
+    "translations": [
+      "这是停止标志。",
+      "书店在公共汽车站旁边。",
+      "现在是大半夜，不要再吵闹了。"
+    ],
+    "syllable": "stop"
+  },
+  {
+    "word": "body",
+    "phonetic": "/ˈbɒdi/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "His body was black and blue.",
+      "Jack's body is strong."
+    ],
+    "translations": [
+      "他的身上青一块紫一块。",
+      "杰克的身体很强壮。"
+    ],
+    "syllable": "bod-y"
+  },
+  {
+    "word": "coffee",
+    "phonetic": "/ˈkɒfi/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "In the morning, they can have breakfast in the coffee shop.",
+      "I don't drink coffee."
+    ],
+    "translations": [
+      "早上他们可以在咖啡店吃早餐。",
+      "我不喝咖啡。"
+    ],
+    "syllable": "cof-fee"
+  },
+  {
+    "word": "pond",
+    "phonetic": "/pɑ:nd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "There are fish in the pond.",
+      "The pond is small."
+    ],
+    "translations": [
+      "池塘里有鱼。",
+      "池塘很小。"
+    ],
+    "syllable": "pond"
+  },
+  {
+    "word": "prince",
+    "phonetic": "/prɪns/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The prince is handsome.",
+      "She married a prince."
+    ],
+    "translations": [
+      "王子很英俊。",
+      "她嫁给了一位王子。"
+    ],
+    "syllable": "prince"
+  },
+  {
+    "word": "cartoon",
+    "phonetic": "/kɑ:ˈtu:n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I like watching cartoons.",
+      "This is a funny cartoon."
+    ],
+    "translations": [
+      "我喜欢看动画片。",
+      "这是一部有趣的动画片。"
+    ],
+    "syllable": "car-toon"
+  },
+  {
+    "word": "stocking",
+    "phonetic": "/ˈstɒkɪŋ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She wore stockings.",
+      "Hang up the Christmas stocking."
+    ],
+    "translations": [
+      "她穿着长筒袜。",
+      "挂上圣诞袜。"
+    ],
+    "syllable": "stock-ing"
+  },
+  {
+    "word": "rock",
+    "phonetic": "/rɑ:k/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The rock is heavy.",
+      "He sat on a rock."
+    ],
+    "translations": [
+      "石头很重。",
+      "他坐在一块石头上。"
+    ],
+    "syllable": "rock"
+  },
+  {
+    "word": "sun",
+    "phonetic": "/sʌn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The sun is shining.",
+      "We sit in the sun.",
+      "We talk about everything under the sun."
+    ],
+    "translations": [
+      "阳光明媚。",
+      "我们坐在阳光下。",
+      "天南地北，我们无所不谈。"
+    ],
+    "syllable": "sun"
+  },
+  {
+    "word": "lunch",
+    "phonetic": "/lʌntʃ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I'm ready for lunch.",
+      "Do you have lunch at school?"
+    ],
+    "translations": [
+      "我准备好吃午餐了。",
+      "你们在学校吃午饭了吗？"
+    ],
+    "syllable": "lunch"
+  },
+  {
+    "word": "fun",
+    "phonetic": "/fʌn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Have fun!",
+      "We have so much fun in Mr. Liu's class."
+    ],
+    "translations": [
+      "玩得开心点！",
+      "在刘老师的课堂上，我们玩很尽兴。"
+    ],
+    "syllable": "fun"
+  },
+  {
+    "word": "subway",
+    "phonetic": "/ˈsʌbweɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Where is the nearest subway station?",
+      "Do you go to school by bus or by subway?"
+    ],
+    "translations": [
+      "最近的地铁站在那里？",
+      "你坐公共汽车还是坐地铁去学校？"
+    ],
+    "syllable": "sub-way"
+  },
+  {
+    "word": "cut",
+    "phonetic": "/kʌt/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Johnson cut himself shaving.",
+      "We should be careful not to cut ourselves when using scissors."
+    ],
+    "translations": [
+      "约翰逊刮胡子时割伤了自己。",
+      "我们使用剪刀时应该小心不要割伤自己。"
+    ],
+    "syllable": "cut"
+  },
+  {
+    "word": "drum",
+    "phonetic": "/drʌm/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Can you play the piano or drum?",
+      "People beat drums and gongs to celebrate the arrival of the following year."
+    ],
+    "translations": [
+      "你会弹钢琴还是敲鼓？",
+      "人们在春节敲锣打鼓，庆祝新一年的到来。"
+    ],
+    "syllable": "drum"
+  },
+  {
+    "word": "duck",
+    "phonetic": "/dʌk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Have you tried Peking Duck?",
+      "Ducks quack, dogs bark, birds sing, and human speak."
+    ],
+    "translations": [
+      "你吃过北京烤鸭吗？",
+      "鸭子嘎嘎叫，小狗汪汪叫，小鸟在唱歌，人类在说话。"
+    ],
+    "syllable": "duck"
+  },
+  {
+    "word": "plum",
+    "phonetic": "/plʌm/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Could I have some fruit sugar for my plum juice?",
+      "Is it a grape or  a plum?"
+    ],
+    "translations": [
+      "可以给我的梅子汁要加点果糖吗？",
+      "这是葡萄还是李子？"
+    ],
+    "syllable": "plum"
+  },
+  {
+    "word": "cloud",
+    "phonetic": "/klaud/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Look at the cloud.",
+      "A white cloud."
+    ],
+    "translations": [
+      "看那朵云。",
+      "一朵白云。"
+    ],
+    "syllable": "cloud"
+  },
+  {
+    "word": "meal",
+    "phonetic": "/mi:l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Have a good meal.",
+      "Cook a meal."
+    ],
+    "translations": [
+      "用餐愉快。",
+      "做饭。"
+    ],
+    "syllable": "meal"
+  },
+  {
+    "word": "breakfast",
+    "phonetic": "/'brekfəst/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Eat breakfast.",
+      "What's for breakfast?"
+    ],
+    "translations": [
+      "吃早餐。",
+      "早餐吃什么？"
+    ],
+    "syllable": "break-fast"
+  },
+  {
+    "word": "funny",
+    "phonetic": "/ˈfΛni/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is funny.",
+      "That's a funny joke."
+    ],
+    "translations": [
+      "他很风趣。",
+      "那是个有趣的笑话。"
+    ],
+    "syllable": "fun-ny"
+  },
+  {
+    "word": "beat",
+    "phonetic": "/bi:t/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Beat the eggs.",
+      "My heart beats fast."
+    ],
+    "translations": [
+      "打鸡蛋。",
+      "我的心跳得很快。"
+    ],
+    "syllable": "beat"
+  },
+  {
+    "word": "whale",
+    "phonetic": "/weɪl/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The blue whale is the world's largest living animal.",
+      "A whale was found washed up on the shore."
+    ],
+    "translations": [
+      "蓝鲸是现存最大的动物。",
+      "一头鲸被发现冲到了岸上。"
+    ],
+    "syllable": "whale"
+  },
+  {
+    "word": "lake",
+    "phonetic": "/leɪk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "There are many trees beside the lake.",
+      "We can go fishing in the lake."
+    ],
+    "translations": [
+      "湖边有许多树。",
+      "我们可以去湖里钓鱼。"
+    ],
+    "syllable": "lake"
+  },
+  {
+    "word": "gate",
+    "phonetic": "/ɡeɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Let's meet at the school gate.",
+      "Can you jump that gate?"
+    ],
+    "translations": [
+      "让我们在学校门口碰面。",
+      "你能跳过那篱笆门吗？"
+    ],
+    "syllable": "gate"
+  },
+  {
+    "word": "date",
+    "phonetic": "/deɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A: What's the date? B: It's October 1st."
+    ],
+    "translations": [
+      ""
+    ],
+    "syllable": "date"
+  },
+  {
+    "word": "brave",
+    "phonetic": "/breɪv/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "It was brave of you to do so.",
+      "You're a brave soul."
+    ],
+    "translations": [
+      "你这么做真勇敢。",
+      "你真勇敢。"
+    ],
+    "syllable": "brave"
+  },
+  {
+    "word": "sale",
+    "phonetic": "/seɪl/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This coat is on sale.",
+      "The house is up for sale."
+    ],
+    "translations": [
+      "这件外套正在特价销售。",
+      "这所房子正待出售。"
+    ],
+    "syllable": "sa-le"
+  },
+  {
+    "word": "snake",
+    "phonetic": "/sneɪk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The snake looks like an S."
+    ],
+    "translations": [
+      "这条蛇看上去像S。"
+    ],
+    "syllable": "snake"
+  },
+  {
+    "word": "sea",
+    "phonetic": "/si:/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The sea is blue.",
+      "Swim in the sea."
+    ],
+    "translations": [
+      "大海是蓝色的。",
+      "在海里游泳。"
+    ],
+    "syllable": "sea"
+  },
+  {
+    "word": "waterfall",
+    "phonetic": "/ˈw0:tərf0:l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Visit the waterfall.",
+      "The waterfall is beautiful."
+    ],
+    "translations": [
+      "参观瀑布。",
+      "瀑布很美。"
+    ],
+    "syllable": "wa-ter-fall"
+  },
+  {
+    "word": "christmas",
+    "phonetic": "/ˈkrɪsməs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Merry Christmas!",
+      "Christmas is in December."
+    ],
+    "translations": [
+      "圣诞快乐！",
+      "圣诞节在十二月。"
+    ],
+    "syllable": "christ-mas"
+  },
+  {
+    "word": "tuesday",
+    "phonetic": "/ˈtju:zdeɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Today is Tuesday.",
+      "See you on Tuesday."
+    ],
+    "translations": [
+      "今天是星期二。",
+      "星期二见。"
+    ],
+    "syllable": "tues-day"
+  },
+  {
+    "word": "wednesday",
+    "phonetic": "/ˈwɛnzdeɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Wednesday is midweek.",
+      "I have class on Wednesday."
+    ],
+    "translations": [
+      "星期三是周中。",
+      "我星期三有课。"
+    ],
+    "syllable": "wednes-day"
+  },
+  {
+    "word": "friday",
+    "phonetic": "/ˈfraɪdeɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Friday is almost weekend.",
+      "Thank God it's Friday!"
+    ],
+    "translations": [
+      "星期五快到周末了。",
+      "谢天谢地，今天是星期五！"
+    ],
+    "syllable": "fri-day"
+  },
+  {
+    "word": "saturday",
+    "phonetic": "/ˈsætərdeɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Saturday is fun.",
+      "See you Saturday."
+    ],
+    "translations": [
+      "星期六很有趣。",
+      "星期六见。"
+    ],
+    "syllable": "sat-ur-day"
+  },
+  {
+    "word": "sunday",
+    "phonetic": "/ˈsΛndeɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Sunday is a rest day.",
+      "I love Sundays."
+    ],
+    "translations": [
+      "星期日是休息日。",
+      "我喜欢星期日。"
+    ],
+    "syllable": "sun-day"
+  },
+  {
+    "word": "discount",
+    "phonetic": "/ˈdɪskaunt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Get a discount.",
+      "Big discount today!"
+    ],
+    "translations": [
+      "获得折扣。",
+      "今天大打折！"
+    ],
+    "syllable": "dis-count"
+  },
+  {
+    "word": "ice",
+    "phonetic": "/aɪs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Extra ice in my drink, please.",
+      "We never learned to ice skate or ski."
+    ],
+    "translations": [
+      "我的饮料多加冰，谢谢。",
+      "我们从没学过溜冰或滑雪。 I like to eat ice-cream.  我喜欢吃冰淇淋。"
+    ],
+    "syllable": "ice"
+  },
+  {
+    "word": "fire",
+    "phonetic": "/ˈfaɪə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He threw the letter into the fire.",
+      "Most animals are afraid of fire."
+    ],
+    "translations": [
+      "他把信扔进了炉火。",
+      "大多数动物怕火。"
+    ],
+    "syllable": "fi-re"
+  },
+  {
+    "word": "hide",
+    "phonetic": "/haɪd/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Jack, let's play hide and seek.",
+      "Hide behind the door!"
+    ],
+    "translations": [
+      "杰克，我们来玩捉迷藏吧。",
+      "躲到门后！"
+    ],
+    "syllable": "hide"
+  },
+  {
+    "word": "line",
+    "phonetic": "/laɪn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He draws a straight line.",
+      "Please stand in a line."
+    ],
+    "translations": [
+      "他画了一条直线。",
+      "请排队。"
+    ],
+    "syllable": "line"
+  },
+  {
+    "word": "hike",
+    "phonetic": "/haɪk/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "I like going hiking on the weekend.",
+      "After a long hike, they went back to their camp, built a fire and cooked dinner."
+    ],
+    "translations": [
+      "我喜欢周末去远足。",
+      "长途跋涉后，他们回到营地，生火做饭。"
+    ],
+    "syllable": "hi-ke"
+  },
+  {
+    "word": "smile",
+    "phonetic": "/smaɪl/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She smiled at me.",
+      "His smile is warm and friendly."
+    ],
+    "translations": [
+      "她冲我微笑。",
+      "他的微笑热情而友好。"
+    ],
+    "syllable": "smi-le"
+  },
+  {
+    "word": "nine",
+    "phonetic": "/naɪn/",
+    "partOfSpeech": "num.",
+    "sentences": [
+      "It's exactly nine o'clock.",
+      "They have two children aged six and nine."
+    ],
+    "translations": [
+      "现在是九点整。",
+      "他们有两个小孩，一个六岁，一个九岁。 first second third fourth fifth sixth seventh eighth ninth tenth"
+    ],
+    "syllable": "nine"
+  },
+  {
+    "word": "like",
+    "phonetic": "/laɪk/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "What would the boy like to do?",
+      "He likes riding a bike."
+    ],
+    "translations": [
+      "这个男孩想做什么？",
+      "他喜欢骑自行车。"
+    ],
+    "syllable": "li-ke"
+  },
+  {
+    "word": "rain",
+    "phonetic": "/reɪn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It's going to rain.",
+      "The rain is heavy."
+    ],
+    "translations": [
+      "要下雨了。",
+      "雨很大。"
+    ],
+    "syllable": "rain"
+  },
+  {
+    "word": "snow",
+    "phonetic": "/snəu/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It's snowing.",
+      "Play in the snow."
+    ],
+    "translations": [
+      "下雪了。",
+      "在雪地里玩。"
+    ],
+    "syllable": "snow"
+  },
+  {
+    "word": "frozen",
+    "phonetic": "/ˈfrəuz(ə)n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The lake is frozen.",
+      "Frozen food."
+    ],
+    "translations": [
+      "湖结冰了。",
+      "冷冻食品。"
+    ],
+    "syllable": "fro-zen"
+  },
+  {
+    "word": "nice",
+    "phonetic": "/naɪs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Nice to meet you.",
+      "Have a nice day!"
+    ],
+    "translations": [
+      "很高兴认识你。",
+      "祝你今天愉快！"
+    ],
+    "syllable": "nice"
+  },
+  {
+    "word": "advice",
+    "phonetic": "/ədˈvaɪs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Give me some advice.",
+      "Take my advice."
+    ],
+    "translations": [
+      "给我一些建议。",
+      "接受我的建议。"
+    ],
+    "syllable": "ad-vice"
+  },
+  {
+    "word": "circle",
+    "phonetic": "/ˈs3:rk(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Draw a circle.",
+      "Sit in a circle."
+    ],
+    "translations": [
+      "画一个圆。",
+      "围成一圈坐。"
+    ],
+    "syllable": "cir-cle"
+  },
+  {
+    "word": "triangle",
+    "phonetic": "/ˈtraiæŋɡ(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A triangle has three sides.",
+      "Draw a triangle."
+    ],
+    "translations": [
+      "三角形有三条边。",
+      "画一个三角形。"
+    ],
+    "syllable": "tri-an-gle"
+  },
+  {
+    "word": "hope",
+    "phonetic": "/həʊp/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I hope everything goes well!",
+      "We hope to arrive around two.",
+      "We wish you luck!",
+      "He’s hoping to go to college next year."
+    ],
+    "translations": [
+      "我希望一切顺利。",
+      "我们希望能在两点钟左右到达。",
+      "祝你好运",
+      "他希望明年上大学。"
+    ],
+    "syllable": "hope"
+  },
+  {
+    "word": "hometown",
+    "phonetic": "/ˈhəʊmtaʊn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Shao Guohua never left his hometown.",
+      "Here is a letter to his friend in his hometown."
+    ],
+    "translations": [
+      "邵国华从未离开过家乡。",
+      "这是一封给他家乡朋友的信。"
+    ],
+    "syllable": "home-town"
+  },
+  {
+    "word": "those",
+    "phonetic": "/ðəʊz/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "Those are my balls.",
+      "I planted those apple trees.",
+      "This is a flower.",
+      "That is a tree.",
+      "This is a pen.",
+      "That is a pencil.",
+      "This is Wade.",
+      "Wade, this is Dave."
+    ],
+    "translations": [
+      "那些是我的球。",
+      "我种了那些苹果树。 小 课 堂 ：",
+      "这是一朵花（近处）。",
+      "那是一棵树（远处）。 2.放在一起的两样东西，先说this，后说that。",
+      "这是一支钢笔。",
+      "那是一支铅笔。 3.向别人介绍某人时说This is … ，不说That is … 。",
+      "这是韦德。",
+      "韦德，这是大卫。"
+    ],
+    "syllable": "tho-se"
+  },
+  {
+    "word": "close",
+    "phonetic": "/kləʊz/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Please close the window.",
+      "She is very close to her father."
+    ],
+    "translations": [
+      "请关上窗户。",
+      "她和父亲的关系很亲密。"
+    ],
+    "syllable": "clo-se"
+  },
+  {
+    "word": "nose",
+    "phonetic": "/nəʊz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "His nose is thin and sharp.",
+      "Which animal has a long nose?",
+      "I have two eyes.",
+      "And a nose to smell.",
+      "I have ten fingers.",
+      "They do it very well!",
+      "I have two ears.",
+      "I have a tongue,"
+    ],
+    "translations": [
+      "他的鼻子又细又尖。",
+      "什么动物鼻子长？ 唱一唱 ：",
+      "我有两只眼睛。So I can see. 所以我能看见。",
+      "我有一个鼻子可以闻。",
+      "我有十根手指。They can touch. 它们能摸。",
+      "它们做得很好！",
+      "我有两只耳朵。So I can hear. 所以我能听到。",
+      "我有一条舌头, inside my mouth, 在我的嘴巴里面, to taste the food I eat.能尝到我吃的东西。"
+    ],
+    "syllable": "no-se"
+  },
+  {
+    "word": "phone",
+    "phonetic": "/fəʊn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The phone  rang   and Rose answered it.",
+      "They chatted casually on the phone."
+    ],
+    "translations": [
+      "电话响起来了，罗斯接了。",
+      "他们在电话上闲聊。"
+    ],
+    "syllable": "phone"
+  },
+  {
+    "word": "rose",
+    "phonetic": "/rəʊz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He sent her a single red rose.",
+      "She bent to pick a red rose."
+    ],
+    "translations": [
+      "他送给她一支红玫瑰。",
+      "她弯下腰摘了一朵红玫瑰。"
+    ],
+    "syllable": "ro-se"
+  },
+  {
+    "word": "alone",
+    "phonetic": "/ə ˈləʊn/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Exercising alone can be boring.",
+      "I don't like being alone at home."
+    ],
+    "translations": [
+      "独自一个人锻炼可能会很无聊。",
+      "我不喜欢独自在家。 lone alone lonely 词汇 发音 释义 adj.  孤独的，单独的 adj.  单独的 ；独自的 ； adv.  单独地 ；独自地 adj.孤独的，寂寞的，偏僻的 用法 lone的侧重点是指孤独，单独。 例如：He is a lone traveler. 他是一个独自旅行的人。 alone的侧重点是单独 ，独自。 例如 ：I prefer to be alone. 我喜欢独自一个人。 lonely 的 侧 重 点 是 指 孤独 ，寂寞。 例如 ：She felt lonely in the big city.  她在大城市里感到孤独。"
+    ],
+    "syllable": "a-lone"
+  },
+  {
+    "word": "homework",
+    "phonetic": "/ˈhəumw3:k/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Do your homework.",
+      "I have a lot of homework."
+    ],
+    "translations": [
+      "做作业。",
+      "我有很多作业。"
+    ],
+    "syllable": "home-work"
+  },
+  {
+    "word": "open",
+    "phonetic": "/ ˈəupən/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Open the door.",
+      "The shop is open."
+    ],
+    "translations": [
+      "开门。",
+      "商店开门了。"
+    ],
+    "syllable": "o-pen"
+  },
+  {
+    "word": "see",
+    "phonetic": "/si:/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I can see you.",
+      "See you later."
+    ],
+    "translations": [
+      "我能看见你。",
+      "回头见。"
+    ],
+    "syllable": "see"
+  },
+  {
+    "word": "smell",
+    "phonetic": "/smel/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It smells good.",
+      "I can smell the flowers."
+    ],
+    "translations": [
+      "闻起来很香。",
+      "我能闻到花香。"
+    ],
+    "syllable": "smell"
+  },
+  {
+    "word": "ear",
+    "phonetic": "/ ɪə (r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have two ears.",
+      "My ear hurts."
+    ],
+    "translations": [
+      "我有两只耳朵。",
+      "我的耳朵疼。"
+    ],
+    "syllable": "ear"
+  },
+  {
+    "word": "hear",
+    "phonetic": "/hɪə (r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Can you hear me?",
+      "I heard a noise."
+    ],
+    "translations": [
+      "你能听到我吗？",
+      "我听到了噪音。"
+    ],
+    "syllable": "hear"
+  },
+  {
+    "word": "tongue",
+    "phonetic": "/tΛŋ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Stick out your tongue.",
+      "Mother tongue."
+    ],
+    "translations": [
+      "伸出舌头。",
+      "母语。"
+    ],
+    "syllable": "tongue"
+  },
+  {
+    "word": "eat",
+    "phonetic": "/i:t/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Let's eat.",
+      "Don't eat too much."
+    ],
+    "translations": [
+      "我们吃吧。",
+      "别吃太多。"
+    ],
+    "syllable": "eat"
+  },
+  {
+    "word": "lone",
+    "phonetic": "/ləun/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A lone wolf.",
+      "He is lone."
+    ],
+    "translations": [
+      "一只孤独的狼。",
+      "他很孤独。"
+    ],
+    "syllable": "lone"
+  },
+  {
+    "word": "lonely",
+    "phonetic": "/ˈləunli/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I feel lonely.",
+      "He lives a lonely life."
+    ],
+    "translations": [
+      "我感到孤独。",
+      "他过着孤独的生活。"
+    ],
+    "syllable": "lone-ly"
+  },
+  {
+    "word": "rude",
+    "phonetic": "/ruːd/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "It's rude to speak when you're eating.",
+      "Jack, don't be rude to your mother."
+    ],
+    "translations": [
+      "吃饭的时候说话不礼貌。",
+      "杰克，不能对你妈妈没有礼貌。"
+    ],
+    "syllable": "rude"
+  },
+  {
+    "word": "mule",
+    "phonetic": "/mju :l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A mule is the child of a donkey and a horse.",
+      "They travel on foot and by mule."
+    ],
+    "translations": [
+      "骡子是驴和马的后代。",
+      "他们靠走路或骑骡子走路。"
+    ],
+    "syllable": "mu-le"
+  },
+  {
+    "word": "june",
+    "phonetic": "/dʒuːn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I like to eat watermelons in June.",
+      "She turns 21 in June.",
+      "January",
+      "April",
+      "July",
+      "August",
+      "September",
+      "November"
+    ],
+    "translations": [
+      "我喜欢在六月份吃西瓜。",
+      "她到六月份就满 21 岁了。 月份单词 ：",
+      "一月 February 二月March 三月",
+      "四月May 五月June 六月",
+      "七月",
+      "八月",
+      "九月October 十月",
+      "十一月December 十二月"
+    ],
+    "syllable": "ju-ne"
+  },
+  {
+    "word": "cute",
+    "phonetic": "/kjuːt/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Dogs are very cute animals.",
+      "They're so cute and lovely."
+    ],
+    "translations": [
+      "小狗是非常可爱的动物。",
+      "他们是如此的可爱。"
+    ],
+    "syllable": "cute"
+  },
+  {
+    "word": "cube",
+    "phonetic": "/kjuːb/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "How manyfaces does a cube have?",
+      "Put an ice cube in each glass."
+    ],
+    "translations": [
+      "立方体有几个面 ？",
+      "每一个玻璃杯内放入一冰块。"
+    ],
+    "syllable": "cube"
+  },
+  {
+    "word": "tube",
+    "phonetic": "/tjuːb/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I go out today and buy a tube of toothpaste."
+    ],
+    "translations": [
+      "我今天出去买了一管牙膏。"
+    ],
+    "syllable": "tube"
+  },
+  {
+    "word": "rule",
+    "phonetic": "/ ruːl /",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "There are many school rules.",
+      "We must play the game by rule."
+    ],
+    "translations": [
+      "有很多学校规则。",
+      "我们必须按照规则进行比赛。"
+    ],
+    "syllable": "ru-le"
+  },
+  {
+    "word": "mute",
+    "phonetic": "/ mjuːt /",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Now it's mute.",
+      "The boy was born a deaf-mute."
+    ],
+    "translations": [
+      "现在它无声无息。",
+      "这男孩天生聋哑。"
+    ],
+    "syllable": "mute"
+  },
+  {
+    "word": "polite",
+    "phonetic": "/pəˈlaɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Be polite.",
+      "He is very polite."
+    ],
+    "translations": [
+      "要有礼貌。",
+      "他很有礼貌。"
+    ],
+    "syllable": "po-lite"
+  },
+  {
+    "word": "donkey",
+    "phonetic": "/ˈdɒŋki/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The donkey is stubborn.",
+      "Ride a donkey."
+    ],
+    "translations": [
+      "驴很固执。",
+      "骑驴。"
+    ],
+    "syllable": "don-key"
+  },
+  {
+    "word": "horse",
+    "phonetic": "/hɔ:s/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Ride a horse.",
+      "The horse runs fast."
+    ],
+    "translations": [
+      "骑马。",
+      "马跑得很快。"
+    ],
+    "syllable": "horse"
+  },
+  {
+    "word": "january",
+    "phonetic": "/ˈdʒænjuəri/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "January is the first month.",
+      "Happy New Year in January!"
+    ],
+    "translations": [
+      "一月是第一个月。",
+      "一月新年快乐！"
+    ],
+    "syllable": "jan-u-ar-y"
+  },
+  {
+    "word": "april",
+    "phonetic": "/ˈeɪprəl/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "April has rain.",
+      "April Fool's Day."
+    ],
+    "translations": [
+      "四月有雨。",
+      "愚人节。"
+    ],
+    "syllable": "ap-ril"
+  },
+  {
+    "word": "august",
+    "phonetic": "/ˈɔ:ɡəst/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "August is hot.",
+      "My birthday is in August."
+    ],
+    "translations": [
+      "八月很热。",
+      "我的生日在八月。"
+    ],
+    "syllable": "au-gust"
+  },
+  {
+    "word": "september",
+    "phonetic": "/sepˈtembə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "September is autumn.",
+      "School starts in September."
+    ],
+    "translations": [
+      "九月是秋天。",
+      "学校九月开学。"
+    ],
+    "syllable": "sep-tem-ber"
+  },
+  {
+    "word": "november",
+    "phonetic": "/nəʊˈvembə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "November is cold.",
+      "Thanksgiving is in November."
+    ],
+    "translations": [
+      "十一月很冷。",
+      "感恩节在十一月。"
+    ],
+    "syllable": "no-vem-ber"
+  },
+  {
+    "word": "yesterday",
+    "phonetic": "/ˈjestədeɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Where were you yesterday morning?",
+      "It was nice and warm yesterday."
+    ],
+    "translations": [
+      "你昨天上午在哪儿 ？",
+      "昨天的天气暖洋洋的。"
+    ],
+    "syllable": "yes-ter-day"
+  },
+  {
+    "word": "day",
+    "phonetic": "/deɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A: What day is today?",
+      "Thursday is market day."
+    ],
+    "translations": [
+      "今天星期几？B:It’s Friday.今天星期五。",
+      "星期四是赶集日。"
+    ],
+    "syllable": "day"
+  },
+  {
+    "word": "crayon",
+    "phonetic": "/ˈkreɪə n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I drew a picture of my family with my crayon in art class.",
+      "He picks up a crayon."
+    ],
+    "translations": [
+      "在美术课上，我用蜡笔画了一幅全家福。",
+      "他拿起一支蜡笔。"
+    ],
+    "syllable": "cray-on"
+  },
+  {
+    "word": "tail",
+    "phonetic": "/teɪ l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Look at the rabbit, it has a short tail.",
+      "The pink pig has a curly tail."
+    ],
+    "translations": [
+      "看那只兔子 ，它的尾巴很短。",
+      "这只粉红猪有一条卷卷的尾巴。"
+    ],
+    "syllable": "ta-il"
+  },
+  {
+    "word": "air",
+    "phonetic": "/eθ (r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This classroom needs some fresh air, please open the window and door.",
+      "I felt a current of cool air."
+    ],
+    "translations": [
+      "请打开门窗，这间教室需要新鲜空气。",
+      "我感觉到了一阵凉风。"
+    ],
+    "syllable": "air"
+  },
+  {
+    "word": "wait",
+    "phonetic": "/weɪt/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "You don't need to wait for me.",
+      "It's the yellow light, please wait!"
+    ],
+    "translations": [
+      "你不用等我。",
+      "现在是黄灯 ，请等待 ！"
+    ],
+    "syllable": "wa-it"
+  },
+  {
+    "word": "stair",
+    "phonetic": "/steθ (r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Nancy begins to climb the stairs.",
+      "We stepped down the stair."
+    ],
+    "translations": [
+      "南希开始爬楼梯。",
+      "我们走下楼梯。"
+    ],
+    "syllable": "sta-ir"
+  },
+  {
+    "word": "chair",
+    "phonetic": "/tʃeθ(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She jumped down off the chair.",
+      "What a nice chair!"
+    ],
+    "translations": [
+      "她跳下椅子。",
+      "多好的一把椅子呀 ！ 分 一 分 ： chair指可移动的“椅子” ，如与饭桌配套的椅子。 seat指电影院、火车、巴士上固定的“座位”。"
+    ],
+    "syllable": "cha-ir"
+  },
+  {
+    "word": "tomorrow",
+    "phonetic": "/təˈmɑ:roʊ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "See you tomorrow.",
+      "Tomorrow is Monday."
+    ],
+    "translations": [
+      "明天见。",
+      "明天是星期一。"
+    ],
+    "syllable": "to-mor-row"
+  },
+  {
+    "word": "morning",
+    "phonetic": "/ˈmɔ:rnɪŋ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Good morning!",
+      "I exercise in the morning."
+    ],
+    "translations": [
+      "早上好！",
+      "我早上锻炼。"
+    ],
+    "syllable": "mor-ning"
+  },
+  {
+    "word": "afternoon",
+    "phonetic": "/ˌɑ:ftəˈ nu:n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Good afternoon!",
+      "See you this afternoon."
+    ],
+    "translations": [
+      "下午好！",
+      "今天下午见。"
+    ],
+    "syllable": "af-ter-noon"
+  },
+  {
+    "word": "night",
+    "phonetic": "/naɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Good night!",
+      "The night is dark."
+    ],
+    "translations": [
+      "晚安！",
+      "夜很黑。"
+    ],
+    "syllable": "night"
+  },
+  {
+    "word": "green",
+    "phonetic": "/ɡri:n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The grass is green.",
+      "Green is my favorite color."
+    ],
+    "translations": [
+      "草是绿色的。",
+      "绿色是我最喜欢的颜色。"
+    ],
+    "syllable": "green"
+  },
+  {
+    "word": "brown",
+    "phonetic": "/braʊ n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Brown hair.",
+      "The bear is brown."
+    ],
+    "translations": [
+      "棕色的头发。",
+      "熊是棕色的。"
+    ],
+    "syllable": "brown"
+  },
+  {
+    "word": "neck",
+    "phonetic": "/nek/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My neck hurts.",
+      "She has a long neck."
+    ],
+    "translations": [
+      "我的脖子疼。",
+      "她的脖子很长。"
+    ],
+    "syllable": "neck"
+  },
+  {
+    "word": "airplane",
+    "phonetic": "/ˈeəpleɪn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Take an airplane.",
+      "The airplane is flying."
+    ],
+    "translations": [
+      "坐飞机。",
+      "飞机正在飞行。"
+    ],
+    "syllable": "air-plane"
+  },
+  {
+    "word": "upstairs",
+    "phonetic": "/ˌʌpˈsteəz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Go upstairs.",
+      "My room is upstairs."
+    ],
+    "translations": [
+      "上楼。",
+      "我的房间在楼上。"
+    ],
+    "syllable": "up-stairs"
+  },
+  {
+    "word": "hair",
+    "phonetic": "/heə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Cut my hair.",
+      "She has long hair."
+    ],
+    "translations": [
+      "剪头发。",
+      "她有长头发。"
+    ],
+    "syllable": "hair"
+  },
+  {
+    "word": "tea",
+    "phonetic": "/ti :/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Would you like tea or coffee?",
+      "Most British people drink tea every day but they prefer black tea."
+    ],
+    "translations": [
+      "你喝茶还是喝咖啡？",
+      "大多数英国人每天都喝茶，但他们更喜欢红茶。"
+    ],
+    "syllable": "tea"
+  },
+  {
+    "word": "beach",
+    "phonetic": "/bi :tʃ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Tom and Lily build a sand castle on the beach.",
+      "It's two miles to the beach."
+    ],
+    "translations": [
+      "汤姆和莉莉在沙滩上堆沙堡。",
+      "距离海滩两英里远。"
+    ],
+    "syllable": "be-ach"
+  },
+  {
+    "word": "sleep",
+    "phonetic": "/sli :p/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Good night, sleep tight!",
+      "Go to sleep—it's late."
+    ],
+    "translations": [
+      "晚安，睡个好觉 ！",
+      "快睡吧—不早了。"
+    ],
+    "syllable": "sle-ep"
+  },
+  {
+    "word": "leave",
+    "phonetic": "/li :v/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "What's the hurry? The train doesn't leave for an hour.",
+      "He left the book here for the child to read."
+    ],
+    "translations": [
+      "慌什么？火车还有一个小时才开呢。",
+      "他把这本书留在这儿让那个孩子读的。"
+    ],
+    "syllable": "leave"
+  },
+  {
+    "word": "east",
+    "phonetic": "/i :st/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The sun rises in the east.",
+      "Walk east for three minutes."
+    ],
+    "translations": [
+      "太阳从东方升起。",
+      "往东走三分钟。"
+    ],
+    "syllable": "e-ast"
+  },
+  {
+    "word": "healthy",
+    "phonetic": "/ˈhelθi/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Candy isn't a healthy food."
+    ],
+    "translations": [
+      "糖果不是健康的食物。"
+    ],
+    "syllable": "health-y"
+  },
+  {
+    "word": "teeth",
+    "phonetic": "/ti :θ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "We have to brush our teeth every day."
+    ],
+    "translations": [
+      "我们每天都得刷牙。"
+    ],
+    "syllable": "te-eth"
+  },
+  {
+    "word": "feet",
+    "phonetic": "/fi :t/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My feet hurt."
+    ],
+    "translations": [
+      "我脚痛。 英语复数知识点 ： 在英语里，有许多名词变成复数的规则，让我们一起揭开其中的奥秘吧！ 首先，让我们来看看普通的名词。当我们想表达不止一个东西时，只需要在名词后面加上一个\"s\"，就变成复数啦！ 比如，\"cat\"（猫）变成了\"cats\"（ 一堆猫），\"dog\"（狗）变成了\"dogs\"（ 一些狗）。 不过，还有一些名词可不那么乖巧哦！"
+    ],
+    "syllable": "fe-et"
+  },
+  {
+    "word": "north",
+    "phonetic": "/nɔːθ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Go north.",
+      "The north is cold."
+    ],
+    "translations": [
+      "向北走。",
+      "北方很冷。"
+    ],
+    "syllable": "north"
+  },
+  {
+    "word": "bread",
+    "phonetic": "/bred/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A glass of milk and a piece of bread, please.",
+      "Would you like some steamed bread?"
+    ],
+    "translations": [
+      "请来一杯牛奶和一片面包。",
+      "你要不要吃馒头？"
+    ],
+    "syllable": "bre-ad"
+  },
+  {
+    "word": "sweater",
+    "phonetic": "/ˈswetə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He pull on his sweater.",
+      "In autumn, people wear sweaters."
+    ],
+    "translations": [
+      "他套上了毛衣。",
+      "秋天，人们穿上毛衣。"
+    ],
+    "syllable": "sweat-er"
+  },
+  {
+    "word": "head",
+    "phonetic": "/hed/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He shakes his head regretfully.",
+      "Her head nods in agreement."
+    ],
+    "translations": [
+      "他遗憾地摇了摇头。",
+      "她点头表示同意。"
+    ],
+    "syllable": "he-ad"
+  },
+  {
+    "word": "peanut",
+    "phonetic": "/ˈpi :nΛt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I had two peanut butter and jelly sandwiches.",
+      "Mice like peanuts."
+    ],
+    "translations": [
+      "我吃了两个花生酱果酱三明治。",
+      "老鼠喜欢吃花生。"
+    ],
+    "syllable": "pea-nut"
+  },
+  {
+    "word": "dead",
+    "phonetic": "/ded/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Urgh! There's a dead fly in my coffee!",
+      "He felt half dead with tiredness."
+    ],
+    "translations": [
+      "呸 ！我的咖啡里有只死苍蝇 ！",
+      "他感觉累得半死。"
+    ],
+    "syllable": "de-ad"
+  },
+  {
+    "word": "ready",
+    "phonetic": "/ˈredi/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Everybody ready? It's showtime!",
+      "The plane is ready for take-off."
+    ],
+    "translations": [
+      "大家都准备好了吗？开演 ！",
+      "飞机准备随时起飞。"
+    ],
+    "syllable": "read-y"
+  },
+  {
+    "word": "team",
+    "phonetic": "/ti :m/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is the best player on her team.",
+      "I am good at team work."
+    ],
+    "translations": [
+      "她是队里的最佳选手。",
+      "我擅长团队合作。"
+    ],
+    "syllable": "te-am"
+  },
+  {
+    "word": "weak",
+    "phonetic": "/wi :k/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "She is still weak after her illness.",
+      "The team's weak points are in defence."
+    ],
+    "translations": [
+      "她病后仍然虚弱。",
+      "这个队的弱点在防守。"
+    ],
+    "syllable": "we-ak"
+  },
+  {
+    "word": "sandwich",
+    "phonetic": "/ˈsænwɪtʃ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Make a sandwich.",
+      "I want a sandwich."
+    ],
+    "translations": [
+      "做一个三明治。",
+      "我想要一个三明治。"
+    ],
+    "syllable": "sand-wich"
+  },
+  {
+    "word": "headache",
+    "phonetic": "/ˈhedeɪk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have a headache.",
+      "This gives me a headache."
+    ],
+    "translations": [
+      "我头疼。",
+      "这让我头疼。"
+    ],
+    "syllable": "head-ache"
+  },
+  {
+    "word": "stomachache",
+    "phonetic": "/ˈstʌməkeɪk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have a stomachache.",
+      "Don't eat too much candy."
+    ],
+    "translations": [
+      "我肚子疼。",
+      "别吃太多糖果。"
+    ],
+    "syllable": "stom-ach-ache"
+  },
+  {
+    "word": "toothache",
+    "phonetic": "/ˈtu:θeɪk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have a toothache.",
+      "See a dentist for toothache."
+    ],
+    "translations": [
+      "我牙疼。",
+      "牙疼看牙医。"
+    ],
+    "syllable": "tooth-ache"
+  },
+  {
+    "word": "born",
+    "phonetic": "/bɔ:n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I was born in 2000.",
+      "A baby is born."
+    ],
+    "translations": [
+      "我出生于2000年。",
+      "一个婴儿出生了。"
+    ],
+    "syllable": "born"
+  },
+  {
+    "word": "high",
+    "phonetic": "/haɪ/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "There is a high mountain in the nature park.",
+      "The tower stands 30 metres high."
+    ],
+    "translations": [
+      "自然公园里有一座高山。",
+      "塔高 30 米。"
+    ],
+    "syllable": "high"
+  },
+  {
+    "word": "right",
+    "phonetic": "/raɪt/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "All right, class! Turn to page 20.",
+      "You're absolutely right.",
+      "I'll tidy up right now.",
+      "There is a house on my right."
+    ],
+    "translations": [
+      "好啦，同学们，翻到第20页。",
+      "你完全正确。",
+      "我马上收拾。",
+      "我的右边有一栋房子。"
+    ],
+    "syllable": "right"
+  },
+  {
+    "word": "lady",
+    "phonetic": "/ˈleɪdi/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She's a very sweet old lady.",
+      "I think you owe me an apology, young lady!",
+      "Nice to meet you, Miss Wang.",
+      "Ms. Zhang is my teacher.",
+      "Mrs. Liu invites us to her dinner party."
+    ],
+    "translations": [
+      "她是一位非常亲切的老太太。",
+      "小姐，我认为你应该向我道歉！",
+      "很高兴认识你，王小姐。 2. Ms. ：是指婚姻状况不明的女子，翻译为女士。",
+      "张女士是我的老师。 3. Mrs. ：是指已婚女性，翻译为夫人、太太。",
+      "刘夫人邀请我们去她的晚宴。"
+    ],
+    "syllable": "la-dy"
+  },
+  {
+    "word": "try",
+    "phonetic": "/traɪ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Try not to get your shoes wet.",
+      "Try on clothing and shoes to make sure they fit."
+    ],
+    "translations": [
+      "尽量别弄湿了鞋子。",
+      "衣服和鞋要试穿以确保它们合适。"
+    ],
+    "syllable": "try"
+  },
+  {
+    "word": "easy",
+    "phonetic": "/ˈi :zi/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "It 's not easy to quit smoking.",
+      "I am an easy-going person."
+    ],
+    "translations": [
+      "戒烟不容易。",
+      "我是个很容易相处的人。"
+    ],
+    "syllable": "ea-sy"
+  },
+  {
+    "word": "hungry",
+    "phonetic": "/ˈhΛ ŋɡri/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Come on now. You know you must be hungry.",
+      "I’m so hungry, I think I can finish this dish within few seconds."
+    ],
+    "translations": [
+      "好了。你看你一定是饿了。",
+      "我实在太饿了，我能在几秒内吃完这盘菜。"
+    ],
+    "syllable": "hun-gry"
+  },
+  {
+    "word": "tidy",
+    "phonetic": "/ˈtaɪdi/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Our classroom is clean and tidy.",
+      "Please tidy up these books."
+    ],
+    "translations": [
+      "我们的教室干净整洁。",
+      "请你把这些书收拾好。"
+    ],
+    "syllable": "ti-dy"
+  },
+  {
+    "word": "bright",
+    "phonetic": "/braɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The light is bright.",
+      "A bright future."
+    ],
+    "translations": [
+      "灯光很亮。",
+      "光明的未来。"
+    ],
+    "syllable": "bright"
+  },
+  {
+    "word": "wrong",
+    "phonetic": "/r ɒŋ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "That's wrong.",
+      "What's wrong?"
+    ],
+    "translations": [
+      "那是错的。",
+      "怎么了？"
+    ],
+    "syllable": "wrong"
+  },
+  {
+    "word": "miss",
+    "phonetic": "/mɪs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I miss you.",
+      "Don't miss the bus."
+    ],
+    "translations": [
+      "我想你。",
+      "别错过公交车。"
+    ],
+    "syllable": "miss"
+  },
+  {
+    "word": "usually",
+    "phonetic": "/ˈju :3uəli;  ˈju :3ə li/",
+    "partOfSpeech": "adv.",
+    "sentences": [
+      "She usually wears long skirts.",
+      "What do you usually do in the evening ?",
+      "I usually have coffee in the morning.",
+      "The sun always rises in the east.",
+      "I often go for a run in the evening."
+    ],
+    "translations": [
+      "她通常穿长裙。",
+      "你晚上通常干什么？ 分 一 分 : usually ，always和often都有表示“常常，总是”的意思，我们一起来辨别他们：",
+      "我通常在早上喝咖啡。 2. 总是（always） ：表示某事无论何时都发生，没有例外。表示一种恒定或永恒的情况。",
+      "太阳总是从东方升起。 3. 经常（often） ：表示某事发生频繁，但不一定总是。这暗示一种定期或重复的情况，但允许一些变化。",
+      "我经常在晚上去跑步。 总的来说， usually表示普遍的发生，always表示不变和持续发生，而often则暗示频繁但不一定是持续的。"
+    ],
+    "syllable": "u-su-al-ly"
+  },
+  {
+    "word": "baby",
+    "phonetic": "/ˈbeɪ bi/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The baby is three months old.",
+      "She had a baby last year."
+    ],
+    "translations": [
+      "这婴儿三个月大了。",
+      "她去年生了个孩子。"
+    ],
+    "syllable": "ba-by"
+  },
+  {
+    "word": "dirty",
+    "phonetic": "/ˈd3 :ti/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Try not to get your shoes dirty.",
+      "I'm tired of cleaning your dirty laundry."
+    ],
+    "translations": [
+      "尽量别把鞋子搞脏。",
+      "我已经受够了洗你的脏衣服。"
+    ],
+    "syllable": "dir-ty"
+  },
+  {
+    "word": "cloudy",
+    "phonetic": "/ˈklaʊdi/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "I don't want to go out today, because it's cloudy and wet.",
+      "It's either cloudy or  rainy."
+    ],
+    "translations": [
+      "今天我不想出门，因为天阴沉沉的又潮湿。",
+      "要么阴天要么下雨。"
+    ],
+    "syllable": "cloud-y"
+  },
+  {
+    "word": "naughty",
+    "phonetic": "/ ˈ nɔ :ti/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Whenever  Daniel's  little  sister was asked to  do something, she always had a"
+    ],
+    "translations": [
+      "每次让丹尼尔的小妹妹做点事情，她总是有调皮的回应。"
+    ],
+    "syllable": "naugh-ty"
+  },
+  {
+    "word": "honey",
+    "phonetic": "/ˈhΛ ni/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Have you seen my keys, honey?",
+      "Honey is made by bees."
+    ],
+    "translations": [
+      "你见到我的钥匙了吗，宝贝？",
+      "蜂蜜是蜜蜂酿造的。"
+    ],
+    "syllable": "hon-ey"
+  },
+  {
+    "word": "badly",
+    "phonetic": "/ˈbædli/",
+    "partOfSpeech": "adv.",
+    "sentences": [
+      "Everything has gone badly wrong!",
+      "They wanted to win so badly."
+    ],
+    "translations": [
+      "一切都糟透了。",
+      "他们求胜心切。"
+    ],
+    "syllable": "bad-ly"
+  },
+  {
+    "word": "safety",
+    "phonetic": "/ˈseɪfti/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Food safety is very important.",
+      "One should never risk his health or personal safety."
+    ],
+    "translations": [
+      "食品安全是非常重要的。",
+      "一个人绝不应该拿健康或个人安全来冒险。"
+    ],
+    "syllable": "sa-fe-ty"
+  },
+  {
+    "word": "always",
+    "phonetic": "/ˈ0:lweɪz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I always wake up early.",
+      "She is always happy."
+    ],
+    "translations": [
+      "我总是早起。",
+      "她总是很开心。"
+    ],
+    "syllable": "al-ways"
+  },
+  {
+    "word": "normally",
+    "phonetic": "/ˈn0:məli/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Normally I wake at 7.",
+      "Things normally go well."
+    ],
+    "translations": [
+      "通常我7点醒来。",
+      "事情通常很顺利。"
+    ],
+    "syllable": "nor-mal-ly"
+  },
+  {
+    "word": "generally",
+    "phonetic": "/ˈd3en(ə)rəli/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Generally speaking.",
+      "I generally agree."
+    ],
+    "translations": [
+      "一般来说。",
+      "我大体同意。"
+    ],
+    "syllable": "gen-er-al-ly"
+  },
+  {
+    "word": "sometimes",
+    "phonetic": "/ˈsΛmtaɪmz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Sometimes I walk.",
+      "I sometimes go there."
+    ],
+    "translations": [
+      "有时我走路。",
+      "我有时去那里。"
+    ],
+    "syllable": "some-times"
+  },
+  {
+    "word": "never",
+    "phonetic": "/ˈnevə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I never lie.",
+      "Never give up."
+    ],
+    "translations": [
+      "我从不撒谎。",
+      "永不放弃。"
+    ],
+    "syllable": "nev-er"
+  },
+  {
+    "word": "sunny",
+    "phonetic": "/ˈsΛni/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It's sunny today.",
+      "A sunny day."
+    ],
+    "translations": [
+      "今天天气晴朗。",
+      "一个晴朗的日子。"
+    ],
+    "syllable": "sun-ny"
+  },
+  {
+    "word": "rainy",
+    "phonetic": "/ˈreɪni/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It's rainy today.",
+      "A rainy day."
+    ],
+    "translations": [
+      "今天下雨。",
+      "一个下雨天。"
+    ],
+    "syllable": "rain-y"
+  },
+  {
+    "word": "wood",
+    "phonetic": "/wʊd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "All the furniture was made of wood.",
+      "Their dishes were made of wood.",
+      "The desk is made of wood.",
+      "Paper is made from wood."
+    ],
+    "translations": [
+      "这里所有的家具都是用木料制作的。",
+      "他们的盘子是用木头制成的。",
+      "桌子是由木头制成的。",
+      "纸张是由木头制成的。"
+    ],
+    "syllable": "wo-od"
+  },
+  {
+    "word": "guide",
+    "phonetic": "/ɡaɪd/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Please follow the tour guide.",
+      "I wanna buy a guide book of Beijing.",
+      "He should have let his instinct guide him."
+    ],
+    "translations": [
+      "请跟着导游。",
+      "我想买一本北京的导游手册。",
+      "他本该让直觉指导他的行动。"
+    ],
+    "syllable": "gu-i-de"
+  },
+  {
+    "word": "noodles",
+    "phonetic": "/ˈ nu :d(ə)lz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Would you prefer rice or noodles?",
+      "We often have noodles for breakfast."
+    ],
+    "translations": [
+      "你喜欢吃米饭还是面条？",
+      "我们早餐经常吃面条。"
+    ],
+    "syllable": "no-od-les"
+  },
+  {
+    "word": "boot",
+    "phonetic": "/bu :t/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My foot won't go into this boot.",
+      "It is a green boot."
+    ],
+    "translations": [
+      "我的脚穿不进这只靴子。",
+      "这是一只绿色的靴子。"
+    ],
+    "syllable": "bo-ot"
+  },
+  {
+    "word": "fruit",
+    "phonetic": "/fru :t/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "You will love our ice cream and fresh fruit juice.",
+      "They eat mainly fruit and nuts."
+    ],
+    "translations": [
+      "你会喜欢我们的冰淇淋和鲜榨果汁的。",
+      "他们主要吃水果和坚果。"
+    ],
+    "syllable": "fru-it"
+  },
+  {
+    "word": "pool",
+    "phonetic": "/pu :l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Does the hotel have a pool?",
+      "She trained five times a week at her local swimming pool."
+    ],
+    "translations": [
+      "这家旅馆有没有游泳池 ？",
+      "她每星期在当地的游泳池训练五次。"
+    ],
+    "syllable": "po-ol"
+  },
+  {
+    "word": "guess",
+    "phonetic": "/ɡes/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Guess what I didfor the whole of the first week.",
+      "Guess who I met at the grocery store."
+    ],
+    "translations": [
+      "猜猜整个第一周我都做了些什么。",
+      "猜猜看我在杂货店遇到谁了。"
+    ],
+    "syllable": "gu-ess"
+  },
+  {
+    "word": "glue",
+    "phonetic": "/ɡlu :/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Do you use glue and markers in art class?"
+    ],
+    "translations": [
+      "你在美术课使用胶棒和马克笔吗 ？"
+    ],
+    "syllable": "glu-e"
+  },
+  {
+    "word": "paper",
+    "phonetic": "/ˈpeɪpə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Write on paper.",
+      "A piece of paper."
+    ],
+    "translations": [
+      "在纸上写。",
+      "一张纸。"
+    ],
+    "syllable": "pa-per"
+  },
+  {
+    "word": "house",
+    "phonetic": "/haus/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This is my house.",
+      "Buy a house."
+    ],
+    "translations": [
+      "这是我的房子。",
+      "买房子。"
+    ],
+    "syllable": "house"
+  },
+  {
+    "word": "glass",
+    "phonetic": "/ɡlɑ:s/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A glass of water.",
+      "Be careful with the glass."
+    ],
+    "translations": [
+      "一杯水。",
+      "小心玻璃。"
+    ],
+    "syllable": "glass"
+  },
+  {
+    "word": "leather",
+    "phonetic": "/ˈleðə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Leather shoes.",
+      "This is made of leather."
+    ],
+    "translations": [
+      "皮鞋。",
+      "这是皮革做的。"
+    ],
+    "syllable": "leath-er"
+  },
+  {
+    "word": "sandals",
+    "phonetic": "/ˈsænd(ə)lz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Wear sandals in summer.",
+      "I like sandals."
+    ],
+    "translations": [
+      "夏天穿凉鞋。",
+      "我喜欢凉鞋。"
+    ],
+    "syllable": "san-dals"
+  },
+  {
+    "word": "sneakers",
+    "phonetic": "/ˈsni:kə(r)z/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Wear sneakers for sports.",
+      "My sneakers are new."
+    ],
+    "translations": [
+      "运动穿运动鞋。",
+      "我的运动鞋是新的。"
+    ],
+    "syllable": "sneak-ers"
+  },
+  {
+    "word": "scissors",
+    "phonetic": "/ˈsɪzəz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Use scissors to cut.",
+      "The scissors are sharp."
+    ],
+    "translations": [
+      "用剪刀剪。",
+      "剪刀很锋利。"
+    ],
+    "syllable": "scis-sors"
+  },
+  {
+    "word": "kangaroo",
+    "phonetic": "/kæŋɡəˈru :/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Kangaroos live in Australia. They jump on their back legs. The mother kangaroo has a special bag for her baby. Kangaroos eat grass and leaves. They drink water. You can also see kangaroos in zoos in China."
+    ],
+    "translations": [
+      "袋鼠生活在澳大利亚 ，他们用后腿跳跃。袋鼠妈妈有一个特别的袋子装它的小宝宝。袋鼠吃草和叶子 ，喝水。你也可以在中国的动物园里见到袋鼠。"
+    ],
+    "syllable": "kan-ga-ro-o"
+  },
+  {
+    "word": "goodbye",
+    "phonetic": "/ɡʊdˈbaɪ/",
+    "partOfSpeech": "int.",
+    "sentences": [
+      "Goodbye! It was great to meet you.",
+      "It's time to say goodbye to my old life."
+    ],
+    "translations": [
+      "再见！认识你很高兴。",
+      "是时候告别我过去的生活了。"
+    ],
+    "syllable": "go-od-by-e"
+  },
+  {
+    "word": "cool",
+    "phonetic": "/ku :l/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "See how you feel and try to keep cool.",
+      "We dived into the river to cool off."
+    ],
+    "translations": [
+      "你需要更加关注自己的感受，尽量保持冷静。",
+      "我们一头跳进河里，凉快一下。"
+    ],
+    "syllable": "co-ol"
+  },
+  {
+    "word": "too",
+    "phonetic": "/tu :/",
+    "partOfSpeech": "adv.",
+    "sentences": [
+      "She works herself too hard.",
+      "Can I come too?"
+    ],
+    "translations": [
+      "她工作起来太不辞劳苦了",
+      "我也可以来吗"
+    ],
+    "syllable": "too"
+  },
+  {
+    "word": "notebook",
+    "phonetic": "/ˈnəʊtbʊ k/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Could you lend me your notebook?",
+      "Please write down the correct answer on your notebook."
+    ],
+    "translations": [
+      "你能把你的笔记借给我吗 ？",
+      "请把正确答案写在笔记本上。"
+    ],
+    "syllable": "no-te-bo-ok"
+  },
+  {
+    "word": "wool",
+    "phonetic": "/wʊ l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This wool comes from goats, not sheep.",
+      "This scarf is 100% wool."
+    ],
+    "translations": [
+      "这种羊毛是山羊毛 ，不是绵羊毛。",
+      "这条披肩是纯毛的。"
+    ],
+    "syllable": "wo-ol"
+  },
+  {
+    "word": "moon",
+    "phonetic": "/mu :n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Look! The moon is especially full tonight.",
+      "Wish you a happy Moon Festival!"
+    ],
+    "translations": [
+      "看！今晚的月亮特别的圆。",
+      "祝你有一个愉快的中秋节！"
+    ],
+    "syllable": "mo-on"
+  },
+  {
+    "word": "hood",
+    "phonetic": "/hʊd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She's not wearing the red hood.",
+      "Robin Hood is a mythical hero."
+    ],
+    "translations": [
+      "她没戴着她的红色兜帽。",
+      "罗宾汉是传说中的英雄。"
+    ],
+    "syllable": "ho-od"
+  },
+  {
+    "word": "bye",
+    "phonetic": "/baɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Bye!",
+      "Bye bye!"
+    ],
+    "translations": [
+      "再见！",
+      "拜拜！"
+    ],
+    "syllable": "bye"
+  },
+  {
+    "word": "also",
+    "phonetic": "/ˈɔ:lsəʊ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I also want one.",
+      "She is also here."
+    ],
+    "translations": [
+      "我也想要一个。",
+      "她也在这里。"
+    ],
+    "syllable": "al-so"
+  },
+  {
+    "word": "either",
+    "phonetic": "/ˈi:ðər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I don't either.",
+      "Either one is fine."
+    ],
+    "translations": [
+      "我也不。",
+      "哪个都行。"
+    ],
+    "syllable": "ei-ther"
+  },
+  {
+    "word": "storybook",
+    "phonetic": "/ˈstɔ:ribʊk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Read a storybook.",
+      "A children's storybook."
+    ],
+    "translations": [
+      "读故事书。",
+      "一本儿童故事书。"
+    ],
+    "syllable": "sto-ry-book"
+  },
+  {
+    "word": "farmer",
+    "phonetic": "/ˈfɑ :mə(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My grandfather is a farmer.",
+      "There once was a poor farmer who had four sons."
+    ],
+    "translations": [
+      "我的祖父是一个农民。",
+      "从前有一个贫苦的农夫 ，他有四个儿子。"
+    ],
+    "syllable": "far-mer"
+  },
+  {
+    "word": "scarf",
+    "phonetic": "/skɑ :rf/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She wears a new scarf.",
+      "She tied her scarf over her head."
+    ],
+    "translations": [
+      "她围着一条新围巾。",
+      "她把围巾围在头上。"
+    ],
+    "syllable": "scarf"
+  },
+  {
+    "word": "art",
+    "phonetic": "/ɑ :rt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My favorite subject is art.",
+      "She's studying art history."
+    ],
+    "translations": [
+      "我最喜欢的科目是美术。",
+      "她正在研读艺术史。"
+    ],
+    "syllable": "art"
+  },
+  {
+    "word": "carrot",
+    "phonetic": "/ˈkærθt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The carrot is his favorite vegetable.",
+      "Every time I got good grades, Mom would give me some treats, and when I did something wrong, Mom would punish me. I think that’s carrot and stick."
+    ],
+    "translations": [
+      "胡萝卜是他最喜欢的蔬菜。",
+      "每当我取得好成绩时，妈妈都会奖励我，而每当我做错事时，妈妈也会惩罚我。 我想这就是软硬兼施吧。"
+    ],
+    "syllable": "car-rot"
+  },
+  {
+    "word": "parrot",
+    "phonetic": "/ˈpærθt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "There was once a man in South America who had a parrot, a pet bird that can imitate human speech."
+    ],
+    "translations": [
+      "从前 ，南美洲有个人养了一只鹦鹉 ，一种能模仿人类说话的宠物鸟。"
+    ],
+    "syllable": "par-rot"
+  },
+  {
+    "word": "far",
+    "phonetic": "/fɑ :r/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "The restaurant is not far from here.",
+      "The village is far away from the city."
+    ],
+    "translations": [
+      "饭店离这儿不远。",
+      "这个村庄离城市很远。"
+    ],
+    "syllable": "far"
+  },
+  {
+    "word": "party",
+    "phonetic": "/ˈ pɑ :rti/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Don’t forget to come to my birthday party on Sunday.",
+      "The party is on Friday evening."
+    ],
+    "translations": [
+      "别忘了周日来参加我的生日聚会。",
+      "聚会定于周五晚上举行。"
+    ],
+    "syllable": "par-ty"
+  },
+  {
+    "word": "garden",
+    "phonetic": "/ˈɡɑ :rdn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "There's a garden at the front of the house.",
+      "I like to read a book in the garden on a sunny day."
+    ],
+    "translations": [
+      "房子的前面有一座花园。",
+      "我喜欢在阳光明媚的日子里在花园里读书。"
+    ],
+    "syllable": "gar-den"
+  },
+  {
+    "word": "farming",
+    "phonetic": "/ˈfɑ:rmɪŋ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Farming is hard work.",
+      "Learn about farming."
+    ],
+    "translations": [
+      "务农是辛苦的工作。",
+      "学习农业。"
+    ],
+    "syllable": "farm-ing"
+  },
+  {
+    "word": "part",
+    "phonetic": "/pɑ:rt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This is part of it.",
+      "Play a part."
+    ],
+    "translations": [
+      "这是它的一部分。",
+      "扮演角色。"
+    ],
+    "syllable": "part"
+  },
+  {
+    "word": "smart",
+    "phonetic": "/smɑ:rt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is smart.",
+      "A smart phone."
+    ],
+    "translations": [
+      "他很聪明。",
+      "智能手机。"
+    ],
+    "syllable": "smart"
+  },
+  {
+    "word": "t-shirt",
+    "phonetic": "/ˈti : ʃ3 :rt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have a yellow T-shirt.",
+      "How much is the T-shirt?"
+    ],
+    "translations": [
+      "我有一件黄色的T恤衫。",
+      "这件 T 恤衫多少钱？"
+    ],
+    "syllable": "t-shirt"
+  },
+  {
+    "word": "hurt",
+    "phonetic": "/h3 :t/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "What you said hurt my feelings.",
+      "Be careful not to get hurt while playing sports."
+    ],
+    "translations": [
+      "你的话伤害了我的感情。",
+      "在进行运动时要小心不要受伤。"
+    ],
+    "syllable": "hurt"
+  },
+  {
+    "word": "hamburger",
+    "phonetic": "/ˈhæmb3 :rɡər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Amy is eating a hamburger.",
+      "I'd like to order a hamburger and an orange juice."
+    ],
+    "translations": [
+      "艾米在吃汉堡包。",
+      "我想点一个汉堡包和一杯橙汁。"
+    ],
+    "syllable": "ham-bur-ger"
+  },
+  {
+    "word": "nurse",
+    "phonetic": "/n3 :rs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My mother is a nurse.",
+      "She had spent 29 years as a nurse."
+    ],
+    "translations": [
+      "我妈妈是一名护士。",
+      "她已当了 29 年护士。"
+    ],
+    "syllable": "nur-se"
+  },
+  {
+    "word": "skirt",
+    "phonetic": "/sk3 :rt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "How many skirts do you have?",
+      "I need a top to go with this skirt."
+    ],
+    "translations": [
+      "你有多少条裙子",
+      "我需要一件上衣来配这条裙子。"
+    ],
+    "syllable": "skirt"
+  },
+  {
+    "word": "turkey",
+    "phonetic": "/ˈt3 :rki/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It’s a tradition in America to eat turkey on Thanksgiving Day.",
+      "Will you stuff the turkey and shove it in the oven for me?"
+    ],
+    "translations": [
+      "感恩节时吃火鸡是美国的传统。",
+      "你能帮我把填料塞进火鸡里，然后把它放进烤箱吗？"
+    ],
+    "syllable": "tur-ke-y"
+  },
+  {
+    "word": "bird",
+    "phonetic": "/b3 :rd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He hardly stays up late, and he is an early bird.",
+      "She dances like a bird, so graceful and light."
+    ],
+    "translations": [
+      "他很少熬夜，而且是个早起的人。",
+      "她跳舞像鸟一样，轻盈而优雅。"
+    ],
+    "syllable": "bird"
+  },
+  {
+    "word": "sir",
+    "phonetic": "/s3 :r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Yes, sir.",
+      "Good morning, sir. Can I help you?",
+      "Mr. Smith is our new neighbor.",
+      "May I help you, sir?"
+    ],
+    "translations": [
+      "好的 ，先生。",
+      "早上好 ，先生。您要点什么 ？",
+      "史密斯先生是我们的新邻居。 2. sir是一种更加正式和庄重的称呼， 常用于商业场合、服务行业、军队等正式环境，表示对对方的尊敬。在某些文化中，sir也可以用于表示尊重陌生男性，还可能表示对权威或高级官员的尊称。",
+      "我能为您效劳吗，先生？ 注意： Mr.之后可接姓或姓名，如我们可以说Mr. Green或Mr. Jim Green，但不说Sir Green或Sir Jim Green."
+    ],
+    "syllable": "sir"
+  },
+  {
+    "word": "pizza",
+    "phonetic": "/ˈpi:tsə/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I love pizza.",
+      "Order a pizza."
+    ],
+    "translations": [
+      "我喜欢披萨。",
+      "点一个披萨。"
+    ],
+    "syllable": "piz-za"
+  },
+  {
+    "word": "profession",
+    "phonetic": "/prəˈfeʃ(ə)n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Choose a profession.",
+      "What is your profession?"
+    ],
+    "translations": [
+      "选择职业。",
+      "你的职业是什么？"
+    ],
+    "syllable": "pro-fes-sion"
+  },
+  {
+    "word": "shorts",
+    "phonetic": "/ʃɔ :rts/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He was wearing a T-shirt and shorts.",
+      "He wears a pair of shorts."
+    ],
+    "translations": [
+      "他穿着T恤衫和短裤。",
+      "他穿着一条短裤。"
+    ],
+    "syllable": "shorts"
+  },
+  {
+    "word": "board",
+    "phonetic": "/bɔ :rd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Please look at the notice board every day.",
+      "Let's get on board quickly!"
+    ],
+    "translations": [
+      "请每天注意看布告栏。",
+      "我们快上船吧 ！"
+    ],
+    "syllable": "bo-ard"
+  },
+  {
+    "word": "sport",
+    "phonetic": "/spɔ :rt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "What's your favourite sport?",
+      "How often does your school hold a sports meet?"
+    ],
+    "translations": [
+      "你最喜欢哪一项体育运动 ？",
+      "你们学校多久举行一次运动会？"
+    ],
+    "syllable": "sport"
+  },
+  {
+    "word": "for",
+    "phonetic": "/fɔ :r; fə r/",
+    "partOfSpeech": "prep.",
+    "sentences": [
+      "It sounds a great idea. Go for it!",
+      "Air pollution calls for our special concern."
+    ],
+    "translations": [
+      "这听起来是个极好的主意。努力去实现吧！",
+      "空气污染问题需要我们的特别关注。"
+    ],
+    "syllable": "for"
+  },
+  {
+    "word": "borrow",
+    "phonetic": "/ˈbɔ :roʊ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Can I borrow a pen from you?",
+      "May I borrow your newspaper?"
+    ],
+    "translations": [
+      "我可以借用你的钢笔吗 ？",
+      "把你的报纸借我看行吗 ？"
+    ],
+    "syllable": "bor-row"
+  },
+  {
+    "word": "forest",
+    "phonetic": "/ˈfɔ :rɪst/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "We went for a hike in the forest park and enjoyed the beautiful scenery.",
+      "One tree does not make a forest."
+    ],
+    "translations": [
+      "我们去森林公园远足 ，欣赏了美丽的风景。",
+      "独木不成林."
+    ],
+    "syllable": "fo-rest"
+  },
+  {
+    "word": "foreign",
+    "phonetic": "/ˈfɔ :rən/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "She was on her first foreign holiday without her parents.",
+      "Learning a foreign language can broaden your horizons."
+    ],
+    "translations": [
+      "她第一次在没有父母陪伴的情况下自己去国外度假。",
+      "学习一门外语可以拓宽你的视野。"
+    ],
+    "syllable": "fo-re-ign"
+  },
+  {
+    "word": "fork",
+    "phonetic": "/fɔ :rk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "You have to cut it up and eat it with a fork.",
+      "Do you know how to use forks and knives?"
+    ],
+    "translations": [
+      "你必须把它切成小块，然后用叉子吃。",
+      "你知道如何用刀叉吗？"
+    ],
+    "syllable": "fork"
+  },
+  {
+    "word": "trousers",
+    "phonetic": "/ˈtraʊzərz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Wear trousers.",
+      "My trousers are black."
+    ],
+    "translations": [
+      "穿裤子。",
+      "我的裤子是黑色的。"
+    ],
+    "syllable": "trous-ers"
+  },
+  {
+    "word": "knife",
+    "phonetic": "/naɪf/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Use a knife to cut.",
+      "The knife is sharp."
+    ],
+    "translations": [
+      "用刀切。",
+      "刀很锋利。"
+    ],
+    "syllable": "knife"
+  },
+  {
+    "word": "doctor",
+    "phonetic": "/ˈdɑ :ktə r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Her father is a doctor.",
+      "Ruth, I've got this terrible cold and I have to see a doctor."
+    ],
+    "translations": [
+      "她的爸爸是一名医生。",
+      "露丝，我得了重感冒，得去看医生。"
+    ],
+    "syllable": "doc-tor"
+  },
+  {
+    "word": "camera",
+    "phonetic": "/ˈkæm(ə)rə/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She puts a new film in her camera.",
+      "Are you prepared to tell your story on camera?"
+    ],
+    "translations": [
+      "她在相机里装上新胶卷。",
+      "你愿意在电视上讲述你的经历吗？"
+    ],
+    "syllable": "ca-me-ra"
+  },
+  {
+    "word": "eraser",
+    "phonetic": "/ɪˈreɪsər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have two erasers.",
+      "On the teacher's desk there's an eraser."
+    ],
+    "translations": [
+      "我有两块橡皮擦。",
+      "在老师的桌上有一块橡皮擦。"
+    ],
+    "syllable": "e-ra-ser"
+  },
+  {
+    "word": "computer",
+    "phonetic": "/kəmˈ pju :tər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I played games on the computer and searched for information on the Internet.",
+      "My son spends hours playing computer games every day."
+    ],
+    "translations": [
+      "我在电脑上玩游戏，在互联网上搜索信息",
+      "我儿子每天花几个小时玩电脑游戏。"
+    ],
+    "syllable": "com-pu-ter"
+  },
+  {
+    "word": "fever",
+    "phonetic": "/ˈfi :vər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He has a high fever.",
+      "Your forehead is burning. Have you got a fever?"
+    ],
+    "translations": [
+      "他发高烧。",
+      "你的前额很烫。你发烧了吗 ？"
+    ],
+    "syllable": "fe-ver"
+  },
+  {
+    "word": "answer",
+    "phonetic": "/ˈænsθr/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Please answer my questions.",
+      "This could be the answer to all our problems."
+    ],
+    "translations": [
+      "请回答我的问题。",
+      "这可能就是我们全部问题的解决办法。"
+    ],
+    "syllable": "an-swer"
+  },
+  {
+    "word": "reply",
+    "phonetic": "/rɪˈplaɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Reply to me.",
+      "I'm waiting for a reply."
+    ],
+    "translations": [
+      "回复我。",
+      "我在等回复。"
+    ],
+    "syllable": "re-ply"
+  },
+  {
+    "word": "forward",
+    "phonetic": "/ˈfo :rwθrd/",
+    "partOfSpeech": "adv.",
+    "sentences": [
+      "She walks forward.",
+      "He takes two steps forward."
+    ],
+    "translations": [
+      "她朝前走。",
+      "他向前走了两步。"
+    ],
+    "syllable": "for-ward"
+  },
+  {
+    "word": "dancer",
+    "phonetic": "/ˈdænsə r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I'm a great dancer.",
+      "Who is your favorite dancer?"
+    ],
+    "translations": [
+      "我是个很棒的舞者。",
+      "谁是你最喜欢的舞者 ？"
+    ],
+    "syllable": "dan-cer"
+  },
+  {
+    "word": "hospital",
+    "phonetic": "/ˈhɑ:spɪt(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Go to the hospital.",
+      "He works at the hospital."
+    ],
+    "translations": [
+      "去医院。",
+      "他在医院工作。"
+    ],
+    "syllable": "hos-pi-tal"
+  },
+  {
+    "word": "rubber",
+    "phonetic": "/ˈrʌbər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Use a rubber to erase.",
+      "Rubber is flexible."
+    ],
+    "translations": [
+      "用橡皮擦。",
+      "橡胶有弹性。"
+    ],
+    "syllable": "rub-ber"
+  },
+  {
+    "word": "pencil",
+    "phonetic": "/ˈpens(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Write with a pencil.",
+      "Sharpen the pencil."
+    ],
+    "translations": [
+      "用铅笔写。",
+      "削铅笔。"
+    ],
+    "syllable": "pen-cil"
+  },
+  {
+    "word": "ruler",
+    "phonetic": "/ˈru:lər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Use a ruler.",
+      "The ruler is 30cm."
+    ],
+    "translations": [
+      "用尺子。",
+      "尺子是30厘米。"
+    ],
+    "syllable": "rul-er"
+  },
+  {
+    "word": "backward",
+    "phonetic": "/ˈbækwərd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Walk backward.",
+      "Take a step backward."
+    ],
+    "translations": [
+      "向后走。",
+      "后退一步。"
+    ],
+    "syllable": "back-ward"
+  },
+  {
+    "word": "westward",
+    "phonetic": "/ˈwestwərd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Go westward.",
+      "Travel westward."
+    ],
+    "translations": [
+      "向西走。",
+      "向西旅行。"
+    ],
+    "syllable": "west-ward"
+  },
+  {
+    "word": "worker",
+    "phonetic": "/ˈwɜ:rkər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is a worker.",
+      "The workers are on strike."
+    ],
+    "translations": [
+      "他是个工人。",
+      "工人们在罢工。"
+    ],
+    "syllable": "work-er"
+  },
+  {
+    "word": "writer",
+    "phonetic": "/ˈraɪtər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is a writer.",
+      "A famous writer."
+    ],
+    "translations": [
+      "她是个作家。",
+      "一位著名的作家。"
+    ],
+    "syllable": "writ-er"
+  },
+  {
+    "word": "waiter",
+    "phonetic": "/ˈweɪtər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Call the waiter.",
+      "The waiter is busy."
+    ],
+    "translations": [
+      "叫服务员。",
+      "服务员很忙。"
+    ],
+    "syllable": "wait-er"
+  },
+  {
+    "word": "small",
+    "phonetic": "/smɔ :l/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "The fruit is small and round.",
+      "That dress is too small for you."
+    ],
+    "translations": [
+      "这种水果小而圆。",
+      "那件连衣裙对你来说太小了。"
+    ],
+    "syllable": "small"
+  },
+  {
+    "word": "call",
+    "phonetic": "/kɔ :l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "When you need help you can call  police at 110."
+    ],
+    "translations": [
+      "需要帮助时，可拨打 110 报警。"
+    ],
+    "syllable": "call"
+  },
+  {
+    "word": "wall",
+    "phonetic": "/wɔ :l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It is fixed on the wall.",
+      "I went to the Great Wall with some Chinese friends."
+    ],
+    "translations": [
+      "它是固定在墙上的。",
+      "我和一些中国朋友去了长城。"
+    ],
+    "syllable": "wall"
+  },
+  {
+    "word": "fall",
+    "phonetic": "/fɔ :l/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "I'm not going to fall, am I?",
+      "I usually fall asleep within minutes of getting into bed."
+    ],
+    "translations": [
+      "我不会摔跤吧，对吗？",
+      "我通常在上床几分钟内就入睡了。"
+    ],
+    "syllable": "fall"
+  },
+  {
+    "word": "talk",
+    "phonetic": "/tɔ :k/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Let's sit down and have a talk.",
+      "He doesn't like to talk about his private life."
+    ],
+    "translations": [
+      "让我们坐下来好好谈谈。",
+      "他不愿谈及他的私生活。"
+    ],
+    "syllable": "talk"
+  },
+  {
+    "word": "hall",
+    "phonetic": "/hɔ :l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Smoking is not allowed in the hall.",
+      "Let's meet at the dining hall for lunch."
+    ],
+    "translations": [
+      "大厅内不准吸烟。",
+      "我们在餐厅吃午饭见面吧。"
+    ],
+    "syllable": "hall"
+  },
+  {
+    "word": "mall",
+    "phonetic": "/mɔ :l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Let's go to the mall.",
+      "There‘s a good sports shop in the shopping mall."
+    ],
+    "translations": [
+      "我们去商场吧。",
+      "在购物中心有一家很不错的体育商店。"
+    ],
+    "syllable": "mall"
+  },
+  {
+    "word": "walk",
+    "phonetic": "/wɔ :k/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Let's go for a walk.",
+      "She decided to walk to the park instead of taking a bus."
+    ],
+    "translations": [
+      "咱们去散散步吧。",
+      "她决定步行去公园，而不是坐公交车。"
+    ],
+    "syllable": "walk"
+  },
+  {
+    "word": "big",
+    "phonetic": "/bɪɡ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It's big.",
+      "A big house."
+    ],
+    "translations": [
+      "它很大。",
+      "一个大房子。"
+    ],
+    "syllable": "big"
+  },
+  {
+    "word": "tall",
+    "phonetic": "/tɔ:l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is tall.",
+      "A tall building."
+    ],
+    "translations": [
+      "他很高。",
+      "一座高楼。"
+    ],
+    "syllable": "tall"
+  },
+  {
+    "word": "plate",
+    "phonetic": "/pleɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Please clean your plate.",
+      "I ordered a plate of spaghetti at the restaurant."
+    ],
+    "translations": [
+      "请把盘子洗干净。",
+      "我在餐厅点了一盘意大利面。"
+    ],
+    "syllable": "plate"
+  },
+  {
+    "word": "flag",
+    "phonetic": "/flæɡ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He had to show the white flag at the end of the debate.",
+      "The national flag was raised at the opening ceremony of the Olympic Games （奥运会）."
+    ],
+    "translations": [
+      "辩论到最后他只好认输。",
+      "国旗在奥运会开幕式上升起。"
+    ],
+    "syllable": "flag"
+  },
+  {
+    "word": "plant",
+    "phonetic": "/plænt/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "All plants need light and water.",
+      "Plant these shrubs（"
+    ],
+    "translations": [
+      "一切植物都需要阳光和水。",
+      "灌木）in full sun. 把这些灌木栽在阳光充足的地方。"
+    ],
+    "syllable": "plant"
+  },
+  {
+    "word": "please",
+    "phonetic": "/pli :z/",
+    "partOfSpeech": "int.",
+    "sentences": [
+      "Can I have your attention please?",
+      "Please, sir, can I open a window?"
+    ],
+    "translations": [
+      "请注意听我讲话好吗 ？",
+      "老师 ，请允许我打开一扇窗户好吗 ？"
+    ],
+    "syllable": "ple-a-se"
+  },
+  {
+    "word": "glove",
+    "phonetic": "/ɡlΛv/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She bent down to pick up her glove.",
+      "He put on his baseball glove and headed to the field."
+    ],
+    "translations": [
+      "她俯身去捡手套。",
+      "他戴上棒球手套 ，走向球场。"
+    ],
+    "syllable": "glove"
+  },
+  {
+    "word": "floor",
+    "phonetic": "/flɔ :r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I found a toy car on the floor of my son's room.",
+      "On the first floor, there is a living room, a dining room, a kitchen, and a laundry."
+    ],
+    "translations": [
+      "我在儿子房间的地板上找到了一辆玩具车。",
+      "一楼有客厅、餐厅、厨房和洗衣房。"
+    ],
+    "syllable": "flo-or"
+  },
+  {
+    "word": "place",
+    "phonetic": "/pleɪs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This would be a good place for a picnic.",
+      "The wedding will take place in a beautiful garden."
+    ],
+    "translations": [
+      "这可是个野餐的好地方。",
+      "婚礼将在一个美丽的花园里举行。"
+    ],
+    "syllable": "pla-ce"
+  },
+  {
+    "word": "all",
+    "phonetic": "/ɔ :l/",
+    "partOfSpeech": "det.",
+    "sentences": [
+      "All horses are animals, but not all animals are horses.",
+      "Is everything all right?"
+    ],
+    "translations": [
+      "所有的马都是动物，但并不是所有的动物都是马。",
+      "一切都好吗？"
+    ],
+    "syllable": "all"
+  },
+  {
+    "word": "present",
+    "phonetic": "/ˈprez(ə)nt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Did you get your mother a present?",
+      "At present, I am studying for my exams."
+    ],
+    "translations": [
+      "给你母亲买礼物了吗 ？",
+      "目前 ，我正在为考试而学习。"
+    ],
+    "syllable": "pre-sent"
+  },
+  {
+    "word": "grass",
+    "phonetic": "/ɡræs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The green grass in the park looks so refreshing.",
+      "You're not supposed to walk on the grass."
+    ],
+    "translations": [
+      "公园里的绿草看起来非常清新。",
+      "不准践踏草地。"
+    ],
+    "syllable": "grass"
+  },
+  {
+    "word": "draw",
+    "phonetic": "/drɔ :/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Lily draws a picture of her pet.",
+      "The children love to draw and colour."
+    ],
+    "translations": [
+      "莉莉为她的宠物画了一张画。",
+      "儿童喜欢画画和涂颜色。"
+    ],
+    "syllable": "draw"
+  },
+  {
+    "word": "cry",
+    "phonetic": "/kraɪ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "It's all right. Don't cry.",
+      "If you can not cry for help or run away, give the criminal your money to save your own life."
+    ],
+    "translations": [
+      "不要紧，别哭了。",
+      "如果你不能呼救或逃跑，把你的钱给罪犯，以挽救自己的生命。"
+    ],
+    "syllable": "cry"
+  },
+  {
+    "word": "shout",
+    "phonetic": "/ʃaʊt/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Look, you needn't shout."
+    ],
+    "translations": [
+      "喂，你不必喊。 cry指的是因害怕、不愉快、哀求等而大声哭喊或喊叫。 shout多指因激动、生气、高兴，为引起注意而大声喊叫。 cry侧重情感性表达，而shout更多是动作性地传达声音。"
+    ],
+    "syllable": "sho-ut"
+  },
+  {
+    "word": "breath",
+    "phonetic": "/breθ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Take a deep breath and see how long you can stay underwater.",
+      "The beauty of the scenery will take your breath away."
+    ],
+    "translations": [
+      "深吸一口气，看你能在水里待多久。",
+      "美丽的景色将使你大为惊叹。"
+    ],
+    "syllable": "bre-ath"
+  },
+  {
+    "word": "fridge",
+    "phonetic": "/frɪd3/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Put the meat in the fridge so it doesn't go bad.",
+      "There's nothing much in the fridge."
+    ],
+    "translations": [
+      "把肉放进冰箱里 ，免得坏了。",
+      "冰箱里没什么东西了。"
+    ],
+    "syllable": "frid-ge"
+  },
+  {
+    "word": "grape",
+    "phonetic": "/greɪ p/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Wine is made from grapes.",
+      "The Fox and the Grapes is an interesting story.  《"
+    ],
+    "translations": [
+      "葡萄酒是用葡萄做的。",
+      "狐狸和葡萄》是个有趣的故事。"
+    ],
+    "syllable": "grape"
+  },
+  {
+    "word": "protect",
+    "phonetic": "/prθˈtekt/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "She'll fight like a tiger to protect her children.",
+      "A helmet will help protect you from a head injury."
+    ],
+    "translations": [
+      "她为了保护孩子，可以凶得像只老虎。",
+      "头盔可以保护你的头部免受伤害。"
+    ],
+    "syllable": "pro-tect"
+  },
+  {
+    "word": "chopsticks",
+    "phonetic": "/ˈtʃɑ :pstɪ ks/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The Chinese eat with chopsticks.",
+      "Could you please pass me a pair of chopsticks?"
+    ],
+    "translations": [
+      "中国人用筷子吃饭。",
+      "请给我递一双筷子好吗？"
+    ],
+    "syllable": "chop-sticks"
+  },
+  {
+    "word": "sweep",
+    "phonetic": "/swi :p/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "I need to sweep the floor before guests arrive.",
+      "Chinese people would sweep out their houses before the Spring Festival."
+    ],
+    "translations": [
+      "客人到来之前我需要扫地。",
+      "在春节前，中国人会打扫干净房屋。"
+    ],
+    "syllable": "swe-ep"
+  },
+  {
+    "word": "swing",
+    "phonetic": "/swɪ ŋ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Kids are playing on the swings.",
+      "His arms swung as he walked."
+    ],
+    "translations": [
+      "孩子们在荡秋千。",
+      "他边走边摆着双臂。"
+    ],
+    "syllable": "swing"
+  },
+  {
+    "word": "sticker",
+    "phonetic": "/ˈstɪkə r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Here is a sticker for you."
+    ],
+    "translations": [
+      "奖励你一个贴纸。"
+    ],
+    "syllable": "stic-ker"
+  },
+  {
+    "word": "spoon",
+    "phonetic": "/spu :n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She feeds the baby with a spoon.",
+      "She used a tea spoon to stir her tea."
+    ],
+    "translations": [
+      "她用汤匙喂婴儿。",
+      "她用茶匙搅拌她的茶。"
+    ],
+    "syllable": "spo-on"
+  },
+  {
+    "word": "spend",
+    "phonetic": "/spend/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Tom spentfive hours on this math problem.",
+      "I spend too much time watching television."
+    ],
+    "translations": [
+      "汤姆花了五小时解数学题。",
+      "我看电视花的时间太多。"
+    ],
+    "syllable": "spend"
+  },
+  {
+    "word": "cost",
+    "phonetic": "/kɔːst/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The new computer cost me a fortune.",
+      "I will pay the bill for dinner tonight.",
+      "She spent the weekend shopping for clothes.",
+      "It takes a lot of time to learn a new language."
+    ],
+    "translations": [
+      "这台新电脑花费了我一大笔钱。",
+      "我会支付今晚的晚餐账单。 3. spend（花费） ：强调在一段时间内使用时间、精力、金钱。",
+      "她周末花费在购买衣服上。 4. take（花费时间） ：主要用于表示花费时间，而非金钱，例如完成任务或活动所需的时间。",
+      "学习一门新语言需要花费很多时间。 简而言之，cost关注总体花费， pay强调支付行为，spend突出在时间内的支出，而take通常用于描述花费时间。"
+    ],
+    "syllable": "cost"
+  },
+  {
+    "word": "swimsuit",
+    "phonetic": "/ˈswɪmsu :t/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I can teach you swimming and send you a swimsuit.",
+      "The swimsuit costs more than five hundred dollars."
+    ],
+    "translations": [
+      "我可以教你游泳，还可以送你一件泳衣。",
+      "这种泳衣价值五百美元。"
+    ],
+    "syllable": "swim-su-it"
+  },
+  {
+    "word": "start",
+    "phonetic": "/stɑ :rt/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "When do you usually start doing your homework?",
+      "Every sentence should start with a capital letter."
+    ],
+    "translations": [
+      "你通常什么时候开始做作业？",
+      "每一个句子都必须以一个大写字母开始。"
+    ],
+    "syllable": "start"
+  },
+  {
+    "word": "use",
+    "phonetic": "/ju:z/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Use this pen.",
+      "How do I use it?"
+    ],
+    "translations": [
+      "用这支笔。",
+      "我怎么用它？"
+    ],
+    "syllable": "use"
+  },
+  {
+    "word": "pass",
+    "phonetic": "/pæs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Pass the salt.",
+      "Pass the exam."
+    ],
+    "translations": [
+      "递盐。",
+      "通过考试。"
+    ],
+    "syllable": "pass"
+  },
+  {
+    "word": "stir",
+    "phonetic": "/stɜ:r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Stir the soup.",
+      "Stir well."
+    ],
+    "translations": [
+      "搅拌汤。",
+      "搅拌均匀。"
+    ],
+    "syllable": "stir"
+  },
+  {
+    "word": "playground",
+    "phonetic": "/ˈpleɪɡraʊnd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The girls were skipping in the playground.",
+      "In summer, many kids will go to the playground in that park."
+    ],
+    "translations": [
+      "姑娘们在操场上跳绳。",
+      "夏天的时候 ，很多小孩子都会去那个公园里的游乐场。"
+    ],
+    "syllable": "pla-yg-ro-und"
+  },
+  {
+    "word": "parent",
+    "phonetic": "/ˈperənt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is a single parent, raising her two children on her own.",
+      "Parents are the most important people in a child's world."
+    ],
+    "translations": [
+      "她是一个单亲妈妈，独自抚养着两个孩子。",
+      "父母在儿童的世界里是最重要的人。"
+    ],
+    "syllable": "pa-rent"
+  },
+  {
+    "word": "strong",
+    "phonetic": "/strɔ : ŋ/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "I'm not strong enough to carry him.",
+      "He's strong enough to lift a car!"
+    ],
+    "translations": [
+      "我不够强壮 ，抱不动他。",
+      "他力气大得能抬起一辆汽车 ！"
+    ],
+    "syllable": "strong"
+  },
+  {
+    "word": "around",
+    "phonetic": "/əˈraʊnd /",
+    "partOfSpeech": "adv.",
+    "sentences": [
+      "Around the house there are many fruit trees and many flowers.",
+      "He arrived around five o'clock."
+    ],
+    "translations": [
+      "房子周围有许多果树和花朵。",
+      "他大约是五点钟到的。"
+    ],
+    "syllable": "a-ro-und"
+  },
+  {
+    "word": "young",
+    "phonetic": "/jΛ ŋ/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "They look young.",
+      "This is a book for young and old."
+    ],
+    "translations": [
+      "他们看起来很年轻。",
+      "这本书老少皆宜。"
+    ],
+    "syllable": "y-o-ung"
+  },
+  {
+    "word": "bank",
+    "phonetic": "/bæŋk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I don't have a bank account.",
+      "I must go to the bank and get some money."
+    ],
+    "translations": [
+      "我没有银行账户。",
+      "我得上银行取点儿钱。"
+    ],
+    "syllable": "bank"
+  },
+  {
+    "word": "eggplant",
+    "phonetic": "/ˈeɡplænt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Eggplant is a kind of vegetable."
+    ],
+    "translations": [
+      "茄子是一种蔬菜。"
+    ],
+    "syllable": "eg-gplant"
+  },
+  {
+    "word": "underground",
+    "phonetic": "/ˌʌndərˈɡraʊnd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Take the underground.",
+      "An underground passage."
+    ],
+    "translations": [
+      "坐地铁。",
+      "地下通道。"
+    ],
+    "syllable": "un-der-ground"
+  },
+  {
+    "word": "slide",
+    "phonetic": "/slaɪd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Slide down.",
+      "The slide is fun."
+    ],
+    "translations": [
+      "滑下来。",
+      "滑梯很有趣。"
+    ],
+    "syllable": "slide"
+  },
+  {
+    "word": "family",
+    "phonetic": "/ˈfæməli/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I love my family.",
+      "A big family."
+    ],
+    "translations": [
+      "我爱我的家人。",
+      "一个大家庭。"
+    ],
+    "syllable": "fam-i-ly"
+  },
+  {
+    "word": "grandparent",
+    "phonetic": "/ˈɡrænperənt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Visit your grandparents.",
+      "My grandparents are old."
+    ],
+    "translations": [
+      "看望你的祖父母。",
+      "我的祖父母老了。"
+    ],
+    "syllable": "grand-par-ent"
+  },
+  {
+    "word": "grandmother",
+    "phonetic": "/ˈɡrænmʌðər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "My grandmother cooks well.",
+      "I love my grandmother."
+    ],
+    "translations": [
+      "我奶奶做饭很好吃。",
+      "我爱我的奶奶。"
+    ],
+    "syllable": "grand-moth-er"
+  },
+  {
+    "word": "mother",
+    "phonetic": "/ˈmʌðər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I love my mother.",
+      "My mother is kind."
+    ],
+    "translations": [
+      "我爱我的妈妈。",
+      "我妈妈很和蔼。"
+    ],
+    "syllable": "moth-er"
+  },
+  {
+    "word": "banker",
+    "phonetic": "/ˈbæŋkər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is a banker.",
+      "The banker is rich."
+    ],
+    "translations": [
+      "他是个银行家。",
+      "银行家很有钱。"
+    ],
+    "syllable": "bank-er"
+  },
+  {
+    "word": "throw",
+    "phonetic": "/θroʊ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Playing throw and catch can improve hand-eye coordination.",
+      "I need to throw away these old magazines."
+    ],
+    "translations": [
+      "玩投掷和接球可以提高手眼协调能力。",
+      "我需要把这些旧杂志扔掉。"
+    ],
+    "syllable": "throw"
+  },
+  {
+    "word": "feather",
+    "phonetic": "/ˈfeðə r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The feather floated lightly in the air.",
+      "The chick will soon feather out."
+    ],
+    "translations": [
+      "羽毛轻盈地飘在空中。",
+      "这只小鸡很快就要长羽毛了。"
+    ],
+    "syllable": "fe-at-her"
+  },
+  {
+    "word": "rather",
+    "phonetic": "/ˈræðə r/",
+    "partOfSpeech": "adv.",
+    "sentences": [
+      "I would rather go for a walk than watch TV.",
+      "I would rather stay at home and read rather than go to the party."
+    ],
+    "translations": [
+      "我宁愿去散步也不愿看电视。",
+      "我宁愿待在家里读书而不是去参加派对。"
+    ],
+    "syllable": "rat-her"
+  },
+  {
+    "word": "gather",
+    "phonetic": "/ˈɡæðə r/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "We plan to gather together this weekend.",
+      "Can you all gather round ? I've got something to tell you."
+    ],
+    "translations": [
+      "我们计划这周末聚一聚。",
+      "你们都围过来好吗？我有事要告诉你们。"
+    ],
+    "syllable": "gat-her"
+  },
+  {
+    "word": "whether",
+    "phonetic": "/ˈweðə r/",
+    "partOfSpeech": "conj.",
+    "sentences": [
+      "I haven't decided whether or not I will attend the meeting.",
+      "We're debating whether or not to go skiing this winter."
+    ],
+    "translations": [
+      "我还没有决定是否参加会议。",
+      "我们讨论着今年冬天是否去滑雪。"
+    ],
+    "syllable": "whet-her"
+  },
+  {
+    "word": "though",
+    "phonetic": "/ðoʊ/",
+    "partOfSpeech": "conj.",
+    "sentences": [
+      "I like him, though he makes me angry sometimes.",
+      "Though she was tiny, she had a very loud voice."
+    ],
+    "translations": [
+      "我喜欢他，尽管他有时惹我生气。",
+      "虽然她个头很小，嗓门却很大。"
+    ],
+    "syllable": "tho-ugh"
+  },
+  {
+    "word": "then",
+    "phonetic": "/ðen/",
+    "partOfSpeech": "adv.",
+    "sentences": [
+      "Now and then, I like to take a day off and just relax.",
+      "I haven't seen her since then."
+    ],
+    "translations": [
+      "偶尔，我喜欢休息一天，放松一下。",
+      "自那时以来我就没见过她。"
+    ],
+    "syllable": "then"
+  },
+  {
+    "word": "stone",
+    "phonetic": "/stoʊ n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The stone is heavy.",
+      "Skip the stone on water."
+    ],
+    "translations": [
+      "石头很重。",
+      "在水面上打水漂。"
+    ],
+    "syllable": "stone"
+  },
+  {
+    "word": "heavy",
+    "phonetic": "/ˈhevi/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It's heavy.",
+      "Heavy rain."
+    ],
+    "translations": [
+      "它很重。",
+      "大雨。"
+    ],
+    "syllable": "heav-y"
+  },
+  {
+    "word": "through",
+    "phonetic": "/θru:/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Go through the door.",
+      "Read through it."
+    ],
+    "translations": [
+      "穿过门。",
+      "通读一遍。"
+    ],
+    "syllable": "through"
+  },
+  {
+    "word": "first",
+    "phonetic": "/fɜ:rst/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "First, wash your hands.",
+      "He came first."
+    ],
+    "translations": [
+      "首先，洗手。",
+      "他得了第一名。"
+    ],
+    "syllable": "first"
+  },
+  {
+    "word": "next",
+    "phonetic": "/nekst/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "What's next?",
+      "Next week."
+    ],
+    "translations": [
+      "接下来是什么？",
+      "下周。"
+    ],
+    "syllable": "next"
+  },
+  {
+    "word": "finally",
+    "phonetic": "/ˈfaɪnəli/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Finally, we arrived.",
+      "Finally done!"
+    ],
+    "translations": [
+      "最后，我们到了。",
+      "终于完成了！"
+    ],
+    "syllable": "fi-nal-ly"
+  },
+  {
+    "word": "rubbish",
+    "phonetic": "/ˈrΛbɪʃ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Please remember to empty the rubbish bin regularly.",
+      "The streets were littered with rubbish."
+    ],
+    "translations": [
+      "请记得定期清空垃圾箱。",
+      "街上到处都是垃圾。"
+    ],
+    "syllable": "rub-bish"
+  },
+  {
+    "word": "fashion",
+    "phonetic": "/ˈfæʃ(ə)n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Are these jackets in fashion?",
+      "She's going to watch a fashion show tomorrow evening."
+    ],
+    "translations": [
+      "这些夹克都是流行款式吗 ？",
+      "她明晚打算去看时装表演。"
+    ],
+    "syllable": "fas-hi-on"
+  },
+  {
+    "word": "fresh",
+    "phonetic": "/freʃ/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Every day is a fresh start.",
+      "It is said that the world would run out of fresh water in 2050."
+    ],
+    "translations": [
+      "每一天都是一个新的开始。",
+      "据说到 2050 年世界上的淡水将会耗尽。"
+    ],
+    "syllable": "fresh"
+  },
+  {
+    "word": "dish",
+    "phonetic": "/dɪʃ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Could you please bring me a dish of ice cream?",
+      "The kids offered to do the dishes."
+    ],
+    "translations": [
+      "你能给我拿一碗冰淇淋吗？",
+      "孩子们主动要求洗盘子。"
+    ],
+    "syllable": "dish"
+  },
+  {
+    "word": "shelf",
+    "phonetic": "/ʃelf/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I need to buy a new book shelf to organize my growing collection of books."
+    ],
+    "translations": [
+      "我需要买一个新的书架来整理我越来越多的书籍。"
+    ],
+    "syllable": "shelf"
+  },
+  {
+    "word": "shave",
+    "phonetic": "/ʃeɪv/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "He never seemed to need a shave.",
+      "Charles decided to shave off his beard."
+    ],
+    "translations": [
+      "他似乎从不需要刮脸。",
+      "查尔斯决定刮掉胡子。"
+    ],
+    "syllable": "shave"
+  },
+  {
+    "word": "share",
+    "phonetic": "/ʃer/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "They share the housework equally.",
+      "I love to cook and share with friends."
+    ],
+    "translations": [
+      "他们平均分担家务。",
+      "我喜欢做饭并与朋友分享。"
+    ],
+    "syllable": "sha-re"
+  },
+  {
+    "word": "shy",
+    "phonetic": "/ʃaɪ/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "She was too shy to ask for help.",
+      "She was quiet and shy."
+    ],
+    "translations": [
+      "她太腼腆，不愿向人求助。",
+      "她文静而又腼腆。"
+    ],
+    "syllable": "shy"
+  },
+  {
+    "word": "recycle",
+    "phonetic": "/ˌri:ˈsaɪk(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Recycle paper.",
+      "Recycle plastic."
+    ],
+    "translations": [
+      "回收纸张。",
+      "回收塑料。"
+    ],
+    "syllable": "re-cy-cle"
+  },
+  {
+    "word": "runway",
+    "phonetic": "/ˈrΛnweɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The plane is on the runway.",
+      "Walk down the runway."
+    ],
+    "translations": [
+      "飞机在跑道上。",
+      "走在跑道上。"
+    ],
+    "syllable": "run-way"
+  },
+  {
+    "word": "furniture",
+    "phonetic": "/ˈf3:rnɪtʃər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Buy new furniture.",
+      "Move the furniture."
+    ],
+    "translations": [
+      "买新家具。",
+      "移动家具。"
+    ],
+    "syllable": "fur-ni-ture"
+  },
+  {
+    "word": "bookshelf",
+    "phonetic": "/ˈbukʃelf/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The bookshelf is full.",
+      "Put it on the bookshelf."
+    ],
+    "translations": [
+      "书架满了。",
+      "把它放在书架上。"
+    ],
+    "syllable": "book-shelf"
+  },
+  {
+    "word": "who",
+    "phonetic": "/hu :/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "Who are you calling?"
+    ],
+    "translations": [
+      "你在给谁打电话 ？"
+    ],
+    "syllable": "who"
+  },
+  {
+    "word": "what",
+    "phonetic": "/wΛt/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "Q: What class are you in?",
+      "A: I'm in Class 1."
+    ],
+    "translations": [
+      "你在几班？",
+      "我在一班。"
+    ],
+    "syllable": "what"
+  },
+  {
+    "word": "when",
+    "phonetic": "/wen/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "When is your birthday?"
+    ],
+    "translations": [
+      "你的生日是什么时间 ？"
+    ],
+    "syllable": "when"
+  },
+  {
+    "word": "whose",
+    "phonetic": "/hu :z/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "Whose book is this?"
+    ],
+    "translations": [
+      "这是谁的书 ？"
+    ],
+    "syllable": "who-se"
+  },
+  {
+    "word": "which",
+    "phonetic": "/wɪtʃ/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "Which color do you like?"
+    ],
+    "translations": [
+      "你喜欢什么颜色？ 注意:  当有很多可能的选择或者不知道有多少选择时，用what ；当已经知道是两个中的一个或是几个中的一个时，用which。"
+    ],
+    "syllable": "which"
+  },
+  {
+    "word": "why",
+    "phonetic": "/waɪ/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "Why don’t you go to school?"
+    ],
+    "translations": [
+      "你为什么不去上学呢 ？"
+    ],
+    "syllable": "why"
+  },
+  {
+    "word": "where",
+    "phonetic": "/wer/",
+    "partOfSpeech": "pron.",
+    "sentences": [
+      "Where do you live?"
+    ],
+    "translations": [
+      "你住在哪里？"
+    ],
+    "syllable": "whe-re"
+  },
+  {
+    "word": "wheel",
+    "phonetic": "/wi :l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The wheel is pulling to the left.",
+      "The wheel turned slowly."
+    ],
+    "translations": [
+      "方向盘正在向左打。",
+      "车轮慢慢地转动。"
+    ],
+    "syllable": "whe-el"
+  },
+  {
+    "word": "anywhere",
+    "phonetic": "/ˈeniwer/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I can go anywhere.",
+      "It could be anywhere."
+    ],
+    "translations": [
+      "我可以去任何地方。",
+      "它可能在任何地方。"
+    ],
+    "syllable": "an-y-where"
+  },
+  {
+    "word": "because",
+    "phonetic": "/bɪˈkəz;bɪˈko:z/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Because I said so.",
+      "I'm happy because you're here."
+    ],
+    "translations": [
+      "因为我是这么说的。",
+      "我很高兴因为你在。"
+    ],
+    "syllable": "be-cause"
+  },
+  {
+    "word": "cheese",
+    "phonetic": "/tʃi :z/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Have you got any cheese I can have with this bread?",
+      "Everybody, look at here and say cheese."
+    ],
+    "translations": [
+      "你有没有奶酪 ，我好就着面包一起吃 ？",
+      "所有的人看着这里说“茄子”。"
+    ],
+    "syllable": "che-e-se"
+  },
+  {
+    "word": "chip",
+    "phonetic": "/tʃɪp/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I prefer eating chips rather than hamburgers.",
+      "All main courses are served with chips or baked potato."
+    ],
+    "translations": [
+      "相比汉堡包，我更喜欢吃薯片。",
+      "所有的主菜都配有炸土豆条或烤土豆。"
+    ],
+    "syllable": "chip"
+  },
+  {
+    "word": "rich",
+    "phonetic": "/rɪtʃ/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "He is one of the richest people in the world.",
+      "The rich man donated a large sum of money to the charity."
+    ],
+    "translations": [
+      "他是世界上最富有的人之一。",
+      "这位富豪向慈善机构捐赠了一大笔钱。"
+    ],
+    "syllable": "rich"
+  },
+  {
+    "word": "catch",
+    "phonetic": "/kætʃ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "He caught the ball with one hand.",
+      "I need to run faster to catch up with my friend."
+    ],
+    "translations": [
+      "他单手接住了球。",
+      "我需要跑得更快才能追上我的朋友。"
+    ],
+    "syllable": "catch"
+  },
+  {
+    "word": "watch",
+    "phonetic": "/wɑ :tʃ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Do you watch TV every evening?",
+      "They watch all the live matches."
+    ],
+    "translations": [
+      "你每天晚上都看电视吗？",
+      "他们观看所有现场直播的比赛。"
+    ],
+    "syllable": "watch"
+  },
+  {
+    "word": "match",
+    "phonetic": "/mætʃ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He was watching a football match.",
+      "Jo and Ian are a perfect match for each other."
+    ],
+    "translations": [
+      "他正在看一场足球比赛",
+      "乔和伊恩真是天造地设的一对。"
+    ],
+    "syllable": "match"
+  },
+  {
+    "word": "fetch",
+    "phonetic": "/fetʃ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "He went to fetch some books.",
+      "Could you fetch me my bag?"
+    ],
+    "translations": [
+      "他去取来了一些书。",
+      "你能帮我去取我的包吗 ？"
+    ],
+    "syllable": "fetch"
+  },
+  {
+    "word": "kitchen",
+    "phonetic": "/ˈkɪtʃɪn/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The kitchen door is at the side of the house.",
+      "I can smell something burning  in the  kitchen."
+    ],
+    "translations": [
+      "厨房门开在房子的侧面。",
+      "我闻到厨房里有东西烧焦了。"
+    ],
+    "syllable": "kit-chen"
+  },
+  {
+    "word": "balcony",
+    "phonetic": "/ˈbælkəni/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Sit on the balcony.",
+      "The balcony has a nice view."
+    ],
+    "translations": [
+      "坐在阳台上。",
+      "阳台风景很好。"
+    ],
+    "syllable": "bal-co-ny"
+  },
+  {
+    "word": "photo",
+    "phonetic": "/ˈfoʊtoʊ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It is myfamily photo album.",
+      "I want to take a photo of this beautiful scenery."
+    ],
+    "translations": [
+      "这是我的家庭相册。",
+      "我想拍下这美丽的风景。"
+    ],
+    "syllable": "pho-to"
+  },
+  {
+    "word": "dolphin",
+    "phonetic": "/ˈdɑ :lfɪ n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The dolphin is an intelligent animal.",
+      "A dolphin leaps out of the water."
+    ],
+    "translations": [
+      "海豚是聪明的动物。",
+      "海豚跃出水面。"
+    ],
+    "syllable": "dol-phin"
+  },
+  {
+    "word": "elephant",
+    "phonetic": "/ˈelɪfə nt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The elephant has a very long trunk.",
+      "The elephant is the largest living land animal."
+    ],
+    "translations": [
+      "大象有很长的象鼻。",
+      "大象是现今陆地上最大的动物。"
+    ],
+    "syllable": "e-lep-hant"
+  },
+  {
+    "word": "physical",
+    "phonetic": "/ˈfɪzɪk(ə)l/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Smiling really can improve your physical health.",
+      "After two yearsı physical training, he was stronger and healthier."
+    ],
+    "translations": [
+      "微笑确实可以改善你的身体健康。",
+      "经过两年的体能训练，他变得更强壮、更健康了。"
+    ],
+    "syllable": "phy-si-cal"
+  },
+  {
+    "word": "physics",
+    "phonetic": "/ˈfɪzɪks/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "| wasnıt too keen on physics and chemistry.",
+      "Physics is my favorite subject."
+    ],
+    "translations": [
+      "我对物理和化学并不太热衷。",
+      "物理是我最喜欢的科目。"
+    ],
+    "syllable": "phy-sics"
+  },
+  {
+    "word": "microphone",
+    "phonetic": "/ˈmaɪkrəfoʊ n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He gave a tap at the microphone before speaking.",
+      "My hand shook so much that | could hardly hold the microphone."
+    ],
+    "translations": [
+      "他在讲话前先轻叩了一下扩音器",
+      "我的手抖得如此厉害 ，几乎都拿不住麦克风了。"
+    ],
+    "syllable": "mi-cro-phone"
+  },
+  {
+    "word": "microwave",
+    "phonetic": "/丨maɪkrəweɪv/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Heat it in the microwave.",
+      "Use the microwave."
+    ],
+    "translations": [
+      "用微波炉加热。",
+      "使用微波炉。"
+    ],
+    "syllable": "mi-cro-wave"
+  },
+  {
+    "word": "microcosm",
+    "phonetic": "/丨maɪkroʊkɑ:zəm/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A microcosm of society.",
+      "The village is a microcosm."
+    ],
+    "translations": [
+      "社会的缩影。",
+      "这个村庄是一个缩影。"
+    ],
+    "syllable": "mi-cro-cosm"
+  },
+  {
+    "word": "microscope",
+    "phonetic": "/丨maɪkrəskoʊp/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Look through a microscope.",
+      "Use a microscope."
+    ],
+    "translations": [
+      "通过显微镜看。",
+      "使用显微镜。"
+    ],
+    "syllable": "mi-cro-scope"
+  },
+  {
+    "word": "microsoft",
+    "phonetic": "/丨maɪkrəsɔ:ft/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Microsoft makes software.",
+      "I use Microsoft Word."
+    ],
+    "translations": [
+      "微软制作软件。",
+      "我使用微软Word。"
+    ],
+    "syllable": "mi-cro-soft"
+  },
+  {
+    "word": "eye",
+    "phonetic": "/aɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have two eyes.",
+      "Close your eyes."
+    ],
+    "translations": [
+      "我有两只眼睛。",
+      "闭上眼睛。"
+    ],
+    "syllable": "eye"
+  },
+  {
+    "word": "flippers",
+    "phonetic": "/ˈflɪpərz/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Wear flippers to swim.",
+      "The seal has flippers."
+    ],
+    "translations": [
+      "戴脚蹼游泳。",
+      "海豹有鳍。"
+    ],
+    "syllable": "flip-pers"
+  },
+  {
+    "word": "tusk",
+    "phonetic": "/tΛsk/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The elephant has tusks.",
+      "A tusk is made of ivory."
+    ],
+    "translations": [
+      "大象有象牙。",
+      "象牙是由象牙制成的。"
+    ],
+    "syllable": "tusk"
+  },
+  {
+    "word": "physicist",
+    "phonetic": "/ˈfɪzɪsɪst/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is a physicist.",
+      "A famous physicist."
+    ],
+    "translations": [
+      "他是个物理学家。",
+      "一位著名的物理学家。"
+    ],
+    "syllable": "phys-i-cist"
+  },
+  {
+    "word": "physician",
+    "phonetic": "/fɪˈzɪʃ(ə)n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is a physician.",
+      "Consult a physician."
+    ],
+    "translations": [
+      "她是个医生。",
+      "咨询医生。"
+    ],
+    "syllable": "phys-i-cian"
+  },
+  {
+    "word": "telephone",
+    "phonetic": "/ˈtelɪfoun/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Answer the telephone.",
+      "Use the telephone."
+    ],
+    "translations": [
+      "接电话。",
+      "使用电话。"
+    ],
+    "syllable": "tel-e-phone"
+  },
+  {
+    "word": "earphone",
+    "phonetic": "/ˈɪrˌfoun/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Wear earphones.",
+      "I lost my earphones."
+    ],
+    "translations": [
+      "戴耳机。",
+      "我丢了耳机。"
+    ],
+    "syllable": "ear-phone"
+  },
+  {
+    "word": "smartphone",
+    "phonetic": "/ˈsmɑ:rtfoun/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have a smartphone.",
+      "Use your smartphone."
+    ],
+    "translations": [
+      "我有一部智能手机。",
+      "使用你的智能手机。"
+    ],
+    "syllable": "smart-phone"
+  },
+  {
+    "word": "ticket",
+    "phonetic": "/ˈtɪkɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I need to buy a return ticket for my trip to London.",
+      "I need to go to the ticket office to buy a train ticket."
+    ],
+    "translations": [
+      "我需要为去伦敦的旅行购买一张返程车票。",
+      "我需要去售票处买一张火车票。"
+    ],
+    "syllable": "tic-ket"
+  },
+  {
+    "word": "pocket",
+    "phonetic": "/ ˈ pɑ :kɪt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He stuck his gloves in his pocket.",
+      "Where did I put the keys? Oh, yes—in my pocket!"
+    ],
+    "translations": [
+      "他把手套塞进了口袋里。",
+      "我把钥匙放在哪儿了？哦，对了—在我口袋里！"
+    ],
+    "syllable": "poc-ket"
+  },
+  {
+    "word": "stick",
+    "phonetic": "/stɪ k/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Can you stick this on the noticeboard?",
+      "She gets around with the help of a stick."
+    ],
+    "translations": [
+      "你能不能把这个贴到布告牌上 ？",
+      "她拄着拐杖四处走动。"
+    ],
+    "syllable": "stick"
+  },
+  {
+    "word": "check",
+    "phonetic": "/tʃek/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Check your work before handing it in.",
+      "I need to check out of the hotel before noon."
+    ],
+    "translations": [
+      "交作业以前先检查一遍。",
+      "我需要在中午之前结账离开酒店。"
+    ],
+    "syllable": "check"
+  },
+  {
+    "word": "quick",
+    "phonetic": "/kwɪ k/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "The kids were quick to learn."
+    ],
+    "translations": [
+      "那些孩子学东西很快。 分 一 分 ：quick 与 fast"
+    ],
+    "syllable": "qu-ick"
+  },
+  {
+    "word": "fast",
+    "phonetic": "/fæst/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "You shouldn't drive so fast."
+    ],
+    "translations": [
+      "你不应该把车开得这么快。 fast和quick均可表示“快的” 。fast强调速度很快，quick强调发生时间短，匆忙。fast还可用作副词，quick的副词形式为quickly。"
+    ],
+    "syllable": "fast"
+  },
+  {
+    "word": "truck",
+    "phonetic": "/trΛ k/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The truck driver was waiting to unload.",
+      "Sacks were being loaded onto the truck."
+    ],
+    "translations": [
+      "卡车司机在等着卸货。",
+      "人们正在把麻袋装上卡车。"
+    ],
+    "syllable": "truck"
+  },
+  {
+    "word": "lock",
+    "phonetic": "/lɑ :k/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The key doesn't fit the lock.",
+      "We need to lock in the contract before the deadline."
+    ],
+    "translations": [
+      "这把钥匙打不开这把锁。",
+      "在截止日期之前，我们需要锁定合同。"
+    ],
+    "syllable": "lock"
+  },
+  {
+    "word": "checklist",
+    "phonetic": "/ˈtʃeklɪst/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Make a checklist.",
+      "Follow the checklist."
+    ],
+    "translations": [
+      "列一个清单。",
+      "按照清单做。"
+    ],
+    "syllable": "check-list"
+  },
+  {
+    "word": "quickly",
+    "phonetic": "/ˈkwɪkli/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Run quickly!",
+      "Do it quickly."
+    ],
+    "translations": [
+      "快跑！",
+      "快点做。"
+    ],
+    "syllable": "quick-ly"
+  },
+  {
+    "word": "load",
+    "phonetic": "/loʊd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Load the truck.",
+      "A heavy load."
+    ],
+    "translations": [
+      "装车。",
+      "重担。"
+    ],
+    "syllable": "load"
+  },
+  {
+    "word": "unload",
+    "phonetic": "/ˌʌnˈloʊd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Unload the boxes.",
+      "Unload the truck."
+    ],
+    "translations": [
+      "卸下箱子。",
+      "卸货。"
+    ],
+    "syllable": "un-load"
+  },
+  {
+    "word": "window",
+    "phonetic": "/ˈwɪndoʊ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Please close the window, it's getting cold.",
+      "On sunny days, you can enjoy the sunshine through the window."
+    ],
+    "translations": [
+      "请关上窗户，天气变冷了。",
+      "在阳光明媚的日子里，你可以透过窗户沐浴阳光。"
+    ],
+    "syllable": "win-dow"
+  },
+  {
+    "word": "road",
+    "phonetic": "/roʊd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Give me your hand while we cross the road.",
+      "It would be better to transport the goods by rail rather than by road."
+    ],
+    "translations": [
+      "过马路时请拉着我的手。",
+      "用铁路运送这批货物会比用公路好。"
+    ],
+    "syllable": "ro-ad"
+  },
+  {
+    "word": "grow",
+    "phonetic": "/ɡroʊ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "These days kids grow up so quickly.",
+      "Life is a journey, we are born, we grow, we live, we work, we grow old and we die."
+    ],
+    "translations": [
+      "如今孩子们成长得真快。",
+      "生命是一场旅程 ，我们出生 ，成长 ，生活 ，工作 ，变老 ，然后死去。"
+    ],
+    "syllable": "grow"
+  },
+  {
+    "word": "know",
+    "phonetic": "/noʊ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "I don't know how this happened.",
+      "Do you know Peter? He's hilarious."
+    ],
+    "translations": [
+      "我不知道这事怎么发生的。",
+      "你认识皮特吗？他风趣得很。"
+    ],
+    "syllable": "know"
+  },
+  {
+    "word": "goat",
+    "phonetic": "/ɡoʊt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I see there are some goats over the hill.",
+      "The most common meats are goat, chicken, beef and pork."
+    ],
+    "translations": [
+      "我看到山坡上有几只山羊。",
+      "最常见的肉类是羊肉、鸡肉、牛肉和猪肉。"
+    ],
+    "syllable": "go-at"
+  },
+  {
+    "word": "coach",
+    "phonetic": "/koʊtʃ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "“I have faith in these guys,” the coach said. “These are good  players.”",
+      "Our facility provides intensive coaching, training facilities and nutritional advice."
+    ],
+    "translations": [
+      "“我相信这些人，”教练说道。“这些都是好球员。”",
+      "我们的设施提供强化训练、培训设备和营养建议。"
+    ],
+    "syllable": "co-ach"
+  },
+  {
+    "word": "coat",
+    "phonetic": "/koʊt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She put on her coat and went out.",
+      "She came in and took her coat off."
+    ],
+    "translations": [
+      "她穿上外套，出去了。",
+      "她进来后脱了外衣。"
+    ],
+    "syllable": "co-at"
+  },
+  {
+    "word": "allow",
+    "phonetic": "/əˈlaʊ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Smoking is not allowed in this building.",
+      "Allow me to introduce myself."
+    ],
+    "translations": [
+      "在这栋楼里不允许吸烟。",
+      "请允许我自我介绍。"
+    ],
+    "syllable": "al-low"
+  },
+  {
+    "word": "street",
+    "phonetic": "/stri:t/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Cross the street.",
+      "Walk down the street."
+    ],
+    "translations": [
+      "过马路。",
+      "沿着街走。"
+    ],
+    "syllable": "street"
+  },
+  {
+    "word": "grown",
+    "phonetic": "/ɡroun/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I have grown.",
+      "Grown up."
+    ],
+    "translations": [
+      "我长大了。",
+      "成年。"
+    ],
+    "syllable": "grown"
+  },
+  {
+    "word": "player",
+    "phonetic": "/ˈpleɪə r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is a good player.",
+      "A soccer player."
+    ],
+    "translations": [
+      "他是个好选手。",
+      "一个足球运动员。"
+    ],
+    "syllable": "play-er"
+  },
+  {
+    "word": "thousand",
+    "phonetic": "/ˈθauz(θ)nd/",
+    "partOfSpeech": "num.",
+    "sentences": [
+      "A thousand people were there.",
+      "It cost somewhere around two thousand dollars."
+    ],
+    "translations": [
+      "那里有一千人。",
+      "买下来要花大约两千元。"
+    ],
+    "syllable": "tho-u-sand"
+  },
+  {
+    "word": "bow",
+    "phonetic": "/bou; bau/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "He wore a black suit and a bow tie to the wedding.",
+      "After the concert, the band members came out to take a bow."
+    ],
+    "translations": [
+      "他穿着黑色西装和蝴蝶结领带去参加婚礼。",
+      "音乐会结束后，乐队成员出来向观众鞠躬致意。"
+    ],
+    "syllable": "bow"
+  },
+  {
+    "word": "noun",
+    "phonetic": "/naʊ n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "In the sentence “I spoke to the driver of the car”, “the driver of the car” is a noun phrase.",
+      "In French, the adjective must agree with the noun in number and gender."
+    ],
+    "translations": [
+      "在句子“I spoke to the driver of the car”中，“the driver of the car”是名词短语。",
+      "法语中形容词必须在数和性上与名词一致。"
+    ],
+    "syllable": "no-un"
+  },
+  {
+    "word": "pound",
+    "phonetic": "/paʊ nd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "They cost two dollars a pound.",
+      "I didn't put that pound under your pillow."
+    ],
+    "translations": [
+      "这些东西每磅两元。",
+      "我没有把那一英镑放在你的枕头下。"
+    ],
+    "syllable": "po-und"
+  },
+  {
+    "word": "blouse",
+    "phonetic": "/blaʊs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "This skirt matches my blouse.",
+      "I think I want to get this red blouse."
+    ],
+    "translations": [
+      "这条裙子和我的上衣挺配的。",
+      "我觉得我想买这件红衬衫。"
+    ],
+    "syllable": "blo-u-se"
+  },
+  {
+    "word": "cow",
+    "phonetic": "/kaʊ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Dad went out to milk the cows.",
+      "The cow says \"moo-moo.\""
+    ],
+    "translations": [
+      "爸爸出去挤牛奶。",
+      "奶牛“ 哞哞” 叫。"
+    ],
+    "syllable": "cow"
+  },
+  {
+    "word": "power",
+    "phonetic": "/ˈpaʊər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The machine is worked by wind power.",
+      "Real power belongs to the few."
+    ],
+    "translations": [
+      "这台机器是以风力推动的。",
+      "真正的权力掌握在少数人手中。"
+    ],
+    "syllable": "po-wer"
+  },
+  {
+    "word": "sound",
+    "phonetic": "/saʊ nd/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "You don't sound like a foreigner talking English.",
+      "Liza was so frightened she couldn't make a sound."
+    ],
+    "translations": [
+      "你听起来不像外国人在说英语。",
+      "莉莎惊吓得发不出任何声音。"
+    ],
+    "syllable": "so-und"
+  },
+  {
+    "word": "million",
+    "phonetic": "/ˈmɪljən/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "One million dollars.",
+      "Millions of people."
+    ],
+    "translations": [
+      "一百万美元。",
+      "数百万人。"
+    ],
+    "syllable": "mil-lion"
+  },
+  {
+    "word": "powerful",
+    "phonetic": "/ˈpauərf(ə)l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is powerful.",
+      "A powerful engine."
+    ],
+    "translations": [
+      "他很强大。",
+      "强大的引擎。"
+    ],
+    "syllable": "pow-er-ful"
+  },
+  {
+    "word": "point",
+    "phonetic": "/pɔɪ nt/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "The finger of the clock points to twelve.",
+      "He pointed at the map to show me the location."
+    ],
+    "translations": [
+      "钟的指针指向十二点。",
+      "他用手指地图指示地点给我看。"
+    ],
+    "syllable": "po-int"
+  },
+  {
+    "word": "toilet",
+    "phonetic": "/ˈtɔɪlət/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "\"If you want to go to the toilet, please raise your hands.\" the teacher said.",
+      "Do you need the toilet ?"
+    ],
+    "translations": [
+      "老师说：“想要上厕所的小朋友，一定要举手告诉老师哦！”",
+      "你需要用洗手间吗？"
+    ],
+    "syllable": "to-i-let"
+  },
+  {
+    "word": "enjoy",
+    "phonetic": "/ɪnˈd3ɔɪ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "I work hard because I  enjoy doing my job.",
+      "The purpose of living is to pursue happiness and  enjoy  oneself.",
+      "I like this song.",
+      "I enjoy reading books in the evening.",
+      "I love spending time with my family."
+    ],
+    "translations": [
+      "我努力工作，因为我喜欢我的工作。",
+      "人生的目的是追求幸福、享受人生。",
+      "我喜欢这首歌 2. enjoy（享受） ：意味着从某种活动或经验中获得乐趣或满足感。它比like更强烈， 暗示一种积极的、令人愉快的体验。",
+      "我很享受在夜晚读书。 3. love（爱） ：表示最强烈的喜好，是一种深情或强烈的感情。使用love时，通常表示对某物或某人有强烈的情感连接。",
+      "我喜欢和家人共度时光。 总的来说， like是一种较轻的喜好，enjoy表示对某事感到愉快，而love则表达了更深的感情和热爱。"
+    ],
+    "syllable": "en-joy"
+  },
+  {
+    "word": "oil",
+    "phonetic": "/ɔɪ l/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It is the world's biggest producer of oil and gas.",
+      "That is an oil painting of a landscape in spring."
+    ],
+    "translations": [
+      "这是世界上最大的石油、天然气生产国。",
+      "那是一幅刻画春天风景的油画。"
+    ],
+    "syllable": "oil"
+  },
+  {
+    "word": "employ",
+    "phonetic": "/ɪmˈplɔɪ/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "How many people does the company employ?",
+      "He is an employee of Fuji Bank."
+    ],
+    "translations": [
+      "这个公司雇用了多少人 ？",
+      "他是富士银行的一位雇员。"
+    ],
+    "syllable": "em-ploy"
+  },
+  {
+    "word": "join",
+    "phonetic": "/d3ɔɪ n/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "- “Can I join you?” – “Yes.” –“",
+      "Everyone is welcome to join in the conversation."
+    ],
+    "translations": [
+      "我能加入你吗？” -“可以的。”",
+      "欢迎大家加入讨论。"
+    ],
+    "syllable": "jo-in"
+  },
+  {
+    "word": "joy",
+    "phonetic": "/d3ɔɪ/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He danced with joy.",
+      "The chorus was singing The Ode to Joy."
+    ],
+    "translations": [
+      "他高兴地跳舞",
+      "合唱团那时正在唱着《欢乐颂》。"
+    ],
+    "syllable": "joy"
+  },
+  {
+    "word": "love",
+    "phonetic": "/lʌv/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "I love you.",
+      "She loves music."
+    ],
+    "translations": [
+      "我爱你。",
+      "她热爱音乐。"
+    ],
+    "syllable": "love"
+  },
+  {
+    "word": "water",
+    "phonetic": "/ˈwɔ:tər/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Drink water.",
+      "Water the plants."
+    ],
+    "translations": [
+      "喝水。",
+      "浇花。"
+    ],
+    "syllable": "wa-ter"
+  },
+  {
+    "word": "employee",
+    "phonetic": "/ɪmˈplɔɪi:/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He is an employee.",
+      "The employees are happy."
+    ],
+    "translations": [
+      "他是个员工。",
+      "员工们很开心。"
+    ],
+    "syllable": "em-ploy-ee"
+  },
+  {
+    "word": "before",
+    "phonetic": "/bɪˈfɔ :r/",
+    "partOfSpeech": "prep.",
+    "sentences": [
+      "I often go running before work.",
+      "Everything is just like before, nothing has changed."
+    ],
+    "translations": [
+      "我常常在上班前跑步。",
+      "一切都和以前一样 ，没有什么变化"
+    ],
+    "syllable": "be-fo-re"
+  },
+  {
+    "word": "course",
+    "phonetic": "/kɔ :rs/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "The course lasts five weeks.",
+      "The main course was roast duck."
+    ],
+    "translations": [
+      "这门课程上五周。",
+      "主菜是烤鸭。"
+    ],
+    "syllable": "co-ur-se"
+  },
+  {
+    "word": "door",
+    "phonetic": "/dɔ :r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "It’s cold outside; please close the door when you leave.",
+      "He made a living of sorts selling encyclopedias door-to-door."
+    ],
+    "translations": [
+      "外面很冷，请您离开时记得关门。",
+      "他靠挨家挨户推销百科全书勉强谋生。"
+    ],
+    "syllable": "do-or"
+  },
+  {
+    "word": "sour",
+    "phonetic": "/ˈsaʊər/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "The pineapple tastes very sour.",
+      "Lemon is a kind of sour fruit."
+    ],
+    "translations": [
+      "这菠萝尝起来很酸。",
+      "柠檬是一种酸的水果。"
+    ],
+    "syllable": "so-ur"
+  },
+  {
+    "word": "pour",
+    "phonetic": "/pɔ :r/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "Walking three miles in the pouring rain is not my idea of fun.",
+      "Now pour the tea into the cups."
+    ],
+    "translations": [
+      "顶着倾盆大雨走三英里路，我可不认为是好玩的事。",
+      "现在把茶倒进茶杯里。"
+    ],
+    "syllable": "po-ur"
+  },
+  {
+    "word": "more",
+    "phonetic": "/mɔ :r/",
+    "partOfSpeech": "det.",
+    "sentences": [
+      "I am more than happy to help you, but I'd appreciate being asked politely.",
+      "More and more people are using the Internet."
+    ],
+    "translations": [
+      "我非常乐意帮助你 ，但我希望你礼貌地请求。",
+      "越来越多人在使用互联网。"
+    ],
+    "syllable": "mo-re"
+  },
+  {
+    "word": "doormat",
+    "phonetic": "/ˈdɔ :rmæt/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "He puts his key under the doormat."
+    ],
+    "translations": [
+      "他将钥匙藏在门前擦鞋垫下。"
+    ],
+    "syllable": "do-or-mat"
+  },
+  {
+    "word": "chore",
+    "phonetic": "/tʃɔ :r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Shopping is a real chore for me.",
+      "When children finish a chore, they will not only take pride in a job well done but also have confidence in their ability to do things well."
+    ],
+    "translations": [
+      "对我来说 ，购物真是件苦差事。",
+      "当孩子们完成一件家务时 ，他们不仅会为自己做得好而感到自豪 ，而且会对自己的能力有信心。"
+    ],
+    "syllable": "cho-re"
+  },
+  {
+    "word": "knock",
+    "phonetic": "/nɑ:k/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Knock on the door.",
+      "I heard a knock."
+    ],
+    "translations": [
+      "敲门。",
+      "我听到敲门声。"
+    ],
+    "syllable": "knock"
+  },
+  {
+    "word": "appear",
+    "phonetic": "/əˈpɪr/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "A bus appeared around the corner.",
+      "Your name will appear at the front of the book."
+    ],
+    "translations": [
+      "公交车在转角处出现。",
+      "你的名字将出现在书的前页。"
+    ],
+    "syllable": "ap-pe-ar"
+  },
+  {
+    "word": "cheer",
+    "phonetic": "/tʃɪr/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "You should cheer yourself up.",
+      "Cheer up, you still have time to try it again."
+    ],
+    "translations": [
+      "你应该使自己振作起来。",
+      "振作起来，你还有时间再试一次。"
+    ],
+    "syllable": "che-er"
+  },
+  {
+    "word": "year",
+    "phonetic": "/jɪ r/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "There are 4 seasons in a year.",
+      "The park is open all year round."
+    ],
+    "translations": [
+      "一年有四个季节。",
+      "这个公园全年开放。"
+    ],
+    "syllable": "y-e-ar"
+  },
+  {
+    "word": "tear",
+    "phonetic": "/ter/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "The movie was so touching that many people were in tears.",
+      "These now are the walls we must tear down."
+    ],
+    "translations": [
+      "这部电影太感人了，很多人都流泪了。",
+      "这些墙我们现在必须推倒。"
+    ],
+    "syllable": "te-ar"
+  },
+  {
+    "word": "volunteer",
+    "phonetic": "/ ˌvɑ :lənˈtɪr/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "Schools need volunteers to help children to read.",
+      "Volunteer work gives her life (a sense of) purpose."
+    ],
+    "translations": [
+      "学校需要志愿者来帮助孩子们阅读",
+      "做志愿工作使她的生活有了意义。"
+    ],
+    "syllable": "vo-lun-te-er"
+  },
+  {
+    "word": "near",
+    "phonetic": "/nɪ r/",
+    "partOfSpeech": "prep.",
+    "sentences": [
+      "Can you drop me near the bank?",
+      "Is there a gents near here?"
+    ],
+    "translations": [
+      "你可以让我在银行附近下车吗？",
+      "附近有男厕所吗 ？"
+    ],
+    "syllable": "ne-ar"
+  },
+  {
+    "word": "earn",
+    "phonetic": "/3 :rn/",
+    "partOfSpeech": "v.",
+    "sentences": [
+      "How much (money) does she earn?",
+      "After losing his job, he had to find a new way to earn a living."
+    ],
+    "translations": [
+      "她挣多少（钱）？",
+      "失业后，他不得不寻找新的谋生方式。"
+    ],
+    "syllable": "e-arn"
+  },
+  {
+    "word": "dear",
+    "phonetic": "/dɪ r/",
+    "partOfSpeech": "adj.",
+    "sentences": [
+      "Dear Li Ming, I am happy to have a new pen friend.",
+      "Would you like a drink, dear?"
+    ],
+    "translations": [
+      "亲爱的李明 ，我很开心能结交一位新笔友。",
+      "喝点什么吗 ，亲爱的 ？"
+    ],
+    "syllable": "de-ar"
+  },
+  {
+    "word": "cheerleader",
+    "phonetic": "/ˈtʃɪə li:də(r)/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "She is a cheerleader.",
+      "The cheerleaders danced."
+    ],
+    "translations": [
+      "她是个拉拉队员。",
+      "拉拉队员们跳舞了。"
+    ],
+    "syllable": "cheer-lead-er"
+  },
+  {
+    "word": "season",
+    "phonetic": "/ˈsi:z(ə)n/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "What season is it?",
+      "My favorite season is spring."
+    ],
+    "translations": [
+      "现在是什么季节？",
+      "我最喜欢的季节是春天。"
+    ],
+    "syllable": "sea-son"
+  },
+  {
+    "word": "teardrop",
+    "phonetic": "/ˈtɪədrŊp/",
+    "partOfSpeech": "n.",
+    "sentences": [
+      "A teardrop fell.",
+      "Teardrops on my guitar."
+    ],
+    "translations": [
+      "一滴眼泪落下。",
+      "吉他上的泪滴。"
+    ],
+    "syllable": "tear-drop"
+  }
+]

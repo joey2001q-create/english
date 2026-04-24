@@ -19,6 +19,23 @@ export default function WordListenPage() {
   const phaseRef = useRef('word');
   const isPlayingRef = useRef(false);
   const currentIndexRef = useRef(0);
+  const voicesReadyRef = useRef(false);
+
+  useEffect(() => {
+    const loadVoices = () => {
+      const voices = speechSynthesis.getVoices();
+      if (voices.length > 0) voicesReadyRef.current = true;
+    };
+    loadVoices();
+    if (typeof speechSynthesis !== 'undefined' && speechSynthesis.addEventListener) {
+      speechSynthesis.addEventListener('voiceschanged', loadVoices);
+    }
+    return () => {
+      if (typeof speechSynthesis !== 'undefined' && speechSynthesis.removeEventListener) {
+        speechSynthesis.removeEventListener('voiceschanged', loadVoices);
+      }
+    };
+  }, []);
 
   const words = useMemo(() => {
     const book = getVocabularyBook(currentBook);
@@ -79,15 +96,60 @@ export default function WordListenPage() {
     return generateExample(wordData.word, wordData.type, wordData.meaning);
   };
 
-  const speak = (text) => {
-    if (!isPlayingRef.current) return;
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
+  const speak = (text, onEnd) => {
+    if (!text || !('speechSynthesis' in window)) {
+      if (onEnd) onEnd();
+      return;
+    }
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.9;
+    utterance.volume = 1;
+    const voices = speechSynthesis.getVoices();
+    if (voices.length > 0) {
+      const usVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en')) || voices[0];
+      if (usVoice) utterance.voice = usVoice;
+    }
+    if (onEnd) {
+      utterance.onend = onEnd;
+      utterance.onerror = onEnd;
+    }
+    window.speechSynthesis.speak(utterance);
+  };
+
+  const speakManual = (text) => {
+    if (!text || !('speechSynthesis' in window)) return;
+    const wasPlaying = isPlayingRef.current;
+    if (wasPlaying) {
+      isPlayingRef.current = false;
+      clearTimeout(timerRef.current);
+    }
+    window.speechSynthesis.cancel();
+    setTimeout(() => {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
       utterance.rate = 0.9;
+      utterance.volume = 1;
+      const voices = speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        const usVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en')) || voices[0];
+        if (usVoice) utterance.voice = usVoice;
+      }
+      utterance.onend = () => {
+        if (wasPlaying) {
+          isPlayingRef.current = true;
+          playNextPhase();
+        }
+      };
+      utterance.onerror = () => {
+        if (wasPlaying) {
+          isPlayingRef.current = true;
+          playNextPhase();
+        }
+      };
       window.speechSynthesis.speak(utterance);
-    }
+    }, 100);
   };
 
   const stopAll = () => {
@@ -107,33 +169,35 @@ export default function WordListenPage() {
     if (!wordData) return;
     
     if (phaseRef.current === 'word') {
-      speak(wordData.word);
-      
-      currentRepeatRef.current++;
-      
-      if (currentRepeatRef.current < repeatCount) {
-        timerRef.current = setTimeout(() => {
-          if (isPlayingRef.current) {
-            playNextPhase();
-          }
-        }, interval * 1000);
-      } else {
-        timerRef.current = setTimeout(() => {
-          if (isPlayingRef.current) {
-            phaseRef.current = 'example';
-            playNextPhase();
-          }
-        }, 1500);
-      }
+      speak(wordData.word, () => {
+        if (!isPlayingRef.current) return;
+        currentRepeatRef.current++;
+        
+        if (currentRepeatRef.current < repeatCount) {
+          timerRef.current = setTimeout(() => {
+            if (isPlayingRef.current) {
+              playNextPhase();
+            }
+          }, interval * 1000);
+        } else {
+          timerRef.current = setTimeout(() => {
+            if (isPlayingRef.current) {
+              phaseRef.current = 'example';
+              playNextPhase();
+            }
+          }, 1500);
+        }
+      });
     } else if (phaseRef.current === 'example') {
       const example = getExampleSentence(wordData);
-      speak(example);
-      
-      timerRef.current = setTimeout(() => {
-        if (isPlayingRef.current) {
-          goToNext();
-        }
-      }, 3000);
+      speak(example, () => {
+        if (!isPlayingRef.current) return;
+        timerRef.current = setTimeout(() => {
+          if (isPlayingRef.current) {
+            goToNext();
+          }
+        }, 3000);
+      });
     }
   };
 
@@ -326,7 +390,7 @@ export default function WordListenPage() {
         </div>
 
         <div className="phonetic-section">
-          <button className="speak-btn" onClick={() => speak(currentWord.word)}>🔊</button>
+          <button className="speak-btn" onClick={() => speakManual(currentWord.word)}>🔊</button>
           <div className="phonetic-box">
             [{renderPhonetic()}]
           </div>
@@ -342,7 +406,7 @@ export default function WordListenPage() {
             <span className="example-label">例句</span>
           </div>
           <div className="example-content">
-            <button className="speak-btn" onClick={() => speak(getExampleSentence(currentWord))}>🔊</button>
+            <button className="speak-btn" onClick={() => speakManual(getExampleSentence(currentWord))}>🔊</button>
             <div className="example-text">
               <p className="example-en">{renderExample()}</p>
               {showMeaning && <p className="example-cn">{currentWord.meaning}</p>}
