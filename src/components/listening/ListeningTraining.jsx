@@ -1,88 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
 import { sendAIMessage } from '../../services/aiService';
 import { knowledgeBase } from '../../data/knowledgeBase';
+import { gaokaoListeningExams } from '../../data/gaokaoListeningData';
+import { zhongkaoListeningExams } from '../../data/zhongkaoListeningData';
 
-const modeCards = [
-  { key: 'exam', icon: '📜', title: '历年听力真题', desc: '中考/高考听力真题实战演练', tag: '真题演练' },
+const modeCards = (currentExamType) => [
+  { key: 'exam', icon: '📜', title: '历年听力真题', desc: currentExamType === 'gaokao' ? '高考听力真题实战演练' : '中考听力真题实战演练', tag: '真题演练' },
   { key: 'review', icon: '🔄', title: '错题回炉', desc: '归因分析 → 强化练习 → 场景重测', tag: '智能闭环' },
-];
-
-const MOCK_ZHONGKAO_EXAMS = [
-  { year: '2024', title: '2024年中考听力真题', questions: 3 },
-  { year: '2023', title: '2023年中考听力真题', questions: 3 },
-  { year: '2022', title: '2022年中考听力真题', questions: 3 },
-];
-
-const MOCK_GAOKAO_EXAMS = [
-  { year: '2023', title: '2023年高考听力真题', questions: 3 },
-  { year: '2022', title: '2022年高考听力真题', questions: 3 },
-  { year: '2021', title: '2021年高考听力真题', questions: 3 },
-];
-
-const MOCK_ZHONGKAO_QUESTIONS = [
-  {
-    id: 1,
-    question: 'What does the boy want to buy?',
-    options: ['A. A pen', 'B. A book', 'C. A bag'],
-    correct: 'C',
-    userAnswer: 'A',
-    transcript: 'I want to buy a new school bag.',
-    highlight: 'school bag',
-    analysis: '关键词是"school bag"，注意听清楚物品名称。',
-  },
-  {
-    id: 2,
-    question: 'What time will they go?',
-    options: ['A. 7:00', 'B. 8:00', 'C. 9:00'],
-    correct: 'B',
-    userAnswer: 'B',
-    transcript: 'We will leave at eight o\'clock.',
-    highlight: 'eight o\'clock',
-    analysis: '数字听力题，注意区分7、8、9的发音。',
-  },
-  {
-    id: 3,
-    question: 'Where does the girl go?',
-    options: ['A. Library', 'B. Hospital', 'C. Park'],
-    correct: 'A',
-    userAnswer: 'C',
-    transcript: 'I plan to read books in the library.',
-    highlight: 'library',
-    analysis: '地点题，抓住关键词"read books"推断是图书馆。',
-  },
-];
-
-const MOCK_GAOKAO_QUESTIONS = [
-  {
-    id: 1,
-    question: 'How much is the ticket?',
-    options: ['A. 15 yuan', 'B. 25 yuan', 'C. 35 yuan'],
-    correct: 'B',
-    userAnswer: 'A',
-    transcript: 'The train ticket costs twenty-five yuan.',
-    highlight: 'twenty-five yuan',
-    analysis: '数字题，注意"twenty-five"的连读发音。',
-  },
-  {
-    id: 2,
-    question: 'What is the speaker mainly talking about?',
-    options: ['A. Travel experience', 'B. Weather forecast', 'C. Holiday plans'],
-    correct: 'A',
-    userAnswer: 'A',
-    transcript: 'Last summer, I traveled to Beijing and visited many famous places.',
-    highlight: 'traveled to Beijing',
-    analysis: '主旨题，抓住开头的关键信息判断主题。',
-  },
-  {
-    id: 3,
-    question: 'Why does the man call the woman?',
-    options: ['A. To ask for help', 'B. To invite her to dinner', 'C. To return a book'],
-    correct: 'B',
-    userAnswer: 'C',
-    transcript: 'I\'d like to invite you to have dinner with me this evening.',
-    highlight: 'invite you to have dinner',
-    analysis: '意图题，注意"invite"和"dinner"两个关键词。',
-  },
 ];
 
 function saveWrongQuestion(question, userAnswer, examType, examTitle) {
@@ -129,7 +53,7 @@ function clearWrongQuestions() {
 
 export default function ListeningTraining() {
   const [mode, setMode] = useState('cards');
-  const [examType, setExamType] = useState('zhongkao');
+  const [examType, setExamType] = useState('gaokao');
   const [selectedExam, setSelectedExam] = useState(null);
   const [view, setView] = useState('list');
   const [questions, setQuestions] = useState([]);
@@ -143,7 +67,13 @@ export default function ListeningTraining() {
   const [wrongQuestions, setWrongQuestions] = useState([]);
   const [reviewExamType, setReviewExamType] = useState('all');
   const [isTyping, setIsTyping] = useState(false);
+  const [audioPlaying, setAudioPlaying] = useState(false);
+  const [audioProgress, setAudioProgress] = useState(0);
+  const [audioDuration, setAudioDuration] = useState(0);
+  const [audioError, setAudioError] = useState(null);
+  const [audioLoaded, setAudioLoaded] = useState(false);
   const chatRef = useRef(null);
+  const audioRef = useRef(null);
 
   useEffect(() => {
     if (chatRef.current) {
@@ -156,6 +86,75 @@ export default function ListeningTraining() {
       setWrongQuestions(getWrongQuestions());
     }
   }, [mode]);
+
+  const getCurrentExamList = () => {
+    return examType === 'gaokao' ? gaokaoListeningExams : zhongkaoListeningExams;
+  };
+
+  const getCurrentExamTypeName = () => {
+    return examType === 'gaokao' ? '高考' : '中考';
+  };
+
+  const handleExamTypeSwitch = (newType) => {
+    if (newType === examType) return;
+    setExamType(newType);
+    setSelectedExam(null);
+    setView('list');
+    setSubmitted(false);
+    setAnswers({});
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.src = '';
+      setAudioPlaying(false);
+    }
+  };
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) {
+      console.log('[Audio] Audio element not ready yet');
+      return;
+    }
+
+    console.log('[Audio] Setting up audio event listeners');
+
+    const handleTimeUpdate = () => {
+      setAudioProgress(audio.currentTime);
+    };
+
+    const handleLoadedMetadata = () => {
+      console.log('[Audio] Metadata loaded, duration:', audio.duration);
+      setAudioDuration(audio.duration);
+      setAudioLoaded(true);
+      setAudioError(null);
+    };
+
+    const handleEnded = () => {
+      console.log('[Audio] Playback ended');
+      setAudioPlaying(false);
+      setAudioProgress(0);
+    };
+
+    const handleError = (e) => {
+      console.error('[Audio] Error:', e, 'audio.error:', audio.error);
+      const errorMsg = audio.error ? audio.error.message : '未知错误';
+      setAudioError(`音频加载失败: ${errorMsg}`);
+      setAudioPlaying(false);
+      setAudioLoaded(false);
+    };
+
+    audio.addEventListener('timeupdate', handleTimeUpdate);
+    audio.addEventListener('loadedmetadata', handleLoadedMetadata);
+    audio.addEventListener('ended', handleEnded);
+    audio.addEventListener('error', handleError);
+
+    return () => {
+      audio.removeEventListener('timeupdate', handleTimeUpdate);
+      audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
+      audio.removeEventListener('ended', handleEnded);
+      audio.removeEventListener('error', handleError);
+    };
+  }, []);
 
   const handleSelectMode = (m) => {
     setMode(m);
@@ -173,6 +172,12 @@ export default function ListeningTraining() {
     } else if (view === 'exam') {
       setView('list');
       setSelectedExam(null);
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.src = '';
+        setAudioPlaying(false);
+        setAudioLoaded(false);
+      }
     } else if (view === 'list') {
       setMode('cards');
     }
@@ -183,12 +188,26 @@ export default function ListeningTraining() {
 
   const handleSelectExam = (exam) => {
     setSelectedExam(exam);
-    const mockQuestions = examType === 'zhongkao' ? MOCK_ZHONGKAO_QUESTIONS : MOCK_GAOKAO_QUESTIONS;
-    setQuestions(mockQuestions);
+    setQuestions(exam.questions);
     setAnswers({});
     setCurrentQuestion(0);
     setSubmitted(false);
     setView('exam');
+    setActiveTab('result');
+    setAudioError(null);
+    setAudioLoaded(false);
+    setAudioProgress(0);
+    setAudioDuration(0);
+    
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      setAudioPlaying(false);
+      console.log('[Audio] Setting src:', exam.audioUrl);
+      audioRef.current.src = exam.audioUrl;
+      audioRef.current.load();
+      console.log('[Audio] Load called, readyState:', audioRef.current.readyState);
+    }
   };
 
   const handleAnswerSelect = (questionId, answer) => {
@@ -201,13 +220,17 @@ export default function ListeningTraining() {
       if (answers[q.id] === q.correct) {
         correctCount++;
       } else {
-        saveWrongQuestion(q, answers[q.id] || '未作答', examType, selectedExam?.title || '未知试卷');
+        saveWrongQuestion(q, answers[q.id] || '未作答', examType, selectedExam?.title + ' ' + selectedExam?.region || '未知试卷');
       }
     });
     setScore(correctCount);
     setSubmitted(true);
     setView('result');
     setActiveTab('result');
+    if (audioRef.current) {
+      audioRef.current.pause();
+      setAudioPlaying(false);
+    }
   };
 
   const handleDeleteWrong = (id) => {
@@ -218,6 +241,41 @@ export default function ListeningTraining() {
   const handleClearWrong = () => {
     clearWrongQuestions();
     setWrongQuestions([]);
+  };
+
+  const toggleAudio = async () => {
+    if (!audioRef.current || !selectedExam) return;
+    
+    if (audioPlaying) {
+      audioRef.current.pause();
+      setAudioPlaying(false);
+    } else {
+      if (!audioLoaded) {
+        setAudioError('音频正在加载中，请稍候...');
+        audioRef.current.load();
+        return;
+      }
+      try {
+        await audioRef.current.play();
+        setAudioPlaying(true);
+        setAudioError(null);
+      } catch (err) {
+        console.error('Audio play error:', err);
+        if (err.name === 'NotAllowedError') {
+          setAudioError('浏览器阻止了自动播放，请点击页面后重试');
+        } else {
+          setAudioError('播放失败，请刷新页面重试');
+        }
+        setAudioPlaying(false);
+      }
+    }
+  };
+
+  const formatTime = (seconds) => {
+    if (isNaN(seconds)) return '00:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
   const getGrade = () => {
@@ -238,22 +296,22 @@ export default function ListeningTraining() {
   const buildListeningQAContext = () => {
     const wrongQuestionsList = getWrongQuestions();
     let context = '';
-    
+
     if (questions.length > 0 && submitted) {
-      context += `\n【当前试卷信息】\n试卷名称：${selectedExam?.title || '未知试卷'}\n考试类型：${examType === 'zhongkao' ? '中考' : '高考'}\n得分：${score}/${questions.length}\n\n【题目详情】\n`;
+      context += `\n【当前试卷信息】\n试卷名称：${selectedExam?.title || '未知试卷'} ${selectedExam?.region || ''}\n考试类型：高考\n得分：${score}/${questions.length}\n\n【听力原文】\n${selectedExam?.transcript || '暂无原文'}\n\n【题目详情】\n`;
       questions.forEach((q, idx) => {
         const isCorrect = answers[q.id] === q.correct;
         context += `第${idx + 1}题：${q.question}\n选项：${q.options.join(' | ')}\n你的答案：${answers[q.id] || '未作答'} ${isCorrect ? '✓正确' : '✗错误'}\n正确答案：${q.correct}\n听力原文：${q.transcript}\n解析：${q.analysis}\n\n`;
       });
     }
-    
+
     if (wrongQuestionsList.length > 0) {
       context += `\n【错题库信息】\n共有${wrongQuestionsList.length}道错题\n`;
       wrongQuestionsList.slice(0, 5).forEach((item, idx) => {
         context += `错题${idx + 1}：${item.question}\n你的答案：${item.userAnswer} | 正确答案：${item.correct}\n听力原文：${item.transcript}\n来源：${item.examTitle}\n\n`;
       });
     }
-    
+
     return context;
   };
 
@@ -308,7 +366,7 @@ export default function ListeningTraining() {
 
   const renderCardsView = () => (
     <div className="listen-cards-grid">
-      {modeCards.map((card) => (
+      {modeCards(examType).map((card) => (
         <div
           key={card.key}
           className="listen-card"
@@ -323,129 +381,197 @@ export default function ListeningTraining() {
     </div>
   );
 
-  const renderListView = () => (
-    <div className="listening-exam-page">
-      <div className="exam-header">
-        <button className="back-btn" onClick={handleBack}>← 返回</button>
-        <h2>📜 历年听力真题</h2>
-      </div>
+  const renderListView = () => {
+    const currentExamList = getCurrentExamList();
+    const groupedExams = {};
+    currentExamList.forEach(exam => {
+      if (!groupedExams[exam.year]) {
+        groupedExams[exam.year] = [];
+      }
+      groupedExams[exam.year].push(exam);
+    });
 
-      <div className="exam-tabs">
-        <button
-          className={`tab-btn ${examType === 'zhongkao' ? 'active' : ''}`}
-          onClick={() => setExamType('zhongkao')}
-        >
-          中考
-        </button>
-        <button
-          className={`tab-btn ${examType === 'gaokao' ? 'active' : ''}`}
-          onClick={() => setExamType('gaokao')}
-        >
-          高考
-        </button>
-      </div>
+    return (
+      <div className="listening-exam-page">
+        <div className="exam-header">
+          <button className="back-btn" onClick={handleBack}>← 返回</button>
+          <h2>📜 历年听力真题</h2>
+        </div>
 
-      <div className="exam-list-area">
-        <div className="exam-year-grid">
-          {(examType === 'zhongkao' ? MOCK_ZHONGKAO_EXAMS : MOCK_GAOKAO_EXAMS).map((exam) => (
-            <div
-              key={exam.year}
-              className="exam-year-card"
-              onClick={() => handleSelectExam(exam)}
+        <div className="exam-tabs">
+          <button
+            className={`tab-btn ${examType === 'gaokao' ? 'active' : ''}`}
+            onClick={() => handleExamTypeSwitch('gaokao')}
+          >
+            高考
+          </button>
+          <button
+            className={`tab-btn ${examType === 'zhongkao' ? 'active' : ''}`}
+            onClick={() => handleExamTypeSwitch('zhongkao')}
+          >
+            中考
+          </button>
+        </div>
+
+        <div className="exam-list-area">
+          <div className="exam-year-section">
+            {Object.keys(groupedExams).sort((a, b) => b - a).map(year => (
+              <div key={year} className="exam-year-group">
+                <h3 className="year-label">{year}年</h3>
+                <div className="exam-year-grid">
+                  {groupedExams[year].map((exam) => (
+                    <div
+                      key={exam.id}
+                      className="exam-year-card"
+                      onClick={() => handleSelectExam(exam)}
+                    >
+                      <div className="exam-year-icon">🎧</div>
+                      <div className="exam-year-title">{exam.region}</div>
+                      <div className="exam-year-info">{exam.questions.length}道题目</div>
+                      <div className="exam-year-action">开始答题 →</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="listen-instruction">
+          <p>💡 <strong>提示：</strong></p>
+          <ul>
+            <li>点击对应试卷卡片进入答题界面</li>
+            <li>答题完成后提交试卷，AI自动批改评分</li>
+            <li>查看逐题解析和听力原文高亮标注</li>
+          </ul>
+        </div>
+      </div>
+    );
+  };
+
+  const renderExamView = () => {
+    const progressPercent = questions.length > 0
+      ? (Object.keys(answers).length / questions.length) * 100
+      : 0;
+
+    return (
+      <div className="listening-answer-page">
+        <div className="answer-header">
+          <button className="back-btn" onClick={handleBack}>← 返回</button>
+          <h2>{selectedExam?.title} {selectedExam?.region}</h2>
+          <div className="answer-progress">
+            已答: {Object.keys(answers).length}/{questions.length}
+          </div>
+        </div>
+
+        <div className="audio-player">
+          <div className="audio-info">
+            <div className="audio-title">🎧 听力音频</div>
+            <div className="audio-time">
+              {audioLoaded ? `${formatTime(audioProgress)} / ${formatTime(audioDuration)}` : (audioError || '加载中...')}
+            </div>
+          </div>
+          <div className="audio-controls">
+            <button
+              className={`audio-play-btn ${audioPlaying ? 'playing' : ''} ${!audioLoaded ? 'loading' : ''}`}
+              onClick={toggleAudio}
+              disabled={!audioLoaded && !audioError}
             >
-              <div className="exam-year-icon">🎧</div>
-              <div className="exam-year-title">{exam.title}</div>
-              <div className="exam-year-info">{exam.questions}道题目</div>
-              <div className="exam-year-action">开始答题 →</div>
+              {!audioLoaded ? '⏳' : (audioPlaying ? '⏸' : '▶')}
+            </button>
+            <div className="audio-progress-bar">
+              <div
+                className="audio-progress-fill"
+                style={{ width: `${audioDuration > 0 ? (audioProgress / audioDuration) * 100 : 0}%` }}
+              />
+            </div>
+          </div>
+        </div>
+
+        {audioError && (
+          <div className="audio-error-message">
+            ⚠️ {audioError}
+          </div>
+        )}
+
+        <div className="progress-bar-container">
+          <div className="progress-bar-bg">
+            <div
+              className="progress-bar-fill"
+              style={{ width: `${progressPercent}%` }}
+            />
+          </div>
+          <div className="progress-text">答题进度: {Math.round(progressPercent)}%</div>
+        </div>
+
+        {selectedExam?.fullContent && (
+          <div className="exam-full-content">
+            <h3 className="full-content-title">📖 听力原文</h3>
+            <pre className="full-content-text">{selectedExam.fullContent}</pre>
+          </div>
+        )}
+
+        {selectedExam?.transcript && (
+          <div className="exam-transcript-content">
+            <h3 className="transcript-title">🎧 听力音频原文</h3>
+            <pre className="transcript-text">{selectedExam.transcript}</pre>
+          </div>
+        )}
+
+        <div className="questions-area">
+          {questions.map((q, idx) => (
+            <div key={q.id} className={`question-card ${submitted ? 'submitted' : ''}`}>
+              <div className="question-number">第{idx + 1}题</div>
+              <div className="question-text">{q.question}</div>
+              <div className="question-options">
+                {q.options.map((opt, optIdx) => {
+                  const optionLetter = ['A', 'B', 'C'][optIdx];
+                  const isSelected = answers[q.id] === optionLetter;
+                  const isCorrect = q.correct === optionLetter;
+                  const isWrong = submitted && isSelected && !isCorrect;
+
+                  return (
+                    <button
+                      key={optIdx}
+                      className={`option-btn ${isSelected ? 'selected' : ''} ${submitted && isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}`}
+                      onClick={() => !submitted && handleAnswerSelect(q.id, optionLetter)}
+                      disabled={submitted}
+                    >
+                      {opt}
+                      {submitted && isCorrect && <span className="correct-mark">✓</span>}
+                      {isWrong && <span className="wrong-mark">✗</span>}
+                    </button>
+                  );
+                })}
+              </div>
+              {!submitted && answers[q.id] && (
+                <div className="user-answer-hint">
+                  你的选择: {answers[q.id]}
+                </div>
+              )}
             </div>
           ))}
         </div>
-      </div>
 
-      <div className="listen-instruction">
-        <p>💡 <strong>提示：</strong></p>
-        <ul>
-          <li>点击对应年份真题卡片进入答题界面</li>
-          <li>答题完成后提交试卷，AI自动批改评分</li>
-          <li>查看逐题解析和听力原文高亮标注</li>
-        </ul>
-      </div>
-    </div>
-  );
-
-  const renderExamView = () => (
-    <div className="listening-answer-page">
-      <div className="answer-header">
-        <button className="back-btn" onClick={handleBack}>← 返回</button>
-        <h2>{selectedExam?.title}</h2>
-        <div className="answer-progress">
-          已答: {Object.keys(answers).length}/{questions.length}
-        </div>
-      </div>
-
-      <div className="audio-placeholder">
-        <div className="audio-placeholder-icon">🔊</div>
-        <div className="audio-placeholder-text">
-          听力音频播放区（暂未接入真实音频）
-        </div>
-        <button className="audio-placeholder-btn disabled" disabled>
-          <i className="fas fa-play"></i> 播放音频
-        </button>
-      </div>
-
-      <div className="questions-area">
-        {questions.map((q, idx) => (
-          <div key={q.id} className={`question-card ${submitted ? 'submitted' : ''}`}>
-            <div className="question-number">第{idx + 1}题</div>
-            <div className="question-text">{q.question}</div>
-            <div className="question-options">
-              {q.options.map((opt, optIdx) => {
-                const optionLetter = ['A', 'B', 'C'][optIdx];
-                const isSelected = answers[q.id] === optionLetter;
-                const isCorrect = q.correct === optionLetter;
-                const isWrong = submitted && isSelected && !isCorrect;
-                
-                return (
-                  <button
-                    key={optIdx}
-                    className={`option-btn ${isSelected ? 'selected' : ''} ${submitted && isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}`}
-                    onClick={() => !submitted && handleAnswerSelect(q.id, optionLetter)}
-                    disabled={submitted}
-                  >
-                    {opt}
-                    {submitted && isCorrect && <span className="correct-mark">✓</span>}
-                    {isWrong && <span className="wrong-mark">✗</span>}
-                  </button>
-                );
-              })}
-            </div>
-            {!submitted && answers[q.id] && (
-              <div className="user-answer-hint">
-                你的选择: {answers[q.id]}
-              </div>
-            )}
+        {!submitted && (
+          <div className="submit-area">
+            <button
+              className="submit-btn"
+              onClick={handleSubmit}
+              disabled={Object.keys(answers).length < questions.length}
+            >
+              <i className="fas fa-paper-plane"></i> 提交试卷
+            </button>
+            <p className="submit-tip">
+              {Object.keys(answers).length < questions.length
+                ? `还有${questions.length - Object.keys(answers).length}题未作答`
+                : '全部题目已作答，可以提交'}
+            </p>
           </div>
-        ))}
+        )}
       </div>
-
-      {!submitted && (
-        <div className="submit-area">
-          <button
-            className="submit-btn"
-            onClick={handleSubmit}
-            disabled={Object.keys(answers).length < questions.length}
-          >
-            <i className="fas fa-paper-plane"></i> 提交试卷
-          </button>
-          <p className="submit-tip">
-            {Object.keys(answers).length < questions.length 
-              ? `还有${questions.length - Object.keys(answers).length}题未作答` 
-              : '全部题目已作答，可以提交'}
-          </p>
-        </div>
-      )}
-    </div>
-  );
+    );
+  };
 
   const renderResultView = () => {
     const grade = getGrade();
@@ -504,6 +630,9 @@ export default function ListeningTraining() {
                 <span className="stat-value">{questions.length - score}</span>
                 <span className="stat-label">错误</span>
               </div>
+            </div>
+            <div className="exam-info-result">
+              <span>{selectedExam?.title} {selectedExam?.region}</span>
             </div>
           </div>
         )}
@@ -578,7 +707,7 @@ export default function ListeningTraining() {
                 {history.length === 0 && !isTyping && (
                   <div className="msg system">
                     你可以问我关于这套听力试卷的问题，例如：
-                    {"\n"}• 第1题为什么选C？
+                    {"\n"}• 第1题为什么选A？
                     {"\n"}• 这道题的听力技巧是什么？
                     {"\n"}• 帮我分析这道错题的原因
                   </div>
@@ -641,16 +770,16 @@ export default function ListeningTraining() {
           全部
         </button>
         <button
-          className={`filter-tab ${reviewExamType === 'zhongkao' ? 'active' : ''}`}
-          onClick={() => setReviewExamType('zhongkao')}
-        >
-          中考
-        </button>
-        <button
           className={`filter-tab ${reviewExamType === 'gaokao' ? 'active' : ''}`}
           onClick={() => setReviewExamType('gaokao')}
         >
           高考
+        </button>
+        <button
+          className={`filter-tab ${reviewExamType === 'zhongkao' ? 'active' : ''}`}
+          onClick={() => setReviewExamType('zhongkao')}
+        >
+          中考
         </button>
       </div>
 
@@ -658,7 +787,7 @@ export default function ListeningTraining() {
         <div className="empty-wrong-list">
           <div className="empty-icon">🎉</div>
           <div className="empty-text">
-            {reviewExamType === 'all' ? '暂无错题记录' : `暂无${reviewExamType === 'zhongkao' ? '中考' : '高考'}错题`}
+            {reviewExamType === 'all' ? '暂无错题记录' : `暂无${reviewExamType === 'gaokao' ? '高考' : reviewExamType === 'zhongkao' ? '中考' : ''}错题`}
           </div>
           <div className="empty-tip">继续努力，保持正确率！</div>
         </div>
@@ -669,7 +798,7 @@ export default function ListeningTraining() {
               <div className="wrong-item-header">
                 <span className="wrong-item-num">第{idx + 1}题</span>
                 <span className="wrong-item-source">
-                  {item.examType === 'zhongkao' ? '中考' : '高考'} · {item.examTitle}
+                  {item.examTitle}
                 </span>
                 <button 
                   className="wrong-item-delete" 
@@ -768,6 +897,7 @@ export default function ListeningTraining() {
 
   return (
     <div className="listening-training-module">
+      <audio ref={audioRef} preload="metadata" />
       <div className="page-header">
         <div className="page-header-icon">🎧</div>
         <div className="page-header-info">

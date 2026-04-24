@@ -9491,6 +9491,124 @@ body.dark .msg-copy-btn:hover {
   border-radius: 20px;
 }
 
+.section-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: var(--gray);
+  border-radius: 12px;
+}
+
+.section-dot {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: var(--gray-200);
+  color: var(--text-muted);
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.section-dot.active {
+  background: var(--sky);
+  color: white;
+  font-weight: 600;
+}
+
+.section-dot.completed {
+  background: var(--success);
+  color: white;
+}
+
+.section-dot-num {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.section-dot.active .section-dot-num {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.section-dot-name {
+  font-weight: 500;
+}
+
+.current-section-header {
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 16px;
+  background: linear-gradient(135deg, var(--sky-bg), var(--gray));
+  border-radius: 12px;
+}
+
+.current-section-header h3 {
+  font-size: 18px;
+  color: var(--sky-dark);
+  margin-bottom: 4px;
+}
+
+.current-section-header p {
+  font-size: 14px;
+  color: var(--text-light);
+  margin: 0;
+}
+
+.section-nav-area {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.section-complete-btn,
+.section-next-btn {
+  padding: 16px 48px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.section-complete-btn {
+  background: var(--gray-300);
+  color: var(--text-muted);
+}
+
+.section-complete-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.section-complete-btn:not(:disabled):hover {
+  background: var(--gray-400);
+}
+
+.section-next-btn {
+  background: linear-gradient(135deg, var(--sky), var(--sky-dark));
+  color: white;
+}
+
+.section-next-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(74, 168, 216, 0.4);
+}
+
+.section-complete-tip {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--success);
+}
+
 .audio-placeholder {
   background: var(--gray);
   border-radius: 16px;
@@ -9527,6 +9645,61 @@ body.dark .msg-copy-btn:hover {
 
 .audio-placeholder-btn.disabled {
   opacity: 0.6;
+}
+
+.exam-full-content {
+  background: var(--gray);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid var(--gray-300);
+}
+
+.full-content-text {
+  font-family: 'Times New Roman', serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.full-content-text .example {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.full-content-title,
+.transcript-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--sky-dark);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gray-300);
+}
+
+.exam-transcript-content {
+  background: #FFF9E6;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #F0E68C;
+}
+
+.transcript-text {
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+  padding: 0;
+  background: transparent;
 }
 
 .questions-area {
@@ -10994,6 +11167,158 @@ body.dark .msg-copy-btn:hover {
   .polish-chat-box {
     min-height: 250px;
   }
+}
+
+/* ======================== */
+/* 听力真题增强样式 */
+/* ======================== */
+
+.audio-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 100px;
+}
+
+.audio-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.audio-time {
+  font-size: 12px;
+  color: var(--gray-500);
+  font-family: 'Courier New', monospace;
+}
+
+.audio-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.audio-play-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #4ECDC4, #45B7AA);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: var(--t);
+  flex-shrink: 0;
+}
+
+.audio-play-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(78, 205, 196, .4);
+}
+
+.audio-play-btn.loading {
+  background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+  cursor: wait;
+}
+
+.audio-play-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.audio-play-btn.playing {
+  background: linear-gradient(135deg, #45B7AA, #3DA59A);
+  animation: playPulse 1s infinite;
+}
+
+.audio-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--gray-200);
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.audio-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4ECDC4, #45B7AA);
+  border-radius: 3px;
+  transition: width 0.1s linear;
+}
+
+.exam-year-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.exam-year-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.year-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--gray-700);
+  padding-left: 4px;
+  border-left: 3px solid #4ECDC4;
+}
+
+.progress-bar-container {
+  margin-bottom: 16px;
+}
+
+.progress-bar-bg {
+  height: 8px;
+  background: var(--gray-200);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4ECDC4, #45B7AA);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progress-bar-fill.section-progress {
+  background: linear-gradient(90deg, var(--sky), var(--sky-dark));
+}
+
+.progress-text {
+  font-size: 12px;
+  color: var(--gray-500);
+  text-align: center;
+  margin-top: 6px;
+}
+
+.exam-info-result {
+  margin-top: 16px;
+  padding: 10px 16px;
+  background: var(--gray-100);
+  border-radius: 8px;
+  font-size: 13px;
+  color: var(--gray-600);
+  text-align: center;
+}
+
+.audio-error-message {
+  margin-bottom: 16px;
+  padding: 10px 16px;
+  background: #fef3cd;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #856404;
+  text-align: center;
 }
 
 .read-practice-area {

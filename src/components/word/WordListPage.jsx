@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import useWordStore from '../../store/useWordStore';
-import { getVocabularyBook, loadVocabularyData } from '../../data/vocabulary1000';
+import { getVocabularyBook, loadVocabularyData, loadVocabulary3500Data } from '../../data/vocabulary1000';
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
@@ -42,7 +42,7 @@ export default function WordListPage() {
   const totalWords = words.length;
 
   useEffect(() => {
-    loadVocabularyData().then(() => setDataLoaded(true));
+    Promise.all([loadVocabularyData(), loadVocabulary3500Data()]).then(() => setDataLoaded(true));
   }, []);
 
   const handleLetterClick = (letter) => {

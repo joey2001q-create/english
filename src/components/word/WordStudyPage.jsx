@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import useWordStore from '../../store/useWordStore';
 import useStudyStore from '../../store/useStudyStore';
-import { getVocabularyBook, loadVocabularyData } from '../../data/vocabulary1000';
+import { getVocabularyBook, loadVocabularyData, loadVocabulary3500Data } from '../../data/vocabulary1000';
 import { splitSyllables, splitPhonemes } from '../../utils/wordSplit';
 import { sendAIMessage } from '../../services/aiService';
 
@@ -129,32 +129,70 @@ export default function WordStudyPage({ showSettings: initialShowSettings = true
 
   const playWordAudio = useCallback((text, accent = 'us') => {
     if (!text) return;
+    window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-US';
     utterance.rate = 0.8;
+    utterance.volume = 1;
     const voices = speechSynthesis.getVoices();
-    if (accent === 'uk') {
-      const ukVoice = voices.find(v => v.lang === 'en-GB') || voices.find(v => v.lang.startsWith('en-GB'));
-      if (ukVoice) utterance.voice = ukVoice;
-      utterance.lang = 'en-GB';
+
+    if (voices.length > 0) {
+      let selectedVoice = null;
+
+      if (accent === 'uk') {
+        selectedVoice = voices.find(v => v.name.toLowerCase().includes('hazeltts') && v.lang.includes('en')) ||
+                       voices.find(v => v.name.toLowerCase().includes('susan') && v.lang.includes('en')) ||
+                       voices.find(v => v.name.toLowerCase().includes('uk') && v.lang.includes('en')) ||
+                       voices.find(v => v.name.toLowerCase().includes('british') && v.lang.includes('en')) ||
+                       voices.find(v => v.lang === 'en-GB' && v.name.includes('English')) ||
+                       voices.find(v => v.lang === 'en-GB') ||
+                       voices.find(v => v.lang.startsWith('en-GB')) ||
+                       voices.find(v => v.lang.includes('en') && !v.lang.includes('US')) ||
+                       voices[0];
+        utterance.lang = 'en-GB';
+      } else {
+        selectedVoice = voices.find(v => v.name.toLowerCase().includes('david') && v.lang.includes('en')) ||
+                       voices.find(v => v.name.toLowerCase().includes('zira') && v.lang.includes('en')) ||
+                       voices.find(v => v.name.toLowerCase().includes('us') && v.lang.includes('en')) ||
+                       voices.find(v => v.name.toLowerCase().includes('american') && v.lang.includes('en')) ||
+                       voices.find(v => v.lang === 'en-US' && v.name.includes('English')) ||
+                       voices.find(v => v.lang === 'en-US') ||
+                       voices.find(v => v.lang.startsWith('en-US')) ||
+                       voices[0];
+        utterance.lang = 'en-US';
+      }
+
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+      }
     } else {
-      const usVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en-US'));
-      if (usVoice) utterance.voice = usVoice;
+      utterance.lang = accent === 'uk' ? 'en-GB' : 'en-US';
     }
-    speechSynthesis.cancel();
-    speechSynthesis.speak(utterance);
+
+    window.speechSynthesis.speak(utterance);
   }, []);
 
   const playSentenceAudio = useCallback((text) => {
     if (!text) return;
+    window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
-    utterance.rate = 0.75;
+    utterance.rate = 0.5;
+    utterance.pitch = 1.0;
+    utterance.volume = 1;
     const voices = speechSynthesis.getVoices();
-    const usVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en-US'));
-    if (usVoice) utterance.voice = usVoice;
-    speechSynthesis.cancel();
-    speechSynthesis.speak(utterance);
+
+    if (voices.length > 0) {
+      const voice = voices.find(v => v.lang === 'en-US') ||
+                   voices.find(v => v.lang.startsWith('en-US')) ||
+                   voices.find(v => v.name.includes('English')) ||
+                   voices.find(v => v.lang.includes('en')) ||
+                   voices[0];
+      if (voice) {
+        utterance.voice = voice;
+      }
+    }
+
+    window.speechSynthesis.speak(utterance);
   }, []);
 
   const currentWord = sessionWords[currentWordIndex] || null;
@@ -177,25 +215,43 @@ export default function WordStudyPage({ showSettings: initialShowSettings = true
   }, [practiceSelected, currentWord]);
 
   const splitWordIntoParts = useCallback((word) => {
-    if (!word || word.length < 3) return [word];
+    if (!word || word.length === 0) return [word];
+
     const w = word.toLowerCase();
-    const suffixes = ['tion', 'sion', 'ment', 'ness', 'able', 'ible', 'ful', 'less', 'ous', 'ive', 'ing', 'ied', 'ies', 'ed', 'er', 'ly', 'es', 'ty', 'al', 'en', 'ic'];
-    const prefixes = ['un', 're', 'pre', 'dis', 'mis', 'over', 'out', 'im', 'in', 'ir', 'il'];
-    for (const suf of suffixes) {
-      if (w.endsWith(suf) && w.length > suf.length + 1) {
-        const root = word.slice(0, word.length - suf.length);
-        if (root.length >= 2) return [root, suf];
+    const vowels = 'aeiou';
+    const result = [];
+    let i = 0;
+
+    const isVowel = (c) => vowels.includes(c);
+
+    while (i < w.length) {
+      const remaining = w.length - i;
+
+      if (remaining >= 3 && isVowel(w[i]) && isVowel(w[i + 1]) && isVowel(w[i + 2])) {
+        result.push(w.slice(i, i + 3));
+        i += 3;
+      } else if (remaining >= 2 && isVowel(w[i]) && isVowel(w[i + 1])) {
+        result.push(w.slice(i, i + 2));
+        i += 2;
+      } else if (remaining >= 2 && isVowel(w[i]) && !isVowel(w[i + 1])) {
+        result.push(w.slice(i, i + 2));
+        i += 2;
+      } else if (remaining >= 2 && !isVowel(w[i]) && isVowel(w[i + 1])) {
+        result.push(w.slice(i, i + 2));
+        i += 2;
+      } else if (remaining >= 3 && !isVowel(w[i]) && !isVowel(w[i + 1]) && isVowel(w[i + 2])) {
+        result.push(w.slice(i, i + 2));
+        i += 2;
+      } else if (remaining >= 2 && !isVowel(w[i]) && !isVowel(w[i + 1])) {
+        result.push(w[i]);
+        i += 1;
+      } else if (remaining >= 1) {
+        result.push(w[i]);
+        i += 1;
       }
     }
-    for (const pre of prefixes) {
-      if (w.startsWith(pre) && w.length > pre.length + 1) {
-        const rest = word.slice(pre.length);
-        if (rest.length >= 2) return [pre, rest];
-      }
-    }
-    const syllables = splitSyllables(word);
-    if (syllables.length > 1) return syllables;
-    return [word];
+
+    return result;
   }, []);
 
   const handleSpellPartSelect = useCallback((part) => {
@@ -284,7 +340,7 @@ export default function WordStudyPage({ showSettings: initialShowSettings = true
   }, [currentWord]);
 
   useEffect(() => {
-    loadVocabularyData().then(() => setDataLoaded(true));
+    Promise.all([loadVocabularyData(), loadVocabulary3500Data()]).then(() => setDataLoaded(true));
   }, []);
 
   useEffect(() => {
@@ -514,9 +570,14 @@ export default function WordStudyPage({ showSettings: initialShowSettings = true
 
   const renderSyllables = (word) => {
     if (!word) return null;
-    
-    const syllables = splitSyllables(word);
-    
+
+    let syllables;
+    if (currentWord?.syllable) {
+      syllables = currentWord.syllable.split('-');
+    } else {
+      syllables = splitSyllables(word);
+    }
+
     return syllables.map((syl, idx) => (
       <span key={idx} style={{ color: idx % 2 === 0 ? '#FF6B35' : '#00B4D8' }}>
         {syl}
